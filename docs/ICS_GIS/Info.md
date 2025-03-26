@@ -2,6 +2,9 @@
 ## English-language Programmes
 ### Computer Science (Accredited)
 
+!!!info
+    For contact with the group, please use our Space chat on the email of the Georgian Technical University.
+    
 !!!warning  
     "Remind me to enter activity points every Saturday and Sunday at the end of each week!!!"
 

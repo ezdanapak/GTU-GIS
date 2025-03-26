@@ -1,0 +1,63 @@
+---
+site_name: GTU GIS
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+
+nav:
+  - მთავარი: index.md
+  - 'ICS - GIS':
+    - 'About':
+      - Instructor: './ICS_GIS/Instructor.md'
+      - Syllabus: './ICS_GIS/Syllabus.md'
+      - Schedule: './ICS_GIS/Schedule.md'
+      - Textbooks: './ICS_GIS/Textbooks.md'
+      - Videos: './ICS_GIS/Videos.md'
+      - Acknowledgments: './ICS_GIS/Acknowledgments.md'
+      - Info: './ICS_GIS/Info.md'
+    - Software Tools:
+      - QGIS: ./ICS_GIS/Software/QGIS.md
+      - Google Earth: ./ICS_GIS/Software/GoogleEarth.md
+    - Labs:
+      - Lab 1: './ICS_GIS/Lab/Lab_1.md'
+      - Lab 2: './ICS_GIS/Lab/Lab_2.md'
+      - Lab 3: './ICS_GIS/Lab/Lab_3.md'
+      - Lab 4: './ICS_GIS/Lab/Lab_4.md'
+      - Lab 5: './ICS_GIS/Lab/Lab_5.md'
+      - Lab 6: './ICS_GIS/Lab/Lab_6.md'
+      - Lab 7: './ICS_GIS/Lab/Lab_7.md'
+      - Lab 8: './ICS_GIS/Lab/Lab_8.md'
+      - Lab 9: './ICS_GIS/Lab/Lab_9.md'
+      - Lab 10: './ICS_GIS/Lab/Lab_10.md'
+      - Lab 11: './ICS_GIS/Lab/Lab_11.md'
+      - Lab 12: './ICS_GIS/Lab/Lab_12.md'
+
+
+  
+
+
+
+
+
+
+
+
+
+
+plugins:
+  - search

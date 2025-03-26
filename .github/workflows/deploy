@@ -1,0 +1,3 @@
+git add .github/workflows/deploy.yml
+git commit -m "Add GitHub Actions workflow to deploy MkDocs to GitHub Pages"
+git push origin main

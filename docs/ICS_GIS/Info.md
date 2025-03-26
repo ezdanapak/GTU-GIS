@@ -1,7 +1,9 @@
 # Informatics and Control Systems Faculty
 ## English-language Programmes
 
-    Computer Science [Accredited](https://gtu.ge/en/apply/bachelor/ims/eng.php) 
+
+
+Computer Science [Accredited](https://gtu.ge/en/apply/bachelor/ims/eng.php) 
 
 !!!info
     For contact with the group, please use our Space chat on the email of the Georgian Technical University.

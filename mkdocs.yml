@@ -2,6 +2,9 @@
 site_name: GTU GIS
 theme:
   name: material
+  palette:
+    primary: deep purple
+    scheme: purple
   features:
     - navigation.footer
     - navigation.instant
@@ -18,6 +21,71 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
+  
+    palette:
+      # Dark Mode
+      - scheme: slate
+        toggle:
+          icon: material/weather-sunny
+          name: Light mode
+        primary: green
+        accent: orange
+  
+      # Light Mode
+      - scheme: default
+        toggle:
+          icon: material/weather-night
+          name: Dark mode
+        primary: green
+        accent: deep orange
+
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+
+# Repository
+repo_name: GTU GIS
+repo_url: https://github.com/ezdanapak/GTU-GIS
+
+copyright: Copyright &copy; 2024 Giorgi Kapanadze
+
+markdown_extensions:
+  
+  
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - admonition
+  - pymdownx.details
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
   - მთავარი: index.md
@@ -31,8 +99,11 @@ nav:
       - Acknowledgments: './ICS_GIS/Acknowledgments.md'
       - Info: './ICS_GIS/Info.md'
     - Software Tools:
-      - QGIS: ./ICS_GIS/Software/QGIS.md
-      - Google Earth: ./ICS_GIS/Software/GoogleEarth.md
+      - QGIS: './ICS_GIS/Software/QGIS.md'
+      - Google Earth: './ICS_GIS/Software/GoogleEarth.md'
+    - Theory:
+      - Topic 1: './ICS_GIS/Theory/Topic_1.md'
+      - Topic 2: './ICS_GIS/Theory/Topic_2.md'
     - Labs:
       - Lab 1: './ICS_GIS/Lab/Lab_1.md'
       - Lab 2: './ICS_GIS/Lab/Lab_2.md'

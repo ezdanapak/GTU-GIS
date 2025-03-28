@@ -94,7 +94,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -566,21 +575,6 @@
       English-language Programmes
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="English-language Programmes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#computer-science-accredited" class="md-nav__link">
-    <span class="md-ellipsis">
-      Computer Science (Accredited)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1144,21 +1138,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="English-language Programmes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#computer-science-accredited" class="md-nav__link">
-    <span class="md-ellipsis">
-      Computer Science (Accredited)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -1181,14 +1160,18 @@
 
 <h1 id="informatics-and-control-systems-faculty">Informatics and Control Systems Faculty</h1>
 <h2 id="english-language-programmes">English-language Programmes</h2>
-<h3 id="computer-science-accredited">Computer Science (Accredited)</h3>
+<p>Computer Science <a href="https://gtu.ge/en/apply/bachelor/ims/eng.php">Accredited</a> </p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>For contact with the group, please use our Space chat on the email of the Georgian Technical University.</p>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>"Remind me to enter activity points every Saturday and Sunday at the end of each week!!!"</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Please check daily your "vici" <a href="https://vici.gtu.ge/">page</a></p>
+<p>Please check once a week your "vici" <a href="https://vici.gtu.ge/">page</a></p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -1299,5 +1282,7 @@ Search subject name "25-10365 გეოგრაფიული ინფორ�
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

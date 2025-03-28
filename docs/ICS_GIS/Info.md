@@ -2,7 +2,6 @@
 ## English-language Programmes
 
 
-
 Computer Science [Accredited](https://gtu.ge/en/apply/bachelor/ims/eng.php) 
 
 !!!info

@@ -94,7 +94,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1086,12 +1095,19 @@
 
   <h1>Instructor</h1>
 
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>For contact with the group, please use our Space chat on the email of the Georgian Technical University.</p>
-</div>
-<p>To contact me directly, you can also use "Direct messages" at giorgi.kapanadze@gtu.ge </p>
-<p>If something is urgent, here are my numbers: 598911216/579320618  send sms or call me.</p>
+<p><a class="glightbox" href="../Images/GK_photo.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="left" alt="Instructor_image" src="../Images/GK_photo.jpg" /></a>
+ Giorgi Kapanadze</p>
+<p>🎓 Master of Geography in Geographic Information Systems Technology.</p>
+<p>📚 PhD Candidate: "Water Resources Engineering" at the Georgian Technical University.</p>
+<p>🌐 Invited Specialist "Lectureship of the English-taught course 'Geographic Information Systems Fundamentals' at the Faculty of Informatics and Control Systems of the Georgian Technical University"</p>
+<p>🌍 Find me on <a href="https://www.osgeo.org/member/kapanadze/">OSGeo</a> or on <a href="https://www.linkedin.com/in/ezdanapak/">Linkedin</a></p>
+<p>🎓🎓🏫👨‍🏫</p>
+<p>🌟 Member of the Scientific Council of the Georgian Cartographers' Association. 🌟</p>
+<p>📞 (+995) 579320618
+If something is urgent, here is my number, send sms or call me.
+giorgi.kapanadze@gtu.ge Email to contact me directly, you can also use "Direct messages".</p>
+<p>📘 Certified by the QGIS Association
+ <a class="glightbox" href="../Images/QGIS-7078_Certificate.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="left" alt="Certificate_image" src="../Images/QGIS-7078_Certificate.jpg" /></a></p>
 
 
 
@@ -1196,5 +1212,7 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

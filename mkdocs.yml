@@ -134,4 +134,4 @@ nav:
 
 plugins:
   - search
-  - glightbox
+ # - glightbox

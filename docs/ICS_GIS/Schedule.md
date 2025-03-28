@@ -1,3 +1,6 @@
+### Spring semester - 2025
+ Current: GET — Tbilisi, Georgia Standard Time <br>
+ Current Offset:UTC/GMT +4 hours
 ### Friday
 
 **12:00 - 13:00**  
@@ -14,7 +17,6 @@
 **Course:** Geographic Information Systems Fundamentals (ICR2690E1-LB) Practical Work  
 **Room:** 09-208
 
----
 
 **14:00 - 15:00**  
 **Course Codes:** 108258, 108258-1  

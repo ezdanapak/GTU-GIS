@@ -1,0 +1,1 @@
+Raster Analysis. Travelling Salesman Problem. Location Allocation

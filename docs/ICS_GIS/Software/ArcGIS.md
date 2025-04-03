@@ -1,9 +1,8 @@
-We use: 
-ArcGIS Desktop | ArcMap 10.8.2
-Google Earth PRO
-Georgian Fonts for map
+## We Use:
 
-<br>
+- **ESRI ArcGIS Desktop** | V. ArcMap 10.8.2
 
-!!!warning
-    If you are Linux or Mac OS system user you can't use ArcGIS soft without virtual machines, or other side tools. 
+---
+
+!!!warning 
+    If you are using a Linux or Mac OS system, you cannot use ArcGIS software without virtual machines or other auxiliary tools.

@@ -1,8 +1,12 @@
 # Geographic Information Systems Fundamentals
+
+This course is provided by the Faculty Of Sustainable Mountain Development
+ at Georgian Technical University. Welcome to our course!
+
+
+<!-- 
 ## English-language Programme
 ## Computer Science [Accredited](https://gtu.ge/en/apply/bachelor/ims/eng.php) 
-This course is provided by the Faculty of Informatics and Control Systems at Georgian Technical University. Welcome to our course!
-
 ---
 
 ## The Objective of the Course
@@ -36,4 +40,4 @@ The aim of the course is to study the principles and operation of GIS software, 
 
 !!!tip
     You can find base details on [elearning](https://elearning.gtu.ge/) <br>
-    Search subject name "25-10365 გეოგრაფიული ინფორმაციული სისტემების (გის) საფუძვლები" 
+    Search subject name "25-10365 გეოგრაფიული ინფორმაციული სისტემების (გის) საფუძვლები"  -->

@@ -122,7 +122,10 @@ nav:
       - Lab 13: './ICS_GIS/Lab/Lab_13.md'
       - Lab 14: './ICS_GIS/Lab/Lab_14.md'
       - Lab 15: './ICS_GIS/Lab/Lab_15.md'
-      
+  - 'ASBE - GIS': 
+    - Info: './ASBE_GIS/Info.md'
+  - 'SMD - GIS': 
+    - Info: './SMD_GIS/Info.md'
 
 
 

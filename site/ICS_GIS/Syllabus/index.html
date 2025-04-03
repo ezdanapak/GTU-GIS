@@ -94,16 +94,7 @@
     
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-    html.glightbox-open { overflow: initial; height: 100%; }
-    .gslide-title { margin-top: 0px; user-select: text; }
-    .gslide-desc { color: #666; user-select: text; }
-    .gslide-image img { background: white; }
-    .gscrollbar-fixer { padding-right: 15px; }
-    .gdesc-inner { font-size: 0.75rem; }
-    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  </head>
   
   
     
@@ -118,6 +109,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#lecture-topics" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -420,6 +416,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -597,11 +595,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Software/QGIS/" class="md-nav__link">
+      <a href="../Software/ArcGIS/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    QGIS
+    ArcGIS
   </span>
   
 
@@ -1076,6 +1074,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1093,9 +1093,77 @@
   
 
 
-  <h1>Syllabus</h1>
-
-
+<h1 id="lecture-topics">Lecture Topics</h1>
+<table>
+<thead>
+<tr>
+<th>№</th>
+<th>Title of the Theme and Its Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Introduction to Geographic Information Systems (GIS)</strong>: GIS Applications, Possible Classification of GIS Applications, Data Management Requirements of GIS, Specific GIS Data Operations.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Data Modelling</strong>: The Structure of a Computer, Pseudocode, and Computer Programming.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Databases</strong>: Relational Database, Storing Spatial Data in a Relational Database, Solutions to the Problems of Storing Spatial Data in RDBMS.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Vector Data Structures</strong>: Simple Storage of Vector Data, Topological Storage of Vector Data, Topology, The Example of DIME, More on Topological Data Structures, Return to Simple Data Structures.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Vector Algorithms for Lines</strong>: Simple Line Intersection Algorithm, A Better Algorithm for Simple Line Intersection, Dealing with Wiggly Lines, Calculations on Lines, Line Intersection.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Vector Algorithms for Areas</strong>: Calculations on Areas: Single Polygons, Calculations on Areas: Multiple Polygons, Point in Polygon: Simple Algorithm, Back to Topology for a Better Algorithm.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>The Efficiency of Algorithms</strong>: Efficiency of the Line Intersection Algorithm, More on Algorithm Efficiency, Raster Data Structures.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Raster Data in Databases</strong>: Raster Data Structures: The Array, Saving Space: Run Length Encoding and Quadtrees, Data Structures for Images.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Raster Algorithms</strong>: Attribute Query for Run Length Encoded Data, Attribute Query for Quadtrees, Area Calculations.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Data Structures for Surfaces</strong>: Data Models for Surfaces, Algorithms for Creating Grid Surface Models, Algorithms for Creating a Triangulated Irregular Network, Grid Creation.</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Algorithms for Surfaces</strong>: Elevation, Slope, and Aspect, Hydrological Analysis Using a TIN, Determining Flow Direction Using a Gridded DEM, Using Flow Directions for Hydrological Analysis.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>Data Structures and Algorithms for Networks</strong>: Networks in Vector and Raster, Shortest Path Algorithm, Data Structures for Network Data, Faster Algorithms for Finding the Shortest Route.</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>Strategies for Efficient Data Access</strong>: Tree Data Structures, Indexing and Storing 2D Data Using Both Coordinates, Space-Filling Curves for Spatial Data, Spatial Filling Curves and Data Clustering, Space-Filling Curves for Indexing Spatial Data, Caching.</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong>Heuristics for Spatial Data</strong>: Travelling Salesman Problem, Location Allocation, Metaheuristics, Computability and Decidability.</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>An Example of GIS Software: ARC-INFO</strong>: Problems and Future Issues in GIS.</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1200,7 +1268,5 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
-document$.subscribe(() => { lightbox.reload() });
-</script></body>
+  </body>
 </html>

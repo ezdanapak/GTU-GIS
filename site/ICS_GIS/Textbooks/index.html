@@ -94,16 +94,7 @@
     
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-    html.glightbox-open { overflow: initial; height: 100%; }
-    .gslide-title { margin-top: 0px; user-select: text; }
-    .gslide-desc { color: #666; user-select: text; }
-    .gslide-image img { background: white; }
-    .gscrollbar-fixer { padding-right: 15px; }
-    .gdesc-inner { font-size: 0.75rem; }
-    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  </head>
   
   
     
@@ -118,6 +109,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#main-sources" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -462,6 +458,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -597,11 +595,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Software/QGIS/" class="md-nav__link">
+      <a href="../Software/ArcGIS/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    QGIS
+    ArcGIS
   </span>
   
 
@@ -1076,6 +1074,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -1093,9 +1093,19 @@
   
 
 
-  <h1>Textbooks</h1>
-
-
+<h1 id="main-sources">Main Sources</h1>
+<ol>
+<li><strong>Stephen Wise</strong>, <em>GIS Fundamentals</em> (Second Edition)<br />
+   2014 by Taylor &amp; Francis Group, LLC<br />
+   330 p. ISBN: 97-1-4822-3190-8 (eBook – PDF)<br />
+   (GTU library CD-3225)</li>
+</ol>
+<hr />
+<h1 id="additional-sources">Additional Sources</h1>
+<ol>
+<li><strong>Campbell J.E.</strong> and <strong>Shin M.</strong>, <em>Geographic Information System Basics v. 1.0</em><br />
+   2012, CD 3224</li>
+</ol>
 
 
 
@@ -1200,7 +1210,5 @@
       <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
-document$.subscribe(() => { lightbox.reload() });
-</script></body>
+  </body>
 </html>

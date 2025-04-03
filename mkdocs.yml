@@ -101,7 +101,7 @@ nav:
       - Acknowledgments: './ICS_GIS/Acknowledgments.md'
       - Info: './ICS_GIS/Info.md'
     - Software Tools:
-      - QGIS: './ICS_GIS/Software/QGIS.md'
+      - ArcGIS: './ICS_GIS/Software/ArcGIS.md'
       - Google Earth: './ICS_GIS/Software/GoogleEarth.md'
     - Theory:
       - Topic 1: './ICS_GIS/Theory/Topic_1.md'

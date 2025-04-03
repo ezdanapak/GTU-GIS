@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# Geographic Information Systems Fundamentals
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This course is provided by the Faculty of Informatics and Control Systems at Georgian Technical University. Welcome to our course!
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## The Objective of the Course
 
-## Project layout
+The aim of the course is to study the principles and operation of GIS software, locate and create accurate geospatial datasets, and creatively solve spatial problems using a variety of GIS tools.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## Admission Prerequisites
+
+- **Database Management System** (Oracle)  
+- **Computer Network Organization**  
+- **Statistical Models and Simulation** (by SPSS)

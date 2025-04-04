@@ -110,6 +110,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#georeferencing-digitizing-the-array-saving-space-run-length-encoding-and-quadtrees" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -941,6 +946,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Lab 8
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -951,6 +969,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment Instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1270,6 +1316,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment Instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1287,9 +1352,116 @@
   
 
 
-  <h1>Lab 8</h1>
-
-<p>Georeferencing &amp; Digitizing. The Array. Saving Space: Run Length Encoding and Quadtrees</p>
+<h1 id="georeferencing-digitizing-the-array-saving-space-run-length-encoding-and-quadtrees">Georeferencing &amp; Digitizing. The Array. Saving Space: Run Length Encoding and Quadtrees</h1>
+<h2 id="assignment-instructions">Assignment Instructions</h2>
+<p>⚠️ <strong>Work Environment</strong></p>
+<p>On university computers, work inside the folder:
+<code>C:\Users\Public\</code> or <code>C:\Users\Public\Documents</code> <br>
+(This is recommended even on personal computers, as the program can have issues when files are located elsewhere.)</p>
+<p>📦 <strong>Required Software</strong></p>
+<ul>
+<li>ArcGIS – Required ✅</li>
+<li>Google Earth – Optional, depending on the task ✅</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>File Naming Rules</strong></p>
+<p>❌ <strong>Incorrect:</strong> <br></p>
+<p>Giorgi Kapanadze.Group/1$ work1 <br></p>
+<p>❌ Do not use:</p>
+<p>Georgian characters &gt;  ა ბ გ დ and special symbols (other than _)</p>
+<p>✅ <strong>correct:</strong></p>
+<p>Giorgi_Kapanadze_Group_4_work_1 </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use only Latin letters, numbers, and underscores (_) in:
+Archive names, folder and file names, table column names</p>
+</div>
+<p>📘 Step-by-Step Guide</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Step I: Folder Setup</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>
+<p>Create a folder using your first and last name.</p>
+</li>
+<li>
+<p>Inside it, create the following subfolders:</p>
+</li>
+<li>
+<p>Raster</p>
+</li>
+<li>
+<p>Image</p>
+</li>
+<li>
+<p>Geoimage</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Connect ArcGIS to this main folder.</p>
+<hr />
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Step II: Map Preparation</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>
+<p>The assignment folder contains 6 topographic maps.</p>
+</li>
+<li>
+<p>Download any one of them and place it in the appropriate subfolder.</p>
+</li>
+<li>
+<p>Perform georeferencing using rectangular coordinates (in meters).</p>
+</li>
+<li>
+<p>Download another one, and place it in the appropriate subfolder.</p>
+</li>
+<li>
+<p>Perform georeferencing using spherical coordinates (in degrees, minutes, seconds).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Step III: Final Checks &amp; Submission</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>After georeferencing, verify the location of the maps by any method.</li>
+<li>
+<p>Ensure that the map correctly aligns with the target area.</p>
+</li>
+<li>
+<p>Zip your folder (named after your first and last name).</p>
+</li>
+<li>
+<p>Use formats like .rar or .zip.</p>
+</li>
+<li>
+<p>Name the archive using:
+FirstName_LastName_GroupNumber_AssignmentNumber</p>
+</li>
+<li>
+<p>Attach this archive to your assignment.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you experience any issues with the submission process, contact:
+giorgi.kapanadze@btu.edu.ge Or use any file transfer services like Filemail.</p>
+</div>
+<p>📌 If anything is unclear, feel free to ask!
+If something was done incorrectly, I’ll correct it.
+Double-check the links below – everything you need is included and well-organized. 😊</p>
 
 
 

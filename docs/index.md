@@ -54,7 +54,7 @@ For more information about our GIS programs, courses, or student activities, fee
 
 - **Email**: [giorgi.kapanadze@gtu.ge](mailto:giorgi.kapanadze@gtu.ge)
 - **Phone**: +995 579320618
-
+- **Github**: (repo)[https://ezdanapak.github.io/GTU-GIS/]
 Stay connected and explore the world of GIS at **GTU**!
 
 ---

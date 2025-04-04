@@ -1,1 +1,1 @@
-GIS Data Search. Algorithms for Creating a Triangulated Irregular Network
+GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.\giorgi

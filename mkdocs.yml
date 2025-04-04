@@ -21,7 +21,10 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  
+
+    logo: assets/favicon.png
+    favicon: assets/favicon.png
+
     palette:
       # Dark Mode
       - scheme: slate

@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../Lab_1/">
+        <link rel="prev" href="../Lab_7/">
       
       
-        <link rel="next" href="../Lab_3/">
+        <link rel="next" href="../Lab_9/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Lab 2 - GTU GIS</title>
+        <title>Georeference - GTU GIS</title>
       
     
     
@@ -110,6 +110,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#georeferencing-digitizing-the-array-saving-space-run-length-encoding-and-quadtrees" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -142,7 +147,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Lab 2
+              Georeference
             
           </span>
         </div>
@@ -657,6 +662,8 @@
       
         
       
+        
+      
     
     
     
@@ -718,6 +725,27 @@
   
   <span class="md-ellipsis">
     Topic 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Theory/Georeferencing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Georeferencing
   </span>
   
 
@@ -829,26 +857,18 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../GPS/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Lab 2
+    GPS
   </span>
   
 
       </a>
-      
     </li>
   
 
@@ -963,18 +983,76 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Lab_8/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Georeference
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Lab 8
+    Georeference
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 Step-by-Step Guide
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1293,6 +1371,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 Step-by-Step Guide
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1310,136 +1416,94 @@
   
 
 
-  <h1>Lab 2</h1>
-
-<p>Importing data from text file. Projecting and reprojecting data. Data file Structure (Shapefile,
-Coverages, Geodatabase) </p>
-<hr />
-<p>(GPS_AND_Photo.rar)</p>
-<p>Create necessary folders for the project from the starting point, or add more as needed during the workflow.
-Import GPS coordinates and convert them to a shapefile or geodatabase feature class.
-Import geotagged photos and convert them to a shapefile or geodatabase feature class.
-Create hyperlinks on the photos layer and display photos as pop-ups.
-Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox.
-Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods.</p>
-<p>🗃️ Geospatial Databases &amp; Data Management in ArcGIS</p>
-<ol>
-<li>
-<p>Geospatial Databases
-Overview of geospatial database formats:</p>
-</li>
-<li>
-<p>MDB, GDB, GeoPackage, SQLite, XML, GeoJSON</p>
-</li>
-<li>
-<p>Introduction to DBMS (Database Management Systems)</p>
-</li>
-</ol>
-<hr />
-<ol>
-<li>Data management</li>
-<li>
-<p>Using the Database Toolbar</p>
-</li>
-<li>
-<p>Creating a new database</p>
+<h1 id="georeferencing-digitizing-the-array-saving-space-run-length-encoding-and-quadtrees">Georeferencing &amp; Digitizing. The Array. Saving Space: Run-Length Encoding and Quadtrees</h1>
+<h2 id="assignment-instructions">Assignment Instructions</h2>
+<p>⚠️ <strong>Work Environment</strong></p>
+<p>On university computers, work inside the folder:<br />
+<code>C:\Users\Public\</code> or <code>C:\Users\Public\Documents</code><br />
+<em>(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)</em></p>
+<p>📦 <strong>Required Software</strong></p>
 <ul>
-<li>Digitizing or importing Spatial Objects: <br>
-Point Geometry: Home, schools, stations, buildings, stadiums <br>
-Line Geometry: Rivers, railways, roads, ropeways <br>
-Polygon Geometry: Parcels, homes, buildings, stadiums, forests <br></li>
+<li>ArcGIS – Required ✅  </li>
+<li>Google Earth – Optional (depending on the task) ✅  </li>
 </ul>
-</li>
-<li>Delete Geodatabase</li>
-<li>Compact Geodatabase</li>
-<li>Compress Geodatabase</li>
-<li>Importing layers from within the project or external sources</li>
-<li>
-<p>Using the Package Layers tool from the ArcToolbox</p>
-</li>
-<li>
-<p>Fixing missing sources via Repair Data Source</p>
-</li>
-<li>
-<p>Attribute Tables</p>
-</li>
-<li>
-<p>Understanding and working with attribute tables</p>
-</li>
-<li>
-<p>OBJECTID Field</p>
-</li>
-<li>
-<p>What is OBJECTID?</p>
-</li>
-<li>
-<p>Autogeneration and usage</p>
-</li>
-<li>
-<p>Comparison with Shapefile IDs</p>
-</li>
-<li>
-<p>Overview of data types and field parameters</p>
-</li>
-</ol>
-<hr />
-<ol>
-<li>Working with Fields &amp; Symbology</li>
-<li>
-<p>Creating new columns (fields)</p>
-</li>
-<li>
-<p>Using short column names</p>
-</li>
-<li>
-<p>Writing simple expression-based selections</p>
-</li>
-<li>
-<p>Entering data manually</p>
-</li>
-<li>
-<p>Duplicating layers</p>
-</li>
-<li>
-<p>Symbolizing and categorizing layers based on attribute values</p>
-</li>
-</ol>
-<p>🛑 What if a Category is Missing?
-* What happens if Feature Attributes are not categorized both visually and in the attribute table?</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>File Naming Rules</strong></p>
+<p>❌ <strong>Incorrect:</strong>  </p>
+<p>Giorgi Kapanadze.Group/1$ work1  </p>
+<p>❌ Do not use:</p>
 <ul>
-<li>How to remove or add categories to a layer</li>
+<li>Georgian characters (ა, ბ, გ, დ, etc.)  </li>
+<li>Special symbols (other than an underscore <code>_</code>)</li>
+</ul>
+<p>✅ <strong>Correct:</strong></p>
+<p>Giorgi_Kapanadze_Group_4_work_1  </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use only Latin letters, numbers, and underscores (<code>_</code>) for:<br />
+Archive names, folder and file names, and table column names.</p>
+</div>
+<hr />
+<h2 id="step-by-step-guide">📘 Step-by-Step Guide</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Step I: Folder Setup</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<ul>
+<li>Download the data from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/K-38-51-G-b.zip?forcedownload=1">here</a></li>
+<li>Create a folder using your first and last name. Follow the file naming rules provided above.</li>
+<li>Inside it, create the following subfolders:  </li>
+<li>Raster  </li>
+<li>Image  </li>
+<li>Geoimage  </li>
+</ul>
+<p>Connect ArcGIS (from ArcCatalog) to this main folder.</p>
+<hr />
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Step II: Map Preparation</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<ul>
+<li>The assignment folder contains one topographic map.</li>
+<li>Download and place it in the appropriate subfolder.</li>
+<li>Perform georeferencing using rectangular coordinates (in meters).</li>
+<li>Perform georeferencing using spherical coordinates (in degrees, minutes, and seconds).</li>
 </ul>
 <hr />
-<ol>
-<li>Saving &amp; Loading Layer Styles</li>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Step III: Final Checks &amp; Submission</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block"></div>
+</div>
+</div>
+<ul>
+<li>After georeferencing, verify the map location using any available method. 🌍</li>
+<li>Ensure that the map correctly aligns with the target area. 🗺</li>
+<li>Compress (zip) your folder (named after your first and last name). 💾</li>
+<li>Use formats like <code>.rar</code> or <code>.zip</code>.</li>
 <li>
-<p>How to save and reuse layer styles</p>
+<p>Name the archive as:<br />
+<code>FirstName_LastName_GroupNumber_AssignmentNumber</code></p>
 </li>
 <li>
-<p>Use styles within the same project or across different projects</p>
+<p>Send it to: giorgi.kapanadze@gtu.edu.ge</p>
 </li>
-</ol>
+</ul>
 <hr />
-<ol>
-<li>
-<p>Geometry &amp; Measurement Fields
-Extracting:</p>
-</li>
-<li>
-<p>XY coordinates/Decimal degrees</p>
-</li>
-<li>Adding X/Y Coordinates to Attribute Table</li>
-<li>Automatically add X and Y coordinate fields to your layer
-Area
-Perimeter
-Length</li>
-</ol>
-<hr />
-<ol>
-<li>Packaging maps</li>
-<li></li>
-<li></li>
-</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you experience any issues with the submission process, contact:<br />
+giorgi.kapanadze@gtu.edu.ge<br />
+Or use any file transfer service like Filemail.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>📌 If anything is unclear, feel free to ask! 😊<br />
+If something here was done incorrectly, I’ll correct it — or you can create a pull request.  </p>
+</div>
 
 
 
@@ -1475,7 +1539,7 @@ Length</li>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Lab_1/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 1">
+          <a href="../Lab_7/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 7">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1485,20 +1549,20 @@ Length</li>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Lab 1
+                Lab 7
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Lab_3/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 3">
+          <a href="../Lab_9/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 9">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Lab 3
+                Lab 9
               </div>
             </div>
             <div class="md-footer__button md-icon">

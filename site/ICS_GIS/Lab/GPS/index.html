@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../Lab_9/">
+        <link rel="prev" href="../Lab_1/">
       
       
-        <link rel="next" href="../Lab_11/">
+        <link rel="next" href="../Lab_3/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Lab 10 - GTU GIS</title>
+        <title>GPS - GTU GIS</title>
       
     
     
@@ -142,7 +142,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Lab 10
+              GPS
             
           </span>
         </div>
@@ -852,10 +852,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../GPS/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -864,6 +871,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1020,17 +1028,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Lab_10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1039,7 +1040,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1333,9 +1333,145 @@
   
 
 
-  <h1>Lab 10</h1>
+  <h1>GPS</h1>
 
-<p>GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.\giorgi</p>
+<p>Importing data from text file. Projecting and reprojecting data. Data file Structure (Shapefile,
+Coverages, Geodatabase) </p>
+<hr />
+<p>(GPS_AND_Photo.rar)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Steps for assignement</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Create necessary folders for the project from the starting point, or add more as needed during the workflow. <br></li>
+<li>Import GPS coordinates as a shapefile. <br></li>
+<li>Import geotagged photos as a shapefile. <br></li>
+<li>Create FileGeodatabase, import shapefiles and save project file named as "GPS.mxd".</li>
+<li>Create hyperlinks on the photos layer and display photos as pop-ups. <br></li>
+<li>Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br></li>
+<li>Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br></li>
+</ul>
+</div>
+</div>
+</div>
+<p>🗃️ Geospatial Databases &amp; Data Management in ArcGIS</p>
+<ol>
+<li>
+<p>Geospatial Databases
+Overview of geospatial database formats:</p>
+</li>
+<li>
+<p>MDB, GDB, GeoPackage, SQLite, XML, GeoJSON</p>
+</li>
+<li>
+<p>Introduction to DBMS (Database Management Systems)</p>
+</li>
+</ol>
+<hr />
+<ol>
+<li>Data management</li>
+<li>
+<p>Using the Database Toolbar</p>
+</li>
+<li>
+<p>Creating a new database</p>
+<ul>
+<li>Digitizing or importing Spatial Objects: <br>
+Point Geometry: Home, schools, stations, buildings, stadiums <br>
+Line Geometry: Rivers, railways, roads, ropeways <br>
+Polygon Geometry: Parcels, homes, buildings, stadiums, forests <br></li>
+</ul>
+</li>
+<li>Delete Geodatabase</li>
+<li>Compact Geodatabase</li>
+<li>Compress Geodatabase</li>
+<li>Importing layers from within the project or external sources</li>
+<li>
+<p>Using the Package Layers tool from the ArcToolbox</p>
+</li>
+<li>
+<p>Fixing missing sources via Repair Data Source</p>
+</li>
+<li>
+<p>Attribute Tables</p>
+</li>
+<li>
+<p>Understanding and working with attribute tables</p>
+</li>
+<li>
+<p>OBJECTID Field</p>
+</li>
+<li>
+<p>What is OBJECTID?</p>
+</li>
+<li>
+<p>Autogeneration and usage</p>
+</li>
+<li>
+<p>Comparison with Shapefile IDs</p>
+</li>
+<li>
+<p>Overview of data types and field parameters</p>
+</li>
+</ol>
+<hr />
+<ol>
+<li>Working with Fields &amp; Symbology</li>
+<li>
+<p>Creating new columns (fields)</p>
+</li>
+<li>
+<p>Using short column names</p>
+</li>
+<li>
+<p>Writing simple expression-based selections</p>
+</li>
+<li>
+<p>Entering data manually</p>
+</li>
+<li>
+<p>Duplicating layers</p>
+</li>
+<li>
+<p>Symbolizing and categorizing layers based on attribute values</p>
+</li>
+</ol>
+<p>🛑 What if a Category is Missing?
+* What happens if Feature Attributes are not categorized both visually and in the attribute table?</p>
+<ul>
+<li>How to remove or add categories to a layer</li>
+</ul>
+<hr />
+<ol>
+<li>Saving &amp; Loading Layer Styles</li>
+<li>
+<p>How to save and reuse layer styles</p>
+</li>
+<li>
+<p>Use styles within the same project or across different projects</p>
+</li>
+</ol>
+<hr />
+<ol>
+<li>
+<p>Geometry &amp; Measurement Fields
+Extracting:</p>
+</li>
+<li>
+<p>XY coordinates/Decimal degrees</p>
+</li>
+<li>Adding X/Y Coordinates to Attribute Table</li>
+<li>Automatically add X and Y coordinate fields to your layer
+Area
+Perimeter
+Length</li>
+</ol>
+<hr />
+<ol>
+<li>Packaging maps</li>
+<li></li>
+<li></li>
+</ol>
 
 
 
@@ -1371,7 +1507,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Lab_9/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 9">
+          <a href="../Lab_1/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Lab 1">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1381,20 +1517,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Lab 9
+                Lab 1
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Lab_11/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 11">
+          <a href="../Lab_3/" class="md-footer__link md-footer__link--next" aria-label="Next: Lab 3">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Lab 11
+                Lab 3
               </div>
             </div>
             <div class="md-footer__button md-icon">

@@ -5,12 +5,14 @@ Coverages, Geodatabase)
 
 (GPS_AND_Photo.rar)
 
-Create necessary folders for the project from the starting point, or add more as needed during the workflow.
-Import GPS coordinates and convert them to a shapefile or geodatabase feature class.
-Import geotagged photos and convert them to a shapefile or geodatabase feature class.
-Create hyperlinks on the photos layer and display photos as pop-ups.
-Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox.
-Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods.
+=== "Steps for assignement"
+    * Create necessary folders for the project from the starting point, or add more as needed during the workflow. <br>
+    * Import GPS coordinates as a shapefile. <br>
+    * Import geotagged photos as a shapefile. <br>
+    * Create FileGeodatabase, import shapefiles and save project file named as "GPS.mxd".
+    * Create hyperlinks on the photos layer and display photos as pop-ups. <br>
+    * Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
+    * Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
 
 
 

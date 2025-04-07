@@ -66,16 +66,16 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 * Compress (zip) your folder (named after your first and last name). 💾
 * Use formats like `.rar` or `.zip`.
 * Name the archive as:  
-  `FirstName_LastName_GroupNumber_AssignmentNumber`
+  `FirstName_LastName_GroupNumber_Assignment_Number`
 
-* Send it to: giorgi.kapanadze@gtu.edu.ge
+* Send it to: giorgi.kapanadze@gtu.ge
 
 ---
 
 !!!warning
     If you experience any issues with the submission process, contact:  
-    giorgi.kapanadze@gtu.edu.ge  
-    Or use any file transfer service like Filemail.
+    giorgi.kapanadze@gtu.ge  
+    Or use any file transfer services.
 
 !!!info
     📌 If anything is unclear, feel free to ask! 😊  

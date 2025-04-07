@@ -48,6 +48,13 @@ On university computers, work inside the folder:
   - Image  
   - Geoimage  
 
+``` mermaid
+graph LR
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Raster};
+  B -->|Without georeference| C[Image];
+  B -->|With georeference| D[GeoImage];
+```
+
 Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---

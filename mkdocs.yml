@@ -105,6 +105,7 @@ nav:
       - Info: './ICS_GIS/Info.md'
       - Another staff: './ICS_GIS/Another_staff.md'
       - Presentations: './ICS_GIS/Presentations.md'
+      - Copyright: './ICS_GIS/Copyright_Disclaimer.md'
 
     - Software Tools:
       - ArcGIS: './ICS_GIS/Software/ArcGIS.md'

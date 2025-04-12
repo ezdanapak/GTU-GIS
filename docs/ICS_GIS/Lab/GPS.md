@@ -3,17 +3,25 @@ Coverages, Geodatabase)
 
 ---
 
-(GPS_AND_Photo.rar)
+
 
 === "Steps for assignement"
     * Create necessary folders for the project from the starting point, or add more as needed during the workflow. <br>
+
+
+    archive, GPS_coordinates, lyr, Project, Raster, shp
+
+
+
+
     * Import GPS coordinates as a shapefile. <br>
     * Import geotagged photos as a shapefile. <br>
-    * Create FileGeodatabase, import shapefiles and save project file named as "GPS.mxd".
+    * 
     * Create hyperlinks on the photos layer and display photos as pop-ups. <br>
-    * Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
-    * Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
-
+    * - Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
+    * - Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
+    * Save project file named as "GPS_photo_coordinates10.0v". Save another mxd file for old versions.
+    * You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
 
 
 

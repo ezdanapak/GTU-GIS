@@ -82,7 +82,28 @@ graph LR
 * You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
 
 
+---
 
+=== "Step III: Final Checks & Submission"
+* After that, verify the layers location using any available method. 🌍
+* Ensure that the all of them correctly aligns with the target area. 🗺
+* Compress (zip) your folder (named after your first and last name). 💾
+* Use formats like `.rar` or `.zip`.
+* Name the archive as:  
+  `FirstName_LastName_GroupNumber_Assignment_Number`
+
+* Send it to: giorgi.kapanadze@gtu.ge
+
+---
+
+!!!warning
+    If you experience any issues with the submission process, contact:  
+    giorgi.kapanadze@gtu.ge  
+    Or use any file transfer services.
+
+!!!info
+    📌 If anything is unclear, feel free to ask! 😊  
+    If something here was done incorrectly, I’ll correct it — or you can create a pull request. 
 
 
 

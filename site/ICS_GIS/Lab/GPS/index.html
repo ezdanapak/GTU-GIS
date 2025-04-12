@@ -1498,14 +1498,26 @@ Archive names, folder and file names, and table column names.</p>
 </div>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Steps for assignement</label></div>
 <div class="tabbed-content">
-<div class="tabbed-block">
+<div class="tabbed-block"></div>
+</div>
+</div>
 <ul>
-<li>Create necessary folders for the project from the starting point, or add more as needed during the workflow. <br></li>
+<li>Download Basemap files from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1">here</a></li>
+<li>
+<p>Download the data from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/GPS_AND_Photo.zip?forcedownload=1">here</a></p>
+</li>
+<li>
+<p>Create necessary folders for the project from the starting point, or add more as needed during the workflow. Follow the file naming rules provided above. <br></p>
+<ul>
+<li>archive, </li>
+<li>GPS_coordinates, </li>
+<li>lyr, </li>
+<li>Project, </li>
+<li>Raster, </li>
+<li>shp,</li>
 </ul>
-<p>archive, GPS_coordinates, lyr, Project, Raster, shp</p>
-</div>
-</div>
-</div>
+</li>
+</ul>
 <pre class="mermaid"><code>graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{archive};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; C{GPS_coordinates};
@@ -1513,15 +1525,23 @@ Archive names, folder and file names, and table column names.</p>
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; F{shp};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; E{Raster};
   E --&gt;|Without georeference| C[GeoTaggedphoto];</code></pre>
-<div class="language-text highlight"><pre><span></span><code>* Import GPS coordinates as a shapefile. &lt;br&gt;
-* Import geotagged photos as a shapefile. &lt;br&gt;
-* 
-* Create hyperlinks on the photos layer and display photos as pop-ups. &lt;br&gt;
-* - Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. &lt;br&gt;
-* - Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. &lt;br&gt;
-* Save project file named as &quot;GPS_photo_coordinates10.0v&quot;. Save another mxd file for old versions.
-* You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
-</code></pre></div>
+<ul>
+<li>Import GPS coordinates as a shapefile. <br></li>
+<li>Import geotagged photos as a shapefile. <br></li>
+<li>Create hyperlinks on the photos layer and display photos as pop-ups. <br></li>
+<li>
+<ul>
+<li>Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br></li>
+</ul>
+</li>
+<li>Save project file named as "GPS_photo_coordinates". Save another mxd file for old versions "GPS_photo_coordinates10.0v".</li>
+<li>You can Geotag photos manualy on the web <a href="https://tool.geoimgr.com/">site</a></li>
+</ul>
 <p>🗃️ Geospatial Databases &amp; Data Management in ArcGIS</p>
 <ol>
 <li>

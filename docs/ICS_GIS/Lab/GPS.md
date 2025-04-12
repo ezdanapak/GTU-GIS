@@ -46,10 +46,16 @@ On university computers, work inside the folder:
 
 
 === "Steps for assignement"
-    * Create necessary folders for the project from the starting point, or add more as needed during the workflow. <br>
-
-
-    archive, GPS_coordinates, lyr, Project, Raster, shp
+* Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
+* Download the data from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/GPS_AND_Photo.zip?forcedownload=1)
+    
+* Create necessary folders for the project from the starting point, or add more as needed during the workflow. Follow the file naming rules provided above. <br>
+    - archive, 
+    - GPS_coordinates, 
+    - lyr, 
+    - Project, 
+    - Raster, 
+    - shp,
 
 ``` mermaid
 graph LR
@@ -62,14 +68,13 @@ graph LR
 ```
 
 
-    * Import GPS coordinates as a shapefile. <br>
-    * Import geotagged photos as a shapefile. <br>
-    * 
-    * Create hyperlinks on the photos layer and display photos as pop-ups. <br>
-    * - Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
-    * - Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
-    * Save project file named as "GPS_photo_coordinates10.0v". Save another mxd file for old versions.
-    * You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
+* Import GPS coordinates as a shapefile. <br>
+* Import geotagged photos as a shapefile. <br>
+ * Create hyperlinks on the photos layer and display photos as pop-ups. <br>
+* - Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
+* - Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
+* Save project file named as "GPS_photo_coordinates". Save another mxd file for old versions "GPS_photo_coordinates10.0v".
+* You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
 
 
 

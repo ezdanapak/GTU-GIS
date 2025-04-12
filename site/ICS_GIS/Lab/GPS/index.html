@@ -110,6 +110,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#assignment-instructions" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -908,6 +913,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    GPS
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -917,6 +933,41 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 Step-by-Step Guide
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1363,6 +1414,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assignment-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assignment Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      📘 Step-by-Step Guide
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1384,6 +1461,41 @@
 <p>Importing data from text file. Projecting and reprojecting data. Data file Structure (Shapefile,
 Coverages, Geodatabase) </p>
 <hr />
+<h2 id="assignment-instructions">Assignment Instructions</h2>
+<p>⚠️ <strong>Work Environment</strong></p>
+<p>On university computers, work inside the folder:<br />
+<code>C:\Users\Public\</code> or <code>C:\Users\Public\Documents</code><br />
+<em>(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)</em></p>
+<p>📦 <strong>Required Software</strong></p>
+<ul>
+<li>ArcGIS – Required ✅  </li>
+<li>Google Earth – Optional (depending on the task) ✅</li>
+</ul>
+<hr />
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>File Naming Rules</strong></p>
+<p>❌ <strong>Incorrect:</strong>  </p>
+<p>Giorgi Kapanadze.Group/1$ work1  </p>
+<p>❌ Do not use:</p>
+<ul>
+<li>Georgian characters (ა, ბ, გ, დ, etc.)  </li>
+<li>Special symbols (other than an underscore <code>_</code>)</li>
+</ul>
+<p>✅ <strong>Correct:</strong></p>
+<p>Giorgi_Kapanadze_Group_4_work_1  </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use only Latin letters, numbers, and underscores (<code>_</code>) for:<br />
+Archive names, folder and file names, and table column names.</p>
+</div>
+<hr />
+<h2 id="step-by-step-guide">📘 Step-by-Step Guide</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You must be authorized (logged in) on <a href="https://elearning.gtu.ge">elearning.gtu.ge</a> to download the data.</p>
+</div>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Steps for assignement</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1391,27 +1503,25 @@ Coverages, Geodatabase) </p>
 <li>Create necessary folders for the project from the starting point, or add more as needed during the workflow. <br></li>
 </ul>
 <p>archive, GPS_coordinates, lyr, Project, Raster, shp</p>
-<ul>
-<li>Import GPS coordinates as a shapefile. <br></li>
-<li>Import geotagged photos as a shapefile. <br></li>
-<li></li>
-<li>Create hyperlinks on the photos layer and display photos as pop-ups. <br></li>
-<li>
-<ul>
-<li>Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br></li>
-</ul>
-</li>
-<li>
-<ul>
-<li>Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br></li>
-</ul>
-</li>
-<li>Save project file named as "GPS_photo_coordinates10.0v". Save another mxd file for old versions.</li>
-<li>You can Geotag photos manualy on the web <a href="https://tool.geoimgr.com/">site</a></li>
-</ul>
 </div>
 </div>
 </div>
+<pre class="mermaid"><code>graph LR
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; C{GPS_coordinates};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; D{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; F{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; E{Raster};
+  E --&gt;|Without georeference| C[GeoTaggedphoto];</code></pre>
+<div class="language-text highlight"><pre><span></span><code>* Import GPS coordinates as a shapefile. &lt;br&gt;
+* Import geotagged photos as a shapefile. &lt;br&gt;
+* 
+* Create hyperlinks on the photos layer and display photos as pop-ups. &lt;br&gt;
+* - Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. &lt;br&gt;
+* - Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. &lt;br&gt;
+* Save project file named as &quot;GPS_photo_coordinates10.0v&quot;. Save another mxd file for old versions.
+* You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
+</code></pre></div>
 <p>🗃️ Geospatial Databases &amp; Data Management in ArcGIS</p>
 <ol>
 <li>

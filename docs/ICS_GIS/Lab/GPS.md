@@ -2,7 +2,47 @@ Importing data from text file. Projecting and reprojecting data. Data file Struc
 Coverages, Geodatabase) 
 
 ---
+## Assignment Instructions
 
+⚠️ **Work Environment**
+
+On university computers, work inside the folder:  
+`C:\Users\Public\` or `C:\Users\Public\Documents`  
+*(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)*
+
+📦 **Required Software**
+
+* ArcGIS – Required ✅  
+* Google Earth – Optional (depending on the task) ✅
+
+---
+
+!!!danger 
+    **File Naming Rules**
+
+    ❌ **Incorrect:**  
+
+    Giorgi Kapanadze.Group/1$ work1  
+
+    ❌ Do not use:
+
+    - Georgian characters (ა, ბ, გ, დ, etc.)  
+    - Special symbols (other than an underscore `_`)
+
+    ✅ **Correct:**
+
+    Giorgi_Kapanadze_Group_4_work_1  
+
+!!!tip
+    Use only Latin letters, numbers, and underscores (`_`) for:  
+    Archive names, folder and file names, and table column names.
+
+---
+
+## 📘 Step-by-Step Guide
+
+!!!note
+    You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 
 === "Steps for assignement"
@@ -11,7 +51,15 @@ Coverages, Geodatabase)
 
     archive, GPS_coordinates, lyr, Project, Raster, shp
 
-
+``` mermaid
+graph LR
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{GPS_coordinates};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Raster};
+  E -->|Without georeference| C[GeoTaggedphoto];
+```
 
 
     * Import GPS coordinates as a shapefile. <br>

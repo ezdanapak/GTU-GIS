@@ -17,6 +17,13 @@ On university computers, work inside the folder:
 
 ---
 
+!!!warning
+    Do not delete completed work until the end of the semester.
+
+
+
+---
+
 !!!danger 
     **File Naming Rules**
 

@@ -13,6 +13,13 @@ On university computers, work inside the folder:
 * ArcGIS – Required ✅  
 * Google Earth – Optional (depending on the task) ✅  
 
+---
+
+!!!warning
+    Do not delete completed work until the end of the semester.
+    
+---
+
 !!!danger 
     **File Naming Rules**
 

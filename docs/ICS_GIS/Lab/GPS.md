@@ -62,9 +62,9 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{archive};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{GPS_coordinates};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Raster};
-  E -->|Without georeference| C[GeoTaggedphoto];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Raster};
+  F --> J[GeoTaggedphoto];
 ```
 
 

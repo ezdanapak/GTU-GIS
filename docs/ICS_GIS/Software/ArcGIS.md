@@ -12,7 +12,7 @@
 
 ## After instalation 
 
- - Check System Regional Format
+- **Check System Regional Format**
     Click the Windows Start button > search for Control Panel > go to All Control Panel Items > Region.
 
-    Set the Format to English (United States) — do not change any other settings!
+- Set the Format to English (United States) — do not change any other settings!

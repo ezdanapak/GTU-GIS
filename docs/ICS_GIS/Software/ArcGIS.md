@@ -16,3 +16,5 @@
     Click the Windows Start button > search for Control Panel > go to All Control Panel Items > Region.
 
 - Set the Format to English (United States) — do not change any other settings!
+
+- Check video tutorial [here](https://youtu.be/4MH_V-k0LTk) 

@@ -1,4 +1,4 @@
-Importing data from text file. Projecting and reprojecting data. Data file Structure (Shapefile,
+# Importing data from text file. Projecting and reprojecting data. Data file Structure (Shapefile,
 Coverages, Geodatabase) 
 
 ---
@@ -50,17 +50,17 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 
-=== "Steps for assignement"
+=== "Step I: Folder Setup"
 * Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
 * Download the data from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/GPS_AND_Photo.zip?forcedownload=1)
     
 * Create necessary folders for the project from the starting point, or add more as needed during the workflow. Follow the file naming rules provided above. <br>
-    - archive, 
-    - GPS_coordinates, 
-    - lyr, 
-    - Project, 
-    - Raster, 
-    - shp,
+    - archive
+    - GPS_coordinates 
+    - lyr
+    - Project 
+    - Raster 
+    - shp
 
 ``` mermaid
 graph LR
@@ -72,7 +72,12 @@ graph LR
   F --> J[GeoTaggedphoto];
 ```
 
+Connect ArcGIS (from ArcCatalog) to this main folder.
 
+---
+
+
+=== "Step II: Doing imports"
 * Import GPS coordinates as a shapefile. <br>
 * Import geotagged photos as a shapefile. <br>
 * Create hyperlinks on the photos layer and display photos as pop-ups. <br>

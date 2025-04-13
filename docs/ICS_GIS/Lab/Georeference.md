@@ -1,5 +1,6 @@
 # Georeferencing & Digitizing. The Array. Saving Space: Run-Length Encoding and Quadtrees
 
+---
 ## Assignment Instructions
 
 ⚠️ **Work Environment**
@@ -76,7 +77,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 ---
 
 === "Step III: Final Checks & Submission"
-* After georeferencing, verify the map location using any available method. 🌍
+* After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍
 * Ensure that the map correctly aligns with the target area. 🗺
 * Compress (zip) your folder (named after your first and last name). 💾
 * Use formats like `.rar` or `.zip`.

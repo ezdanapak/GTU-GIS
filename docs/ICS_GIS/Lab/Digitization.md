@@ -77,7 +77,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 * Properly saving digitalized data in layers.
 
-## 6. Organizing Layers & Saving the Project
+## Organizing Layers & Saving the Project
 
 * Structuring layers within the project.
 

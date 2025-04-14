@@ -115,7 +115,7 @@ nav:
       - Topic 2: './ICS_GIS/Theory/Topic_2.md'
       - Georeferencing: './ICS_GIS/Theory/Georeferencing.md'
     - Labs:
-      - Lab 1: './ICS_GIS/Lab/Lab_1.md'
+      - Digitization: './ICS_GIS/Lab/Digitization.md'
       - GPS: './ICS_GIS/Lab/GPS.md'
       - Lab 3: './ICS_GIS/Lab/Lab_3.md'
       - Lab 4: './ICS_GIS/Lab/Lab_4.md'

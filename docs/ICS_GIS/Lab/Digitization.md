@@ -77,8 +77,6 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 * Properly saving digitalized data in layers.
 
-## Organizing Layers & Saving the Project
-
 * Structuring layers within the project.
 
 * Properly saving the project file. Name it "Digitalization_project". Save another mxd file for old versions "Digitalization_project10.0v".

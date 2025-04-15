@@ -13,6 +13,11 @@ Check the link: > [Satellite navigation](https://en.wikipedia.org/wiki/Satellite
 ## About Geographic coordinate systems
 Check the link: > Geographic coordinate [systems](https://desktop.arcgis.com/en/arcmap/latest/map/projections/about-geographic-coordinate-systems.htm)
 
+
+## Geoid, ellipsoid, spheroid, and datum
+How they are [related](https://desktop.arcgis.com/en/arcmap/latest/map/projections/about-the-geoid-ellipsoid-spheroid-and-datum-and-h.htm)
+
+
 ---
 
 Fundamentals of Applied [Cartography](https://elearning.gtu.ge/pluginfile.php/569096/mod_book/intro/Fundamentals_of_applied_cartography.zip) <br>

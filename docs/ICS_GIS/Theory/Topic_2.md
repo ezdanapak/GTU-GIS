@@ -18,6 +18,8 @@ Check link > [Shapefile](https://en.wikipedia.org/wiki/Shapefile)
 
 * How to change an existing projection.
 
+* Identifying an unknown coordinate [system](https://desktop.arcgis.com/en/arcmap/latest/map/projections/identifying-an-unknown-coordinate-system.htm)
+
 
 ## 7. Absolute vs Relative Data Sources
 * Understanding the concept of absolute and relative data sources.

@@ -113,6 +113,8 @@ nav:
     - Theory:
       - Topic 1: './ICS_GIS/Theory/Topic_1.md'
       - Topic 2: './ICS_GIS/Theory/Topic_2.md'
+      - Map composition: './ICS_GIS/Theory/Map_composition.md'
+
       - Georeferencing: './ICS_GIS/Theory/Georeferencing.md'
     - Labs:
       - Digitization: './ICS_GIS/Lab/Digitization.md'

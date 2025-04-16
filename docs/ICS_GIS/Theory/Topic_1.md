@@ -164,7 +164,7 @@ Heights in this system are orthometric, meaning they represent the vertical dist
 
 GPS receivers typically measure ellipsoidal heights, so a geoid model is required to convert GPS data into the national height system.
 
-In GIS software like QGIS or ArcGIS, when working with elevation data (e.g., DEMs), heights should be based on the national system to ensure accuracy.
+In GIS software like ArcGIS, when working with elevation data (e.g., DEMs), heights should be based on the national system to ensure accuracy.
 
 ---
 

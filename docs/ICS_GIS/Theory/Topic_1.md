@@ -36,7 +36,7 @@ Chapter 2 - Topics in Mathematical Cartography: <br>
 
 ## Coordinate Systems Used in Georgia
 
-EPSG:4326
+- WGS 84 [EPSG:4326](https://epsg.io/4326)
 This is one of the most commonly used EPSG codes, referring to the WGS 84 ellipsoid, which is used in GPS systems and other global spatial datasets.
 
 New Rectangular System <br>
@@ -45,16 +45,16 @@ Ellipsoid: WGS 84 <br>
 Projection: UTM
 
 
-- WGS 84 / UTM zone 38N	EPSG:32638
-- WGS 84 / UTM zone 37N	EPSG:32637
-- WGS 84 / Pseudo-Mercator
+- WGS 84 / UTM zone 38N	[EPSG:32638](https://epsg.io/32638)
+- WGS 84 / UTM zone 37N	[EPSG:32637](https://epsg.io/32637)
+
 
 ---
 
 Also known as Spherical Mercator, this projection is used in Google Maps, OpenStreetMap, Bing, ArcGIS, and ESRI products.
 
 EPSG:3857 (Web Mercator) – Frequently used in web mapping applications.
-
+- WGS 84 / Pseudo-Mercator [EPSG:3857](https://epsg.io/3857)
 ---
 
 Old Rectangular System <br>
@@ -64,9 +64,10 @@ Ellipsoid: Pulkovo 1942
 Projection: Gauss-Kruger
 
 
-- Pulkovo 1942 / Gauss-Kruger zone 8	EPSG:28408
-- Pulkovo 1942 / Gauss-Kruger zone 7	EPSG:28407
-
+- Pulkovo 1942 / Gauss-Kruger zone 8	[EPSG:28408](https://epsg.io/28408)
+- Pulkovo 1942 / Gauss-Kruger zone 8N	[EPSG:28468](https://epsg.io/28468)
+- Pulkovo 1942 / Gauss-Kruger zone 7	[EPSG:28407](https://epsg.io/28407)
+- Pulkovo 1942 / Gauss-Kruger zone 7N	[EPSG:28467](https://epsg.io/28467)
 
 ## 🔍 What Is an EPSG Code?
 

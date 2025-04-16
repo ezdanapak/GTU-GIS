@@ -862,6 +862,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#national-height-system-of-georgia" class="md-nav__link">
+    <span class="md-ellipsis">
+      National Height System of Georgia
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1569,6 +1578,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#national-height-system-of-georgia" class="md-nav__link">
+    <span class="md-ellipsis">
+      National Height System of Georgia
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1665,6 +1683,38 @@ Using the correct EPSG code ensures:</p>
 <p>Accurate spatial alignment between datasets</p>
 <p>Correct distance, area, and coordinate measurements</p>
 <p>Compatibility between GIS software and data layers</p>
+<h2 id="national-height-system-of-georgia">National Height System of Georgia</h2>
+<p>🇬🇪 National Height System of Georgia
+📌 What is the National Height System?
+The National Height System of Georgia is a standardized vertical reference framework used to measure and represent elevations (heights) across the territory of Georgia. It is essential for accurate and consistent geospatial, engineering, and construction data.</p>
+<hr />
+<p>🧭 Reference Level
+The system is based on the Baltic Sea Mean Level, specifically the Kronstadt Zero (Кронштадтский ноль), which serves as the zero elevation point.</p>
+<p>All elevation data in Georgia is measured relative to this level, known as orthometric height.</p>
+<hr />
+<p>🏗️ Why is it important?
+National Consistency</p>
+<p>Ensures all elevation measurements across Georgia follow the same standard.</p>
+<p>Enables the integration of data from different regions without mismatches.</p>
+<p>Infrastructure and Construction</p>
+<p>Used in the design and planning of roads, railways, bridges, dams, and pipelines.</p>
+<p>Prevents elevation-related errors in engineering projects.</p>
+<p>GIS and Mapping</p>
+<p>Supports accurate digital elevation models (DEMs), contour lines, flood modeling, and terrain analysis.</p>
+<p>Used in combination with horizontal coordinate systems (like UTM or WGS 84).</p>
+<p>Hydrology and Environment</p>
+<p>Critical for modeling water flow, managing watersheds, and conducting flood risk assessments.</p>
+<hr />
+<p>📐 How is it used?
+Heights in this system are orthometric, meaning they represent the vertical distance from the geoid (approximate sea level).</p>
+<p>GPS receivers typically measure ellipsoidal heights, so a geoid model is required to convert GPS data into the national height system.</p>
+<p>In GIS software like QGIS or ArcGIS, when working with elevation data (e.g., DEMs), heights should be based on the national system to ensure accuracy.</p>
+<hr />
+<p>🔧 Example Usage
+In ArcGIS:</p>
+<p>Load a DEM that uses the Georgian height system (e.g., derived from official topographic surveys).</p>
+<p>Assign a projected CRS such as UTM Zone 38N (EPSG:32638).</p>
+<p>Ensure the vertical units are in meters above the Baltic Sea Mean Level (orthometric).</p>
 
 
 

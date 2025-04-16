@@ -116,3 +116,64 @@ Accurate spatial alignment between datasets
 Correct distance, area, and coordinate measurements
 
 Compatibility between GIS software and data layers
+
+
+
+## National Height System of Georgia
+
+🇬🇪 National Height System of Georgia
+📌 What is the National Height System?
+The National Height System of Georgia is a standardized vertical reference framework used to measure and represent elevations (heights) across the territory of Georgia. It is essential for accurate and consistent geospatial, engineering, and construction data.
+
+---
+
+🧭 Reference Level
+The system is based on the Baltic Sea Mean Level, specifically the Kronstadt Zero (Кронштадтский ноль), which serves as the zero elevation point.
+
+All elevation data in Georgia is measured relative to this level, known as orthometric height.
+
+---
+
+🏗️ Why is it important?
+National Consistency
+
+Ensures all elevation measurements across Georgia follow the same standard.
+
+Enables the integration of data from different regions without mismatches.
+
+Infrastructure and Construction
+
+Used in the design and planning of roads, railways, bridges, dams, and pipelines.
+
+Prevents elevation-related errors in engineering projects.
+
+GIS and Mapping
+
+Supports accurate digital elevation models (DEMs), contour lines, flood modeling, and terrain analysis.
+
+Used in combination with horizontal coordinate systems (like UTM or WGS 84).
+
+Hydrology and Environment
+
+Critical for modeling water flow, managing watersheds, and conducting flood risk assessments.
+
+---
+
+📐 How is it used?
+Heights in this system are orthometric, meaning they represent the vertical distance from the geoid (approximate sea level).
+
+GPS receivers typically measure ellipsoidal heights, so a geoid model is required to convert GPS data into the national height system.
+
+In GIS software like QGIS or ArcGIS, when working with elevation data (e.g., DEMs), heights should be based on the national system to ensure accuracy.
+
+---
+
+🔧 Example Usage
+In ArcGIS:
+
+Load a DEM that uses the Georgian height system (e.g., derived from official topographic surveys).
+
+Assign a projected CRS such as UTM Zone 38N (EPSG:32638).
+
+Ensure the vertical units are in meters above the Baltic Sea Mean Level (orthometric).
+

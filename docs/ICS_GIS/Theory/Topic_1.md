@@ -69,6 +69,19 @@ Projection: Gauss-Kruger
 - Pulkovo 1942 / Gauss-Kruger zone 7	[EPSG:28407](https://epsg.io/28407)
 - Pulkovo 1942 / Gauss-Kruger zone 7N	[EPSG:28467](https://epsg.io/28467)
 
+
+###  Vertical Coordinate Reference System
+
+
+EGM96 height
+Properties
+Units: meters
+Static (relies on a datum which is plate-fixed)
+Celestial body: Earth
+
+[EPSG:5773](https://epsg.io/5773)
+
+
 ## 🔍 What Is an EPSG Code?
 
 An EPSG code is a unique identifier assigned to a coordinate reference system (CRS) by the EPSG Geodetic Parameter Dataset, maintained by the International Association of Oil & Gas Producers (IOGP).

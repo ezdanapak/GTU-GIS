@@ -106,6 +106,8 @@ nav:
       - Another staff: './ICS_GIS/Another_staff.md'
       - Presentations: './ICS_GIS/Presentations.md'
       - Copyright: './ICS_GIS/Copyright_Disclaimer.md'
+      - Mid-semester exam: './ICS_GIS/Mid_semester_exam.md'
+      
 
     - Software Tools:
       - ArcGIS: './ICS_GIS/Software/ArcGIS.md'

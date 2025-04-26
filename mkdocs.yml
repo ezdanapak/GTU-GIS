@@ -124,7 +124,7 @@ nav:
       - GPS: './ICS_GIS/Lab/GPS.md'
       - Lab 3: './ICS_GIS/Lab/Lab_3.md'
       - Lab 4: './ICS_GIS/Lab/Lab_4.md'
-      - Lab 5: './ICS_GIS/Lab/Lab_5.md'
+      - Geodatabase: './ICS_GIS/Lab/Geodatabase.md'
       - Lab 6: './ICS_GIS/Lab/Lab_6.md'
       - Lab 7: './ICS_GIS/Lab/Lab_7.md'
       - Georeference : './ICS_GIS/Lab/Georeference.md'

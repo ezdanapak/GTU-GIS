@@ -122,7 +122,7 @@ nav:
     - Labs:
       - Digitization: './ICS_GIS/Lab/Digitization.md'
       - GPS: './ICS_GIS/Lab/GPS.md'
-      - Lab 3: './ICS_GIS/Lab/Lab_3.md'
+      - Topology: './ICS_GIS/Lab/Topology.md'
       - Lab 4: './ICS_GIS/Lab/Lab_4.md'
       - Geodatabase: './ICS_GIS/Lab/Geodatabase.md'
       - Lab 6: './ICS_GIS/Lab/Lab_6.md'

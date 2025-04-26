@@ -68,10 +68,35 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 ---
 
 === "Step II: Create shapefiles"
+
+**Additional info**
+
+* Digitization of the Tbilisi Municipality is       prohibited. Please select a different city or village.
+After selecting a village or city, please specify the zone if you are located exactly on the border and are unsure which to choose:
+
+    If the majority of the objects you intend to containerize fall within Zone 37, please select 37.
+
+    If the majority of the objects you intend to containerize fall within Zone 38, please select 38.
+
+    If the location is in the middle and the number of objects is evenly distributed, please select 38.
+
+    Priority should be given to Zone 38.
+
+**Base info**
+
 * Assigning accurate layer names and save in an appropriate folder. Template of layers provided here:
     - Point Geometry: Home, schools, stations, buildings, stadiums
     - Line Geometry: Rivers, railways, roads, ropeways
     - Polygon Geometry: Parcels, homes, buildings, stadiums, forests
+
+
+
+* Each layer must contain a minimum of 10 objects, there is no restriction on the maximum number.
+If a particular layer has insufficient data, please proceed to another layer and complete it instead.
+
+* There are no strict limitations on color or shape for symbolization—feel free to style them as you see fit.
+However, representing a forest in blue or a river in green would be considered somewhat inappropriate.
+
 
 * Selecting the correct UTM zone for your data.
 

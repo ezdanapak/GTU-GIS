@@ -1612,52 +1612,52 @@ Archive names, folder and file names, and table column names.</p>
 </li>
 </ul>
 <p><strong>For roads:</strong>
-- Create a column named <code>"name"</code> in which you will enter values like <code>"E117"</code> or <code>"S3"</code> for highways, or <code>"300 Aragveli Street"</code> for street names.
-- Create a column named <code>"length_m"</code> where you will calculate the length of each feature in meters using the UTM zone.
-- Create a column named <code>"length_km"</code> where you will calculate the length in kilometers using the UTM zone.</p>
+- Create a column named <code>"name"</code> in which you will enter values like <code>"E117"</code> or <code>"S3"</code> for highways, or <code>"300 Aragveli Street"</code> for street names. <br>
+- Create a column named <code>"length_m"</code> where you will calculate the length of each feature in meters using the UTM zone. <br>
+- Create a column named <code>"length_km"</code> where you will calculate the length in kilometers using the UTM zone. <br></p>
 <p><strong>For rivers:</strong>
-- Create a column named <code>"name"</code> where you will enter names such as <code>"Mtiuletis Aragvi"</code> or <code>"Gudamakris Aragvi"</code>. If the river has no name, write <code>"without name"</code>.
-- Create a column named <code>"length_m"</code> to calculate the length in meters using the UTM zone.
-- Create a column named <code>"length_km"</code> to calculate the length in kilometers using the UTM zone.</p>
+- Create a column named <code>"name"</code> where you will enter names such as <code>"Mtiuletis Aragvi"</code> or <code>"Gudamakris Aragvi"</code>. If the river has no name, write <code>"without name"</code>. <br>
+- Create a column named <code>"length_m"</code> to calculate the length in meters using the UTM zone. <br>
+- Create a column named <code>"length_km"</code> to calculate the length in kilometers using the UTM zone. <br></p>
 <p><strong>For bridges:</strong>
-- Create a new column <code>"type"</code> where you will enter the category of the bridge: <code>"Pedestrian"</code>, <code>"Vehicle"</code>, or <code>"Combined"</code>.</p>
+- Create a new column <code>"type"</code> where you will enter the category of the bridge: <code>"Pedestrian"</code>, <code>"Vehicle"</code>, or <code>"Combined"</code>. <br></p>
 <p><strong>For parcels:</strong>
-- Create a owner columns named <code>"name"</code> <code>"surname"</code> <code>"identity"</code> <code>"personal_id"</code>  in which you will enter შესაბამისი values
-- Create a column named <code>"area_sqm"</code> to calculate the length in meters using the UTM zone.
-- Create a column named <code>"area_sqkm"</code> to calculate the length in kilometers using the UTM zone.
-- Create a column named <code>"periemter_m"</code> to calculate the length in meters using the UTM zone.
-- Create a column named <code>"perimeter_km"</code> to calculate the length in kilometers using the UTM zone.</p>
+- Create owner columns named <code>"name"</code>, <code>"surname"</code>, <code>"identity"</code>, and <code>"personal_id"</code> where you will enter the appropriate values.  <br>
+- Create a column named <code>"area_sqm"</code> to calculate the length in meters using the UTM zone. <br>
+- Create a column named <code>"area_sqkm"</code> to calculate the length in kilometers using the UTM zone. <br>
+- Create a column named <code>"periemter_m"</code> to calculate the length in meters using the UTM zone. <br>
+- Create a column named <code>"perimeter_km"</code> to calculate the length in kilometers using the UTM zone. <br></p>
 <p><strong>For restaurants, hotels, and stadiums:</strong>
-- Create a column named <code>"name"</code> where you will enter their respective names.</p>
+- Create a column named <code>"name"</code> where you will enter their respective names. <br></p>
 <p><strong>Additional info</strong></p>
 <blockquote>
-<p><strong>Note:</strong> Not all feature types can be listed individually in these instructions.<br />
-Please process each layer according to its geometry type:</p>
+<p><strong>Note:</strong> Not all feature types can be listed individually in these instructions.   <br>
+Please process each layer according to its geometry type: <br></p>
 </blockquote>
 <ul>
 <li>
 <p><strong>Point features</strong>:<br />
-  Add fields to store <strong>X and Y coordinates</strong> (in your projected coordinate system).</p>
+  Add fields to store <strong>X and Y coordinates</strong> (in your projected coordinate system). <br></p>
 </li>
 <li>
 <p><strong>Line features</strong>:<br />
   Add fields to calculate <strong>length</strong>:</p>
 </li>
-<li><code>"Length_m"</code> — length in meters using the UTM zone.</li>
+<li><code>"Length_m"</code> — length in meters using the UTM zone. <br></li>
 <li>
-<p><code>"Length_km"</code> — length in kilometers using the UTM zone.</p>
+<p><code>"Length_km"</code> — length in kilometers using the UTM zone. <br></p>
 </li>
 <li>
 <p><strong>Polygon features</strong>:<br />
-  Add fields to calculate <strong>area and perimeter</strong>:</p>
+  Add fields to calculate <strong>area and perimeter</strong>: <br></p>
 </li>
-<li><code>"Area_sqm"</code> — area in square meters using the UTM zone.</li>
-<li><code>"Area_ha"</code> — area in hectares.</li>
+<li><code>"Area_sqm"</code> — area in square meters using the UTM zone. <br></li>
+<li><code>"Area_ha"</code> — area in hectares. <br></li>
 <li>
-<p><code>"Perimeter_m"</code> — perimeter in meters.</p>
+<p><code>"Perimeter_m"</code> — perimeter in meters. <br></p>
 </li>
 <li>
-<p>If any information is unavailable for a feature, leave the cell empty.*</p>
+<p>If any information is unavailable for a feature, leave the cell empty.* <br></p>
 </li>
 </ul>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Step III: Symbolization</label></div>

@@ -7,6 +7,8 @@ Overview of geospatial database formats:
 
 * Introduction to DBMS (Database Management Systems)
 
+
+მონაცემების პირველწყაროების მცნება და გასწორება
 ---
 
 2. Data management

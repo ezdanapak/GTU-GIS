@@ -135,6 +135,8 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 * Save the style files for each dataset in the designated folder.
 
+* Compact Geodatabase 
+
 * Properly saving the another project file. Name it "Geodatabase_project". Save another mxd file for old versions "Geodatabase_project10.0v".
 
 

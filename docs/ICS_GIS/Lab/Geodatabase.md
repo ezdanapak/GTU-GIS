@@ -50,11 +50,12 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* საჭიროა წინა დავალების დიგიტიზაციის გადმოკოპირება
-https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Digitization/
+* We are using a **digitizing [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Digitization/)** as part of this exercise.
+
 
 * Inside it, create the following subfolders:  
-  - Geodatabase  
+  - Geodatabase
+  - Style  
 
 ``` mermaid
 graph LR

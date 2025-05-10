@@ -72,11 +72,13 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 === "Step II: Adding the Database"
 
-
+* Open "Digitalization_project.mxd" project from folder and save copy of it "Geodatabase_project". Also save another mxd file for old versions "Geodatabase_project10.0v".
 
 * Create a new File Geodatabase (.gdb extension) in the designated folder, also Style folder.
 
 * Create a feature dataset, import spatial data from the shapefiles located in the `shp` folder, and group them accordingly.
+
+* Correct layer Sources from shapefile to geodatabase feature class. 
 
 * Open your existing project and replace the shapefiles with feature classes stored in the geodatabase.
 
@@ -138,7 +140,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 * Compact Geodatabase 
 
-* Properly saving the another project file. Name it "Geodatabase_project". Save another mxd file for old versions "Geodatabase_project10.0v".
+* Click save project button again and close project
 
 
 === "Step IV: Final Checks & Submission"

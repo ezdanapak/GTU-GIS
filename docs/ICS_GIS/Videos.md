@@ -10,3 +10,5 @@ GPS Coordinates & [Geotaggedphoto](https://www.youtube.com/)[s](https://youtu.be
 
 Digitization - [practical tas](https://www.youtube.com/)[k](https://youtu.be/-fVuyJ_n0wM) <br>
 
+Geodatabase - [practical tas](https://www.youtube.com/)[k](https://youtu.be/XAuXu3Jr1uE) <br>
+

@@ -1,1 +1,4 @@
-GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.\giorgi
+GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.
+
+
+ჰიდროლოგია ჩასაშვებია

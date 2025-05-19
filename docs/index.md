@@ -5,9 +5,9 @@ Welcome to the official website for the **Georgian Technical University (GTU) GI
 ## What We Offer
 
 ### 🌍 **GIS Courses in Various Faculties**
-We offer GIS courses across several faculties, including:
-- **Faculty of Informatics and Control Systems | ICS_GIS** 
-- **Geo-Information Systems Center for Sustainable Development | GISCSD**
+We offer GIS courses across several faculties, including: <Br>
+- **Faculty of Informatics and Control Systems | ICS_GIS**  <Br>
+- **Geo-Information Systems Center for Sustainable Development | GISCSD** <Br>
 
 
 ### 🎓 **GIS Software and Tools**

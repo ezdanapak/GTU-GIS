@@ -6,10 +6,9 @@ Welcome to the official website for the **Georgian Technical University (GTU) GI
 
 ### 🌍 **GIS Courses in Various Faculties**
 We offer GIS courses across several faculties, including:
-- **Faculty of Informatics and Control Systems**
-- **Faculty of Architecture**
-- **Faculty of Engineering**
-- **Faculty of Geography**
+- **Faculty of Informatics and Control Systems | ICS_GIS** 
+- **Geo-Information Systems Center for Sustainable Development | GISCSD**
+
 
 ### 🎓 **GIS Software and Tools**
 Our students are equipped with the latest tools in GIS technology, including: <Br>
@@ -56,6 +55,15 @@ For more information about our GIS programs, courses, or student activities, fee
 - **Phone**: +995 579320618
 - **Github**: [repo](https://ezdanapak.github.io/GTU-GIS/)
 Stay connected and explore the world of GIS at **GTU**!
+
+---
+
+## 📱 Mobile Apps
+
+You can use the app on both Android and iOS:
+
+- [Download for Android](https://median.co/share/neydmb#androidphone)
+- [Build for iOS (instructions)](https://median.co/share/neydmb#iphone)
 
 ---
 

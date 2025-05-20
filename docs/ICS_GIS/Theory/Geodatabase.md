@@ -7,6 +7,8 @@ Overview of geospatial database formats:
 
 * Introduction to DBMS (Database Management Systems)
 
+https://proceedings.esri.com/library/userconf/proc17/tech-workshops/tw_2585-349.pdf
+
 
 მონაცემების პირველწყაროების მცნება და გასწორება
 ---

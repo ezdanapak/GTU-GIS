@@ -29,3 +29,5 @@ Editing GIS Features [Tutorial](https://elearning.gtu.ge/mod/resource/view.php?i
 Using_ArcGIS [Desktop](https://elearning.gtu.ge/mod/resource/view.php?id=404292) <br>
 Projected Coordinate System [Tables](https://elearning.gtu.ge/mod/resource/view.php?id=404293) <br>
 Using Google Earth [Pro](https://elearning.gtu.ge/mod/resource/view.php?id=404296) <br>
+
+Understanding and Working with the OGC [Geopackage](https://proceedings.esri.com/library/userconf/proc17/tech-workshops/tw_2585-349.pdf) <br>

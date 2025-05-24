@@ -76,12 +76,13 @@ In new dataset import spatial data for validation and correction. <br>
 
 * Building Project (with Necessary Folders) and Naming Convention:
 
-Project Name: My_project
-Folders:
-shp
-project
-Geodatabase
-Topology rules
+``` mermaid
+graph LR
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Topology_rules};
+```
 
 * Properly saving the project file. Name it "Topology_project". Save another mxd file for old versions "Topology_project10.0v".
 

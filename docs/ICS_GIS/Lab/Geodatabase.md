@@ -50,20 +50,25 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **digitizing [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Digitization/)** as part of this exercise.
-
-
-* Inside it, create the following subfolders:  
-  - Geodatabase
-  - Style  
+* We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Hydrology/)** as part of this exercise.
+* Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
+* დასაკორექტირებელია Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/)
+* Add inside project additional necessary folders:
+  - Inside Raster folder add subfolders DEM, Terrain
+  - გარეთ სხვა საქაღალდე თუ საჭირო იქნება ჩავამატებთ
 
 ``` mermaid
 graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Geodatabase};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{Topology_rules};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Raster};
+  I -->|დასაკორექტირებელია| J[DEM];
+  I -->|For slope, Aspect, Hillshade| K[Terrain];
 ```
 
 Connect ArcGIS (from ArcCatalog) to this main folder.

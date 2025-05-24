@@ -56,7 +56,21 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* Download shapefiles from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/chiatura_OSM_topology.zip?forcedownload=1)
+* We are using a **Geodatabase [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Geodatabase/)** as part of this exercise.
+* Also download shapefiles from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/chiatura_OSM_topology.zip?forcedownload=1)
+
+* Add inside project additional necessary folders:
+
+``` mermaid
+graph LR
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Topology_rules};
+```
+
+
+
 * Create new geodatabase "mynewgeodatabase" and create inside dataset, name it "topology".
 * Create Topology and some base rules as you need:
     - polygon Must not have gaps
@@ -74,15 +88,7 @@ In new dataset import spatial data for validation and correction. <br>
     Correct errors as needed. <br>
     Correct errors as needed. <br>
 
-* Building Project (with Necessary Folders) and Naming Convention:
 
-``` mermaid
-graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Topology_rules};
-```
 
 * Properly saving the project file. Name it "Topology_project". Save another mxd file for old versions "Topology_project10.0v".
 

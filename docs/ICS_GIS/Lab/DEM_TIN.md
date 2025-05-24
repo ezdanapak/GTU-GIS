@@ -70,6 +70,7 @@ graph LR
   I -->|დასაკორექტირებელია| J[DEM];
   I -->|For slope, Aspect, Hillshade| K[Terrain];
 
+```
 Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---

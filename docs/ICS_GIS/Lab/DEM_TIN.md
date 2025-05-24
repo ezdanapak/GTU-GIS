@@ -77,22 +77,19 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 დასაკორექტირებელია
 
-Creating a DEM Raster from Shapefile Data
-
-* Generate a DEM raster from the provided shapefile data. 
-* Convert the DEM to a TIN model.
+* Extract shapefile from archive. 
+* From Isolines create DEM. 
+* გადასამოწმებელია და დასაკორექტირებელი Convert the DEM to a TIN model.
 * Import and visualize the 3D DEM in ArcScene.
-* Generating and Labeling Isolines from Another DEM File
+* Generating isolines from DEM File with Contour interval 100 and Base contour 100.
+- Create new dataset in Geodatabase and name it "terrain".
+- Save created isolines in new terrain dataset.
+* Display isoline values from attribute table field "Contour" as labels.
 
-* Derive isolines (contour lines) from the specified DEM file.
-* Display isoline values as labels.
-* Save as project files .mxd .sxd
---------------------------------------
-
-* Clip the raster (found in the DEM_GEO.rar archive) with the municipality frames from the linked geodatabase (Georgia.gdb.rar). <br>
-* Generate isolines from the clipped raster data, categorize them, and add labels. The isolines must be saved as a shapefile (isolines.shp). <br>
+---
 * Create hillshade, slope, and aspect maps in .tif format from the clipped raster data. <br>
-* Store the raster data in a new geodatabase by importing it from the workspace. <br>
+- Save them in Raster folder inside "terrain"
+* Store the DEM raster data in a geodatabase by importing it from the workspace. <br>
 * Change the data source from .tif to geodatabase grid format.  --- List the data sources. <br>
 * Properly saving the project file of ArcMap. Name it "DEM_TIN". Save another mxd file for old versions "DEM_TIN_10.0v".
 * Properly saving the project file of ArcScene. Name it "DEM_TIN". Save another sxd file for old versions "DEM_TIN_10.0v".

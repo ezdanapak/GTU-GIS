@@ -50,105 +50,49 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Hydrology/)** as part of this exercise.
-* Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
-* დასაკორექტირებელია Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/)
-* Add inside project additional necessary folders:
-  - Inside Raster folder add subfolders DEM, Terrain
-  - გარეთ სხვა საქაღალდე თუ საჭირო იქნება ჩავამატებთ
+* Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
+* Create a folder using your first and last name. Follow the file naming rules provided above.
+* Inside it, create the following subfolders:  
+  - Project  
+  - lyr 
+  - shp  
 
 ``` mermaid
 graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Archive};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{lyr};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Geodatabase};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Style};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{Topology_rules};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Raster};
-  I -->|დასაკორექტირებელია| J[DEM];
-  I -->|For slope, Aspect, Hillshade| K[Terrain];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
 ```
 
 Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---
 
-=== "Step II: Adding the Database"
+=== "Step II: Create shapefiles"
 
-* Open "Digitalization_project.mxd" project from folder and save copy of it "Geodatabase_project". Also save another mxd file for old versions "Geodatabase_project10.0v".
+**Additional info**
 
-* Create a new File Geodatabase (.gdb extension) in the designated folder, also Style folder.
+* Digitization of the Tbilisi Municipality is       prohibited. Please select a different city or village.
 
-* Create a feature dataset, import spatial data from the shapefiles located in the `shp` folder, and group them accordingly.
+*შესაძლებელია წინა დავალების (
+IV - ვექტორული ფენებით რასტრის დიგიტალიზაცია
 
-* Correct layer Sources from shapefile to geodatabase feature class. 
 
-* Open your existing project and replace the shapefiles with feature classes stored in the geodatabase.
-
-* Fill in additional information in the attribute table:
-
-**For roads:** <br>
-- Create a column named `"name"` in which you will enter values like `"E117"` or `"S3"` for highways, or `"300 Aragveli Street"` for street names. <br>
-- Create a column named `"length_m"` where you will calculate the length of each feature in meters using the UTM zone. <br>
-- Create a column named `"length_km"` where you will calculate the length in kilometers using the UTM zone. <br>
-
-**For rivers:** <br>
-- Create a column named `"name"` where you will enter names such as `"Mtiuletis Aragvi"` or `"Gudamakris Aragvi"`. If the river has no name, write `"without name"`. <br>
-- Create a column named `"length_m"` to calculate the length in meters using the UTM zone. <br>
-- Create a column named `"length_km"` to calculate the length in kilometers using the UTM zone. <br>
-
-**For bridges:** <br>
-- Create a new column `"type"` where you will enter the category of the bridge: `"Pedestrian"`, `"Vehicle"`, or `"Combined"`. <br>
-
-**For parcels:** <br>
-- Create owner columns named `"name"`, `"surname"`, `"identity"`, and `"personal_id"` where you will enter the appropriate values.  <br>
-- Create a column named `"area_sqm"` to calculate the length in meters using the UTM zone. <br>
-- Create a column named `"area_sqkm"` to calculate the length in kilometers using the UTM zone. <br>
-- Create a column named `"periemter_m"` to calculate the length in meters using the UTM zone. <br>
-- Create a column named `"perimeter_km"` to calculate the length in kilometers using the UTM zone. <br>
-
-**For restaurants, hotels, and stadiums:** <br>
-- Create a column named `"name"` where you will enter their respective names. <br>
-
-**Additional info** <br>
-
-> **Note:** Not all feature types can be listed individually in these instructions.   <br>
-> Please process each layer according to its geometry type: <br>
-
-- **Point features**:  <br>
-  Add fields to store **X and Y coordinates** (in your projected coordinate system). <br>
-
-- **Line features**:   <br>
-  Add fields to calculate **length**:
-  - `"Length_m"` — length in meters using the UTM zone. <br>
-  - `"Length_km"` — length in kilometers using the UTM zone. <br>
-
-- **Polygon features**:   <br>
-  Add fields to calculate **area and perimeter**: <br>
-  - `"Area_sqm"` — area in square meters using the UTM zone. <br>
-  - `"Area_ha"` — area in hectares. <br>
-  - `"Perimeter_m"` — perimeter in meters. <br>
-
-* If any information is unavailable for a feature, leave the cell empty.* <br>
+) გადმოკოპირება და დაშენება ზედ... 
+1. შევქმნათ საქაღალდე ჩვენი სახელით და გვარით.
+2. დავალების მიმდინარეობისას დავამატოთ შემდგომში შესაბამისი საქაღალდეები. (Geodatabase, Style, Shp და სხვა...)
+3. შევქმნათ Geodatabase საქაღალდეში ახალი გეომონაცემთა ბაზა GeoPackage ან SpatialLite, DB manager ის საშუალებით იმპორტით შემოვიტანოთ ბაზაში ჩვენს მიერ წინა დავალებაში((დიგიტალიზაცია)) შექმნილი შეიპფაილები.
+3. ის რაც პროექტში დამახსოვრებული იყო შეიპები უნდა ჩავანაცვლოთ ბაზის დაიმპორტებული Feature Class მონაცემებით.
+3.1 შეუვსეთ მათ შესაბამისი ინფორმაცია.
+მაგალითად,
+ამოხაზულ გზას შეუქმენით ახალი ველი ატრიბუტულ ცხრილში (ველის სახელი წინასწარ განსაზღვრული არ არის თუნდაც "saxelwodeba") რომელშიდაც ჩაიწერება მაგისტრალის შემთხვევაში "E117" ან "ს3", ქუჩის მნიშვნელობის შემთხვევაში "300 არაგველის ქუჩა" და ა.შ
+ამოხაზულ მდინარეს შეუქმენით ახალი ველი ატრიბუტულ ცხრილში (ველის სახელი წინასწარ განსაზღვრული არ არის თუნდაც "saxelwodeba") რომელშიდაც ჩაიწერება მისი სახელი, "მთიულეთის არაგვი", "გუდამაყრის არაგვი". თუ სახელი არ აქვს ვწერთ "უსახელო"
+ამოხაზულ ხიდებს შეუქმენით ახალი ველი ატრიბუტულ ცხრილში (ველის სახელი წინასწარ განსაზღვრული არ არის თუნდაც "tipi"), "საფეხმავლო", "სამანქანო", "კომბინირებული".
+რესტორნებს, სასტუმროებს შეუქმენით ახალი ველი ატრიბუტულ ცხრილში (ველის სახელი წინასწარ განსაზღვრული არ არის თუნდაც "saxelwodeba") რომელშიდაც ჩაიწერება მათი სახელები. სტადიონები ვისი სახელობისიც არის (თუ არადა ვტოვებთ ცარიელ ველს).
 
 
 
-=== "Step III: Symbolization"
-
-* Break down each dataset into categories based on names and attributes.
-
-* Assign appropriate labels to each object.
-
-* Save the style files for each dataset in the designated folder.
-
-* Compact Geodatabase 
-
-* Click save project button again and close project
-
-
-=== "Step IV: Final Checks & Submission"
+=== "Step III: Final Checks & Submission"
 
 * Compress (zip) your folder (named after your first and last name). 💾
 * Use formats like `.rar` or `.zip`.

@@ -94,8 +94,6 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 * Properly saving the project file of ArcMap. Name it "DEM_TIN". Save another mxd file for old versions "DEM_TIN_10.0v".
 * Properly saving the project file of ArcScene. Name it "DEM_TIN". Save another sxd file for old versions "DEM_TIN_10.0v".
 
-
-
 ---
 
 === "Step III: Final Checks & Submission"

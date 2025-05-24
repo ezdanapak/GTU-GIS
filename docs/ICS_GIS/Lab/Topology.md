@@ -56,9 +56,9 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* Download shapefiles from here
-* Create new geodatabase "mynewgeodatabase" and inside dataset, name it "shp_topology".
-* Create Topology and some base rules:
+* Download shapefiles from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/chiatura_OSM_topology.zip?forcedownload=1)
+* Create new geodatabase "mynewgeodatabase" and create inside dataset, name it "topology".
+* Create Topology and some base rules as you need:
     - polygon Must not have gaps
     - Must not overlap
     - line Must not self-overlap
@@ -68,13 +68,13 @@ On university computers, work inside the folder:
 
 
 
-in new dataset and import spatial data here. 
-* in the Geodatabase to Correct Digitized Spatial Data. <br>
+In new dataset import spatial data for validation and correction. <br>
     Define topology rules and save in a predefined folder. <br>
     Validate topology. <br>
     Correct errors as needed. <br>
+    Correct errors as needed. <br>
 
-Building Project (with Necessary Folders) and Naming Convention:
+* Building Project (with Necessary Folders) and Naming Convention:
 
 Project Name: My_project
 Folders:
@@ -83,6 +83,7 @@ project
 Geodatabase
 Topology rules
 
+* Properly saving the project file. Name it "Topology_project". Save another mxd file for old versions "Topology_project10.0v".
 
 
 === "Step III: Final Checks & Submission"

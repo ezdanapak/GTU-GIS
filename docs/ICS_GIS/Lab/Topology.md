@@ -66,12 +66,12 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Topology_rules};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Topology_rules};
 ```
 
-
-
-* Create new geodatabase "mynewgeodatabase" and create inside dataset, name it "topology".
+* Create inside existing geodatabase new dataset, name it "topology".
 * Create Topology and some base rules as you need:
     - polygon Must not have gaps
     - Must not overlap
@@ -82,14 +82,10 @@ graph LR
 
 
 
-In new dataset import spatial data for validation and correction. <br>
-    Define topology rules and save in a predefined folder. <br>
-    Validate topology. <br>
-    Correct errors as needed. <br>
-    Correct errors as needed. <br>
-
-
-
+* In new dataset import spatial data(shp that downloaded before) for validation and correction. <br>
+* Define topology rules and save them in a predefined folder. <br>
+* Validate topology. <br>
+* Correct errors as needed. <br>
 * Properly saving the project file. Name it "Topology_project". Save another mxd file for old versions "Topology_project10.0v".
 
 

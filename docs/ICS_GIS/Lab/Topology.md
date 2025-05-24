@@ -69,11 +69,10 @@ On university computers, work inside the folder:
 
 
 in new dataset and import spatial data here. 
-* in the Geodatabase to Correct Digitized Spatial Data
-
-Define topology rules and save in a predefined folder.
-Validate topology.
-Correct errors as needed.
+* in the Geodatabase to Correct Digitized Spatial Data. <br>
+    Define topology rules and save in a predefined folder. <br>
+    Validate topology. <br>
+    Correct errors as needed. <br>
 
 Building Project (with Necessary Folders) and Naming Convention:
 
@@ -85,3 +84,23 @@ Geodatabase
 Topology rules
 
 
+
+=== "Step III: Final Checks & Submission"
+
+* Compress (zip) your folder (named after your first and last name). 💾
+* Use formats like `.rar` or `.zip`.
+* Name the archive as:  
+  `FirstName_LastName_GroupNumber_Assignment_Number`
+
+* Send it to: giorgi.kapanadze@gtu.ge
+
+---
+
+!!!warning
+    If you experience any issues with the submission process, contact:  
+    giorgi.kapanadze@gtu.ge  
+    Or use any file transfer services.
+
+!!!info
+    📌 If anything is unclear, feel free to ask! 😊  
+    If something here was done incorrectly, I’ll correct it — or you can create a pull request. 

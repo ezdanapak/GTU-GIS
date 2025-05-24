@@ -57,9 +57,11 @@ On university computers, work inside the folder:
 
 === "Step I: Folder Setup"
 * We are using a **Geodatabase [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Geodatabase/)** as part of this exercise.
+* Rename main folder from geodatabase to topology. Example "Giorgi_Kapanadze_Group_4_work_5_topology" <br>
+* Correct sources if it needed. <br>
 * Also download shapefiles from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/chiatura_OSM_topology.zip?forcedownload=1)
-
 * Add inside project additional necessary folders:
+- Topology_rules
 
 ``` mermaid
 graph LR
@@ -83,6 +85,7 @@ graph LR
 
 
 * In new dataset import spatial data(shp that downloaded before) for validation and correction. <br>
+* Add them in project and group to avoid mistakes. <br>
 * Define topology rules and save them in a predefined folder. <br>
 * Validate topology. <br>
 * Correct errors as needed. <br>

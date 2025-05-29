@@ -50,12 +50,11 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Hydrology/)** as part of this exercise.
+* We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Topology/)** as part of this exercise.
 * Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
-* დასაკორექტირებელია Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/)
+* Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/)
 * Add inside project additional necessary folders:
-  - Inside Raster folder add subfolders DEM, Terrain
-  - გარეთ სხვა საქაღალდე თუ საჭირო იქნება ჩავამატებთ
+  - Inside Raster folder add subfolder DEM
 
 ``` mermaid
 graph LR
@@ -67,8 +66,7 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Style};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{Topology_rules};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Raster};
-  I -->|დასაკორექტირებელია| J[DEM];
-  I -->|For slope, Aspect, Hillshade| K[Terrain];
+  I --> J{DEM};
 
 ```
 Connect ArcGIS (from ArcCatalog) to this main folder.
@@ -78,19 +76,16 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 დასაკორექტირებელია
 
 * Extract shapefile from archive. 
-* From Isolines create DEM. 
-* გადასამოწმებელია და დასაკორექტირებელი Convert the DEM to a TIN model.
-* Import and visualize the 3D DEM in ArcScene.
+* From Isolines create DEM.
+* Reclassify DEM with 3 classes.
+* From Isolines create TIN.
 * Generating isolines from DEM File with Contour interval 100 and Base contour 100.
-- Create new dataset in Geodatabase and name it "terrain".
-- Save created isolines in new terrain dataset.
+  - Create new dataset in Geodatabase and name it "terrain".
+  - Save created isolines in new terrain dataset.
 * Display isoline values from attribute table field "Contour" as labels.
 
 ---
-* Create hillshade, slope, and aspect maps in .tif format from the clipped raster data. <br>
-- Save them in Raster folder inside "terrain"
-* Store the DEM raster data in a geodatabase by importing it from the workspace. <br>
-* Change the data source from .tif to geodatabase grid format.  --- List the data sources. <br>
+* Import and visualize the 3D DEM in ArcScene.
 * Properly saving the project file of ArcMap. Name it "DEM_TIN". Save another mxd file for old versions "DEM_TIN_10.0v".
 * Properly saving the project file of ArcScene. Name it "DEM_TIN". Save another sxd file for old versions "DEM_TIN_10.0v".
 

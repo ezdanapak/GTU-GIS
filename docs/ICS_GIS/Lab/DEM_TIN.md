@@ -52,7 +52,7 @@ On university computers, work inside the folder:
 === "Step I: Folder Setup"
 * We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Topology/)** as part of this exercise.
 * Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
-* Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/)
+* Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/DEMTIN.zip?forcedownload=1)
 * Add inside project additional necessary folders:
   - Inside Raster folder add subfolder DEM
 
@@ -72,8 +72,6 @@ graph LR
 Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---
-
-დასაკორექტირებელია
 
 * Extract shapefile from archive. 
 * From Isolines create DEM.

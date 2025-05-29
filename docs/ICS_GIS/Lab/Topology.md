@@ -76,13 +76,13 @@ graph LR
 
 * Create inside existing geodatabase new dataset, name it "topology".
 * Create Topology and some base rules as you need:
-    For polygon <br>
+    * For polygon <br>
     - Must not have gaps <br>
     - Must not overlap <br>
-    For line <br>
+    * For line <br>
     - line Must not self-overlap <br>
     - Must not self-intersect <br>
-    For point <br>
+    * For point <br>
     - point Must be properly inside <br>
     - Must be covered by boundary of <br>
 

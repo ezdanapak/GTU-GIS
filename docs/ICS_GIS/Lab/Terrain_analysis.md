@@ -75,24 +75,19 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---
 
-დასაკორექტირებელია
+---
 
-* Extract shapefile from archive. 
-* From Isolines create DEM. 
-* გადასამოწმებელია და დასაკორექტირებელი Convert the DEM to a TIN model.
-* Import and visualize the 3D DEM in ArcScene.
-* Generating isolines from DEM File with Contour interval 100 and Base contour 100.
-- Create new dataset in Geodatabase and name it "terrain".
-- Save created isolines in new terrain dataset.
-* Display isoline values from attribute table field "Contour" as labels.
+- Save them in Raster folder inside "terrain"
+* Create hillshade in .tif format from the clipped raster data with default parameters and another one with 
+azimuth angle of the light source 200 & Altitude angle of the light source above the horizon 30 degrees.  <br>
+* Create slope in .tif format from the clipped raster data. <br>
+* Create aspect in .tif format from the clipped raster data. <br>
 
 ---
-* Create hillshade, slope, and aspect maps in .tif format from the clipped raster data. <br>
-- Save them in Raster folder inside "terrain"
+
 * Store the DEM raster data in a geodatabase by importing it from the workspace. <br>
 * Change the data source from .tif to geodatabase grid format.  --- List the data sources. <br>
-* Properly saving the project file of ArcMap. Name it "DEM_TIN". Save another mxd file for old versions "DEM_TIN_10.0v".
-* Properly saving the project file of ArcScene. Name it "DEM_TIN". Save another sxd file for old versions "DEM_TIN_10.0v".
+* Properly saving the project file of ArcMap. Name it "Terrain_analysis". Save another mxd file for old versions "Terrain_analysis_10.0v". <br>
 
 ---
 

@@ -76,20 +76,22 @@ graph LR
 
 * Create inside existing geodatabase new dataset, name it "topology".
 * Create Topology and some base rules as you need:
-    - polygon Must not have gaps
+    For polygon
+    - Must not have gaps
     - Must not overlap
+    For line
     - line Must not self-overlap
     - Must not self-intersect 
+    For point
     - point Must be properly inside
     - Must be covered by boundary of
 
 
 
 * In new dataset import spatial data(shp that downloaded before) for validation and correction. <br>
-* Add them in project and group to avoid mistakes. <br>
 * Define topology rules and save them in a predefined folder. <br>
-* Validate topology. <br>
-* Correct errors as needed. <br>
+* Validate topology, add in project. <br>
+* Correct errors and make exceptions as needed. <br>
 * Properly saving the project file. Name it "Topology_project". Save another mxd file for old versions "Topology_project10.0v".
 
 

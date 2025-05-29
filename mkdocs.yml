@@ -126,7 +126,7 @@ nav:
       - DEM & TIN: './ICS_GIS/Lab/DEM_TIN.md'
       - Geodatabase: './ICS_GIS/Lab/Geodatabase.md'
       - Lab 6: './ICS_GIS/Lab/Lab_6.md'
-      - Lab 7: './ICS_GIS/Lab/Lab_7.md'
+      - Terrain analysis: './ICS_GIS/Lab/Terrain_analysis.md'
       - Georeference : './ICS_GIS/Lab/Georeference.md'
       - Lab 9: './ICS_GIS/Lab/Lab_9.md'
       - Hydrology: './ICS_GIS/Lab/Hydrology.md'

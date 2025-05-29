@@ -68,7 +68,8 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Style};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{Topology_rules};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Raster};
-  I -->|For slope, Aspect, Hillshade| J[Terrain];
+  I --> J{DEM};
+  I -->|For slope, Aspect, Hillshade| K[Terrain];
 
 ```
 Connect ArcGIS (from ArcCatalog) to this main folder.

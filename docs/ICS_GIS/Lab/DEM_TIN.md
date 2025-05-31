@@ -84,6 +84,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 * Generating isolines from DEM File with Contour interval 100 and Base contour 100.
   - Create new dataset in Geodatabase and name it "terrain".
   - Save created isolines in new terrain dataset.
+* Clip isolines, dem, dem_reclass and save in geodatabase terrain dataset and the rasters in dem folder.
 * Display isoline values from attribute table field "Contour" as labels.
   - Save created isolines labels in Style folder.
 
@@ -95,8 +96,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 ---
 
 === "Step III: Final Checks & Submission"
-* After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍
-* Ensure that the map correctly aligns with the target area. 🗺
+
 * Compress (zip) your folder (named after your first and last name). 💾
 * Use formats like `.rar` or `.zip`.
 * Name the archive as:  

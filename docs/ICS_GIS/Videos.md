@@ -14,5 +14,5 @@ Geodatabase - [practical tas](https://www.youtube.com/)[k](https://youtu.be/XAuX
 
 Topology - [practical tas](https://www.youtube.com/)[k](https://youtu.be/ZbLCxRW0mDI) <br>
 
-DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/7XXUtpY-o0M) <br>
 

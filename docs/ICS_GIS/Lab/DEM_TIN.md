@@ -74,17 +74,15 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---
 
-* Extract shapefile and DEM raster from archive. 
-* Isolines must be converted in UTM 38 projection.
-* Save isolines shapefile in shapefiles folder.
-* Leave dem in Raster folder.
-* From Isolines create DEM.
-* Reclassify DEM with 3 classes.
+* Extract isolines to shapefile folder and DEM to raster folder from archive. 
+* Isolines must be converted in UTM 38 projection and create DEM from them.
+* Reclassify DEM with 5 or 6 classes.
 * From Isolines create TIN.
 * Generating isolines from DEM File with Contour interval 100 and Base contour 100.
   - Create new dataset in Geodatabase and name it "terrain".
   - Save created isolines in new terrain dataset.
 * Clip isolines, dem, dem_reclass and save in geodatabase terrain dataset and the rasters in dem folder.
+ - You can use geodatabase.gdb that donwloaded before, there exist municipality layer.
 * Display isoline values from attribute table field "Contour" as labels.
   - Save created isolines labels in Style folder.
 

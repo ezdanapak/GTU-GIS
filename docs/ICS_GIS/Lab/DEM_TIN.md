@@ -53,6 +53,7 @@ On university computers, work inside the folder:
 * We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Topology/)** as part of this exercise.
 * Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
 * Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/DEMTIN.zip?forcedownload=1)
+* and from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1)
 * Add inside project additional necessary folders:
   - Inside Raster folder add subfolder DEM
 

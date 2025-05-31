@@ -4,9 +4,7 @@ Theory of GIS - [Introductio](https://www.youtube.com/)[n](https://youtu.be/UVdA
 
 Georeferencing topo map  - [practical tas](https://www.youtube.com/)[k](https://youtu.be/wuea1v6DJaE) <br>
 
-
 GPS Coordinates & Geotaggedphotos - [practical tas](https://www.youtube.com/)[k](https://youtu.be/Y5QVuWzc04w) <br>
-
 
 Digitization - [practical tas](https://www.youtube.com/)[k](https://youtu.be/-fVuyJ_n0wM) <br>
 
@@ -16,3 +14,6 @@ Topology - [practical tas](https://www.youtube.com/)[k](https://youtu.be/ZbLCxRW
 
 DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/7XXUtpY-o0M) <br>
 
+Terrain analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+
+Hydrological analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>

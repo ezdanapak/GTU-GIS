@@ -12,5 +12,7 @@ Digitization - [practical tas](https://www.youtube.com/)[k](https://youtu.be/-fV
 
 Geodatabase - [practical tas](https://www.youtube.com/)[k](https://youtu.be/XAuXu3Jr1uE) <br>
 
-Topology - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+Topology - [practical tas](https://www.youtube.com/)[k](https://youtu.be/ZbLCxRW0mDI) <br>
+
+DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 

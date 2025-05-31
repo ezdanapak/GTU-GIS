@@ -62,6 +62,7 @@ On university computers, work inside the folder:
 * Also download shapefiles from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/chiatura_OSM_topology.zip?forcedownload=1)
 * Add inside project additional necessary folders:
     - Topology_rules
+    - Archive
 
 ``` mermaid
 graph LR

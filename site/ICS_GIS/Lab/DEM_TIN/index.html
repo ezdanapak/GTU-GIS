@@ -1197,11 +1197,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Hydrology/" class="md-nav__link">
+      <a href="../Hydrological_analysis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Hydrology
+    Hydrological analysis
   </span>
   
 
@@ -1579,6 +1579,7 @@ Archive names, folder and file names, and table column names.</p>
 <li>We are using a <strong>Topology <a href="https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Topology/">task</a></strong> as part of this exercise.</li>
 <li>Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br></li>
 <li>Also download archive from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/DEMTIN.zip?forcedownload=1">here</a></li>
+<li>and from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1">here</a></li>
 <li>Add inside project additional necessary folders:</li>
 <li>Inside Raster folder add subfolder DEM</li>
 </ul>
@@ -1596,14 +1597,17 @@ Archive names, folder and file names, and table column names.</p>
 Connect ArcGIS (from ArcCatalog) to this main folder.</p>
 <hr />
 <ul>
-<li>Extract shapefile from archive. </li>
-<li>From Isolines create DEM.</li>
-<li>Reclassify DEM with 3 classes.</li>
+<li>Extract isolines to shapefile folder and DEM to raster folder from archive. </li>
+<li>Isolines must be converted in UTM 38 projection and create DEM from them.</li>
+<li>Reclassify DEM with 5 or 6 classes.</li>
 <li>From Isolines create TIN.</li>
 <li>Generating isolines from DEM File with Contour interval 100 and Base contour 100.</li>
 <li>Create new dataset in Geodatabase and name it "terrain".</li>
 <li>Save created isolines in new terrain dataset.</li>
+<li>Clip isolines, dem, dem_reclass and save in geodatabase terrain dataset and the rasters in dem folder.</li>
+<li>You can use geodatabase.gdb that donwloaded before, there exist municipality layer.</li>
 <li>Display isoline values from attribute table field "Contour" as labels.</li>
+<li>Save created isolines labels in Style folder.</li>
 </ul>
 <hr />
 <ul>
@@ -1618,8 +1622,6 @@ Connect ArcGIS (from ArcCatalog) to this main folder.</p>
 </div>
 </div>
 <ul>
-<li>After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍</li>
-<li>Ensure that the map correctly aligns with the target area. 🗺</li>
 <li>Compress (zip) your folder (named after your first and last name). 💾</li>
 <li>Use formats like <code>.rar</code> or <code>.zip</code>.</li>
 <li>

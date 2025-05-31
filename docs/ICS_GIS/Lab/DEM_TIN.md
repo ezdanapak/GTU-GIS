@@ -73,7 +73,10 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 ---
 
-* Extract shapefile from archive. 
+* Extract shapefile and DEM raster from archive. 
+* Isolines must be converted in UTM 38 projection.
+* Save isolines shapefile in shapefiles folder.
+* Leave dem in Raster folder.
 * From Isolines create DEM.
 * Reclassify DEM with 3 classes.
 * From Isolines create TIN.
@@ -81,6 +84,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
   - Create new dataset in Geodatabase and name it "terrain".
   - Save created isolines in new terrain dataset.
 * Display isoline values from attribute table field "Contour" as labels.
+  - Save created isolines labels in Style folder.
 
 ---
 * Import and visualize the 3D DEM in ArcScene.

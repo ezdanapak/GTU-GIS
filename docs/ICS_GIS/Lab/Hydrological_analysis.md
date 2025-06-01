@@ -98,8 +98,6 @@ Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, 
 ---
 
 === "Step III: Final Checks & Submission"
-* After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍
-* Ensure that the map correctly aligns with the target area. 🗺
 * Compress (zip) your folder (named after your first and last name). 💾
 * Use formats like `.rar` or `.zip`.
 * Name the archive as:  

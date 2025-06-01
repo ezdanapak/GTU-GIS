@@ -2,6 +2,8 @@
 
 - **ESRI ArcGIS Desktop** | V. [ArcMap 10.8.](https://www.esri.com/en-us/arcgis/geospatial-platform/overview)[2](https://mega.nz/folder/9AIHzRCJ#vegw2aChydOCjHwtKvzEgA/file/JdREibSR)
 
+- ESRI ArcGIS is a powerful geographic information system (GIS) platform developed by Esri that enables users to collect, manage, analyze, and visualize spatial data. Widely used in fields such as urban planning, environmental science, transportation, and public safety, ArcGIS provides tools for creating detailed maps, performing spatial analysis, and sharing geospatial information through both desktop and cloud-based applications. Its extensive capabilities support decision-making, data-driven planning, and real-time geographic insight across a wide range of industries.
+
 ---
 
 !!!warning 

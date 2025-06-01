@@ -1,6 +1,5 @@
 GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.
 
-## დავალება არ კეთდება ლიცენზიის ხარვეზის გამო!!!
 
 ---
 ## Assignment Instructions

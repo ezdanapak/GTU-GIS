@@ -53,7 +53,7 @@ On university computers, work inside the folder:
 
 === "Step I: Folder Setup"
 * We are using a **DEM&TIN [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
-* Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
+* Rename main folder from DEM_TIN to Terrain_analysis. Example "Giorgi_Kapanadze_Group_4_work_6_terrain_analysis" <br>
 * Add inside project additional necessary folders:
   - Inside Raster folder add subfolder Terrain
 

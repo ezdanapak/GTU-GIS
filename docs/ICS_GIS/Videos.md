@@ -14,7 +14,7 @@ Topology - [practical tas](https://www.youtube.com/)[k](https://youtu.be/ZbLCxRW
 
 DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/7XXUtpY-o0M) <br>
 
-Terrain analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+Terrain analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/iEfb91-P16o) <br>
 
 Hydrological analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 

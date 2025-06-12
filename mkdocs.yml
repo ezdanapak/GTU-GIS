@@ -137,7 +137,20 @@ nav:
       - Lab 15: './ICS_GIS/Lab/Lab_15.md'
   
   - 'GISC-SD': 
-    - Info: './GISC_SD/Info.md'
+      - 'About':
+        - ლექტორი: './GISC_SD/Instructor.md'
+        - სილაბუსი: './GISC_SD/Syllabus.md'
+        - განრიგი: './GISC_SD/Schedule.md'
+        - რესურსები: './GISC_SD/Textbooks.md'
+        - ვიდეოები: './GISC_SD/Videos.md'
+        - მადლობის გაცხადება: './GISC_SD/Acknowledgments.md'
+        - ინფორმაცია: './GISC_SD/Info.md'
+        - სხვა მასალა: './GISC_SD/Another_staff.md'
+        - პრეზენტაციები: './GISC_SD/Presentations.md'
+        - საავტორო უფლებები: './GISC_SD/Copyright_Disclaimer.md'
+        - გამოცდა: './GISC_SD/Exam.md'
+        - Info: './GISC_SD/Info.md'
+        - test: './GISC_SD/test.md'
 
 
 

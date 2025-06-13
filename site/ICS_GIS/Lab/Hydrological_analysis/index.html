@@ -1834,19 +1834,27 @@ Archive names, folder and file names, and table column names.</p>
 <li>We are using a <strong>DEM &amp; TIN <a href="https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/DEM_TIN/">task</a></strong> as part of this exercise.</li>
 <li>Rename main folder from DEM &amp; TIN to Hydrological analysis. Example "Giorgi_Kapanadze_Group_4_work_8_hydrological_analysis" <br></li>
 <li>Download Basemap files from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1">here</a></li>
+<li>Download nesecery Raster DEM files from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/SRTM.zip?forcedownload=1">here</a></li>
+<li>Download geodatabase of Georgia from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1">here</a></li>
 <li>Inside it, create the following subfolders:  </li>
 <li>Archive</li>
 <li>Geodatabase</li>
 <li>Raster  </li>
+<li>SRTM</li>
 <li>Project</li>
 <li>Shp</li>
 </ul>
 <pre class="mermaid"><code>graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{Raster};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; C{Archive};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; D{Geodatabase};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; E{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; F{Shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{Archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; C{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; D{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; E{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; F{Geodatabase};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; G{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; H{Topology_rules};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; I{Raster};
+  I --&gt; J{DEM};
+  I --&gt; K{SRTM};
 
 </code></pre>
 <p>Connect ArcGIS (from ArcCatalog) to this main folder.</p>
@@ -1857,23 +1865,11 @@ Archive names, folder and file names, and table column names.</p>
 </div>
 </div>
 <ul>
-<li>Import 2 slice of raster data for Georgia and merge them, don't change raster projection from WGS 84. Check it!</li>
-<li>Import regions layer from geodatabase</li>
-<li>
-<p>Clip this raster with one region of Georgia</p>
-</li>
-<li>
-<p>Import rivers layer from geodatabase</p>
-</li>
-<li>labels</li>
-<li>
-<p>Clip rivers layer with selected region of Georgia</p>
-</li>
-<li>
-<p>start use of hydrology tools :
-Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed</p>
-</li>
-<li></li>
+<li>Import raster data and merge them, don't change raster projection from WGS 84. Check it!</li>
+<li>Import municipalities layer from geodatabase</li>
+<li>Clip this raster with one municipality border of Georgia</li>
+<li>start use of hydrology tools on the clipped municipality dem :</li>
+<li>Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed</li>
 </ul>
 <p>```</p>
 <hr />

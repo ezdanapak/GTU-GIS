@@ -53,21 +53,29 @@ On university computers, work inside the folder:
 * We are using a **DEM & TIN [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
 * Rename main folder from DEM & TIN to Hydrological analysis. Example "Giorgi_Kapanadze_Group_4_work_8_hydrological_analysis" <br>
 * Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
+* Download nesecery Raster DEM files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/SRTM.zip?forcedownload=1)
+* Download geodatabase of Georgia from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1)
 * Inside it, create the following subfolders:  
   - Archive
   - Geodatabase
   - Raster  
+  - SRTM
   - Project
   - Shp
   
 
 ``` mermaid
 graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Raster};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Archive};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Geodatabase};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Geodatabase};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{Topology_rules};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Raster};
+  I --> J{DEM};
+  I --> K{SRTM};
   
  
 ```
@@ -78,18 +86,12 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 
 
 === "Step II: Geoprocessing data"
-* Import 2 slice of raster data for Georgia and merge them, don't change raster projection from WGS 84. Check it!
-* Import regions layer from geodatabase
-* Clip this raster with one region of Georgia
-
-
-* Import rivers layer from geodatabase
-* labels
-* Clip rivers layer with selected region of Georgia
-
-* start use of hydrology tools :
-Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed
-* 
+* Import raster data and merge them, don't change raster projection from WGS 84. Check it!
+* Import municipalities layer from geodatabase
+* Clip this raster with one municipality border of Georgia
+* start use of hydrology tools on the clipped municipality dem :
+ - Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed
+ 
 
 ```
 

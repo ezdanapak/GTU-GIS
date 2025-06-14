@@ -87,6 +87,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 * Clip this raster with one municipality border of Georgia
 * Start use of hydrology tools on the clipped municipality dem :
  - Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed
+* Save all of them in geodatabase as a grid format
  
 ``` mermaid
 graph TB

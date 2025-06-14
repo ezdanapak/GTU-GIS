@@ -56,12 +56,8 @@ On university computers, work inside the folder:
 * Download nesecery Raster DEM files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/SRTM.zip?forcedownload=1)
 * Download geodatabase of Georgia from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1)
 * Inside it, create the following subfolders:  
-  - Archive
-  - Geodatabase
-  - Raster  
   - SRTM
-  - Project
-  - Shp
+
   
 
 ``` mermaid
@@ -89,13 +85,23 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 * Import raster data and merge them, don't change raster projection from WGS 84. Check it!
 * Import municipalities layer from geodatabase
 * Clip this raster with one municipality border of Georgia
-* start use of hydrology tools on the clipped municipality dem :
+* Start use of hydrology tools on the clipped municipality dem :
  - Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed
  
+``` mermaid
+graph TB
+    A[Start - DEM] --> B{Initial Flow Direction}
+    B -->|8 Directions| C[Flow Direction]
+    B -->|More than 8 directions| E[Sink Detected]
+    C --> D[Flow Accumulation]
+    E --> F[Fill Sinks]
+    F --> C
+    D --> G[Stream Order]
+    D --> H[Stream To Feature]
+    C --> I[Watershed]
+    C --> J[Basin]
 
 ```
-
-
 
 ---
 

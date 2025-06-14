@@ -1837,12 +1837,7 @@ Archive names, folder and file names, and table column names.</p>
 <li>Download nesecery Raster DEM files from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/SRTM.zip?forcedownload=1">here</a></li>
 <li>Download geodatabase of Georgia from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1">here</a></li>
 <li>Inside it, create the following subfolders:  </li>
-<li>Archive</li>
-<li>Geodatabase</li>
-<li>Raster  </li>
 <li>SRTM</li>
-<li>Project</li>
-<li>Shp</li>
 </ul>
 <pre class="mermaid"><code>graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{Archive};
@@ -1868,10 +1863,21 @@ Archive names, folder and file names, and table column names.</p>
 <li>Import raster data and merge them, don't change raster projection from WGS 84. Check it!</li>
 <li>Import municipalities layer from geodatabase</li>
 <li>Clip this raster with one municipality border of Georgia</li>
-<li>start use of hydrology tools on the clipped municipality dem :</li>
+<li>Start use of hydrology tools on the clipped municipality dem :</li>
 <li>Flow Direction, Sink, Fill, Flow Accumulation, Stream order, Stream to feature, Basin, Watershed</li>
 </ul>
-<p>```</p>
+<pre class="mermaid"><code>graph TB
+    A[Start - DEM] --&gt; B{Initial Flow Direction}
+    B --&gt;|8 Directions| C[Flow Direction]
+    B --&gt;|More than 8 directions| E[Sink Detected]
+    C --&gt; D[Flow Accumulation]
+    E --&gt; F[Fill Sinks]
+    F --&gt; C
+    D --&gt; G[Stream Order]
+    D --&gt; H[Stream To Feature]
+    C --&gt; I[Watershed]
+    C --&gt; J[Basin]
+</code></pre>
 <hr />
 <div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Step III: Final Checks &amp; Submission</label></div>
 <div class="tabbed-content">

@@ -11,6 +11,14 @@ git remote add origin https://github.com/ezdanapak/GIS-ICS.git
 git branch -M main
 git push -u origin main
 
+https://mermaid.live/edit#pako:eNpVjbFugzAQhl_FuqmVksg4dqAeKjWkzRKpHTIVMljgYJRgI2OUpsC71xBFbW-60_f9_3WQmVwCh-PZXDIlrEP7TaqRn5ckVrZsXCWaA5rPn_utdKgyWl57tH7YGtQoU9elLh5v_nqUUNztRk0ip0p9Gm4onvLvWvZok-xE7Ux9-Ev2F9Oj16T8UL7-P1FW-tRbchT8KOaZsCgWdlJgBoUtc-DOtnIGlbSVGE_oRpqCU7KSKXC_5sKeUkj14DO10J_GVPeYNW2hwHefG3-1dS6c3JSisOJXkTqXNjatdsAJnSqAd_AFfEmWC0pDsiRhsCIUB55egbNogSOGCYlCyhiNgmEG39NTvAgZphFh7IlgGuBgNfwAlax1hg
+https://mkdocs-magicspace.alnoda.org/
+https://squidfunk.github.io/mkdocs-material/
+
+
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 
 PS D:\WEB_GIS\GTU> git clone https://github.com/ezdanapak/GIS-ICS.git

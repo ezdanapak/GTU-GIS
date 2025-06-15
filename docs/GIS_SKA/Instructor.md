@@ -18,4 +18,4 @@
 📧 giorgi.kapanadze@gtu.ge — დამიკავშირდი პირდაპირ ელფოსტით ან გამოიყენე „პირდაპირი შეტყობინებები“.
 
 📘 დამოწმებული QGIS ასოციაციის მიერ  
-![Certificate_image](../Images/QGIS-7078_Certificate.jpg){ align=left }
+![Certificate_image](/Images/QGIS-7078_Certificate.jpg){ align=left }

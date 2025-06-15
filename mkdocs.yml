@@ -154,6 +154,28 @@ nav:
 
 
 
+  - 'GIS SKA': 
+      - 'About':
+        - ლექტორი: './GIS_SKA/Instructor.md'
+        - სილაბუსი: './GIS_SKA/Syllabus.md'
+        - განრიგი: './GIS_SKA/Schedule.md'
+        - რესურსები: './GIS_SKA/Textbooks.md'
+        - ვიდეოები: './GIS_SKA/Videos.md'
+        - მადლობის გაცხადება: './GIS_SKA/Acknowledgments.md'
+        - ინფორმაცია: './GIS_SKA/Info.md'
+        - სხვა მასალა: './GIS_SKA/Another_staff.md'
+        - პრეზენტაციები: './GIS_SKA/Presentations.md'
+        - საავტორო უფლებები: './GIS_SKA/Copyright_Disclaimer.md'
+        - გამოცდა: './GIS_SKA/Exam.md'
+        - Info: './GIS_SKA/Info.md'
+        - test: './GIS_SKA/test.md'
+      
+      - პროგრამული უზრუნველყოფა:
+        - QGIS: './GIS_SKA/Software/QGIS.md'
+        - Google Earth: './GIS_SKA/Software/GoogleEarth.md'
+
+
+
   
 
 

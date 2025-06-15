@@ -1,5 +1,5 @@
 
- ![Instructor_image](/Images/GK_photo.jpg){ align=left }
+ ![Instructor_image](../Images/GK_photo.jpg){ align=left }
  Giorgi Kapanadze
 
 🎓 Master of Geography in Geographic Information Systems Technology.
@@ -21,4 +21,4 @@ If something is urgent, here is my number, send sms or call me.
 giorgi.kapanadze@gtu.ge Email to contact me directly, you can also use "Direct messages".
 
 📘 Certified by the QGIS Association
- ![Certificate_image](/Images/QGIS-7078_Certificate.jpg){ align=left }
+ ![Certificate_image](../Images/QGIS-7078_Certificate.jpg){ align=left }

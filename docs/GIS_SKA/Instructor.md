@@ -1,4 +1,4 @@
-![Instructor_image](./Images/GK_photo.jpg){ align=left }  
+![Instructor_image](/Images/GK_photo.jpg){ align=left }  
 გიორგი კაპანაძე
 
 🎓 გეოგრაფიის მაგისტრი — გეოგრაფიული ინფორმაციული სისტემების ტექნოლოგიაში.

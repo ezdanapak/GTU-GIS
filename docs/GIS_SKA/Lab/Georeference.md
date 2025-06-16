@@ -94,7 +94,8 @@ graph LR
 !!!warning
     თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:  
     g.kapanadze1908@gmail.com  
-    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი.
+    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი. <br>
+
     https://www.swisstransfer.com/en-gb
 
     https://wetransfer.com/

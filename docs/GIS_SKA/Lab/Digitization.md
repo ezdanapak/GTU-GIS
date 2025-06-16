@@ -1,111 +1,110 @@
-# Introducing GIS lab. ArcCatalog and ArcMap
+# დიგიტალიზაცია
+
 
 ---
-## Assignment Instructions
+## დავალების ინსტრუქციები
 
-⚠️ **Work Environment**
+⚠️ **სამუშაო გარემო**
 
-On university computers, work inside the folder:  
-`C:\Users\Public\` or `C:\Users\Public\Documents`  
-*(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)*
+უნივერსიტეტის კომპიუტერებზე იმუშავეთ შემდეგ საქაღალდეში:  
+`C:\Users\Public\` ან `C:\Users\Public\Documents`  
+*(რეკომენდებულია პირად კომპიუტერებზეც, რადგან პროგრამას სხვა ადგილას არსებული ფაილების დამუშავება შესაძლოა გაუჭირდეს.)*
 
-📦 **Required Software**
+📦 **საჭირო პროგრამები**
 
-* ArcGIS – Required ✅  
-* Google Earth – Optional (depending on the task) ✅  
+* QGIS – აუცილებელია ✅  
+* Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  
 
 ---
 
 !!!warning
-    Do not delete completed work until the end of the semester.
+    დასრულებული მასალა არ წაშალოთ სემესტრის ბოლომდე.
     
 ---
 
 !!!danger 
-    **File Naming Rules**
+    **ფაილების დასახელების წესები**
 
-    ❌ **Incorrect:**  
+    ❌ **არასწორი:**  
 
     Giorgi Kapanadze.Group/1$ work1  
 
-    ❌ Do not use:
+    ❌ არ გამოიყენოთ:
 
-    - Georgian characters (ა, ბ, გ, დ, etc.)  
-    - Special symbols (other than an underscore `_`)
+    - ქართული ასოები (ა, ბ, გ, დ და სხვ.)  
+    - სპეციალური სიმბოლოები (გარდა ხაზგასმისა `_`)
 
-    ✅ **Correct:**
+    ✅ **სწორი:**  
 
-    Giorgi_Kapanadze_Group_4_work_1  
+    Giorgi_Kapanadze_Group_1_work_1  
 
 !!!tip
-    Use only Latin letters, numbers, and underscores (`_`) for:  
-    Archive names, folder and file names, and table column names.
+    გამოიყენეთ მხოლოდ ლათინური ასოები, ციფრები და ხაზგასმა (`_`) შემდეგ შემთხვევებში:  
+    არქივის სახელები, საქაღალდეებისა და ფაილების სახელები, ცხრილის სვეტების სახელები.
 
 ---
 
-## 📘 Step-by-Step Guide
+## 📘 ეტაპობრივი სახელმძღვანელო
 
 !!!note
-    You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
+    მონაცემების ჩამოსატვირთად და დავალების ასატვირთად საჭიროა ავტორიზაცია გუგლის საკლასო ოთახზე
+     : [classroom.google.com](https://classroom.google.com/)
 
-=== "Step I: Folder Setup"
-* Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
-* Create a folder using your first and last name. Follow the file naming rules provided above.
-* Inside it, create the following subfolders:  
+=== "I ეტაპი: საქაღალდის მოწყობა"
+* ჩამოტვირთეთ Basemap ფაილები [აქედან](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
+* შექმენით საქაღალდე თქვენი სახელისა და გვარის გამოყენებით. დაიცავით ზემოთ მოცემული სახელდების წესები.
+* მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
   - Project  
   - lyr 
   - shp  
 
-``` mermaid
+```mermaid
 graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
 
 ---
 
-=== "Step II: Create shapefiles"
+=== "II ეტაპი: Shapefile-ების შექმნა"
 
-**Additional info**
+**დამატებითი ინფორმაცია**
 
-* Digitization of the Tbilisi Municipality is       prohibited. Please select a different city or village.
-After selecting a village or city, please specify the zone if you are located exactly on the border and are unsure which to choose:
+* **თბილისის მუნიციპალიტეტის ციფრული დამუშავება აკრძალულია.** გთხოვთ, აირჩიოთ სხვა ქალაქი ან სოფელი.  
+დასახლების შერჩევის შემდეგ, თუ ზუსტად ზონის საზღვარზე იმყოფებით და გაურკვეველია რომელ ზონას მიეკუთვნებით:
 
-    If the majority of the objects you intend to containerize fall within Zone 37, please select 37.
+    თუ ობიექტების უმეტესობა, რომელსაც აპირებთ რომ დაამუშავოთ, მდებარეობს ზონა 37-ში — აირჩიეთ 37.
 
-    If the majority of the objects you intend to containerize fall within Zone 38, please select 38.
+    თუ უმეტესობა მდებარეობს ზონა 38-ში — აირჩიეთ 38.
 
-    If the location is in the middle and the number of objects is evenly distributed, please select 38.
+    თუ ადგილმდებარეობა შუაშია და ობიექტები თანაბრად ნაწილდება — აირჩიეთ 38.
 
-    Priority should be given to Zone 38.
+    უპირატესობა ენიჭება ზონა 38-ს.
 
-**Base info**
+**საბაზისო ინფორმაცია**
 
-* Assigning accurate layer names and save in an appropriate folder. Template of layers provided here:
-    - Point Geometry: Home, schools, stations, buildings, stadiums
-    - Line Geometry: Rivers, railways, roads, ropeways
-    - Polygon Geometry: Parcels, homes, buildings, stadiums, forests
+* მიანიჭეთ ფენებს ზუსტი სახელები და შეინახეთ შესაბამის საქაღალდეში. ფენების შაბლონი მოცემულია ქვემოთ:
+    - **წერტილოვანი გეომეტრია**: სახლები, სკოლები, სადგურები, შენობები, სტადიონები
+    - **ხაზოვანი გეომეტრია**: მდინარეები, რკინიგზები, გზები, საბაგირო გზები
+    - **პოლიგონური გეომეტრია**: ნაკვეთები, სახლები, შენობები, სტადიონები, ტყეები
 
+* თითოეულ ფენაში უნდა იყოს მინიმუმ **10 ობიექტი**, მაქსიმუმზე შეზღუდვა არ არსებობს.  
+თუ რომელიმე ფენაში მონაცემები არასაკმარისია, გადადით სხვა ფენაზე და შეავსეთ ის.
 
+* სიმბოლოების ფერის ან ფორმის არჩევა არ იზღუდება — შეგიძლიათ გამოიყენოთ თქვენი ხედვით.  
+თუმცა, ტყის ლურჯად ან მდინარის მწვანედ აღნიშვნა არარელევანტურად ჩაითვლება.
 
-* Each layer must contain a minimum of 10 objects, there is no restriction on the maximum number.
-If a particular layer has insufficient data, please proceed to another layer and complete it instead.
+* სწორად შეარჩიეთ მონაცემებისთვის შესაბამისი **UTM ზონა**.
 
-* There are no strict limitations on color or shape for symbolization—feel free to style them as you see fit.
-However, representing a forest in blue or a river in green would be considered somewhat inappropriate.
+* ციფრულად დამუშავებული მონაცემები ფენებში სწორად შეინახეთ.
 
+* ფენები პროექტში ორგანიზებულად განათავსეთ.
 
-* Selecting the correct UTM zone for your data.
-
-* Properly saving digitalized data in layers.
-
-* Structuring layers within the project.
-
-* Properly saving the project file. Name it "Digitalization_project". Save another mxd file for old versions "Digitalization_project10.0v".
-
+* პროექტის ფაილი შეინახეთ სახელით: `"Digitalization_project"`.  
+ძველი ვერსიებისთვის შეინახეთ `"Digitalization_project10.0v"`.
 
 === "Step III: Final Checks & Submission"
 

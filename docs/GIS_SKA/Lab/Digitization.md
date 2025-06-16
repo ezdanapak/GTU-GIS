@@ -106,22 +106,38 @@ graph LR
 * პროექტის ფაილი შეინახეთ სახელით: `"Digitalization_project"`.  
 ძველი ვერსიებისთვის შეინახეთ `"Digitalization_project10.0v"`.
 
-=== "Step III: Final Checks & Submission"
 
-* Compress (zip) your folder (named after your first and last name). 💾
-* Use formats like `.rar` or `.zip`.
-* Name the archive as:  
+---
+
+=== "III ეტაპი: შემოწმება და გაგზავნა"
+* გააკეთეთ არქივი თქვენს საქაღალდეზე. 💾
+* გამოიყენეთ `.rar` ან `.zip` ფორმატები.
+* დაარქვით არქივს შემდეგი ფორმატით:  
   `FirstName_LastName_GroupNumber_Assignment_Number`
 
-* Send it to: giorgi.kapanadze@gtu.ge
+* ატვირტეთ გუგლის საკლასო ოთახში ნამუშევარი
 
 ---
 
 !!!warning
-    If you experience any issues with the submission process, contact:  
-    giorgi.kapanadze@gtu.ge  
-    Or use any file transfer services.
+    თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:  
+    g.kapanadze1908@gmail.com  
+    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი. <br>
+
+    https://www.swisstransfer.com/en-gb
+
+    https://wetransfer.com/
+
+    https://www.filemail.com/
+
+    https://dropmefiles.com/
+
+    https://www.swisstransfer.com/en-gb
+
+    https://www.sendgb.com/
+
+    https://workupload.com/ 
 
 !!!info
-    📌 If anything is unclear, feel free to ask! 😊  
-    If something here was done incorrectly, I’ll correct it — or you can create a pull request. 
+    📌 თუ რაიმე გაუგებარია, თამამად იკითხე! 😊  
+    თუ რამე არასწორადაა შესრულებული, გავასწორებ — ან თავად შექმენი pull request. 

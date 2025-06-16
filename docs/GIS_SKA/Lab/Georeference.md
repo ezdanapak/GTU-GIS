@@ -1,98 +1,114 @@
-# Georeferencing & Digitizing. The Array. Saving Space: Run-Length Encoding and Quadtrees
+# გეორეფერენცირება
 
 ---
-## Assignment Instructions
+## დავალების ინსტრუქციები
 
-⚠️ **Work Environment**
+⚠️ **სამუშაო გარემო**
 
-On university computers, work inside the folder:  
-`C:\Users\Public\` or `C:\Users\Public\Documents`  
-*(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)*
+უნივერსიტეტის კომპიუტერებზე იმუშავეთ შემდეგ საქაღალდეში:  
+`C:\Users\Public\` ან `C:\Users\Public\Documents`  
+*(რეკომენდებულია პირად კომპიუტერებზეც, რადგან პროგრამას სხვა ადგილას არსებული ფაილების დამუშავება შესაძლოა გაუჭირდეს.)*
 
-📦 **Required Software**
+📦 **საჭირო პროგრამები**
 
-* ArcGIS – Required ✅  
-* Google Earth – Optional (depending on the task) ✅  
+* QGIS – აუცილებელია ✅  
+* Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  
 
 ---
 
 !!!warning
-    Do not delete completed work until the end of the semester.
+    დასრულებული მასალა არ წაშალოთ სემესტრის ბოლომდე.
     
 ---
 
 !!!danger 
-    **File Naming Rules**
+    **ფაილების დასახელების წესები**
 
-    ❌ **Incorrect:**  
+    ❌ **არასწორი:**  
 
     Giorgi Kapanadze.Group/1$ work1  
 
-    ❌ Do not use:
+    ❌ არ გამოიყენოთ:
 
-    - Georgian characters (ა, ბ, გ, დ, etc.)  
-    - Special symbols (other than an underscore `_`)
+    - ქართული ასოები (ა, ბ, გ, დ და სხვ.)  
+    - სპეციალური სიმბოლოები (გარდა ხაზგასმისა `_`)
 
-    ✅ **Correct:**
+    ✅ **სწორი:**  
 
-    Giorgi_Kapanadze_Group_4_work_1  
+    Giorgi_Kapanadze_Group_1_work_1  
 
 !!!tip
-    Use only Latin letters, numbers, and underscores (`_`) for:  
-    Archive names, folder and file names, and table column names.
+    გამოიყენეთ მხოლოდ ლათინური ასოები, ციფრები და ხაზგასმა (`_`) შემდეგ შემთხვევებში:  
+    არქივის სახელები, საქაღალდეებისა და ფაილების სახელები, ცხრილის სვეტების სახელები.
 
 ---
 
-## 📘 Step-by-Step Guide
+## 📘 ეტაპობრივი სახელმძღვანელო
 
 !!!note
-    You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
+    მონაცემების ჩამოსატვირთად და დავალების ასატვირთად საჭიროა ავტორიზაცია გუგლის საკლასო ოთახზე
+     : [classroom.google.com](https://classroom.google.com/)
 
-=== "Step I: Folder Setup"
-* Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
-* Download the data from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/K-38-51-G-b.zip?forcedownload=1)
-* Create a folder using your first and last name. Follow the file naming rules provided above. Example "Giorgi_Kapanadze_Group_4_work_1_georeferencing" <br>
-* Inside it, create the following subfolders:  
+=== "I ეტაპი: საქაღალდის ორგანიზება"
+* ჩამოტვირთეთ Basemap ფაილები [აქედან](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
+* ჩამოტვირთეთ მონაცემები [აქედან](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/K-38-51-G-b.zip?forcedownload=1)
+* შექმენით თქვენი სახელისა და გვარის საფუძველზე ახალი საქაღალდე. გამოიყენეთ ზემოთ მოცემული დასახელების წესები. მაგ: `"Giorgi_Kapanadze_Group_1_work_1_georeferencing"` <br>
+* მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
   - Raster  
   - Image  
   - Geoimage  
 
-``` mermaid
+```mermaid
 graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Raster};
-  B -->|Without georeference| C[Image];
-  B -->|With georeference| D[GeoImage];
+  B -->|რეფერენცის გარეშე| C[Image];
+  B -->|გეორეფერენცირებით| D[GeoImage];
+
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
 
 ---
 
-=== "Step II: Map Preparation"
-* The assignment folder contains one topographic map.
-* Download and place it in the appropriate subfolder.
-* Perform georeferencing using rectangular coordinates (in meters).
-* Perform georeferencing using spherical coordinates (in degrees, minutes, and seconds).
+=== "II ეტაპი: რუკის მომზადება"
+* დავალების საქაღალდეში მოთავსებულია ერთი ტოპოგრაფიული რუკა.
+* ჩამოტვირთეთ და განათავსეთ შესაბამის ქვე-საქაღალდეში.
+* განახორციელეთ გეორეფერენცირება მართკუთხა კოორდინატებით (მეტრებში).
+* განახორციელეთ გეორეფერენცირება სფერული კოორდინატებით (Degrees, Minutes, seconds).
 
 ---
 
-=== "Step III: Final Checks & Submission"
-* After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍
-* Ensure that the map correctly aligns with the target area. 🗺
-* Compress (zip) your folder (named after your first and last name). 💾
-* Use formats like `.rar` or `.zip`.
-* Name the archive as:  
+=== "III ეტაპი: შემოწმება და გაგზავნა"
+* გეორეფერენცირების შემდეგ გადაამოწმეთ რუკის მდებარეობა ნებისმიერი ხელმისაწვდომი მეთოდით — შეგიძლიათ გამოიყენოთ Google Earth 
+ან QGIS და არ დაგავიწყდეს პირველ რიგში იმპორტით ნებისმიერი საბაზისო რუკის შემოტანა.. 🌍
+* დარწმუნდით, რომ რუკა სწორად ემთხვევა მიზნობრივ ტერიტორიას. 🗺
+* გააკეთეთ არქივი თქვენს საქაღალდეზე. 💾
+* გამოიყენეთ `.rar` ან `.zip` ფორმატები.
+* დაარქვით არქივს შემდეგი ფორმატით:  
   `FirstName_LastName_GroupNumber_Assignment_Number`
 
-* Send it to: giorgi.kapanadze@gtu.ge
+* ატვირტეთ გუგლის საკლასო ოთახში ნამუშევარი
 
 ---
 
 !!!warning
-    If you experience any issues with the submission process, contact:  
-    giorgi.kapanadze@gtu.ge  
-    Or use any file transfer services.
+    თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:  
+    g.kapanadze1908@gmail.com  
+    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი.
+    https://www.swisstransfer.com/en-gb
+
+    https://wetransfer.com/
+
+    https://www.filemail.com/
+
+    https://dropmefiles.com/
+
+    https://www.swisstransfer.com/en-gb
+
+    https://www.sendgb.com/
+
+    https://workupload.com/ 
 
 !!!info
-    📌 If anything is unclear, feel free to ask! 😊  
-    If something here was done incorrectly, I’ll correct it — or you can create a pull request.  
+    📌 თუ რაიმე გაუგებარია, თამამად იკითხე! 😊  
+    თუ რამე არასწორადაა შესრულებული, გავასწორებ — ან თავად შექმენი pull request. 

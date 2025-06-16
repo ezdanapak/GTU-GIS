@@ -111,7 +111,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#georeferencing-digitizing-the-array-saving-space-run-length-encoding-and-quadtrees" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -2344,18 +2344,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#assignment-instructions" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Assignment Instructions
+      დავალების ინსტრუქციები
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-by-step-guide" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 Step-by-Step Guide
+      📘 ეტაპობრივი სახელმძღვანელო
     </span>
   </a>
   
@@ -2559,18 +2559,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#assignment-instructions" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Assignment Instructions
+      დავალების ინსტრუქციები
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-by-step-guide" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 Step-by-Step Guide
+      📘 ეტაპობრივი სახელმძღვანელო
     </span>
   </a>
   
@@ -2594,109 +2594,119 @@
   
 
 
-<h1 id="georeferencing-digitizing-the-array-saving-space-run-length-encoding-and-quadtrees">Georeferencing &amp; Digitizing. The Array. Saving Space: Run-Length Encoding and Quadtrees</h1>
+<h1 id="_1">გეორეფერენცირება</h1>
 <hr />
-<h2 id="assignment-instructions">Assignment Instructions</h2>
-<p>⚠️ <strong>Work Environment</strong></p>
-<p>On university computers, work inside the folder:<br />
-<code>C:\Users\Public\</code> or <code>C:\Users\Public\Documents</code><br />
-<em>(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)</em></p>
-<p>📦 <strong>Required Software</strong></p>
+<h2 id="_2">დავალების ინსტრუქციები</h2>
+<p>⚠️ <strong>სამუშაო გარემო</strong></p>
+<p>უნივერსიტეტის კომპიუტერებზე იმუშავეთ შემდეგ საქაღალდეში:<br />
+<code>C:\Users\Public\</code> ან <code>C:\Users\Public\Documents</code><br />
+<em>(რეკომენდებულია პირად კომპიუტერებზეც, რადგან პროგრამას სხვა ადგილას არსებული ფაილების დამუშავება შესაძლოა გაუჭირდეს.)</em></p>
+<p>📦 <strong>საჭირო პროგრამები</strong></p>
 <ul>
-<li>ArcGIS – Required ✅  </li>
-<li>Google Earth – Optional (depending on the task) ✅  </li>
+<li>QGIS – აუცილებელია ✅  </li>
+<li>Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  </li>
 </ul>
 <hr />
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Do not delete completed work until the end of the semester.</p>
+<p>დასრულებული მასალა არ წაშალოთ სემესტრის ბოლომდე.</p>
 </div>
 <hr />
 <div class="admonition danger">
 <p class="admonition-title">Danger</p>
-<p><strong>File Naming Rules</strong></p>
-<p>❌ <strong>Incorrect:</strong>  </p>
+<p><strong>ფაილების დასახელების წესები</strong></p>
+<p>❌ <strong>არასწორი:</strong>  </p>
 <p>Giorgi Kapanadze.Group/1$ work1  </p>
-<p>❌ Do not use:</p>
+<p>❌ არ გამოიყენოთ:</p>
 <ul>
-<li>Georgian characters (ა, ბ, გ, დ, etc.)  </li>
-<li>Special symbols (other than an underscore <code>_</code>)</li>
+<li>ქართული ასოები (ა, ბ, გ, დ და სხვ.)  </li>
+<li>სპეციალური სიმბოლოები (გარდა ხაზგასმისა <code>_</code>)</li>
 </ul>
-<p>✅ <strong>Correct:</strong></p>
-<p>Giorgi_Kapanadze_Group_4_work_1  </p>
+<p>✅ <strong>სწორი:</strong>  </p>
+<p>Giorgi_Kapanadze_Group_1_work_1  </p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Use only Latin letters, numbers, and underscores (<code>_</code>) for:<br />
-Archive names, folder and file names, and table column names.</p>
+<p>გამოიყენეთ მხოლოდ ლათინური ასოები, ციფრები და ხაზგასმა (<code>_</code>) შემდეგ შემთხვევებში:<br />
+არქივის სახელები, საქაღალდეებისა და ფაილების სახელები, ცხრილის სვეტების სახელები.</p>
 </div>
 <hr />
-<h2 id="step-by-step-guide">📘 Step-by-Step Guide</h2>
+<h2 id="_3">📘 ეტაპობრივი სახელმძღვანელო</h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You must be authorized (logged in) on <a href="https://elearning.gtu.ge">elearning.gtu.ge</a> to download the data.</p>
+<p>მონაცემების ჩამოსატვირთად და დავალების ასატვირთად საჭიროა ავტორიზაცია გუგლის საკლასო ოთახზე
+ : <a href="https://classroom.google.com/">classroom.google.com</a></p>
 </div>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Step I: Folder Setup</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">I ეტაპი: საქაღალდის ორგანიზება</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
 <ul>
-<li>Download Basemap files from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1">here</a></li>
-<li>Download the data from <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/K-38-51-G-b.zip?forcedownload=1">here</a></li>
-<li>Create a folder using your first and last name. Follow the file naming rules provided above. Example "Giorgi_Kapanadze_Group_4_work_1_georeferencing" <br></li>
-<li>Inside it, create the following subfolders:  </li>
+<li>ჩამოტვირთეთ Basemap ფაილები <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1">აქედან</a></li>
+<li>ჩამოტვირთეთ მონაცემები <a href="https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/K-38-51-G-b.zip?forcedownload=1">აქედან</a></li>
+<li>შექმენით თქვენი სახელისა და გვარის საფუძველზე ახალი საქაღალდე. გამოიყენეთ ზემოთ მოცემული დასახელების წესები. მაგ: <code>"Giorgi_Kapanadze_Group_1_work_1_georeferencing"</code> <br></li>
+<li>მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  </li>
 <li>Raster  </li>
 <li>Image  </li>
 <li>Geoimage  </li>
 </ul>
 <pre class="mermaid"><code>graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{Raster};
-  B --&gt;|Without georeference| C[Image];
-  B --&gt;|With georeference| D[GeoImage];</code></pre>
-<p>Connect ArcGIS (from ArcCatalog) to this main folder.</p>
+  B --&gt;|რეფერენცის გარეშე| C[Image];
+  B --&gt;|გეორეფერენცირებით| D[GeoImage];
+</code></pre>
+<p>დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.</p>
 <hr />
-<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Step II: Map Preparation</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">II ეტაპი: რუკის მომზადება</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
 <ul>
-<li>The assignment folder contains one topographic map.</li>
-<li>Download and place it in the appropriate subfolder.</li>
-<li>Perform georeferencing using rectangular coordinates (in meters).</li>
-<li>Perform georeferencing using spherical coordinates (in degrees, minutes, and seconds).</li>
+<li>დავალების საქაღალდეში მოთავსებულია ერთი ტოპოგრაფიული რუკა.</li>
+<li>ჩამოტვირთეთ და განათავსეთ შესაბამის ქვე-საქაღალდეში.</li>
+<li>განახორციელეთ გეორეფერენცირება მართკუთხა კოორდინატებით (მეტრებში).</li>
+<li>განახორციელეთ გეორეფერენცირება სფერული კოორდინატებით (Degrees, Minutes, seconds).</li>
 </ul>
 <hr />
-<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Step III: Final Checks &amp; Submission</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">III ეტაპი: შემოწმება და გაგზავნა</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
 </div>
 </div>
 <ul>
-<li>After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍</li>
-<li>Ensure that the map correctly aligns with the target area. 🗺</li>
-<li>Compress (zip) your folder (named after your first and last name). 💾</li>
-<li>Use formats like <code>.rar</code> or <code>.zip</code>.</li>
+<li>გეორეფერენცირების შემდეგ გადაამოწმეთ რუკის მდებარეობა ნებისმიერი ხელმისაწვდომი მეთოდით — შეგიძლიათ გამოიყენოთ Google Earth 
+ან QGIS და არ დაგავიწყდეს პირველ რიგში იმპორტით ნებისმიერი საბაზისო რუკის შემოტანა.. 🌍</li>
+<li>დარწმუნდით, რომ რუკა სწორად ემთხვევა მიზნობრივ ტერიტორიას. 🗺</li>
+<li>გააკეთეთ არქივი თქვენს საქაღალდეზე. 💾</li>
+<li>გამოიყენეთ <code>.rar</code> ან <code>.zip</code> ფორმატები.</li>
 <li>
-<p>Name the archive as:<br />
+<p>დაარქვით არქივს შემდეგი ფორმატით:<br />
 <code>FirstName_LastName_GroupNumber_Assignment_Number</code></p>
 </li>
 <li>
-<p>Send it to: giorgi.kapanadze@gtu.ge</p>
+<p>ატვირტეთ გუგლის საკლასო ოთახში ნამუშევარი</p>
 </li>
 </ul>
 <hr />
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>If you experience any issues with the submission process, contact:<br />
-giorgi.kapanadze@gtu.ge<br />
-Or use any file transfer services.</p>
+<p>თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:<br />
+g.kapanadze1908@gmail.com<br />
+ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი.
+https://www.swisstransfer.com/en-gb</p>
+<p>https://wetransfer.com/</p>
+<p>https://www.filemail.com/</p>
+<p>https://dropmefiles.com/</p>
+<p>https://www.swisstransfer.com/en-gb</p>
+<p>https://www.sendgb.com/</p>
+<p>https://workupload.com/ </p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>📌 If anything is unclear, feel free to ask! 😊<br />
-If something here was done incorrectly, I’ll correct it — or you can create a pull request.  </p>
+<p>📌 თუ რაიმე გაუგებარია, თამამად იკითხე! 😊<br />
+თუ რამე არასწორადაა შესრულებული, გავასწორებ — ან თავად შექმენი pull request. </p>
 </div>
 
 

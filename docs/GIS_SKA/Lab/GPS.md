@@ -1,52 +1,53 @@
-# Importing data from text file. Projecting and reprojecting data. Data file Structure (Shapefile,Coverages, Geodatabase) 
+# გლობალური პოზიციონირების სისტემები
 
 ---
-## Assignment Instructions
+## დავალების ინსტრუქციები
 
-⚠️ **Work Environment**
+⚠️ **სამუშაო გარემო**
 
-On university computers, work inside the folder:  
-`C:\Users\Public\` or `C:\Users\Public\Documents`  
-*(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)*
+უნივერსიტეტის კომპიუტერებზე იმუშავეთ შემდეგ საქაღალდეში:  
+`C:\Users\Public\` ან `C:\Users\Public\Documents`  
+*(რეკომენდებულია პირად კომპიუტერებზეც, რადგან პროგრამას სხვა ადგილას არსებული ფაილების დამუშავება შესაძლოა გაუჭირდეს.)*
 
-📦 **Required Software**
+📦 **საჭირო პროგრამები**
 
-* ArcGIS – Required ✅  
-* Google Earth – Optional (depending on the task) ✅
+* QGIS – აუცილებელია ✅  
+* Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  
 
 ---
 
 !!!warning
-    Do not delete completed work until the end of the semester.
-
+    დასრულებული მასალა არ წაშალოთ სემესტრის ბოლომდე.
+    
 ---
 
 !!!danger 
-    **File Naming Rules**
+    **ფაილების დასახელების წესები**
 
-    ❌ **Incorrect:**  
+    ❌ **არასწორი:**  
 
     Giorgi Kapanadze.Group/1$ work1  
 
-    ❌ Do not use:
+    ❌ არ გამოიყენოთ:
 
-    - Georgian characters (ა, ბ, გ, დ, etc.)  
-    - Special symbols (other than an underscore `_`)
+    - ქართული ასოები (ა, ბ, გ, დ და სხვ.)  
+    - სპეციალური სიმბოლოები (გარდა ხაზგასმისა `_`)
 
-    ✅ **Correct:**
+    ✅ **სწორი:**  
 
-    Giorgi_Kapanadze_Group_4_work_1  
+    Giorgi_Kapanadze_Group_1_work_1  
 
 !!!tip
-    Use only Latin letters, numbers, and underscores (`_`) for:  
-    Archive names, folder and file names, and table column names.
+    გამოიყენეთ მხოლოდ ლათინური ასოები, ციფრები და ხაზგასმა (`_`) შემდეგ შემთხვევებში:  
+    არქივის სახელები, საქაღალდეებისა და ფაილების სახელები, ცხრილის სვეტების სახელები.
 
 ---
 
-## 📘 Step-by-Step Guide
+## 📘 ეტაპობრივი სახელმძღვანელო
 
 !!!note
-    You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
+    მონაცემების ჩამოსატვირთად და დავალების ასატვირთად საჭიროა ავტორიზაცია გუგლის საკლასო ოთახზე
+     : [classroom.google.com](https://classroom.google.com/)
 
 
 === "Step I: Folder Setup"
@@ -71,43 +72,55 @@ graph LR
   F --> J[GeoTaggedphoto];
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
 
 ---
 
 
 === "Step II: Doing imports"
-* Import GPS coordinates as a shapefile. <br>
-* Import geotagged photos as a shapefile. <br>
-* Create hyperlinks on the photos layer and display photos as pop-ups. <br>
-* Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
-* Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
-* Save project file named as "GPS_photo_coordinates". Save another mxd file for old versions "GPS_photo_coordinates10.0v".
-* You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
+* შემოიტანეთ GPS კოორდინატები როგორც shapefile. <br>
+* შემოიტანეთ ფოტოსურათები გეოტეგით (geotagged photos) როგორც shapefile. <br>
+* შექმენით ჰიპერბმულები ფოტოების შრეზე და დააწესეთ ფოტოების გამოჩენა pop-up ფანჯარაში. <br>
+* წაშალეთ არასაჭირო ველები შრეებიდან — ან ატრიბუტული ცხრილის გამოყენებით, ან ArcToolbox-ით. <br>
+* გარდაქმენით ფოტოების შრე ელipsoიდიდან UTM ზონაში და მოითვალეთ XY კოორდინატები შრის ცხრილში ArcToolbox-ის ან ხელით შესრულებული მეთოდების მეშვეობით. <br>
+* შეინახეთ პროექტის ფაილი სახელით `"GPS_photo_coordinates"`. ასევე შეინახეთ სხვა `.mxd` ფაილი ძველი ვერსიებისთვის `"GPS_photo_coordinates10.0v"`. <br>
+* ფოტოების გეოტეგირება შეგიძლიათ ხელითაც, ვებგვერდზე: [site](https://tool.geoimgr.com/)
 
 
 ---
 
-=== "Step III: Final Checks & Submission"
-* After that, verify the layers location using any available method. 🌍
-* Ensure that the all of them correctly aligns with the target area. 🗺
-* Compress (zip) your folder (named after your first and last name). 💾
-* Use formats like `.rar` or `.zip`.
-* Name the archive as:  
+=== "ეტაპი IV: შემოწმება და გაგზავნა"
+* გააკეთეთ არქივი თქვენს საქაღალდეზე. 💾
+* გამოიყენეთ `.rar` ან `.zip` ფორმატები.
+* დაარქვით არქივს შემდეგი ფორმატით:  
   `FirstName_LastName_GroupNumber_Assignment_Number`
 
-* Send it to: giorgi.kapanadze@gtu.ge
+* ატვირტეთ გუგლის საკლასო ოთახში ნამუშევარი
 
 ---
 
 !!!warning
-    If you experience any issues with the submission process, contact:  
-    giorgi.kapanadze@gtu.ge  
-    Or use any file transfer services.
+    თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:  
+    g.kapanadze1908@gmail.com  
+    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი. <br>
+
+    https://www.swisstransfer.com/en-gb
+
+    https://wetransfer.com/
+
+    https://www.filemail.com/
+
+    https://dropmefiles.com/
+
+    https://www.swisstransfer.com/en-gb
+
+    https://www.sendgb.com/
+
+    https://workupload.com/ 
 
 !!!info
-    📌 If anything is unclear, feel free to ask! 😊  
-    If something here was done incorrectly, I’ll correct it — or you can create a pull request. 
+    📌 თუ რაიმე გაუგებარია, თამამად იკითხე! 😊  
+    თუ რამე არასწორადაა შესრულებული, გავასწორებ — ან თავად შექმენი pull request.  
 
 
 

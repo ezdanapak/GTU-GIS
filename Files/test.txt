@@ -1,1 +1,27 @@
-test
+# გადადი შენს პროექტის დირექტორიაში
+cd შენი_პროექტის_საქაღალდე
+
+# შექმენი ახალი orphan branch (ანუ history-ის გარეშე სუფთა branch)
+git checkout --orphan Files
+
+# წაშალე ყველაფერი ამ ახალ branch-ში (თუ რამეა დარჩენილი)
+git rm -rf .
+
+
+# შექმენი ახალი საქაღალდე
+mkdir Files
+
+# ჩასვი იქ შენთვის საჭირო ფაილი (მაგ. .zip ან .pdf)
+cp /საფაილო_ბილიკი/filename.zip Files/
+
+
+# Stage და Commit
+git add Files/
+git commit -m "Add first file to Files branch"
+
+# Push GitHub-ზე
+git push origin Files
+
+
+[ჩამოტვირთე ფაილი](https://github.com/USERNAME/REPO_NAME/raw/Files/Files/filename.zip)
+

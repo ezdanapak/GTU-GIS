@@ -156,6 +156,7 @@ nav:
         - QGIS: './GISC_SD/Software/QGIS.md'
         - Google Earth: './GISC_SD/Software/GoogleEarth.md'
 
+#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
 
   - 'GIS - SKA': 
       - 'შესახებ':
@@ -181,6 +182,7 @@ nav:
         - თეორია : './GIS_SKA/Theory/Theory.md'
         - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
         - ვექტორული შრის შენახვა : './GIS_SKA/Theory/Save_vector_layer.md'
+        - გუგლის ფორმატები : './GIS_SKA/Theory/Google_formats.md'
         - დიგიტალიზაცია : './GIS_SKA/Theory/Digitization.md'
         - პროექტის ფაილი : './GIS_SKA/Theory/Project_file.md'
         - Topic 2: './GIS_SKA/Theory/Topic_2.md'

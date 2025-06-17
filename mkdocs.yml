@@ -152,9 +152,9 @@ nav:
         - Info: './GISC_SD/Info.md'
         - test: './GISC_SD/test.md'
         
-  - პროგრამული უზრუნველყოფა:
-        - QGIS: './GISC_SD/Software/QGIS.md'
-        - Google Earth: './GISC_SD/Software/GoogleEarth.md'
+      - პროგრამული უზრუნველყოფა:
+            - QGIS: './GISC_SD/Software/QGIS.md'
+            - Google Earth: './GISC_SD/Software/GoogleEarth.md'
 
 #GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
 

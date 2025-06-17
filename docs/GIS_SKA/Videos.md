@@ -1,25 +1,25 @@
 ### Videos are published on Youtube
 
-Theory of GIS - [Introductio](https://www.youtube.com/)[n](https://youtu.be/) <br>
+GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://youtu.be/) <br>
 
-Georeferencing topo map  - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+გეორეფერენცირება  - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
-GPS Coordinates & Geotaggedphotos - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+GPS კოორდინატები და კოორდინატებიანი ფოტოები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
-Digitization - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
-Geodatabase - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+გეომონაცემთა ბაზა - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
-Topology - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+ტოპოლოგია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
 DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
-Terrain analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+რელიეფის ანალიზი - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
-Hydrological analysis - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+ჰიდროლოგიური ანალიზი - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
 
 ---
 
-If you need help with software installation please use [YouTub](https://www.youtube.com/)[e](https://youtu.be/LWLwPNImHMY) 
-or official website for [guideline](https://desktop.arcgis.com/en/arcmap/latest/get-started/installation-guide/installation-overview.htm) <br>
+თუ გჭირდება დახმარება პროგრამების ინსტალაციაზე შეგიძლია ისარგებლო YouTube - ზე ატვირთული ვიდეოებით [YouTub](https://www.youtube.com/)[e](https://youtu.be/) 
+ან იხელმძღვანელე ოფიციალურ გვერდზე არსებული ინსტრუქციით [guideline](https://qgis.org/resources/installation-guide/) <br>

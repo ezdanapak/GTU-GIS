@@ -151,7 +151,10 @@ nav:
         - გამოცდა: './GISC_SD/Exam.md'
         - Info: './GISC_SD/Info.md'
         - test: './GISC_SD/test.md'
-
+        
+  - პროგრამული უზრუნველყოფა:
+        - QGIS: './GISC_SD/Software/QGIS.md'
+        - Google Earth: './GISC_SD/Software/GoogleEarth.md'
 
 
   - 'GIS - SKA': 
@@ -167,6 +170,7 @@ nav:
         - პრეზენტაციები: './GIS_SKA/Presentations.md'
         - საავტორო უფლებები: './GIS_SKA/Copyright_Disclaimer.md'
         - გამოცდა: './GIS_SKA/Exam.md'
+        - ქვიზი: './GIS_SKA/Quiz.md'
 
       
       - პროგრამული უზრუნველყოფა:
@@ -174,8 +178,9 @@ nav:
         - Google Earth: './GIS_SKA/Software/GoogleEarth.md'
       
       - თეორია:
-        - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
         - თეორია : './GIS_SKA/Theory/Theory.md'
+        - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
+        - ვექტორული შრის შენახვა : './GIS_SKA/Theory/Save_vector_layer.md'
         - დიგიტალიზაცია : './GIS_SKA/Theory/Digitization.md'
         - პროექტის ფაილი : './GIS_SKA/Theory/Project_file.md'
         - Topic 2: './GIS_SKA/Theory/Topic_2.md'

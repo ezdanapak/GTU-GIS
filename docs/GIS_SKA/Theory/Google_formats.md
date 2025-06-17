@@ -42,4 +42,3 @@
 
 ---
 
-🖼️ *Image Source:* [https://lnkd.in/d8QJf2pt](https://lnkd.in/d8QJf2pt)

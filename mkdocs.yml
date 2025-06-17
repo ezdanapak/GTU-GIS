@@ -185,7 +185,7 @@ nav:
         - გუგლის ფორმატები : './GIS_SKA/Theory/Google_formats.md'
         - დიგიტალიზაცია : './GIS_SKA/Theory/Digitization.md'
         - პროექტის ფაილი : './GIS_SKA/Theory/Project_file.md'
-        - Topic 2: './GIS_SKA/Theory/Topic_2.md'
+        - შეიპ-ფაილი: './GIS_SKA/Theory/Shapefile.md'
         - Map composition: './GIS_SKA/Theory/Map_composition.md'
         - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'
 

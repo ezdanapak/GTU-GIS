@@ -179,7 +179,7 @@ nav:
         - Google Earth: './GIS_SKA/Software/GoogleEarth.md'
       
       - თეორია:
-        - თეორია : './GIS_SKA/Theory/Theory.md'
+        - გეოიდი & ელიფსოიდი : './GIS_SKA/Theory/Theory.md'
         - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
         - ვექტორული შრის შენახვა : './GIS_SKA/Theory/Save_vector_layer.md'
         - გუგლის ფორმატები : './GIS_SKA/Theory/Google_formats.md'

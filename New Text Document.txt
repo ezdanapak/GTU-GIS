@@ -15,6 +15,34 @@ https://mermaid.live/edit#pako:eNpVjbFugzAQhl_FuqmVksg4dqAeKjWkzRKpHTIVMljgYJRgI
 https://mkdocs-magicspace.alnoda.org/
 https://squidfunk.github.io/mkdocs-material/
 
+ბრენჩები
+
+ძალიან მარტივად შეგიძლია main branch-ზე დაბრუნდე შემდეგი ბრძანებით:
+
+git checkout main
+
+შემოწმებისათვის რომელი branch-ზე ხარ:
+git branch
+
+თუ ახალი ხარ რეპოზიტორიაში და ჯერ არ გაქვს ჩამოტვირთული main, გამოიყენე:
+
+git fetch origin
+git checkout main
+
+
+თუ Files ბრენჩზე რამე ფაილი ჩაამატე და არ გაქვს commit გაკეთებული, Git შეგატყობინებს, რომ ცვლილებები გაქვს. ასეთ შემთხვევაში შეგიძლია:
+
+ან commit გააკეთო Files ბრენჩზე (git commit -m "Message")
+
+ან დროებით შეინახო ცვლილებები stash-ით:
+
+git stash
+git checkout main
+თუ დაგჭირდა stash-ის დაბრუნება:
+
+
+git stash apply
+
 
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 

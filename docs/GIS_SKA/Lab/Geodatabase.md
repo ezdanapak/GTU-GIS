@@ -1,59 +1,59 @@
-Designing a Map. Simple Line Intersection Algorithm. A Better Algorithm of Simple Line Intersection Algorithm
-
+# გეომონაცემთა ბაზები
 
 ---
-## Assignment Instructions
+## დავალების ინსტრუქციები
 
-⚠️ **Work Environment**
+⚠️ **სამუშაო გარემო**
 
-On university computers, work inside the folder:  
-`C:\Users\Public\` or `C:\Users\Public\Documents`  
-*(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)*
+უნივერსიტეტის კომპიუტერებზე იმუშავეთ შემდეგ საქაღალდეში:  
+`C:\Users\Public\` ან `C:\Users\Public\Documents`  
+*(რეკომენდებულია პირად კომპიუტერებზეც, რადგან პროგრამას სხვა ადგილას არსებული ფაილების დამუშავება შესაძლოა გაუჭირდეს.)*
 
-📦 **Required Software**
+📦 **საჭირო პროგრამები**
 
-* ArcGIS – Required ✅  
-* Google Earth – Optional (depending on the task) ✅  
+* QGIS – აუცილებელია ✅  
+* Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  
 
 ---
 
 !!!warning
-    Do not delete completed work until the end of the semester.
+    დასრულებული მასალა არ წაშალოთ სემესტრის ბოლომდე.
     
 ---
 
 !!!danger 
-    **File Naming Rules**
+    **ფაილების დასახელების წესები**
 
-    ❌ **Incorrect:**  
+    ❌ **არასწორი:**  
 
     Giorgi Kapanadze.Group/1$ work1  
 
-    ❌ Do not use:
+    ❌ არ გამოიყენოთ:
 
-    - Georgian characters (ა, ბ, გ, დ, etc.)  
-    - Special symbols (other than an underscore `_`)
+    - ქართული ასოები (ა, ბ, გ, დ და სხვ.)  
+    - სპეციალური სიმბოლოები (გარდა ხაზგასმისა `_`)
 
-    ✅ **Correct:**
+    ✅ **სწორი:**  
 
-    Giorgi_Kapanadze_Group_4_work_1  
+    Giorgi_Kapanadze_Group_1_work_1  
 
 !!!tip
-    Use only Latin letters, numbers, and underscores (`_`) for:  
-    Archive names, folder and file names, and table column names.
+    გამოიყენეთ მხოლოდ ლათინური ასოები, ციფრები და ხაზგასმა (`_`) შემდეგ შემთხვევებში:  
+    არქივის სახელები, საქაღალდეებისა და ფაილების სახელები, ცხრილის სვეტების სახელები.
 
 ---
 
-## 📘 Step-by-Step Guide
+## 📘 ეტაპობრივი სახელმძღვანელო
 
 !!!note
-    You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
+    მონაცემების ჩამოსატვირთად და დავალების ასატვირთად საჭიროა ავტორიზაცია გუგლის საკლასო ოთახზე
+     : [classroom.google.com](https://classroom.google.com/)
 
-=== "Step I: Folder Setup"
-* We are using a **digitizing [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Digitization/)** as part of this exercise.
+=== "I ეტაპი: საქაღალდის ორგანიზება"
+* ვიყენებთ წინა დავალებას **digitizing [task](https://ezdanapak.github.io/)**
 
 
-* Inside it, create the following subfolders:  
+* მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
   - Geodatabase
   - Style  
 
@@ -66,99 +66,112 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
 
 ---
 
-=== "Step II: Adding the Database"
+=== "ნაბიჯი II: გეომონაცემთა ბაზის დამატება"
 
-* Open "Digitalization_project.mxd" project from folder and save copy of it "Geodatabase_project". Also save another mxd file for old versions "Geodatabase_project10.0v".
+* გახსენით `"Digitalization_project.mxd"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
+  დამატებით შეინახეთ სხვა `.mxd` ფაილი ძველი ვერსიებისთვის სახელით `"Geodatabase_project10.0v"`  
 
-* Create a new File Geodatabase (.gdb extension) in the designated folder, also Style folder.
+* შექმენით ახალი File Geodatabase (.gdb გაფართოებით) მითითებულ საქაღალდეში, ასევე შექმენით Style საქაღალდე.
 
-* Create a feature dataset, import spatial data from the shapefiles located in the `shp` folder, and group them accordingly.
+* შექმენით Feature Dataset, იმპორტირდეს სივრცული მონაცემები `shp` საქაღალდეში არსებული shapefile-ებიდან და დააჯგუფეთ შესაბამისად.
 
-* Correct layer Sources from shapefile to geodatabase feature class. 
+* შეცვალეთ შრეების Source-ები shapefile-დან Geodatabase-ის feature class-ებზე.
 
-* Open your existing project and replace the shapefiles with feature classes stored in the geodatabase.
+* გახსენით არსებული პროექტი და shapefile-ები შეცვალეთ გეობაზაში არსებული Feature Class-ებით.
 
-* Fill in additional information in the attribute table:
+* ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:
 
-**For roads:** <br>
-- Create a column named `"name"` in which you will enter values like `"E117"` or `"S3"` for highways, or `"300 Aragveli Street"` for street names. <br>
-- Create a column named `"length_m"` where you will calculate the length of each feature in meters using the UTM zone. <br>
-- Create a column named `"length_km"` where you will calculate the length in kilometers using the UTM zone. <br>
+**გზებისთვის:** <br>
+- შექმენით ველი `"name"`, სადაც შეიყვანეთ მნიშვნელობები, როგორიცაა `"E117"` ან `"S22"` ტრასებისთვის, ან `"Shota Rustaveli Street"` ქუჩებისთვის. <br>
+- შექმენით ველი `"length_m"` — თითოეული ობიექტის სიგრძის გამოთვლისთვის მეტრებში (UTM ზონა). <br>
+- შექმენით ველი `"length_km"` — სიგრძის გამოთვლისთვის კილომეტრებში (UTM ზონა). <br>
 
-**For rivers:** <br>
-- Create a column named `"name"` where you will enter names such as `"Mtiuletis Aragvi"` or `"Gudamakris Aragvi"`. If the river has no name, write `"without name"`. <br>
-- Create a column named `"length_m"` to calculate the length in meters using the UTM zone. <br>
-- Create a column named `"length_km"` to calculate the length in kilometers using the UTM zone. <br>
+**მდინარეებისთვის:** <br>
+- შექმენით ველი `"name"` — მაგალითად `"მთიულეთის არაგვი"` ან `"გუდამაყრის არაგვი"`. თუ მდინარეს სახელი არ აქვს, მიუთითეთ `"უსახელო"`. <br>
+- შექმენით ველი `"length_m"` — სიგრძის მეტრებში გამოსათვლელად (UTM ზონა). <br>
+- შექმენით ველი `"length_km"` — სიგრძის კილომეტრებში გამოსათვლელად (UTM ზონა). <br>
 
-**For bridges:** <br>
-- Create a new column `"type"` where you will enter the category of the bridge: `"Pedestrian"`, `"Vehicle"`, or `"Combined"`. <br>
+**ხიდებისთვის:** <br>
+- შექმენით ველი `"type"` — სადაც მიუთითებთ ხიდის ტიპს: `"ქვეითი"`, `"ტრანსპორტის"`, ან `"შერეული"`. <br>
 
-**For parcels:** <br>
-- Create owner columns named `"name"`, `"surname"`, `"identity"`, and `"personal_id"` where you will enter the appropriate values.  <br>
-- Create a column named `"area_sqm"` to calculate the length in meters using the UTM zone. <br>
-- Create a column named `"area_sqkm"` to calculate the length in kilometers using the UTM zone. <br>
-- Create a column named `"periemter_m"` to calculate the length in meters using the UTM zone. <br>
-- Create a column named `"perimeter_km"` to calculate the length in kilometers using the UTM zone. <br>
+**ნაკვეთისთვის (parcels):** <br>
+- შექმენით მფლობელის მონაცემების ველები: `"name"`, `"surname"`, `"identity"`, `"personal_id"` <br>
+- `"area_sqm"` — ფართობი კვ. მეტრებში (UTM ზონა) <br>
+- `"area_sqkm"` — ფართობი კვ. კილომეტრებში (UTM ზონა) <br>
+- `"periemter_m"` — პერიმეტრი მეტრებში (UTM ზონა) <br>
+- `"perimeter_km"` — პერიმეტრი კილომეტრებში (UTM ზონა) <br>
 
-**For restaurants, hotels, and stadiums:** <br>
-- Create a column named `"name"` where you will enter their respective names. <br>
+**რესტორნებისთვის, სასტუმროებისთვის და სტადიონებისთვის:** <br>
+- შექმენით ველი `"name"` — და მიუთითეთ შესაბამისი ობიექტის სახელი. <br>
 
-**Additional info** <br>
+**დამატებითი ინფორმაცია** <br>
 
-> **Note:** Not all feature types can be listed individually in these instructions.   <br>
-> Please process each layer according to its geometry type: <br>
+> **შენიშვნა:** ყველა ობიექტის ტიპის ინდივიდუალური აღწერა მოცემული არაა. <br>
+> დაამუშავეთ თითოეული შრე მისი გეომეტრიის ტიპის შესაბამისად: <br>
 
-- **Point features**:  <br>
-  Add fields to store **X and Y coordinates** (in your projected coordinate system). <br>
+- **წერტილოვანი ობიექტები (Point features):**  <br>
+  დაამატეთ ველები **X** და **Y** კოორდინატებისთვის (თქვენს პროექცირებულ სისტემაში). <br>
 
-- **Line features**:   <br>
-  Add fields to calculate **length**:
-  - `"Length_m"` — length in meters using the UTM zone. <br>
-  - `"Length_km"` — length in kilometers using the UTM zone. <br>
+- **ხაზოვანი ობიექტები (Line features):**   <br>
+  დაამატეთ ველები სიგრძის გამოსათვლელად:
+  - `"Length_m"` — სიგრძე მეტრებში (UTM ზონა) <br>
+  - `"Length_km"` — სიგრძე კილომეტრებში (UTM ზონა) <br>
 
-- **Polygon features**:   <br>
-  Add fields to calculate **area and perimeter**: <br>
-  - `"Area_sqm"` — area in square meters using the UTM zone. <br>
-  - `"Area_ha"` — area in hectares. <br>
-  - `"Perimeter_m"` — perimeter in meters. <br>
+- **პოლიგონური ობიექტები (Polygon features):**   <br>
+  დაამატეთ ველები ფართობისა და პერიმეტრისთვის: <br>
+  - `"Area_sqm"` — ფართობი კვ. მეტრებში (UTM ზონა) <br>
+  - `"Area_ha"` — ფართობი ჰექტარებში <br>
+  - `"Perimeter_m"` — პერიმეტრი მეტრებში <br>
 
-* If any information is unavailable for a feature, leave the cell empty.* <br>
-
-
-
-=== "Step III: Symbolization"
-
-* Break down each dataset into categories based on names and attributes.
-
-* Assign appropriate labels to each object.
-
-* Save the style files for each dataset in the designated folder.
-
-* Compact Geodatabase 
-
-* Click save project button again and close project
+* თუ რომელიმე მონაცემი კონკრეტული ობიექტისთვის მიუწვდომელია, დატოვეთ უჯრა ცარიელი. * <br>
 
 
-=== "Step IV: Final Checks & Submission"
+=== "ეტაპი III: სიმბოლიზაცია"
 
-* Compress (zip) your folder (named after your first and last name). 💾
-* Use formats like `.rar` or `.zip`.
-* Name the archive as:  
+* თითოეული შრე დაყავით კატეგორიებად `"name"` და `"attribute"` ველების მიხედვით.
+
+* მიუთითეთ შესაბამისი ლეიბლები (labels) თითოეულ ობიექტზე.
+
+* თითოეული შრის სტილი შეინახეთ მითითებულ `Style` საქაღალდეში.
+
+* Compact Geodatabase-ს გამოყენებით შეკუმშეთ გეობაზა.
+
+* დააწკაპუნეთ Save ღილაკზე პროექტის შესანახად და დახურეთ.
+
+
+=== "IV ეტაპი: შემოწმება და გაგზავნა"
+* გააკეთეთ არქივი თქვენს საქაღალდეზე. 💾
+* გამოიყენეთ `.rar` ან `.zip` ფორმატები.
+* დაარქვით არქივს შემდეგი ფორმატით:  
   `FirstName_LastName_GroupNumber_Assignment_Number`
 
-* Send it to: giorgi.kapanadze@gtu.ge
+* ატვირტეთ გუგლის საკლასო ოთახში ნამუშევარი
 
 ---
 
 !!!warning
-    If you experience any issues with the submission process, contact:  
-    giorgi.kapanadze@gtu.ge  
-    Or use any file transfer services.
+    თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:  
+    g.kapanadze1908@gmail.com  
+    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი. <br>
+
+    https://www.swisstransfer.com/en-gb
+
+    https://wetransfer.com/
+
+    https://www.filemail.com/
+
+    https://dropmefiles.com/
+
+    https://www.swisstransfer.com/en-gb
+
+    https://www.sendgb.com/
+
+    https://workupload.com/ 
 
 !!!info
-    📌 If anything is unclear, feel free to ask! 😊  
-    If something here was done incorrectly, I’ll correct it — or you can create a pull request. 
+    📌 თუ რაიმე გაუგებარია, თამამად იკითხე! 😊  
+    თუ რამე არასწორადაა შესრულებული, გავასწორებ — ან თავად შექმენი pull request. 

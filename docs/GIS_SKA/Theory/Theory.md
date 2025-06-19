@@ -5,7 +5,7 @@
 ## 🌍 დედამიწის ელიფსოიდის შესახებ
 🔗 იხილეთ ბმული: > [დედამიწის ელიფსოიდი](https://en.wikipedia.org/wiki/Earth_ellipsoid)
 
-## 📏 დათუმის შესახებ
+## 📏 დატუმის შესახებ
 🔗 იხილეთ ბმული: > [დათუმი](https://desktop.arcgis.com/en/arcmap/latest/map/projections/datums.htm)
 
 ## 🛰️ სატელიტური ნავიგაციის შესახებ
@@ -14,21 +14,12 @@
 ## 🌐 გეოგრაფიული კოორდინატული სისტემების შესახებ
 🔗 იხილეთ ბმული: > [გეოგრაფიული კოორდინატული სისტემები](https://desktop.arcgis.com/en/arcmap/latest/map/projections/about-geographic-coordinate-systems.htm)
 
-## 🌐 გეოიდი, ელიფსოიდი, სფეროიდი და დათუმი
+## 🌐 გეოიდი, ელიფსოიდი, სფეროიდი და დატუმი
 🔗 იხილეთ მათი [ურთიერთდაკავშირება](https://desktop.arcgis.com/en/arcmap/latest/map/projections/about-the-geoid-ellipsoid-spheroid-and-datum-and-h.htm)
 
 ---
 
-🗺️ **პრაქტიკული კარტოგრაფიის საფუძვლები**  
-📦 ფაილი ZIP ფორმატში შეიცავს დასკანერებულ JPG გვერდებს  
-🔗 [გადმოწერა](https://elearning.gtu.ge/pluginfile.php/569096/mod_book/intro/Fundamentals_of_applied_cartography.zip)  
 
-!!!შენიშვნა
-    წიგნი ქართულ ენაზეა და მხოლოდ მეორე თავი უნდა წაიკითხოთ. საჭირო თეორია სხვა რესურსებშიც მოიძებნება.
-
-📖 თავი II - მათემატიკური კარტოგრაფიის თემები:
-- რუკის მათემატიკური საფუძვლები  
-- რუკის გეოდეზიური საფუძვლები
 
 ## 📌 საქართველოში გამოყენებული კოორდინატული სისტემები
 

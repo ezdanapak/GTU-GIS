@@ -56,9 +56,9 @@
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* QGIS ინსტალაციის შემდეგ დააინსტალირეთ ფლაგინი [HCMGIS](https://plugins.qgis.org/plugins/HCMGIS/) და 
+* QGIS - ში დააინსტალირეთ ფლაგინი [HCMGIS](https://plugins.qgis.org/plugins/HCMGIS/) და 
 [QuickMapServices](https://plugins.qgis.org/plugins/quick_map_services/) საბაზისო რუკებისთვის.
-* ჩამოტვირთეთ მონაცემები [აქედან]()
+* [ჩამოტვირთეთ ტოპო რუკა](https://github.com/ezdanapak/GTU-GIS/raw/e309e38dcb2aee7e2a7188eb2c755c394074f9c3/GIS_SKA/topo_map/K-38-51-G-b.jpg)
 * შექმენით თქვენი სახელისა და გვარის საფუძველზე ახალი საქაღალდე. გამოიყენეთ ზემოთ მოცემული დასახელების წესები. მაგ: `"Giorgi_Kapanadze_Group_1_work_1_georeferencing"` <br>
 * მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
   - Raster  

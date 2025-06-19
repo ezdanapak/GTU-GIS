@@ -1,6 +1,8 @@
 <!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
 # გეორეფერენცირება
 
+ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/)
+თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Georeferencing/)
 ---
 ## დავალების ინსტრუქციები
 

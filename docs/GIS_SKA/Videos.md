@@ -2,7 +2,7 @@
 
 GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://youtu.be/) <br>
 
-გეორეფერენცირება  - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+გეორეფერენცირება  - [practical tas](https://www.youtube.com/)[k](https://youtu.be/dc6Ggv09h4I) <br>
 
 GPS კოორდინატები და კოორდინატებიანი ფოტოები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 

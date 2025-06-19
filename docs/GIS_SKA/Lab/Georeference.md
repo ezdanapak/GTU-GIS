@@ -3,9 +3,8 @@
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Georeferencing/) <br>
-დამატებით ამავე [საკითხებზე](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Theory/)
-
-გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️
+დამატებით ამავე [საკითხებზე](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Theory/) <br>
+გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 
 ---
 ## დავალების ინსტრუქციები

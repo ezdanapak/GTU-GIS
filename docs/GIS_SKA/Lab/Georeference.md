@@ -3,6 +3,9 @@
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/)
 თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Georeferencing/)
+
+გარკვეული მასალები ინახება გუგლის საკლასო ოთახში ⚠️
+
 ---
 ## დავალების ინსტრუქციები
 
@@ -53,8 +56,9 @@
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* ჩამოტვირთეთ Basemap ფაილები [აქედან](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
-* ჩამოტვირთეთ მონაცემები [აქედან](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/K-38-51-G-b.zip?forcedownload=1)
+* QGIS ინსტალაციის შემდეგ დააინსტალირეთ ფლაგინი [HCMGIS](https://plugins.qgis.org/plugins/HCMGIS/) და 
+[QuickMapServices](https://plugins.qgis.org/plugins/quick_map_services/) საბაზისო რუკებისთვის.
+* ჩამოტვირთეთ მონაცემები [აქედან]()
 * შექმენით თქვენი სახელისა და გვარის საფუძველზე ახალი საქაღალდე. გამოიყენეთ ზემოთ მოცემული დასახელების წესები. მაგ: `"Giorgi_Kapanadze_Group_1_work_1_georeferencing"` <br>
 * მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
   - Raster  

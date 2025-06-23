@@ -56,17 +56,18 @@ QGIS Documentation - [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/wo
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის მოწყობა"
-* ჩამოტვირთეთ Basemap ფაილები [აქედან](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
+* QGIS - ში დააინსტალირეთ ფლაგინი [HCMGIS](https://plugins.qgis.org/plugins/HCMGIS/) და 
+[QuickMapServices](https://plugins.qgis.org/plugins/quick_map_services/) საბაზისო რუკებისთვის.
 * შექმენით საქაღალდე თქვენი სახელისა და გვარის გამოყენებით. დაიცავით ზემოთ მოცემული სახელდების წესები.
 * მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
   - Project  
-  - lyr 
+  - Plugins
   - shp  
 
 ```mermaid
 graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Plugins};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
 ```
 

@@ -4,7 +4,7 @@
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Georeferencing/) <br>
 დამატებით ამავე [საკითხებზე](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Theory/) <br>
-QGIS Documentation - [Georeferencer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html#index-0)
+QGIS Documentation - [Georeferencer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/georeferencer.html#index-0) <br>
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 
 ---

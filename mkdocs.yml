@@ -187,14 +187,17 @@ nav:
       - თეორია:
         - გეოიდი & ელიფსოიდი : './GIS_SKA/Theory/Theory.md'
         - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
-        - ადგილის სიმაღლე: './GIS_SKA/Theory/Placemark_altitudes.md'
         - ვექტორული შრის შენახვა : './GIS_SKA/Theory/Save_vector_layer.md'
-        - გუგლის ფორმატები : './GIS_SKA/Theory/Google_formats.md'
         - დიგიტალიზაცია : './GIS_SKA/Theory/Digitization.md'
         - პროექტის ფაილი : './GIS_SKA/Theory/Project_file.md'
         - შეიპ-ფაილი: './GIS_SKA/Theory/Shapefile.md'
         - Map composition: './GIS_SKA/Theory/Map_composition.md'
         - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'
+      
+      - Google:
+        - ადგილის სიმაღლე: './GIS_SKA/Theory/Google/Placemark_altitudes.md'
+        - გუგლის ფორმატები : './GIS_SKA/Theory/Google/Google_formats.md'
+
 
       - დავალებები:
         - გეორეფერენცირება : './GIS_SKA/Lab/Georeference.md'

@@ -7,6 +7,8 @@
 Shapefile - ის [შესახებ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Shapefile/) <br>
 QGIS Documentation - [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html) <br>
 თეორიული ნაწილი ბილიკების - [შესახებ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Path/)
+ინდექსაცია ცხრილური და [სივრცული](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#create-spatial-index
+)
 ---
 ## დავალების ინსტრუქციები
 

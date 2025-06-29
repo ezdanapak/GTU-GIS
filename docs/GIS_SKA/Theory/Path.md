@@ -3,7 +3,7 @@
 
 QGIS-ში მუშაობისას ფაილების ბილიკის ტიპის სწორად განსაზღვრა მნიშვნელოვანია პროექტის პორტაბელურობისა და სხვა მოწყობილობებზე სწორად გახსნისთვის.
 
-[დოკუმენტაცია:](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/project_files.html#handling-broken-file-paths)
+QGIS ოფიციალური [დოკუმენტაცია:](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/project_files.html#handling-broken-file-paths)
 
 ---
 

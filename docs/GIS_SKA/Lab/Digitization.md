@@ -1,6 +1,8 @@
 <!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
 # დიგიტალიზაცია
 
+## სასარგებლო ბმულები
+
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Digitization/) <br>
 დამატებით ამავე [საკითხებზე](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Project_file/) <br>

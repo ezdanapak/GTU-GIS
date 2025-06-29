@@ -6,6 +6,8 @@ GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://yout
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/pN6PRNM1WpA) <br>
 
+გეორეფერენცირება & დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/05SjuRmB8sg) <br>
+
 GPS კოორდინატები და კოორდინატებიანი ფოტოები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>

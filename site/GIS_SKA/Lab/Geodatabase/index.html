@@ -3061,7 +3061,7 @@
 </div>
 <ul>
 <li>
-<p>ვიყენებთ წინა დავალებას <strong>digitizing <a href="https://ezdanapak.github.io/">task</a></strong></p>
+<p>ვიყენებთ წინა დავალებას <strong>დიგიტალიზაცია <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Digitization/">task</a></strong></p>
 </li>
 <li>
 <p>მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  </p>
@@ -3071,7 +3071,7 @@
 </ul>
 <pre class="mermaid"><code>graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; C{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; C{Plugins};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; D{shp};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; E{Geodatabase};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; F{Style};</code></pre>
@@ -3084,20 +3084,17 @@
 </div>
 <ul>
 <li>
-<p>გახსენით <code>"Digitalization_project.mxd"</code> ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით <code>"Geodatabase_project"</code><br />
-  დამატებით შეინახეთ სხვა <code>.mxd</code> ფაილი ძველი ვერსიებისთვის სახელით <code>"Geodatabase_project10.0v"</code>  </p>
+<p>გახსენით <code>"Chiatura_Digitalization_project.qgz"</code> ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით <code>"Geodatabase_project"</code><br />
+  დამატებით შეინახეთ სხვა <code>.mxd</code> ფაილი ძველი ვერსიებისთვის სახელით <code>"Chiatura_Geodatabase_project.qgz"</code>  </p>
 </li>
 <li>
-<p>შექმენით ახალი File Geodatabase (.gdb გაფართოებით) მითითებულ საქაღალდეში, ასევე შექმენით Style საქაღალდე.</p>
+<p>შექმენით ახალი GeoPackage (.gpkg გაფართოებით) Geodatabase საქაღალდეში.</p>
 </li>
 <li>
-<p>შექმენით Feature Dataset, იმპორტირდეს სივრცული მონაცემები <code>shp</code> საქაღალდეში არსებული shapefile-ებიდან და დააჯგუფეთ შესაბამისად.</p>
+<p>DB manager - ის დახმარებით იმპორტზე უნდა შემოიტანოთ პროექტში არსებული შრეები ბაზაში.</p>
 </li>
 <li>
-<p>შეცვალეთ შრეების Source-ები shapefile-დან Geodatabase-ის feature class-ებზე.</p>
-</li>
-<li>
-<p>გახსენით არსებული პროექტი და shapefile-ები შეცვალეთ გეობაზაში არსებული Feature Class-ებით.</p>
+<p>შეცვალეთ შრეების Source-ები (Change data Source) shapefile-დან Geodatabase-ის feature class-ებზე.</p>
 </li>
 <li>
 <p>ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:</p>
@@ -3115,6 +3112,10 @@
 - შექმენით ველი <code>"type"</code> — სადაც მიუთითებთ ხიდის ტიპს: <code>"ქვეითი"</code>, <code>"ტრანსპორტის"</code>, ან <code>"შერეული"</code>. <br></p>
 <p><strong>ნაკვეთისთვის (parcels):</strong> <br>
 - შექმენით მფლობელის მონაცემების ველები: <code>"name"</code>, <code>"surname"</code>, <code>"identity"</code>, <code>"personal_id"</code> <br>
+- <code>"name"</code> — სახელი (String) <br>
+- <code>"surname"</code> — სახელი (String) <br>
+- <code>"identity"</code> — პირადობა/პასპორტი (String) <br>
+- <code>"personal_id"</code> — პირადი ნომერი (Integer) <br>
 - <code>"area_sqm"</code> — ფართობი კვ. მეტრებში (UTM ზონა) <br>
 - <code>"area_sqkm"</code> — ფართობი კვ. კილომეტრებში (UTM ზონა) <br>
 - <code>"periemter_m"</code> — პერიმეტრი მეტრებში (UTM ზონა) <br>
@@ -3159,16 +3160,16 @@
 </div>
 <ul>
 <li>
-<p>თითოეული შრე დაყავით კატეგორიებად <code>"name"</code> და <code>"attribute"</code> ველების მიხედვით.</p>
+<p>თითოეული შრე დაყავით კატეგორიებად <code>"name"</code> და <code>"attribute"</code> ველების მიხედვით, ან იმ ველის მიხედვით რაც გაქვთ.</p>
 </li>
 <li>
-<p>მიუთითეთ შესაბამისი ლეიბლები (labels) თითოეულ ობიექტზე.</p>
+<p>მიუთითეთ შესაბამისი ლეიბლები (labels) თითოეულ ობიექტზე, თუ გაქვთ შესაბამისი ინფორმაცია შეტანილი.</p>
 </li>
 <li>
 <p>თითოეული შრის სტილი შეინახეთ მითითებულ <code>Style</code> საქაღალდეში.</p>
 </li>
 <li>
-<p>Compact Geodatabase-ს გამოყენებით შეკუმშეთ გეობაზა.</p>
+<p>Compact Geodatabase-ს გამოყენებით შეკუმშეთ გეომონაცემთაბაზა.</p>
 </li>
 <li>
 <p>დააწკაპუნეთ Save ღილაკზე პროექტის შესანახად და დახურეთ.</p>

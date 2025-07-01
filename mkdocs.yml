@@ -192,8 +192,10 @@ nav:
         - პროექტის ფაილი : './GIS_SKA/Theory/Project_file.md'
         - შეიპ-ფაილი: './GIS_SKA/Theory/Shapefile.md'
         - Map composition: './GIS_SKA/Theory/Map_composition.md'
-        - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'
         - ბილიკები: './GIS_SKA/Theory/Path.md'
+        - გეომონაცემთა ბაზები: 
+          - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
+          - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'
       
       - Google:
         - ადგილის სიმაღლე: './GIS_SKA/Theory/Google/Placemark_altitudes.md'

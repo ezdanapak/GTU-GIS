@@ -50,7 +50,7 @@
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* ვიყენებთ წინა დავალებას **digitizing [task](https://ezdanapak.github.io/)**
+* ვიყენებთ წინა დავალებას **დიგიტალიზაცია [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Digitization/)**
 
 
 * მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
@@ -60,7 +60,7 @@
 ``` mermaid
 graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{lyr};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Plugins};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
@@ -72,16 +72,16 @@ graph LR
 
 === "ნაბიჯი II: გეომონაცემთა ბაზის დამატება"
 
-* გახსენით `"Digitalization_project.mxd"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
-  დამატებით შეინახეთ სხვა `.mxd` ფაილი ძველი ვერსიებისთვის სახელით `"Geodatabase_project10.0v"`  
+* გახსენით `"Chiatura_Digitalization_project.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
+  დამატებით შეინახეთ სხვა `.mxd` ფაილი ძველი ვერსიებისთვის სახელით `"Chiatura_Geodatabase_project.qgz"`  
 
-* შექმენით ახალი File Geodatabase (.gdb გაფართოებით) მითითებულ საქაღალდეში, ასევე შექმენით Style საქაღალდე.
+* შექმენით ახალი GeoPackage (.gpkg გაფართოებით) Geodatabase საქაღალდეში.
 
-* შექმენით Feature Dataset, იმპორტირდეს სივრცული მონაცემები `shp` საქაღალდეში არსებული shapefile-ებიდან და დააჯგუფეთ შესაბამისად.
+* DB manager - ის დახმარებით იმპორტზე უნდა შემოიტანოთ პროექტში არსებული შრეები ბაზაში.
 
-* შეცვალეთ შრეების Source-ები shapefile-დან Geodatabase-ის feature class-ებზე.
+* შეცვალეთ შრეების Source-ები (Change data Source) shapefile-დან Geodatabase-ის feature class-ებზე.
 
-* გახსენით არსებული პროექტი და shapefile-ები შეცვალეთ გეობაზაში არსებული Feature Class-ებით.
+
 
 * ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:
 
@@ -100,6 +100,10 @@ graph LR
 
 **ნაკვეთისთვის (parcels):** <br>
 - შექმენით მფლობელის მონაცემების ველები: `"name"`, `"surname"`, `"identity"`, `"personal_id"` <br>
+- `"name"` — სახელი (String) <br>
+- `"surname"` — სახელი (String) <br>
+- `"identity"` — პირადობა/პასპორტი (String) <br>
+- `"personal_id"` — პირადი ნომერი (Integer) <br>
 - `"area_sqm"` — ფართობი კვ. მეტრებში (UTM ზონა) <br>
 - `"area_sqkm"` — ფართობი კვ. კილომეტრებში (UTM ზონა) <br>
 - `"periemter_m"` — პერიმეტრი მეტრებში (UTM ზონა) <br>
@@ -132,13 +136,13 @@ graph LR
 
 === "ეტაპი III: სიმბოლიზაცია"
 
-* თითოეული შრე დაყავით კატეგორიებად `"name"` და `"attribute"` ველების მიხედვით.
+* თითოეული შრე დაყავით კატეგორიებად `"name"` და `"attribute"` ველების მიხედვით, ან იმ ველის მიხედვით რაც გაქვთ.
 
-* მიუთითეთ შესაბამისი ლეიბლები (labels) თითოეულ ობიექტზე.
+* მიუთითეთ შესაბამისი ლეიბლები (labels) თითოეულ ობიექტზე, თუ გაქვთ შესაბამისი ინფორმაცია შეტანილი.
 
 * თითოეული შრის სტილი შეინახეთ მითითებულ `Style` საქაღალდეში.
 
-* Compact Geodatabase-ს გამოყენებით შეკუმშეთ გეობაზა.
+* Compact Geodatabase-ს გამოყენებით შეკუმშეთ გეომონაცემთაბაზა.
 
 * დააწკაპუნეთ Save ღილაკზე პროექტის შესანახად და დახურეთ.
 

@@ -5,12 +5,13 @@
 SVG [მარკერები](https://www.svgrepo.com/)
 ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/)
 დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/)
-
+დროებითი შრე - Creating a new Temporary Scratch [Layer](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Scratch_layer/)
 ოფიციალური დოკუმენტაცია
 ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos)
 ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns)
 ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer)
-დროებითი შრე[Creating a new Temporary Scratch Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer)
+დროებითი შრე - Creating a new Temporary Scratch [Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer)
+
 
 
 ---
@@ -102,7 +103,8 @@ graph LR
 * შემოიტანეთ კოორდინატებიანი ფოტოსურათები (Geotaggedphotos) როგორც shapefile, ან როგორც გეომონაცემთა ბაზის Feature class. <br>
 * გარდაქმენით ფოტოების შრე PT Assign projection ელიფსოიდიდან UTM ზონაში და გამოთვალეთ XY კოორდინატები Add geometry attributes შრის ცხრილში. <br>
 * აიღეთ ფოტო კოორდინატების გარეშე და დამატებითი ხელსაწყოების დახმარებით მიანიჭეთ ადგილმდებარეობა [geoimgr](https://tool.geoimgr.com/), [GEOSETTER](https://geosetter.de/en/main-en/). <br>
-* SVG მარკერები, ჩამოწერა თავისუფალი წვდომით, შენახვა და გამოყენება წერტილოვან გეომეტრიაზე ხატულად.
+* SVG მარკერები, ჩამოწერა თავისუფალი წვდომით, შენახვა და გამოყენება წერტილოვან გეომეტრიაზე ხატულად. <br>
+* შეინახე შრის სტილი როგორც QGIS qml ფორმატში ასევე SLD ფაილად. <br>
 * შეინახეთ პროექტის ფაილი სახელით `"Chiatura_GPS_project.qgz"`. ასევე შეინახეთ  `"Chiatura_GPS_project.qgs"` ფორმატში. <br>
 
 

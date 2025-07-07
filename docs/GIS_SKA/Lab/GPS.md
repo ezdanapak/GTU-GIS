@@ -1,6 +1,6 @@
 # გლობალური პოზიციონირების სისტემები
 
-
+ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 
 SVG [მარკერები](https://www.svgrepo.com/)
 ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/)
@@ -11,6 +11,8 @@ SVG [მარკერები](https://www.svgrepo.com/)
 ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns)
 ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer)
 დროებითი შრე - Creating a new Temporary Scratch [Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer)
+
+გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 
 
 
@@ -64,17 +66,16 @@ SVG [მარკერები](https://www.svgrepo.com/)
      : [classroom.google.com](https://classroom.google.com/)
 
 
-=== "Step I: Folder Setup"
-* Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
-* Download the data from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/GPS_AND_Photo.zip?forcedownload=1)
-    
-* Create necessary folders for the project from the starting point, or add more as needed during the workflow. Follow the file naming rules provided above. <br>
+=== "I ეტაპი: საქაღალდის ორგანიზება"
+* ვიყენებთ წინა დავალებას **გეომონაცემთა ბაზები [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Geodatabase/)**
+
+
+
+* მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები: <br>
     - archive
     - GPS_coordinates 
-    - lyr
-    - Project 
-    - Raster 
-    - shp
+    - Fonts
+    - GeoTaggedphoto 
 
 ``` mermaid
 graph LR
@@ -96,7 +97,9 @@ graph LR
 ---
 
 
-=== "Step II: Doing task"
+=== "ნაბიჯი II: პრაქტიკული ამოცანების შესრულება"
+
+* გახსენით `"Chiatura_Geodatabase_project.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Chiatura_GPS_project.qgz"` და დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_GPS_project.qgs"`
 * ფონტები, ინსტალაცია, მათი მნიშვნელობა, გამოყენება წარწერებზე.
 * GPS კოორდინატები მასალიდან დააკონვერტირეთ შესაბამის ფორმატში, შემოიტანეთ პროგრამაში დასვით შესაბამის საკოორდინატო სისტემაში,
 შეინახეთ ექსპორტზე თითოეული მათგანი როგორც shapefile, ან გეომონაცემთა ბაზის Feature class. <br>

@@ -1,5 +1,14 @@
 # გეომონაცემთა ბაზები
 
+ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
+ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>
+ხელსაწყო DB Manager [Plugin](https://docs.qgis.org/3.40/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html#index-0) <br>
+ატრიბუტული [ცხრილი](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/attribute_table.html#index-0) <br>
+ველის [კალკულატორი](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/attribute_table.html#index-6) <br>
+სტილების [მენეჯერი](https://docs.qgis.org/3.40/en/docs/user_manual/style_library/style_manager.html) <br>
+სიმბოლიზირების [პარამეტრები](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties) <br>
+
+გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 ---
 ## დავალების ინსტრუქციები
 
@@ -73,7 +82,7 @@ graph LR
 === "ნაბიჯი II: გეომონაცემთა ბაზის დამატება"
 
 * გახსენით `"Chiatura_Digitalization_project.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
-  დამატებით შეინახეთ სხვა `.mxd` ფაილი ძველი ვერსიებისთვის სახელით `"Chiatura_Geodatabase_project.qgz"`  
+  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_project.qgs"`  
 
 * შექმენით ახალი GeoPackage (.gpkg გაფართოებით) Geodatabase საქაღალდეში.
 

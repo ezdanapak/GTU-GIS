@@ -1,5 +1,18 @@
 # გლობალური პოზიციონირების სისტემები
 
+
+
+SVG [მარკერები](https://www.svgrepo.com/)
+ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/)
+დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/)
+
+ოფიციალური დოკუმენტაცია
+ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos)
+ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns)
+ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer)
+დროებითი შრე[Creating a new Temporary Scratch Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer)
+
+
 ---
 ## დავალების ინსტრუქციები
 
@@ -64,12 +77,17 @@
 
 ``` mermaid
 graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{archive};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{GPS_coordinates};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Raster};
-  F --> J[GeoTaggedphoto];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Plugins};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{GPS_coordinates};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Fonts};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> J{Raster};
+  J --> K[GeoTaggedphoto];
+
 ```
 
 დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
@@ -77,14 +95,16 @@ graph LR
 ---
 
 
-=== "Step II: Doing imports"
-* შემოიტანეთ GPS კოორდინატები როგორც shapefile. <br>
-* შემოიტანეთ ფოტოსურათები გეოტეგით (geotagged photos) როგორც shapefile. <br>
-* შექმენით ჰიპერბმულები ფოტოების შრეზე და დააწესეთ ფოტოების გამოჩენა pop-up ფანჯარაში. <br>
-* წაშალეთ არასაჭირო ველები შრეებიდან — ან ატრიბუტული ცხრილის გამოყენებით, ან ArcToolbox-ით. <br>
-* გარდაქმენით ფოტოების შრე ელipsoიდიდან UTM ზონაში და მოითვალეთ XY კოორდინატები შრის ცხრილში ArcToolbox-ის ან ხელით შესრულებული მეთოდების მეშვეობით. <br>
-* შეინახეთ პროექტის ფაილი სახელით `"GPS_photo_coordinates"`. ასევე შეინახეთ სხვა `.mxd` ფაილი ძველი ვერსიებისთვის `"GPS_photo_coordinates10.0v"`. <br>
-* ფოტოების გეოტეგირება შეგიძლიათ ხელითაც, ვებგვერდზე: [geoimgr](https://tool.geoimgr.com/), [GEOSETTER](https://geosetter.de/en/main-en/)
+=== "Step II: Doing task"
+* ფონტები, ინსტალაცია, მათი მნიშვნელობა, გამოყენება წარწერებზე.
+* GPS კოორდინატები მასალიდან დააკონვერტირეთ შესაბამის ფორმატში, შემოიტანეთ პროგრამაში დასვით შესაბამის საკოორდინატო სისტემაში,
+შეინახეთ ექსპორტზე თითოეული მათგანი როგორც shapefile, ან გეომონაცემთა ბაზის Feature class. <br>
+* შემოიტანეთ კოორდინატებიანი ფოტოსურათები (Geotaggedphotos) როგორც shapefile, ან როგორც გეომონაცემთა ბაზის Feature class. <br>
+* გარდაქმენით ფოტოების შრე PT Assign projection ელიფსოიდიდან UTM ზონაში და გამოთვალეთ XY კოორდინატები Add geometry attributes შრის ცხრილში. <br>
+* აიღეთ ფოტო კოორდინატების გარეშე და დამატებითი ხელსაწყოების დახმარებით მიანიჭეთ ადგილმდებარეობა [geoimgr](https://tool.geoimgr.com/), [GEOSETTER](https://geosetter.de/en/main-en/). <br>
+* SVG მარკერები, ჩამოწერა თავისუფალი წვდომით, შენახვა და გამოყენება წერტილოვან გეომეტრიაზე ხატულად.
+* შეინახეთ პროექტის ფაილი სახელით `"Chiatura_GPS_project.qgz"`. ასევე შეინახეთ  `"Chiatura_GPS_project.qgs"` ფორმატში. <br>
+
 
 
 ---

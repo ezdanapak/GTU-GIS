@@ -46,6 +46,20 @@ git checkout main
 git stash apply
 
 
+# გავაუქმოთ ლოკალური ცვლილებები და დავესქროვოთ GitHub-ის ვერსიას
+git fetch origin
+git reset --hard origin/main
+
+git fetch origin – ჩამოიტვირთება GitHub-ზე არსებული უახლესი ვერსია.
+
+git reset --hard origin/main – აიძულებს ლოკალურ main ბრანჩს ზუსტად ემთხვეოდეს GitHub-ის ვერსიას — overwrite-ით.
+
+🧹 დასუფთავება (არასავალდებულო):
+თუ დარჩა გამოუყენებელი ან მოტოვებული ფაილები, შეგიძლია ესეც გაუშვა:
+
+git clean -fd
+
+
 a b c d e f g h i j k l m n o p q r s t u v w x y z
 
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

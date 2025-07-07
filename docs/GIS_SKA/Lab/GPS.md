@@ -6,11 +6,17 @@ SVG [მარკერები](https://www.svgrepo.com/)
 ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/)
 დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/)
 დროებითი შრე - Creating a new Temporary Scratch [Layer](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Scratch_layer/)
+სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/)
+
+---
+
 ოფიციალური დოკუმენტაცია
 ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos)
 ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns)
 ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer)
 დროებითი შრე - Creating a new Temporary Scratch [Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer)
+
+
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 

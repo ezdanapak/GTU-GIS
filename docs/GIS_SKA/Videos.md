@@ -8,13 +8,14 @@ GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://yout
 
 გეორეფერენცირება & დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/05SjuRmB8sg) <br>
 
+გეომონაცემთა ბაზა - [practical tas](https://www.youtube.com/)[k](https://youtu.be/pipT8B4sHYc) <br>
+
 GPS კოორდინატები და კოორდინატებიანი ფოტოები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/P8xveyWCtCs) <br>
+
 
 ---
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
-
-გეომონაცემთა ბაზა - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
 ტოპოლოგია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 

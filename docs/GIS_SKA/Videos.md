@@ -1,4 +1,5 @@
-### Videos are published on Youtube
+### ვიდეოები გამოქვეყნებულია Youtube - ზე.
+# © ვიდეოს ჩაწერის ნებართვა მიღებულია აუდიტორიაშივე ჩანაწერის გაკეთებამდე.
 
 GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://youtu.be/-U4Wx_RO-ok) <br>
 

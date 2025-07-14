@@ -2,19 +2,19 @@
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 
-SVG [მარკერები](https://www.svgrepo.com/)
-ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/)
-დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/)
-დროებითი შრე - Creating a new Temporary Scratch [Layer](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Scratch_layer/)
-სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/)
+SVG [მარკერები](https://www.svgrepo.com/) <br>
+ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
+დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/) <br>
+დროებითი შრე - Creating a new Temporary Scratch [Layer](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Scratch_layer/) <br>
+სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/) <br>
 
 ---
 
-ოფიციალური დოკუმენტაცია
-ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos)
-ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns)
-ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer)
-დროებითი შრე - Creating a new Temporary Scratch [Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer)
+ოფიციალური დოკუმენტაცია <br>
+ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos) <br>
+ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns) <br>
+ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer) <br>
+დროებითი შრე - Creating a new Temporary Scratch [Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer) <br>
 
 
 

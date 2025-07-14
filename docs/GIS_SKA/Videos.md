@@ -1,4 +1,5 @@
-### Videos are published on Youtube
+### ვიდეოები გამოქვეყნებულია Youtube - ზე.
+# © ვიდეოს ჩაწერის ნებართვა მიღებულია აუდიტორიაშივე ჩანაწერის გაკეთებამდე.
 
 GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://youtu.be/-U4Wx_RO-ok) <br>
 
@@ -8,15 +9,16 @@ GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://yout
 
 გეორეფერენცირება & დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/05SjuRmB8sg) <br>
 
+გეომონაცემთა ბაზა - [practical tas](https://www.youtube.com/)[k](https://youtu.be/pipT8B4sHYc) <br>
+
 GPS კოორდინატები და კოორდინატებიანი ფოტოები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/P8xveyWCtCs) <br>
+
 
 SQL | სტრუქტურიზებული მოთხოვნის ენა - [Exercis](https://www.youtube.com/)[e](https://youtu.be/MwfqlZ6XLnc) <br>
 
 ---
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
-
-გეომონაცემთა ბაზა - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 
 ტოპოლოგია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
 

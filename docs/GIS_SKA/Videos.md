@@ -10,6 +10,8 @@ GIS თეორია - [Introductio](https://www.youtube.com/)[n](https://yout
 
 GPS კოორდინატები და კოორდინატებიანი ფოტოები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/P8xveyWCtCs) <br>
 
+SQL | სტრუქტურიზებული მოთხოვნის ენა - [Exercis](https://www.youtube.com/)[e](https://youtu.be/MwfqlZ6XLnc) <br>
+
 ---
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>

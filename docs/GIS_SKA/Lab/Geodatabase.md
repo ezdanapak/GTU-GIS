@@ -92,6 +92,9 @@ graph LR
 * შეცვალეთ შრეების Source-ები (Change data Source) shapefile-დან Geodatabase-ის feature class-ებზე.
 
 
+* გამოიყენეთ ფორმულები UTM ში ინფორმაციის დასათვლელად
+
+length($geometry)
 
 * ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:
 

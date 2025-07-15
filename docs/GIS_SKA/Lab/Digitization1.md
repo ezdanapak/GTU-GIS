@@ -1,13 +1,13 @@
 # გეომონაცემთა ბაზები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
-ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>
-ხელსაწყო DB Manager [Plugin](https://docs.qgis.org/3.40/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html#index-0) <br>
-ატრიბუტული [ცხრილი](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/attribute_table.html#index-0) <br>
-ველის [კალკულატორი](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/attribute_table.html#index-6) <br>
-სტილების [მენეჯერი](https://docs.qgis.org/3.40/en/docs/user_manual/style_library/style_manager.html) <br>
-სიმბოლიზირების [პარამეტრები](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties) <br>
-სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/)
+დოკუმენტაცია [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#move-feature-s) <br>
+მონაცემების ფორმატი და ველები | Exploring Data Formats and [Fields](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/supported_data.html#supported-format) <br>
+ხელსაწყო Snapping [layers](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#snapping-and-digitizing-options) <br>
+ხელსაწყო Explode [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexplodelines) <br>
+ხელსაწყო Points along [geometry](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispointsalonglines) <br>
+ხელსაწყო Polygons to [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispolygonstolines) <br>
+ხელსაწყო [Buffer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisbuffer) <br>
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 ---

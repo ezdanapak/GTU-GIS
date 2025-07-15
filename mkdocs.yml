@@ -210,6 +210,7 @@ nav:
         - დიგიტალიზაცია: './GIS_SKA/Lab/Digitization.md'
         - გლობალური პოზიციონირება: './GIS_SKA/Lab/GPS.md'
         - გეომონაცემთა ბაზები: './GIS_SKA/Lab/Geodatabase.md'
+        - დიგიტალიზაცია 1: './GIS_SKA/Lab/Digitization1.md'
         - ტოპოლოგია: './GIS_SKA/Lab/Topology.md'
         - რელიეფი: './GIS_SKA/Lab/DEM_TIN.md'
         - რელიეფის ანალიზი: './GIS_SKA/Lab/Terrain_analysis.md'

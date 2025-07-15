@@ -92,22 +92,22 @@ graph LR
 * შეცვალეთ შრეების Source-ები (Change data Source) shapefile-დან Geodatabase-ის feature class-ებზე.
 
 
-* გამოიყენეთ ფორმულები ინფორმაციის დასათვლელად
+* გამოიყენეთ ფორმულები ინფორმაციის დასათვლელად <br>
 
-ელიფსოიდისთვის
+ელიფსოიდისთვის <br>
 
-$x
-$y
-$length
-$area
-$perimeter
+$x <br>
+$y <br>
+$length <br>
+$area <br>
+$perimeter <br>
 
-UTM - ისთვის
-length($geometry)
-area($geometry)
-perimeter($geometry)
-x($geometry)
-y($geometry)
+UTM - ისთვის <br>
+length($geometry) <br>
+area($geometry) <br>
+perimeter($geometry) <br>
+x($geometry) <br>
+y($geometry) <br>
 
 * ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:
 

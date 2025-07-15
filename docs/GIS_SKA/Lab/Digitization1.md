@@ -60,12 +60,9 @@
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* ვიყენებთ წინა დავალებას **დიგიტალიზაცია [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Digitization/)**
+* ვიყენებთ წინა დავალებას **გეომონაცემთა ბაზები [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Geodatabase/)**
 
 
-* მის შიგნით შექმენით შემდეგი ქვე-საქაღალდეები:  
-  - Geodatabase
-  - Style  
 
 ``` mermaid
 graph LR
@@ -80,17 +77,10 @@ graph LR
 
 ---
 
-=== "ნაბიჯი II: გეომონაცემთა ბაზის დამატება"
+=== "ნაბიჯი II: გეოდამუშავების სხვადასხვა ხელსაწყოები"
 
-* გახსენით `"Chiatura_Digitalization_project.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
-  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_project.qgs"`  
-
-* შექმენით ახალი GeoPackage (.gpkg გაფართოებით) Geodatabase საქაღალდეში.
-
-* DB manager - ის დახმარებით იმპორტზე უნდა შემოიტანოთ პროექტში არსებული შრეები ბაზაში.
-
-* შეცვალეთ შრეების Source-ები (Change data Source) shapefile-დან Geodatabase-ის feature class-ებზე.
-
+* გახსენით `"Chiatura_Digitalization_geodatabase.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
+  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_digitalizacia1.qgs"`  
 
 
 * ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:

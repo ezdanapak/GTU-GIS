@@ -1,4 +1,4 @@
-# გეომონაცემთა ბაზები
+# დიგიტალიზაცია 1
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>

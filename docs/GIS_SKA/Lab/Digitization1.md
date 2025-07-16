@@ -1,4 +1,4 @@
-# გეომონაცემთა ბაზები
+# დიგიტალიზაცია 1
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 დოკუმენტაცია [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#move-feature-s) <br>

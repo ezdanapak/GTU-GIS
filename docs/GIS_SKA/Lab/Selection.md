@@ -1,9 +1,17 @@
-# მონიშვნები
+# მონიშვნები | ექსპორტი | სტატისტიკა | მეტამონაცემები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
-მონაცემების ფორმატი და ველები | Exploring Data Formats and [Fields](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/supported_data.html#supported-format) <br>
-ხელსაწყო Snapping [layers](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.
+ხელსაწყო Basic statistics for [fields](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#qgisbasicstatisticsforfields) <br>
+ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
+საქართველოს კანონი ეროვნული სივრცითი მონაცემების ინფრასტრუქტურის [შესახებ](https://www.napr.gov.ge/uploads/Laws/13/638245c432a7a8aaf58118487d569635be3ccafd.pdf) <br>
+OGC - [კონსორციუმი](https://www.ogc.org/) <br>
+
+
+
+
+
+
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 ---
@@ -56,7 +64,7 @@
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* ვიყენებთ წინა დავალებას **გეომონაცემთა ბაზები [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Geodatabase/)**
+* ვიყენებთ წინა დავალებას **დიგიტალიზაცია 1 [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Digitization1/)**
 
 
 

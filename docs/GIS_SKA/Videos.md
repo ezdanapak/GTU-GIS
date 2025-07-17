@@ -18,6 +18,8 @@ SQL | სტრუქტურიზებული მოთხოვნის 
 
 დიგიტალიზაციის გაგრძელება - [practical tas](https://www.youtube.com/)[k](https://youtu.be/bQoO8PjIm5Y) <br>
 
+მონიშვნები | ექსპორტი | სტატისტიკა | მეტამონაცემები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/WLlk86nA0pg) <br>
+
 ---
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>

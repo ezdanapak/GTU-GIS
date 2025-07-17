@@ -1,7 +1,7 @@
-# დიგიტალიზაცია 1
+# მონიშვნები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
-დოკუმენტაცია [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#move-feature-s) <br>
+დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
 მონაცემების ფორმატი და ველები | Exploring Data Formats and [Fields](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/supported_data.html#supported-format) <br>
 ხელსაწყო Snapping [layers](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.
 

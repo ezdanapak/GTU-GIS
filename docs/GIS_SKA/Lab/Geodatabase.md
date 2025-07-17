@@ -95,19 +95,19 @@ graph LR
 * გამოიყენეთ ფორმულები ინფორმაციის დასათვლელად <br>
 
 ელიფსოიდისთვის <br>
-
-$x <br>
-$y <br>
-$length <br>
-$area <br>
-$perimeter <br>
+* გაითვალისწინე ფორმულა განთავსებულია ფრჩხილებს შიგნით  <br>
+( $x ) <br>
+( $y ) <br>
+( $length ) <br>
+( $area ) <br> 
+( $perimeter ) <br>
 
 UTM - ისთვის <br>
-length($geometry) <br>
-area($geometry) <br>
-perimeter($geometry) <br>
-x($geometry) <br>
-y($geometry) <br>
+( length($geometry) ) <br>
+( area($geometry) ) <br>
+( perimeter($geometry) ) <br>
+( x($geometry) ) <br>
+( y($geometry) ) <br>
 
 * ატრიბუტულ ცხრილში შეავსეთ დამატებითი ინფორმაცია:
 

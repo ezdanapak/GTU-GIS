@@ -1,15 +1,22 @@
 # მონიშვნები | ექსპორტი | სტატისტიკა | მეტამონაცემები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
+მასალა [OSM](https://download.geofabrik.de/europe/georgia.html)
 დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
+თეორია - ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
 ხელსაწყო Basic statistics for [fields](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#qgisbasicstatisticsforfields) <br>
+ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>
+
+
+
+
 ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
 საქართველოს კანონი ეროვნული სივრცითი მონაცემების ინფრასტრუქტურის [შესახებ](https://www.napr.gov.ge/uploads/Laws/13/638245c432a7a8aaf58118487d569635be3ccafd.pdf) <br>
 OGC - [კონსორციუმი](https://www.ogc.org/) <br>
 
 
 
-
+მუნიციპალიტეტების შრე და ბაზა არის ასატვირთი მეორე ბრენჩზე
 
 
 
@@ -85,6 +92,14 @@ graph LR
 
 * გახსენით `"Chiatura_Digitalization_digitalizacia1.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
   დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_selections.qgs"`  
+
+* გამოიყენეთ თქვენი გაცოცხლებული მასალა წინა დავალების ან ჩამოტვირთეთ და დაამუშავეთ OSM მონაცემები იმავე მუნიციპალიტეტზე.
+* ატრიბუტული ცხრილის ფილტრაციის დახმარებით მონიშნეთ კატეგორიების, ცხრილში არსებული სხვა მახასიათებლის მიხედვით სხვადასხვა ობიექტები. ასევე
+გამოხატვის საშუალებით გამოიყენეთ SQL მოთხოვნის ენა და მისი ელემენტები. >
+* გამოიეყენეთ ინტერაქტიული მონიშვნის ელემენტები. >
+* სივრცითი მონიშვნის დახმარებით შეარჩიეთ სხვადასხვა ობიექტები. >
+* გამოიყენეთ მონიშვნის ისარი და მისი პარამეტრები, შერჩევის შებრუნება, ყველაფრის შერჩევა, განიშვნა და ა.შ >
+* > ყველა ჯერზე შერჩეული ობიექტები გაიტანეთ ექსპორტზე სხვადასხვა ვექტორულ ფორმატში: GeoPackage, ESRI Shapefile, GeoJSON, KML, DXF, CSV, GML და ა.შ
 
 
 * დააკორექტირეთ და შეასწორეთ Snapping და Vertex  ხელსაწყოების დახმარებით აციფრული გეომეტრიები <br>

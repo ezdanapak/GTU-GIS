@@ -196,6 +196,7 @@ nav:
         - ბილიკები: './GIS_SKA/Theory/Path.md'
         - დროებითი შრე: './GIS_SKA/Theory/Scratch_layer.md'
         - სტილები: './GIS_SKA/Theory/QML_SLD.md'
+        - CAD: './GIS_SKA/Theory/CAD.md'
         - გეომონაცემთა ბაზები: 
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
           - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'

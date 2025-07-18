@@ -69,7 +69,7 @@
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* ვიყენებთ წინა დავალებას **გეომონაცემთა ბაზები [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Geodatabase/)**
+* ვიყენებთ წინა დავალებას **გლობალური პოზიციონირების სისტემები [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/GPS/)**
 
 
 
@@ -80,6 +80,12 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{GPS_coordinates};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Fonts};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> J{Raster};
+  J --> K[GeoTaggedphoto];
+
 ```
 
 დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.

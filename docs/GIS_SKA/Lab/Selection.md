@@ -9,14 +9,14 @@
 ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>
 დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
 
-ოფიციალური დოკუმენტაცია <br>
+### ოფიციალური დოკუმენტაცია <br>
 ფანჯარა - The Browser [panel](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/browser.html#resources-that-can-be-opened-run-from-the-browser) <br>
 ფანჯარა - Bookmarking extents on the [map](https://docs.qgis.org/3.40/en/docs/user_manual/map_views/map_view.html#bookmarking-extents-on-the-map) <br>
 ფანჯარა - [Metadata](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/general_tools.html#metadata) <br>
 
 
 
-დამატებითი ბმულები <br>
+### დამატებითი ბმულები <br>
 თეორია - ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
 მასალა [OSM](https://download.geofabrik.de/europe/georgia.html)
 ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
@@ -89,6 +89,16 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{GPS_coordinates};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Fonts};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> J{Raster};
+  J --> K[GeoTaggedphoto];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> L{CAD};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> M{GML};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> N{GeoJSON};
+
+
 ```
 
 დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
@@ -98,19 +108,18 @@ graph LR
 === "ნაბიჯი II: გეოდამუშავების სხვადასხვა ხელსაწყოები"
 
 * გახსენით `"Chiatura_Digitalization_digitalizacia1.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
-  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_selections.qgs"`  
+  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_selections.qgs"`   <br>
 
-* გამოიყენეთ თქვენი გაცოცხლებული მასალა წინა დავალების ან ჩამოტვირთეთ და დაამუშავეთ OSM მონაცემები იმავე მუნიციპალიტეტზე.
-* ატრიბუტული ცხრილის ფილტრაციის დახმარებით მონიშნეთ კატეგორიების, ცხრილში არსებული სხვა მახასიათებლის მიხედვით სხვადასხვა ობიექტები. ასევე
-გამოხატვის საშუალებით გამოიყენეთ SQL მოთხოვნის ენა და მისი ელემენტები. >
-* გამოიეყენეთ ინტერაქტიული მონიშვნის ელემენტები. >
-* სივრცითი მონიშვნის დახმარებით შეარჩიეთ სხვადასხვა ობიექტები. >
-* გამოიყენეთ მონიშვნის ისარი და მისი პარამეტრები, შერჩევის შებრუნება, ყველაფრის შერჩევა, განიშვნა და ა.შ >
-* >>> ყველა ჯერზე შერჩეული ობიექტები გაიტანეთ ექსპორტზე სხვადასხვა ვექტორულ ფორმატში: GeoPackage, ESRI Shapefile, GeoJSON, KML, DXF, CSV, GML და ა.შ
-* შექმენით სივრცული სანიშნეები შეინახეთ ექსპორტით.
-* რომელიმე სივრცულ შრეზე შექმენით მეტამონაცემები და შეინახეთ ექსპორტით.
+* გამოიყენეთ თქვენი გაცოცხლებული მასალა წინა დავალების ან ჩამოტვირთეთ და დაამუშავეთ OSM მონაცემები იმავე მუნიციპალიტეტზე. <br>
+* ატრიბუტული ცხრილის ფილტრაციის დახმარებით მონიშნეთ კატეგორიების, ცხრილში არსებული სხვა მახასიათებლის მიხედვით სხვადასხვა ობიექტები. ასევე 
+გამოხატვის საშუალებით გამოიყენეთ SQL მოთხოვნის ენა და მისი ელემენტები. > <br>
+* გამოიეყენეთ ინტერაქტიული მონიშვნის ელემენტები. > <br>
+* სივრცითი მონიშვნის დახმარებით შეარჩიეთ სხვადასხვა ობიექტები. > <br>
+* გამოიყენეთ მონიშვნის ისარი და მისი პარამეტრები, შერჩევის შებრუნება, ყველაფრის შერჩევა, განიშვნა და ა.შ > <br>
+* >>> ყველა ჯერზე შერჩეული ობიექტები გაიტანეთ ექსპორტზე სხვადასხვა ვექტორულ ფორმატში: GeoPackage, ESRI Shapefile, GeoJSON, KML, DXF, CSV, GML და ა.შ <br>
+* შექმენით სივრცული სანიშნეები შეინახეთ ექსპორტით. <br>
+* რომელიმე სივრცულ შრეზე შექმენით მეტამონაცემები და შეინახეთ ექსპორტით. <br>
 
-* დააკორექტირეთ და შეასწორეთ Snapping და Vertex  ხელსაწყოების დახმარებით აციფრული გეომეტრიები <br>
 
 
 === "ეტაპი IV: შემოწმება და გაგზავნა"

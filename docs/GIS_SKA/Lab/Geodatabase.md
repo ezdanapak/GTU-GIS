@@ -8,6 +8,13 @@
 სტილების [მენეჯერი](https://docs.qgis.org/3.40/en/docs/user_manual/style_library/style_manager.html) <br>
 სიმბოლიზირების [პარამეტრები](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/vector_properties.html#symbology-properties) <br>
 სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/)
+ფანჯარა - The Browser [panel](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/browser.html#resources-that-can-be-opened-run-from-the-browser) <br>
+
+### ⚙️ Processing Toolbox <br>
+
+ოფიციალური დოკუმენტაცია <br>
+
+დამატებითი ბმულები <br>
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 ---

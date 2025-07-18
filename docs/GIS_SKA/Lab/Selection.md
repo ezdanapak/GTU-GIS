@@ -1,20 +1,27 @@
 # მონიშვნები | ექსპორტი | სტატისტიკა | მეტამონაცემები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
-მასალა [OSM](https://download.geofabrik.de/europe/georgia.html)
-დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
-თეორია - ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
+
+
+### ⚙️ Processing Toolbox <br>
+
 ხელსაწყო Basic statistics for [fields](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#qgisbasicstatisticsforfields) <br>
 ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>
+დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
+
+ოფიციალური დოკუმენტაცია <br>
+ფანჯარა - The Browser [panel](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/browser.html#resources-that-can-be-opened-run-from-the-browser) <br>
+ფანჯარა - Bookmarking extents on the [map](https://docs.qgis.org/3.40/en/docs/user_manual/map_views/map_view.html#bookmarking-extents-on-the-map) <br>
+ფანჯარა - [Metadata](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/general_tools.html#metadata) <br>
 
 
 
-
+დამატებითი ბმულები <br>
+თეორია - ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
+მასალა [OSM](https://download.geofabrik.de/europe/georgia.html)
 ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
 საქართველოს კანონი ეროვნული სივრცითი მონაცემების ინფრასტრუქტურის [შესახებ](https://www.napr.gov.ge/uploads/Laws/13/638245c432a7a8aaf58118487d569635be3ccafd.pdf) <br>
 OGC - [კონსორციუმი](https://www.ogc.org/) <br>
-
-
 
 მუნიციპალიტეტების შრე და ბაზა არის ასატვირთი მეორე ბრენჩზე
 
@@ -99,8 +106,9 @@ graph LR
 * გამოიეყენეთ ინტერაქტიული მონიშვნის ელემენტები. >
 * სივრცითი მონიშვნის დახმარებით შეარჩიეთ სხვადასხვა ობიექტები. >
 * გამოიყენეთ მონიშვნის ისარი და მისი პარამეტრები, შერჩევის შებრუნება, ყველაფრის შერჩევა, განიშვნა და ა.შ >
-* > ყველა ჯერზე შერჩეული ობიექტები გაიტანეთ ექსპორტზე სხვადასხვა ვექტორულ ფორმატში: GeoPackage, ESRI Shapefile, GeoJSON, KML, DXF, CSV, GML და ა.შ
-
+* >>> ყველა ჯერზე შერჩეული ობიექტები გაიტანეთ ექსპორტზე სხვადასხვა ვექტორულ ფორმატში: GeoPackage, ESRI Shapefile, GeoJSON, KML, DXF, CSV, GML და ა.შ
+* შექმენით სივრცული სანიშნეები შეინახეთ ექსპორტით.
+* რომელიმე სივრცულ შრეზე შექმენით მეტამონაცემები და შეინახეთ ექსპორტით.
 
 * დააკორექტირეთ და შეასწორეთ Snapping და Vertex  ხელსაწყოების დახმარებით აციფრული გეომეტრიები <br>
 

@@ -10,6 +10,14 @@
 ხელსაწყო Polygons to [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispolygonstolines) <br>
 ხელსაწყო [Buffer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisbuffer) <br>
 
+
+### ⚙️ Processing Toolbox <br>
+
+ოფიციალური დოკუმენტაცია <br>
+
+დამატებითი ბმულები <br>
+
+
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 ---
 ## დავალების ინსტრუქციები

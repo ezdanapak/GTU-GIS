@@ -9,9 +9,17 @@
 Shapefile - ის [შესახებ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Shapefile/) <br>
 QGIS Documentation - [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html) <br>
 თეორიული ნაწილი ბილიკების - [შესახებ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Path/)
+ფანჯარა - The Browser [panel](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/browser.html#resources-that-can-be-opened-run-from-the-browser) <br>
 
 ### ⚙️ Processing Toolbox
 ინდექსაცია ცხრილური და [სივრცული](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#create-spatial-index)
+
+
+### ⚙️ Processing Toolbox <br>
+
+ოფიციალური დოკუმენტაცია <br>
+
+დამატებითი ბმულები <br>
 
 ---
 ## დავალების ინსტრუქციები

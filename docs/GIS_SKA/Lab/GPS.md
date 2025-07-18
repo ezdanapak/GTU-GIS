@@ -2,27 +2,25 @@
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 
-SVG [მარკერები](https://www.svgrepo.com/) <br>
-ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
-დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/) <br>
-დროებითი შრე - Creating a new Temporary Scratch [Layer](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Scratch_layer/) <br>
-სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/) <br>
-
-
----
-
 ოფიციალური დოკუმენტაცია <br>
-ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos) <br>
-ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns) <br>
-ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer) <br>
+
 დროებითი შრე - Creating a new Temporary Scratch [Layer](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer) <br>
 ფანჯარა - The Browser [panel](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/browser.html#resources-that-can-be-opened-run-from-the-browser) <br>
 
 ### ⚙️ Processing Toolbox <br>
 
-ოფიციალური დოკუმენტაცია <br>
+ხელსაწყო [Import geotagged photos](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorcreation.html#import-geotagged-photos) <br>
+ხელსაწყო [Add geometry attributes](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexportaddgeometrycolumns) <br>
+ხელსაწყო [Reproject layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#qgisreprojectlayer) <br>
 
 დამატებითი ბმულები <br>
+SVG [მარკერები](https://www.svgrepo.com/) <br>
+ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
+დროებითი შრე - Creating a new Temporary Scratch [Layer](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Scratch_layer/) <br>
+სტილები [QML&SLD](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/) <br>
+
+დანამატები - Plugins <br>
+დანამატი [ImportPhotos](https://plugins.qgis.org/plugins/ImportPhotos/) <br>
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 

@@ -1,4 +1,4 @@
-# დიგიტალიზაცია 1
+# გეომონაცემთა ბაზები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 

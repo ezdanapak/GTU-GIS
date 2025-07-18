@@ -1,19 +1,22 @@
 # დიგიტალიზაცია 1
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
+
+ოფიციალური დოკუმენტაცია <br>
+
 დოკუმენტაცია [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#move-feature-s) <br>
 მონაცემების ფორმატი და ველები | Exploring Data Formats and [Fields](https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/supported_data.html#supported-format) <br>
 ხელსაწყო Snapping [layers](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#snapping-and-digitizing-options) <br>
-ხელსაწყო Vertex [tool](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#vertex-tool) <br>
-ხელსაწყო Explode [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexplodelines) <br>
-ხელსაწყო Points along [geometry](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispointsalonglines) <br>
-ხელსაწყო Polygons to [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispolygonstolines) <br>
-ხელსაწყო [Buffer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisbuffer) <br>
+
 
 
 ### ⚙️ Processing Toolbox <br>
 
-ოფიციალური დოკუმენტაცია <br>
+ხელსაწყო [Buffer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisbuffer) <br>
+ხელსაწყო Vertex [tool](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#vertex-tool) <br>
+ხელსაწყო Explode [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgisexplodelines) <br>
+ხელსაწყო Points along [geometry](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispointsalonglines) <br>
+ხელსაწყო Polygons to [lines](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#qgispolygonstolines) <br>
 
 დამატებითი ბმულები <br>
 

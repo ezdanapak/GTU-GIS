@@ -183,6 +183,7 @@ nav:
       - პროგრამული უზრუნველყოფა:
         - QGIS: './GIS_SKA/Software/QGIS.md'
         - Google Earth: './GIS_SKA/Software/GoogleEarth.md'
+        - Geoserver: './GIS_SKA/Software/Geoserver.md'
       
       - თეორია:
         - კომპიუტერის მონაცემები: './GIS_SKA/Theory/Computer_Requirements.md'
@@ -213,6 +214,8 @@ nav:
         - გეომონაცემთა ბაზები: './GIS_SKA/Lab/Geodatabase.md'
         - დიგიტალიზაცია 1: './GIS_SKA/Lab/Digitization1.md'
         - მონიშვნები : './GIS_SKA/Lab/Selection.md'
+        - OGC WEB: './GIS_SKA/Lab/OGC_WEB.md'
+        - WEB GIS: './GIS_SKA/Lab/WEB_GIS.md'
         - ტოპოლოგია: './GIS_SKA/Lab/Topology.md'
         - რელიეფი: './GIS_SKA/Lab/DEM_TIN.md'
         - რელიეფის ანალიზი: './GIS_SKA/Lab/Terrain_analysis.md'

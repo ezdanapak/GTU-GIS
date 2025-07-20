@@ -9,7 +9,9 @@
 
 
 ### ოფიციალური დოკუმენტაცია <br>
-ფანჯარა - The [panel](https://docs) <br>
+ფანჯარა - Working with OGC / ISO [protocols](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_ogc/ogc_client_support.html) <br>
+GeoServer [documentation](https://docs.geoserver.org/) <br>
+QGIS Server [Guide](https://docs.qgis.org/3.40/en/docs/server_manual/getting_started.html#prepare-a-project-to-serve) <br>
 
 
 ### დამატებითი ბმულები <br>
@@ -33,6 +35,7 @@ OGC - [კონსორციუმი](https://www.ogc.org/) <br>
 
 * QGIS – აუცილებელია ✅  
 * Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  
+* Geoserver – აუცილებელია ✅  
 
 ---
 
@@ -70,7 +73,7 @@ OGC - [კონსორციუმი](https://www.ogc.org/) <br>
      : [classroom.google.com](https://classroom.google.com/)
 
 === "I ეტაპი: საქაღალდის ორგანიზება"
-* ვიყენებთ წინა დავალებას **დიგიტალიზაცია 1 [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Digitization1/)**
+* ვიყენებთ წინა დავალებას **მონიშვნები  [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Selection/)**
 
 
 
@@ -99,17 +102,10 @@ graph LR
 
 === "ნაბიჯი II: გეოდამუშავების სხვადასხვა ხელსაწყოები"
 
-* გახსენით `"Chiatura_Digitalization_digitalizacia1.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geodatabase_project"`  
-  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_selections.qgs"`   <br>
+* გახსენით `"Chiatura_Digitalization_selection.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geoserver_project"`  
+  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_Geoserver_project.qgs"`   <br>
 * გამოიყენეთ თქვენი გაცოცხლებული მასალა წინა დავალების ან ჩამოტვირთეთ და დაამუშავეთ OSM მონაცემები იმავე მუნიციპალიტეტზე. <br>
-* ატრიბუტული ცხრილის ფილტრაციის დახმარებით მონიშნეთ კატეგორიების, ცხრილში არსებული სხვა მახასიათებლის მიხედვით სხვადასხვა ობიექტები. ასევე 
-გამოხატვის საშუალებით გამოიყენეთ SQL მოთხოვნის ენა და მისი ელემენტები. | <br>
-* გამოიეყენეთ ინტერაქტიული მონიშვნის ელემენტები. | <br>
-* სივრცითი მონიშვნის დახმარებით შეარჩიეთ სხვადასხვა ობიექტები. | <br>
-* გამოიყენეთ მონიშვნის ისარი და მისი პარამეტრები, შერჩევის შებრუნება, ყველაფრის შერჩევა, განიშვნა და ა.შ | <br>
-* > ყველა ჯერზე შერჩეული ობიექტები გაიტანეთ ექსპორტზე სხვადასხვა ვექტორულ ფორმატში: GeoPackage, ESRI Shapefile, GeoJSON, KML, DXF, CSV, GML და ა.შ <br>
-* შექმენით სივრცული სანიშნეები და შეინახეთ ექსპორტით. <br>
-* რომელიმე სივრცულ შრეზე შექმენით მეტამონაცემები და შეინახეთ ექსპორტით. <br>
+
 
 
 

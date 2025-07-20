@@ -5,25 +5,16 @@
 
 ### ⚙️ Processing Toolbox <br>
 
-ხელსაწყო Basic statistics for [fields](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html#qgisbasicstatisticsforfields) <br>
-ხელსაწყო Package [layers](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/database.html#qgispackage) <br>
-დოკუმენტაცია Vector [selection](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorselection.html) <br>
+ხელსაწყო Basic [fields](https:) <br>
+
 
 ### ოფიციალური დოკუმენტაცია <br>
-ფანჯარა - The Browser [panel](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/browser.html#resources-that-can-be-opened-run-from-the-browser) <br>
-ფანჯარა - Bookmarking extents on the [map](https://docs.qgis.org/3.40/en/docs/user_manual/map_views/map_view.html#bookmarking-extents-on-the-map) <br>
-ფანჯარა - [Metadata](https://docs.qgis.org/3.40/en/docs/user_manual/introduction/general_tools.html#metadata) <br>
-
+ფანჯარა - The [panel](https://docs) <br>
 
 
 ### დამატებითი ბმულები <br>
-თეორია - ვექტორული შრის [შენახვა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/) <br>
-მასალა [OSM](https://download.geofabrik.de/europe/georgia.html) <br>
-ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
-საქართველოს კანონი ეროვნული სივრცითი მონაცემების ინფრასტრუქტურის [შესახებ](https://www.napr.gov.ge/uploads/Laws/13/638245c432a7a8aaf58118487d569635be3ccafd.pdf) <br>
 OGC - [კონსორციუმი](https://www.ogc.org/) <br>
-
-
+ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
 
 
 

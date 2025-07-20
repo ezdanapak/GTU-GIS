@@ -20,6 +20,9 @@ SQL | სტრუქტურიზებული მოთხოვნის 
 
 მონიშვნები | ექსპორტი | სტატისტიკა | მეტამონაცემები - [practical tas](https://www.youtube.com/)[k](https://youtu.be/WLlk86nA0pg) <br>
 
+OGC WEB Services - [practical tas](https://www.youtube.com/)[k](https://youtu.be/sS1rSQOzYeM) <br>
+
+WEB GIS - [practical tas](https://www.youtube.com/)[k](https://youtu.be/9dkYVQRudZ8) <br>
 ---
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>

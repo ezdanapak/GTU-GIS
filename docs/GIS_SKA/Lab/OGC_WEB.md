@@ -120,8 +120,8 @@ graph LR
 * შემოიტანეთ თქვენს მიერ აწყობილი WMS, WFS სერვისები QGIS პროეტში გასატესტად.
 * ესტუმრეთ NAPR - ის ოფიციალურ [კატალოგს](https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catalog.search#/home), მოძებნეთ სასურველი სივრცითი მასალა და სერვისის სახით შემოიტანეთ თქვენს პროექტში გასატესტად. <br>
 * დარეგისტრირდით [GeoNode - ზე](https://stable.demo.geonode.org/#/), ატვირთეთ თქვენი რომელიმე შრე, სერვისის ბმული დააკოპირეთ "Copy OGC WEB Services URL" და შემოიტანეთ QGIS პროექტში WMS ან WFS გასატესტად. <br>
-სხვა შემთხვევაში დაათვალიერეთ Datasets [კატალოგი](https://stable.demo.geonode.org/catalogue/#/datasets), აირჩიეთ ნებისმიერი თქვენთვის სასურველი მონაცემი და გაიმეორეთ იგივე პროცესი, შაბლონად ვარდი შეგიძლიათ [გამოიყენოთ](https://stable.demo.geonode.org/catalogue/uuid/2f6c18f7-d11b-4fd0-9914-29ddac5c01fc0)
-ასევე შესაძლებელია მთლიანად GeoNode - ის Geoserver - ზე განთავსებული მასალა წამოიღოთ მოთხოვნით QGIS - ში https://stable.demo.geonode.org/geoserver/ows <br>
+* სხვა შემთხვევაში დაათვალიერეთ Datasets [კატალოგი](https://stable.demo.geonode.org/catalogue/#/datasets), აირჩიეთ ნებისმიერი თქვენთვის სასურველი მონაცემი და გაიმეორეთ იგივე პროცესი, შაბლონად ვარდი შეგიძლიათ [გამოიყენოთ](https://stable.demo.geonode.org/catalogue/uuid/2f6c18f7-d11b-4fd0-9914-29ddac5c01fc0) <br>
+* ასევე შესაძლებელია მთლიანად GeoNode - ის Geoserver - ზე განთავსებული მასალა წამოიღოთ მოთხოვნით QGIS - ში https://stable.demo.geonode.org/geoserver/ows <br>
 
 
 

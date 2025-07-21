@@ -1,4 +1,4 @@
-# მონიშვნები | ექსპორტი | სტატისტიკა | მეტამონაცემები
+# OGC WEB სერვისები
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 
@@ -17,7 +17,7 @@ QGIS Server [Guide](https://docs.qgis.org/3.40/en/docs/server_manual/getting_sta
 ### დამატებითი ბმულები <br>
 OGC - [კონსორციუმი](https://www.ogc.org/) <br>
 ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
-
+პროგრამული [უზრუნველყოფა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Software/Geoserver/)
 
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>

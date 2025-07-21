@@ -1,4 +1,4 @@
-# OGC WEB სერვისები
+# WEB-GIS
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 

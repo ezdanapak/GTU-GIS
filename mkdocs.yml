@@ -202,6 +202,7 @@ nav:
         - OGC WEB: './GIS_SKA/Theory/WEB_Services.md'
         - GeoNode: './GIS_SKA/Theory/What_is_GeoNode.md'
         - GeoNetwork: './GIS_SKA/Theory/What_is_GeoNetwork.md'
+        - GeoJson: './GIS_SKA/Theory/Geojson_formats_qgis_arcgis.md'
         - გეომონაცემთა ბაზები: 
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
           - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'

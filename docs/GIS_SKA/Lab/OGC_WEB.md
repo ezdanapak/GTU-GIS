@@ -14,7 +14,7 @@ GeoServer [documentation](https://docs.geoserver.org/) <br>
 QGIS Server [Guide](https://docs.qgis.org/3.40/en/docs/server_manual/getting_started.html#prepare-a-project-to-serve) <br>
 GeoNode [დოკუმენტაცია](https://docs.geonode.org/en/master/) <br>
 GeoNetwork [დოკუმენტაცია](https://www.geonetwork-opensource.org/docs.html) <br>
-
+Sentinel Hub - OGC [service](https://docs.sentinel-hub.com/api/latest/api/ogc/) <br>
 
 ### დამატებითი ბმულები <br>
 OGC - [კონსორციუმი](https://www.ogc.org/) <br>

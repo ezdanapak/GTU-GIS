@@ -200,8 +200,8 @@ nav:
         - CAD: './GIS_SKA/Theory/CAD.md'
         - Windows ENVIRONMENT: './GIS_SKA/Theory/Win_ENV.md'
         - OGC WEB: './GIS_SKA/Theory/WEB_Services.md'
-        - GeoNode: './GIS_SKA/Theory/What_is_GeoNode.md'
-        - GeoNetwork: './GIS_SKA/Theory/What_is_GeoNetwork.md'
+        - GeoNode: './GIS_SKA/Theory/GeoNode.md'
+        - GeoNetwork: './GIS_SKA/Theory/GeoNetwork.md'
         - GeoJson: './GIS_SKA/Theory/Geojson_formats.md'
         - გეომონაცემთა ბაზები: 
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'

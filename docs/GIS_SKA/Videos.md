@@ -23,6 +23,8 @@ SQL | სტრუქტურიზებული მოთხოვნის 
 OGC WEB Services - [practical tas](https://www.youtube.com/)[k](https://youtu.be/sS1rSQOzYeM) <br>
 
 WEB GIS - [practical tas](https://www.youtube.com/)[k](https://youtu.be/9dkYVQRudZ8) <br>
+
+
 ---
 
 დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>

@@ -3392,23 +3392,13 @@
 <h3 id="processing-toolbox">⚙️ Processing Toolbox <br></h3>
 <p>ხელსაწყო Basic <a href="https:">fields</a> <br></p>
 <h3 id="_1">ოფიციალური დოკუმენტაცია <br></h3>
-<p>ფანჯარა - Working with OGC / ISO <a href="https://docs.qgis.org/3.40/en/docs/user_manual/working_with_ogc/ogc_client_support.html">protocols</a> <br>
-GeoServer <a href="https://docs.geoserver.org/">documentation</a> <br>
-QGIS Server <a href="https://docs.qgis.org/3.40/en/docs/server_manual/getting_started.html#prepare-a-project-to-serve">Guide</a> <br>
-GeoNode <a href="https://docs.geonode.org/en/master/">დოკუმენტაცია</a> <br>
-GeoNetwork <a href="https://www.geonetwork-opensource.org/docs.html">დოკუმენტაცია</a> <br>
-Sentinel Hub - OGC <a href="https://docs.sentinel-hub.com/api/latest/api/ogc/">service</a> <br></p>
+<p>დანამატი  - <a href="https://github.com/qgis2web/qgis2web">qgis2web</a> <br>
+JSON <a href="https://en.wikipedia.org/wiki/JSON">Wikipedia</a> <br></p>
 <h3 id="_2">დამატებითი ბმულები <br></h3>
-<p>OGC - <a href="https://www.ogc.org/">კონსორციუმი</a> <br>
-GeoNode - Open Source Geospatial Content Management <a href="https://geonode.org/">System</a> <br>
-GeoNetwork is a catalog application to manage spatially referenced <a href="https://www.geonetwork-opensource.org/">resources</a> <br>
-ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა <a href="https://nsdi.gov.ge/ka">NSDI</a> <br>
-პროგრამული <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Software/Geoserver/">უზრუნველყოფა</a> <br>
-Windows Environment და GeoServer-ის <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Win_ENV/">კონფიგურაცია</a> <br>
-Save Vector <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/#vector-formats-available-in-qgis">Layer As</a> <br>
-QGIS SLD <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/">ფორმატი</a> <br>
-OGC <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/WEB_Services/">WEB</a> <br>
-NAPR GeoNetwork <a href="https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catalog.search#/home">catalogue</a> <br></p>
+<p>Google My<a href="https://www.google.com/maps">Maps</a> <br>
+შაბლონი ცხელძაღლური <a href="https://www.google.com/maps/d/u/3/edit?hl=ka&amp;mid=176BVE02xYafhr-6qezCRy4sHJs76xZyf&amp;ll=42.51875523468736%2C42.56166703834641&amp;z=7">რუკა</a>  <br>
+შაბლონი თხევადი <a href="https://www.google.com/maps/d/u/3/edit?hl=ka&amp;mid=1y3jZwVgz0WEYQWvZjlNysLex4eLLSrw&amp;ll=42.17127030085311%2C43.86809699999997&amp;z=9">გაზი</a> <br>
+𝐊𝐌𝐋 / 𝐊𝐌𝐙 – სივრცითი მონაცემების გაცვლის <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Google/Google_formats/">ფორმატი</a> <br></p>
 <p>გარკვეული მასალები ინახება გუგლის საკლასო <a href="https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details">ოთახში</a> ⚠️ <br></p>
 <hr />
 <h2 id="_3">დავალების ინსტრუქციები</h2>
@@ -3459,7 +3449,7 @@ NAPR GeoNetwork <a href="https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catal
 </div>
 </div>
 <ul>
-<li>ვიყენებთ წინა დავალებას <strong>მონიშვნები  <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Selection/">task</a></strong></li>
+<li>ვიყენებთ წინა დავალებას <strong>OGC WEB  <a href="https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/OGC_WEB/">task</a></strong></li>
 </ul>
 <pre class="mermaid"><code>graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; B{Project};
@@ -3476,6 +3466,8 @@ NAPR GeoNetwork <a href="https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catal
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; M{GML};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; N{GeoJSON};
   F --&gt; O[geoserver];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; P{WEB};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; Q{Google};
 
 </code></pre>
 <p>დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.</p>
@@ -3486,16 +3478,15 @@ NAPR GeoNetwork <a href="https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catal
 </div>
 </div>
 <ul>
-<li>გახსენით <code>"Chiatura_Digitalization_selection.qgz"</code> ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით <code>"Geoserver_project"</code><br />
-  დამატებით შეინახეთ სხვა <code>.qgs</code> ფაილი <code>"Chiatura_Geodatabase_Geoserver_project.qgs"</code>   <br></li>
-<li>გამოიყენეთ თქვენი გაცოცხლებული მასალა წინა დავალების ან ჩამოტვირთეთ და დაამუშავეთ OSM მონაცემები იმავე მუნიციპალიტეტზე. <br></li>
-<li>ააწყვეთ საბაზისო პროექტი Geoserver - ში და გამოაქვეყნეთ რამდენიმე შრე სერვისებად. <br></li>
-<li>შრის სტილი SLD ფორმატში QGIS პროექტიდან შეინახეთ დამატებით სერვერზე ასატვირთად, გამოიყენეთ შრის გამოქვეყნებისას სერვისზე. <br></li>
-<li>შემოიტანეთ თქვენს მიერ აწყობილი WMS, WFS სერვისები QGIS პროეტში გასატესტად.</li>
-<li>ესტუმრეთ NAPR - ის ოფიციალურ <a href="https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catalog.search#/home">კატალოგს</a>, მოძებნეთ სასურველი სივრცითი მასალა და სერვისის სახით შემოიტანეთ თქვენს პროექტში გასატესტად. <br></li>
-<li>დარეგისტრირდით <a href="https://stable.demo.geonode.org/#/">GeoNode - ზე</a>, ატვირთეთ თქვენი რომელიმე შრე, სერვისის ბმული დააკოპირეთ "Copy OGC WEB Services URL" და შემოიტანეთ QGIS პროექტში WMS ან WFS გასატესტად. <br></li>
-<li>სხვა შემთხვევაში დაათვალიერეთ Datasets <a href="https://stable.demo.geonode.org/catalogue/#/datasets">კატალოგი</a>, აირჩიეთ ნებისმიერი თქვენთვის სასურველი მონაცემი და გაიმეორეთ იგივე პროცესი, შაბლონად ვარდი შეგიძლიათ <a href="https://stable.demo.geonode.org/catalogue/uuid/2f6c18f7-d11b-4fd0-9914-29ddac5c01fc0">გამოიყენოთ</a> <br></li>
-<li>ასევე შესაძლებელია მთლიანად GeoNode - ის Geoserver - ზე განთავსებული მასალა წამოიღოთ მოთხოვნით QGIS - ში https://stable.demo.geonode.org/geoserver/ows <br></li>
+<li>
+<p>გახსენით <code>"Chiatura_Digitalization_selection.qgz"</code> ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით <code>"Geoserver_project"</code><br />
+  დამატებით შეინახეთ სხვა <code>.qgs</code> ფაილი <code>"Chiatura_Geodatabase_Geoserver_project.qgs"</code>   <br></p>
+</li>
+<li>
+<p>ატვირთეთ თქვენი მასალა და შეადგინეთ რუკა გუგლის პლატფორმაზე, სიმბოლოები, ფორმირება, ფერები, სისქე, სურათები, აღწერა, შრეები და ა.შ მოსაწესრიგებელია თქვენი გემოვნებით. გაზიარებადი ბმული აიღეთ საჯარო ფორმის.</p>
+</li>
+<li>QGIS პროექტიდან დანამატის qgis2web დახმარებით შეადგინეთ ვებ რუკა, შეინახეთ თქვენს აწყობილ პროექტში შესაბამის საქაღალდეში და არქივად გააზიარეთ.</li>
+<li>შემდეგ დარეგისტრირდით Github - ზე, შექმენით ახალი რეპოზიტორია, ატვირთეთ ფაილები, გააქტიურეთ Github Pages და აიღეთ გასაზიარებლად მისი ბმული. </li>
 </ul>
 <div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">ეტაპი III: შემოწმება და გაგზავნა</label></div>
 <div class="tabbed-content">

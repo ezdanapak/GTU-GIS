@@ -1,11 +1,4 @@
-# Lecture Topics
-
-|  | Title of the Theme and Its Content |
-| --- | ----------------------------------- |
-| 1 | **Introduction to Geographic Information Systems (GIS)**: GIS Applications, Possible Classification of GIS Applications, Data Management Requirements of GIS, Specific GIS Data Operations. |
-| 2 | **Data Modelling**: The Structure of a Computer, Pseudocode, and Computer Programming. |
-
-# Open-Source სილაბუსი
+#  სილაბუსი
 
 | №  | თემები |
 |--:|------------------------------------|
@@ -22,7 +15,7 @@
 
 | 6 | **OGC WEB სერვისები (WMS, WFS, WMTS)**: სასწავლო თემა მოიცავს ღია სტანდარტების ვებ სერვისების გამოყენებას. WMS, WMTS, WFS სერვისების აწყობა, გაზიარება. |
 
-| 7 | **WEB GIS და QGIS-ის ვებგრაფიკული გაფართოებები**: გაცნობით განიხილება Web GIS-ის საფუძვლები: Leaflet, OpenLayers, Lizmap, QGIS Server. განხილულია QGIS პროექტების ონლაინ გამოქვეყნება და მომხმარებლის ინტერაქცია. |
+| 7 | **WEB GIS და QGIS-ის ვებგრაფიკული გაფართოებები**: განიხილება Web GIS-ის საფუძვლები: Leaflet, OpenLayers, Lizmap, QGIS Server. განხილულია QGIS პროექტების ონლაინ გამოქვეყნება და მომხმარებლის ინტერაქცია. |
 
 
 

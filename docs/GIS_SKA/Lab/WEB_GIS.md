@@ -10,13 +10,16 @@
 
 ### ოფიციალური დოკუმენტაცია <br>
 დანამატი  - [qgis2web](https://github.com/qgis2web/qgis2web) <br>
+დანამატი - [Qgis2threejs](https://github.com/minorua/Qgis2threejs) <br>
 JSON [Wikipedia](https://en.wikipedia.org/wiki/JSON) <br>
 
 ### დამატებითი ბმულები <br>
 Google My[Maps](https://www.google.com/maps) <br>
 შაბლონი ცხელძაღლური [რუკა](https://www.google.com/maps/d/u/3/edit?hl=ka&mid=176BVE02xYafhr-6qezCRy4sHJs76xZyf&ll=42.51875523468736%2C42.56166703834641&z=7)  <br>
 შაბლონი თხევადი [გაზი](https://www.google.com/maps/d/u/3/edit?hl=ka&mid=1y3jZwVgz0WEYQWvZjlNysLex4eLLSrw&ll=42.17127030085311%2C43.86809699999997&z=9) <br>
+შაბლონი Georgia's Recycling [Map](https://www.google.com/maps/d/u/3/viewer?hl=ka&mid=18VONz4zIlS6VgcDRIAX6odQ8YGBjUQdz&ll=42.00871348204378%2C43.53747129999999&z=8) <br>
 𝐊𝐌𝐋 / 𝐊𝐌𝐙 – სივრცითი მონაცემების გაცვლის [ფორმატი](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Google/Google_formats/) <br>
+მუნიციპალური სერვისების განვითარების [სააგენტო](https://ms.gov.ge/msmap/) <br>
 
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>

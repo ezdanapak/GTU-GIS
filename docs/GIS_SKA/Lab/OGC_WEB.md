@@ -27,6 +27,9 @@ Save Vector [Layer As](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_v
 QGIS SLD [ფორმატი](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/) <br>
 OGC [WEB](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/WEB_Services/) <br>
 NAPR GeoNetwork [catalogue](https://geonetwork.napr.gov.ge/geonetwork/srv/geo/catalog.search#/home) <br>
+[GeoNode](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/GeoNode/) <br>
+[GeoNetwork](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/GeoNetwork/) <br>
+
 
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>

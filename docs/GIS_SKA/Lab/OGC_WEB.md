@@ -17,7 +17,10 @@ QGIS Server [Guide](https://docs.qgis.org/3.40/en/docs/server_manual/getting_sta
 ### დამატებითი ბმულები <br>
 OGC - [კონსორციუმი](https://www.ogc.org/) <br>
 ეროვნული სივრცითი მონაცემების ინფრასტრუქტურა [NSDI](https://nsdi.gov.ge/ka) <br>
-პროგრამული [უზრუნველყოფა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Software/Geoserver/)
+პროგრამული [უზრუნველყოფა](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Software/Geoserver/) <br>
+Windows Environment და GeoServer-ის [კონფიგურაცია](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Win_ENV/) <br>
+Save Vector [Layer As](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Save_vector_layer/#vector-formats-available-in-qgis) <br>
+QGIS SLD [ფორმატი](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/QML_SLD/) <br>
 
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
@@ -100,11 +103,13 @@ graph LR
 
 ---
 
-=== "ნაბიჯი II: გეოდამუშავების სხვადასხვა ხელსაწყოები"
+=== "ნაბიჯი II: სერვისების აწყობა"
 
 * გახსენით `"Chiatura_Digitalization_selection.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"Geoserver_project"`  
   დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_Geodatabase_Geoserver_project.qgs"`   <br>
 * გამოიყენეთ თქვენი გაცოცხლებული მასალა წინა დავალების ან ჩამოტვირთეთ და დაამუშავეთ OSM მონაცემები იმავე მუნიციპალიტეტზე. <br>
+* ააწყვეთ საბაზისო პროექტი Geoserver - ში და გამოაქვეყნეთ რამდენიმე შრე სერვისებად. <br>
+* შრის სტილი SLD ფორმატში QGIS პროექტიდან შეინახეთ დამატებით სერვერზე ასატვირთად, გამოიყენეთ შრის გამოქვეყნებისას სერვისზე. <br>
 
 
 

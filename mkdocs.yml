@@ -198,6 +198,8 @@ nav:
         - დროებითი შრე: './GIS_SKA/Theory/Scratch_layer.md'
         - სტილები: './GIS_SKA/Theory/QML_SLD.md'
         - CAD: './GIS_SKA/Theory/CAD.md'
+        - რასტრები: './GIS_SKA/Theory/Raster.md'
+        - რელიეფი: './GIS_SKA/Theory/DEM.md'
         - გეომონაცემთა ბაზები: 
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
           - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'

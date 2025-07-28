@@ -200,6 +200,7 @@ nav:
         - CAD: './GIS_SKA/Theory/CAD.md'
         - რასტრები: './GIS_SKA/Theory/Raster.md'
         - რელიეფი: './GIS_SKA/Theory/DEM.md'
+        - XML: './GIS_SKA/Theory/XML.md'
         - გეომონაცემთა ბაზები: 
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
           - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'

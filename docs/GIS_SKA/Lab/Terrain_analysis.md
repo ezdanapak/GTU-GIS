@@ -1,113 +1,160 @@
-Editing Data. Efficiency of the Line Intersection Algorithm. More on Algorithm Efficiency.
-Raster Data Structures.
+# ტოპოლოგია
 
-Lab 7
+ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
+
+
+### ⚙️ Processing Toolbox <br>
+
+ხელსაწყო რასტრის გაერთიანება - [Merge](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/gdal/rastermiscellaneous.html#gdalmerge) <br>
+ხელსაწყო იზოჰიფსები - [Contour](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/gdal/rasterextraction.html#gdalcontour) <br>
+ხელსაწყო Clip raster by mask [layer](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/gdal/rasterextraction.html#gdalcliprasterbymasklayer)  <br>
+ხელსაწყო TIN [Interpolation](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/interpolation.html#qgistininterpolation) <br>
+ხელსაწყო Reclassify by [table](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/rasteranalysis.html#qgisreclassifybytable)  <br>
+ხელსაწყო [Slope](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html#qgisslope) <br>
+ხელსაწყო [Aspect](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html#qgisaspect) <br>
+ხელსაწყო [Hillshade](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/rasterterrainanalysis.html#qgishillshade) <br>
+ხელსაწყო Raster [Analysis](https://docs.qgis.org/3.40/en/docs/user_manual/working_with_raster/raster_analysis.html) <br>
+
+### ოფიციალური დოკუმენტაცია <br>
+
+
+
+### დამატებითი ბმულები <br>
+
+ტოპოლოგია - [Topology](https://en.wikipedia.org/wiki/Geospatial_topology) <br>
+ 
+
+
+
+
+გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>
 
 ---
-## Assignment Instructions
+## დავალების ინსტრუქციები
 
-⚠️ **Work Environment**
+⚠️ **სამუშაო გარემო**
 
-On university computers, work inside the folder:  
-`C:\Users\Public\` or `C:\Users\Public\Documents`  
-*(This is recommended even on personal computers, as the program may encounter issues when files are located elsewhere.)*
+უნივერსიტეტის კომპიუტერებზე იმუშავეთ შემდეგ საქაღალდეში:  
+`C:\Users\Public\` ან `C:\Users\Public\Documents`  
+*(რეკომენდებულია პირად კომპიუტერებზეც, რადგან პროგრამას სხვა ადგილას არსებული ფაილების დამუშავება შესაძლოა გაუჭირდეს.)*
 
-📦 **Required Software**
+📦 **საჭირო პროგრამები**
 
-* ArcGIS – Required ✅  
-* Google Earth – Optional (depending on the task) ✅  
+* QGIS – აუცილებელია ✅  
+* Google Earth – სურვილისამებრ (დავალების მიხედვით) ✅  
 
 ---
 
 !!!warning
-    Do not delete completed work until the end of the semester.
+    დასრულებული მასალა არ წაშალოთ სემესტრის ბოლომდე.
     
 ---
 
 !!!danger 
-    **File Naming Rules**
+    **ფაილების დასახელების წესები**
 
-    ❌ **Incorrect:**  
+    ❌ **არასწორი:**  
 
     Giorgi Kapanadze.Group/1$ work1  
 
-    ❌ Do not use:
+    ❌ არ გამოიყენოთ:
 
-    - Georgian characters (ა, ბ, გ, დ, etc.)  
-    - Special symbols (other than an underscore `_`)
+    - ქართული ასოები (ა, ბ, გ, დ და სხვ.)  
+    - სპეციალური სიმბოლოები (გარდა ხაზგასმისა `_`)
 
-    ✅ **Correct:**
+    ✅ **სწორი:**  
 
-    Giorgi_Kapanadze_Group_4_work_1  
+    Giorgi_Kapanadze_Group_1_work_1  
 
 !!!tip
-    Use only Latin letters, numbers, and underscores (`_`) for:  
-    Archive names, folder and file names, and table column names.
+    გამოიყენეთ მხოლოდ ლათინური ასოები, ციფრები და ხაზგასმა (`_`) შემდეგ შემთხვევებში:  
+    არქივის სახელები, საქაღალდეებისა და ფაილების სახელები, ცხრილის სვეტების სახელები.
 
 ---
 
-## 📘 Step-by-Step Guide
+## 📘 ეტაპობრივი სახელმძღვანელო
 
 !!!note
-    You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
+    მონაცემების ჩამოსატვირთად და დავალების ასატვირთად საჭიროა ავტორიზაცია გუგლის საკლასო ოთახზე
+     : [classroom.google.com](https://classroom.google.com/)
 
-=== "Step I: Folder Setup"
-* We are using a **DEM&TIN [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
-* Rename main folder from DEM_TIN to Terrain_analysis. Example "Giorgi_Kapanadze_Group_4_work_6_terrain_analysis" <br>
-* Add inside project additional necessary folders:
-  - Inside Raster folder add subfolder Terrain
+=== "I ეტაპი: საქაღალდის ორგანიზება"
+* ვიყენებთ წინა დავალებას **მონიშვნები [task](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Lab/Selection/)**
+
 
 
 ``` mermaid
 graph LR
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Archive};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Project};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{lyr};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{shp};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Geodatabase};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{Style};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{Topology_rules};
-  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Raster};
-  I --> J{DEM};
-  I -->|For slope, Aspect, Hillshade| K[Terrain];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> B{Project};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> C{Plugins};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> E{Geodatabase};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> G{archive};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> H{GPS_coordinates};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> I{Fonts};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> J{Raster};
+  J --> K[GeoTaggedphoto];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> L{CAD};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> M{GML};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> N{GeoJSON};
+  F --> O[geoserver];
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> P{WEB};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> Q{Google};
+  A[FirstName_LastName_GroupNumber_Assignment_Number] --> R{Topology_rules};
+  J --> S[Terrain];
+
 
 ```
-Connect ArcGIS (from ArcCatalog) to this main folder.
+
+დააკავშირეთ QGIS (Browser ფანჯრიდან) თქვენს მთავარ საქაღალდესთან.
 
 ---
 
----
+=== "ნაბიჯი II: რასტრის დამუშავება"
 
-- Save them in Raster folder inside "terrain"
-* Create hillshade in .tif format from the clipped raster data with default parameters and another one with 
-azimuth angle of the light source 200 & Altitude angle of the light source above the horizon 30 degrees.  <br>
-* Create slope in .tif format from the clipped raster data. <br>
-* Create aspect in .tif format from the clipped raster data. <br>
+* გახსენით `"Chiatura_topology.qgz"` ფაილი საქაღალდიდან და შეინახეთ ასლი სახელით `"terrain"`  
+  დამატებით შეინახეთ სხვა `.qgs` ფაილი `"Chiatura_terrain.qgs"`   <br>
+* ჩამოიწერეთ [საიტიდან](https://dwtkns.com/srtm30m/) რელიეფის 2 რომელიმე ნაწილი და გააერთიანეთ.   <br>
+* მოჭერით რელიეფი მუნიციპალიტეტის საზღვრებით.  <br>
+* ამოიღეთ იზოჰიფსები ამ რელიეფიდან სხვადასხვა რაოდენობით. **100 მეტრის ინტერვალით** (`Contour interval`) და **100 მეტრის საწყისი მნიშვნელობით** (`Base contour`) <br>
+* ამავე იზოჰიფსებით შექმენით რელიეფი შესაბამისი პიქსელის ზომით. <br>
+* დაყავი რელიეფი წინასწარ განსაზღვრულ კლასებად. <br>
+* შექმენი ფერბობების დახრილობა, რელიეფის ჩრდილი, ჰორიზონტის მიმართულებები. <br>
 
----
 
-* Store the DEM raster data in a geodatabase by importing it from the workspace. <br>
-* Change the data source from .tif to geodatabase grid format.  --- List the data sources. <br>
-* Properly saving the project file of ArcMap. Name it "Terrain_analysis". Save another mxd file for old versions "Terrain_analysis_10.0v". <br>
 
----
 
-=== "Step III: Final Checks & Submission"
 
-* Compress (zip) your folder (named after your first and last name). 💾
-* Use formats like `.rar` or `.zip`.
-* Name the archive as:  
+=== "ეტაპი III: შემოწმება და გაგზავნა"
+* გააკეთეთ არქივი თქვენს საქაღალდეზე. 💾
+* გამოიყენეთ `.rar` ან `.zip` ფორმატები.
+* დაარქვით არქივს შემდეგი ფორმატით:  
   `FirstName_LastName_GroupNumber_Assignment_Number`
 
-* Send it to: giorgi.kapanadze@gtu.ge
+* ატვირტეთ გუგლის საკლასო ოთახში ნამუშევარი
 
 ---
 
 !!!warning
-    If you experience any issues with the submission process, contact:  
-    giorgi.kapanadze@gtu.ge  
-    Or use any file transfer services.
+    თუ გაგზავნის პროცესში შეგექმნათ რაიმე პრობლემა, დაგვიკავშირდით:  
+    g.kapanadze1908@gmail.com  
+    ან გამოიყენეთ ნებისმიერი ფაილგადაცემის სერვისი. <br>
+
+    https://www.swisstransfer.com/en-gb
+
+    https://wetransfer.com/
+
+    https://www.filemail.com/
+
+    https://dropmefiles.com/
+
+    https://www.swisstransfer.com/en-gb
+
+    https://www.sendgb.com/
+
+    https://workupload.com/ 
 
 !!!info
-    📌 If anything is unclear, feel free to ask! 😊  
-    If something here was done incorrectly, I’ll correct it — or you can create a pull request.  
+    📌 თუ რაიმე გაუგებარია, თამამად იკითხე! 😊  
+    თუ რამე არასწორადაა შესრულებული, გავასწორებ — ან თავად შექმენი pull request. 

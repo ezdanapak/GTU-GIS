@@ -22,7 +22,8 @@
 ### დამატებითი ბმულები <br>
 
 30-Meter SRTM [Tile](https://en.wikipedia.org/wiki/Geospatial_topology) <br>
- 
+მზის [ელ-სადგური](https://kapanadze.medium.com/%E1%83%9B%E1%83%96%E1%83%98%E1%83%A1-%E1%83%94%E1%83%9A-%E1%83%A1%E1%83%90%E1%83%93%E1%83%92%E1%83%A3%E1%83%A0%E1%83%98-564fcf10776f) <br>
+ტოპოგრაფიული [რუკა](https://kapanadze.medium.com/%E1%83%9E%E1%83%98%E1%83%A0%E1%83%95%E1%83%94%E1%83%9A%E1%83%98-%E1%83%A1%E1%83%98%E1%83%A7%E1%83%95%E1%83%90%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-ccbe373a05e0) <br>
 
 
 

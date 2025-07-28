@@ -1,4 +1,4 @@
-# ტოპოლოგია
+# რელიეფის ანალიზი
 
 ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
 
@@ -103,6 +103,7 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> Q{Google};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> R{Topology_rules};
   J -->|Slope, Aspect, Hillshade| S[Terrain];
+  J --> T[DEM];
 
 
 ```

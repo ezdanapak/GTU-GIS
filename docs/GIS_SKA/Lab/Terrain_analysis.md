@@ -17,6 +17,7 @@
 
 ### ოფიციალური დოკუმენტაცია <br>
 
+3D Map [View](https://docs.qgis.org/3.40/en/docs/user_manual/map_views/3d_map_view.html) <br>
 
 
 ### დამატებითი ბმულები <br>

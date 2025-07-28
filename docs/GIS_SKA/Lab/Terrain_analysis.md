@@ -102,7 +102,7 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> P{WEB};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> Q{Google};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> R{Topology_rules};
-  J --> S[Terrain];
+  J -->|Slope, Aspect, Hillshade| S[Terrain];
 
 
 ```
@@ -120,6 +120,7 @@ graph LR
 * ამოიღეთ იზოჰიფსები ამ რელიეფიდან სხვადასხვა რაოდენობით. **100 მეტრის ინტერვალით** (`Contour interval`) და **100 მეტრის საწყისი მნიშვნელობით** (`Base contour`) <br>
 * ამავე იზოჰიფსებით შექმენით რელიეფი შესაბამისი პიქსელის ზომით. <br>
 * დაყავი რელიეფი წინასწარ განსაზღვრულ კლასებად. <br>
+* 
 * შექმენი ფერბობების დახრილობა, რელიეფის ჩრდილი, ჰორიზონტის მიმართულებები. <br>
 
 

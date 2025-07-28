@@ -220,7 +220,6 @@ nav:
         - OGC WEB: './GIS_SKA/Lab/OGC_WEB.md'
         - WEB GIS: './GIS_SKA/Lab/WEB_GIS.md'
         - ტოპოლოგია: './GIS_SKA/Lab/Topology.md'
-        - რელიეფი: './GIS_SKA/Lab/DEM_TIN.md'
         - რელიეფის ანალიზი: './GIS_SKA/Lab/Terrain_analysis.md'
         - ჰიდროლოგიური ანალიზი: './GIS_SKA/Lab/Hydrological_analysis.md'
 

@@ -21,7 +21,7 @@
 
 ### დამატებითი ბმულები <br>
 
-ტოპოლოგია - [Topology](https://en.wikipedia.org/wiki/Geospatial_topology) <br>
+30-Meter SRTM [Tile](https://en.wikipedia.org/wiki/Geospatial_topology) <br>
  
 
 

@@ -201,7 +201,12 @@ nav:
         - რასტრები: './GIS_SKA/Theory/Raster.md'
         - რელიეფი: './GIS_SKA/Theory/DEM.md'
         - XML: './GIS_SKA/Theory/XML.md'
-        - გეომონაცემთა ბაზები: 
+        - GeoNetwork: './GIS_SKA/Theory/GeoNetwork.md'
+        - GeoNode: './GIS_SKA/Theory/GeoNode.md'
+        - GeoJSON: './GIS_SKA/Theory/Geojson_formats.md'
+        - WEB Services: './GIS_SKA/Theory/WEB_Services.md'
+        - Win ENV: './GIS_SKA/Theory/Win_ENV.md'
+        - გეომონაცემთა ბაზები:
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
           - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'
       

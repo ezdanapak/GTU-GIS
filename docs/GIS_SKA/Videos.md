@@ -24,18 +24,7 @@ OGC WEB Services - [practical tas](https://www.youtube.com/)[k](https://youtu.be
 
 WEB GIS - [practical tas](https://www.youtube.com/)[k](https://youtu.be/9dkYVQRudZ8) <br>
 
-
----
-
-დიგიტალიზაცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
-
-ტოპოლოგია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
-
-DEM & TIN - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
-
-რელიეფის ანალიზი - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
-
-ჰიდროლოგიური ანალიზი - [practical tas](https://www.youtube.com/)[k](https://youtu.be/) <br>
+რასტრები - [theor](https://www.youtube.com/)[y](https://youtu.be/lYe458z-SlE) <br>
 
 
 ---

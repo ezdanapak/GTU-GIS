@@ -226,7 +226,7 @@ nav:
         - WEB GIS: './GIS_SKA/Lab/WEB_GIS.md'
         - ტოპოლოგია: './GIS_SKA/Lab/Topology.md'
         - რელიეფის ანალიზი: './GIS_SKA/Lab/Terrain_analysis.md'
-        - ჰიდროლოგიური ანალიზი: './GIS_SKA/Lab/Hydrological_analysis.md'
+        - რუკის კომპოზიცია: './GIS_SKA/Lab/Map_composition.md'
 
 
   

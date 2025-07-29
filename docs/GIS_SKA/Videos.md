@@ -26,6 +26,7 @@ WEB GIS - [practical tas](https://www.youtube.com/)[k](https://youtu.be/9dkYVQRu
 
 რასტრები - [theor](https://www.youtube.com/)[y](https://youtu.be/lYe458z-SlE) <br>
 
+რელიეფი - [practical tas](https://www.youtube.com/)[k](https://youtu.be/wQJyhTe_U9o) <br>
 
 ---
 

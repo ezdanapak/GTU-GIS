@@ -1,9 +1,13 @@
 # Raster ტიპის გამოსახულებები
 
-https://www.esri.com/arcgis-blog/products/product/imagery/band-combinations-for-landsat-8
+# ბმულები
+
+Band combinations for [landsat 8](https://www.esri.com/arcgis-blog/products/product/imagery/band-combinations-for-landsat-8) <br>
 https://www.youtube.com/watch?v=P-lbujsVa2M
-https://www.google.com/search?sxsrf=AE3TifNCTqXj97RwuleVhnxbNqx2DgupRg:1753289260424&q=remote+sensing+indices&udm=2#vhid=_6LO4RyUDRUhwM&vssid=mosaic
-https://www.researchgate.net/publication/336975237/figure/tbl2/AS:820629183922180@1572664652843/Equations-of-tested-nine-remote-sensing-indices.png
+
+Remote sensing [indices](https://www.google.com/search?sxsrf=AE3TifNCTqXj97RwuleVhnxbNqx2DgupRg:1753289260424&q=remote+sensing+indices&udm=2#vhid=_6LO4RyUDRUhwM&vssid=mosaic) <br>
+
+Remote sensing [indices](https://www.researchgate.net/publication/336975237/figure/tbl2/AS:820629183922180@1572664652843/Equations-of-tested-nine-remote-sensing-indices.png) <br>
 
 
 

@@ -10,6 +10,11 @@ Remote sensing [indices](https://www.google.com/search?sxsrf=AE3TifNCTqXj97Rwule
 Remote sensing [indices](https://www.researchgate.net/publication/336975237/figure/tbl2/AS:820629183922180@1572664652843/Equations-of-tested-nine-remote-sensing-indices.png) <br>
 
 
+<!-- Obsidian / VSCode Preview / Web rendering -->
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yPF2jpjB3Qw" 
+          title="YouTube video" frameborder="0" allowfullscreen></iframe>
+</p>
 
 
 

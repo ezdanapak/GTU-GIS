@@ -3,7 +3,6 @@
 # ბმულები
 
 Band combinations for [landsat 8](https://www.esri.com/arcgis-blog/products/product/imagery/band-combinations-for-landsat-8) <br>
-https://www.youtube.com/watch?v=P-lbujsVa2M
 
 Remote sensing [indices](https://www.google.com/search?sxsrf=AE3TifNCTqXj97RwuleVhnxbNqx2DgupRg:1753289260424&q=remote+sensing+indices&udm=2#vhid=_6LO4RyUDRUhwM&vssid=mosaic) <br>
 

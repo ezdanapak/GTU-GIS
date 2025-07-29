@@ -124,6 +124,7 @@ nav:
       - Map composition: './ICS_GIS/Theory/Map_composition.md'
       - Geodatabase: './ICS_GIS/Theory/Geodatabase.md'
       - Raster data: './ICS_GIS/Theory/Raster.md'
+      - Datum: './ICS_GIS/Theory/Datum.md'
 
       - Georeferencing: './ICS_GIS/Theory/Georeferencing.md'
     - Labs:

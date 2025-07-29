@@ -94,6 +94,12 @@ markdown_extensions:
 
 nav:
   - მთავარი: index.md
+
+# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
+# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
+# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
+# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
+# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
   - 'ICS - GIS':
     - 'About':
       - Instructor: './ICS_GIS/Instructor.md'
@@ -117,6 +123,7 @@ nav:
       - Topic 2: './ICS_GIS/Theory/Topic_2.md'
       - Map composition: './ICS_GIS/Theory/Map_composition.md'
       - Geodatabase: './ICS_GIS/Theory/Geodatabase.md'
+      - Raster data: './ICS_GIS/Theory/Raster.md'
 
       - Georeferencing: './ICS_GIS/Theory/Georeferencing.md'
     - Labs:

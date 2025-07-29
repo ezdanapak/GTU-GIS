@@ -198,7 +198,7 @@ nav:
         - სტილები: './GIS_SKA/Theory/QML_SLD.md'
         - CAD: './GIS_SKA/Theory/CAD.md'
         - რასტრები: './GIS_SKA/Theory/Raster.md'
-        - რელიეფი: './GIS_SKA/Theory/DEM.md'
+        - რელიეფი: './GIS_SKA/Theory/Terrain.md'
         - XML: './GIS_SKA/Theory/XML.md'
         - GeoNetwork: './GIS_SKA/Theory/GeoNetwork.md'
         - GeoNode: './GIS_SKA/Theory/GeoNode.md'

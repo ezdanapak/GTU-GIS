@@ -28,6 +28,8 @@ WEB GIS - [practical tas](https://www.youtube.com/)[k](https://youtu.be/9dkYVQRu
 
 რელიეფი - [practical tas](https://www.youtube.com/)[k](https://youtu.be/wQJyhTe_U9o) <br>
 
+რუკის კომპოზიცია - [practical tas](https://www.youtube.com/)[k](https://youtu.be/CYdY6DaxQmU) <br>
+
 ---
 
 თუ გჭირდება დახმარება პროგრამების ინსტალაციაზე შეგიძლია ისარგებლო YouTube - ზე ატვირთული ვიდეოებით [YouTub](https://www.youtube.com/)[e](https://youtu.be/) 

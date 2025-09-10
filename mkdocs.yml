@@ -196,6 +196,7 @@ nav:
       - თეორია:
         - კომპიუტერის მონაცემები: './GIS_SKA/Theory/Computer_Requirements.md'
         - გეოიდი & ელიფსოიდი : './GIS_SKA/Theory/Theory.md'
+        - GPS: './GIS_SKA/Theory/GPS_SJ.md'
         - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
         - ვექტორული შრის შენახვა : './GIS_SKA/Theory/Save_vector_layer.md'
         - დიგიტალიზაცია : './GIS_SKA/Theory/Digitization.md'

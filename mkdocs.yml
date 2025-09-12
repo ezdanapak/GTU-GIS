@@ -214,6 +214,7 @@ nav:
         - GeoJSON: './GIS_SKA/Theory/Geojson_formats.md'
         - WEB Services: './GIS_SKA/Theory/WEB_Services.md'
         - Win ENV: './GIS_SKA/Theory/Win_ENV.md'
+        - SQL: './GIS_SKA/Theory/Win_ENV.md'
         - რუკის კომპოზიცია: './GIS_SKA/Theory/Map_composition_theory.md'
         - გეომონაცემთა ბაზები:
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'

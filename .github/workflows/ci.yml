@@ -21,8 +21,8 @@ jobs:
           key: zensical-${{ steps.cache-date.outputs.week }}
           restore-keys: |
             zensical-
-      - run: pip install zensical
-      - run: zensical build
+      - run: pip install mkdocs-material
+      - run: mkdocs build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,7 +1,7 @@
-<!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
+﻿<!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
 # გეორეფერენცირება
 
-ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
+ვიდეო ჩანაწერებს ნახავ [აქ](https://gtu.qgis.ge/GIS_SKA/Videos/) <br>
 
 
 ### ოფიციალური დოკუმენტაცია <br>
@@ -10,8 +10,8 @@ QGIS Documentation - [Georeferencer](https://docs.qgis.org/3.40/en/docs/user_man
 
 
 ### დამატებითი ბმულები <br>
-თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Georeferencing/) <br>
-დამატებით ამავე [საკითხებზე](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Theory/) <br>
+თეორიული ნაწილი ინახება [აქ](https://gtu.qgis.ge/GIS_SKA/Theory/Georeferencing/) <br>
+დამატებით ამავე [საკითხებზე](https://gtu.qgis.ge/GIS_SKA/Theory/Theory/) <br>
 
 
 გარკვეული მასალები ინახება გუგლის საკლასო [ოთახში](https://classroom.google.com/c/Nzg3MzAxMDU4MzEy/m/Nzg3NTk5MzU2OTYw/details) ⚠️ <br>

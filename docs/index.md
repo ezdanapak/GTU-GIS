@@ -1,4 +1,4 @@
-> **For English, scroll down.**
+﻿> **For English, scroll down.**
 
 # კეთილი იყოს თქვენი მობრძანება **GTU GIS მასალების ვებსაიტზე**
 
@@ -55,7 +55,7 @@
 
 - **ელფოსტა**: [giorgi.kapanadze@gtu.ge](mailto:giorgi.kapanadze@gtu.ge)  
 - **ტელეფონი**: +995 579320618  
-- **Github**: [repo](https://ezdanapak.github.io/GTU-GIS/)  
+- **Github**: [repo](https://gtu.qgis.ge/)  
 დარჩით კავშირზე და შეისწავლეთ GIS-ის სამყარო **GTU**-ში!
 
 ---
@@ -129,7 +129,7 @@ For more information about our GIS programs, courses, or student activities, fee
 
 - **Email**: [giorgi.kapanadze@gtu.ge](mailto:giorgi.kapanadze@gtu.ge)
 - **Phone**: +995 579320618
-- **Github**: [repo](https://ezdanapak.github.io/GTU-GIS/)
+- **Github**: [repo](https://gtu.qgis.ge/)
 Stay connected and explore the world of GIS at **GTU**!
 
 ---

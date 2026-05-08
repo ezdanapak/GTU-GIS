@@ -1,8 +1,8 @@
-<!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
+﻿<!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
 # დიგიტალიზაცია
 
 
-ვიდეო ჩანაწერებს ნახავ [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Videos/) <br>
+ვიდეო ჩანაწერებს ნახავ [აქ](https://gtu.qgis.ge/GIS_SKA/Videos/) <br>
 
 ოფიციალური დოკუმენტაცია <br>
 
@@ -15,10 +15,10 @@ QGIS Documentation - [Editing](https://docs.qgis.org/3.40/en/docs/user_manual/wo
 ინდექსაცია ცხრილური და [სივრცული](https://docs.qgis.org/3.40/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#create-spatial-index)
 
 დამატებითი ბმულები <br>
-თეორიული ნაწილი ინახება [აქ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Digitization/) <br>
-დამატებით ამავე [საკითხებზე](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Project_file/) <br>
-Shapefile - ის [შესახებ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Shapefile/) <br>
-თეორიული ნაწილი ბილიკების - [შესახებ](https://ezdanapak.github.io/GTU-GIS/GIS_SKA/Theory/Path/) <br>
+თეორიული ნაწილი ინახება [აქ](https://gtu.qgis.ge/GIS_SKA/Theory/Digitization/) <br>
+დამატებით ამავე [საკითხებზე](https://gtu.qgis.ge/GIS_SKA/Theory/Project_file/) <br>
+Shapefile - ის [შესახებ](https://gtu.qgis.ge/GIS_SKA/Theory/Shapefile/) <br>
+თეორიული ნაწილი ბილიკების - [შესახებ](https://gtu.qgis.ge/GIS_SKA/Theory/Path/) <br>
 
 ---
 ## დავალების ინსტრუქციები

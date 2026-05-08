@@ -1,4 +1,4 @@
-﻿---
+---
 site_name: GTU GIS
 theme:
   name: material
@@ -53,6 +53,7 @@ theme:
 
 
 # Repository
+site_url: https://gtu.qgis.ge
 repo_name: GTU GIS
 repo_url: https://github.com/ezdanapak/GTU-GIS
 

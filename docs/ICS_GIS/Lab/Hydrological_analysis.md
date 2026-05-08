@@ -1,4 +1,4 @@
-GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.
+﻿GIS Data Search. Algorithms for Creating a Triangulated Irregular Network.
 
 
 ---
@@ -50,7 +50,7 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **DEM & TIN [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
+* We are using a **DEM & TIN [task](https://gtu.qgis.ge/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
 * Rename main folder from DEM & TIN to Hydrological analysis. Example "Giorgi_Kapanadze_Group_4_work_8_hydrological_analysis" <br>
 * Download Basemap files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Basemaps_lyr.zip?forcedownload=1)
 * Download nesecery Raster DEM files from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/SRTM.zip?forcedownload=1)

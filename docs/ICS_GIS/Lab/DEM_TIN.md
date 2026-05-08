@@ -1,4 +1,4 @@
-Overview of ArcGIS. Spatial Analyst extension of ArcGIS. Displaying DEM & TIN. Data
+﻿Overview of ArcGIS. Spatial Analyst extension of ArcGIS. Displaying DEM & TIN. Data
 Conversion (Vector to Raster) 
 
 ---
@@ -50,7 +50,7 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **Topology [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Topology/)** as part of this exercise.
+* We are using a **Topology [task](https://gtu.qgis.ge/ICS_GIS/Lab/Topology/)** as part of this exercise.
 * Rename main folder from Topology to DEM_TIN. Example "Giorgi_Kapanadze_Group_4_work_6_DEM_TIN" <br>
 * Also download archive from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/DEMTIN.zip?forcedownload=1)
 * and from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/Georgia.gdb.rar?forcedownload=1)

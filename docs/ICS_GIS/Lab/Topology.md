@@ -1,4 +1,4 @@
-# Vector data editing. Topological Storage of Vector Data. Topology. The Example of DIME. 
+﻿# Vector data editing. Topological Storage of Vector Data. Topology. The Example of DIME. 
 
 ## An overview of topology in ArcGIS
 
@@ -56,7 +56,7 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **Geodatabase [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Geodatabase/)** as part of this exercise.
+* We are using a **Geodatabase [task](https://gtu.qgis.ge/ICS_GIS/Lab/Geodatabase/)** as part of this exercise.
 * Rename main folder from geodatabase to topology. Example "Giorgi_Kapanadze_Group_4_work_5_topology" <br>
 * Correct sources if it needed. <br>
 * Also download shapefiles from [here](https://elearning.gtu.ge/pluginfile.php/572869/mod_folder/content/0/chiatura_OSM_topology.zip?forcedownload=1)

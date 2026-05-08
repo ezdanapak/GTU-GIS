@@ -1,4 +1,4 @@
-Designing a Map. Simple Line Intersection Algorithm. A Better Algorithm of Simple Line Intersection Algorithm
+﻿Designing a Map. Simple Line Intersection Algorithm. A Better Algorithm of Simple Line Intersection Algorithm
 
 
 ---
@@ -50,7 +50,7 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **digitizing [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/Digitization/)** as part of this exercise.
+* We are using a **digitizing [task](https://gtu.qgis.ge/ICS_GIS/Lab/Digitization/)** as part of this exercise.
 
 
 * Inside it, create the following subfolders:  

@@ -1,4 +1,4 @@
-Editing Data. Efficiency of the Line Intersection Algorithm. More on Algorithm Efficiency.
+﻿Editing Data. Efficiency of the Line Intersection Algorithm. More on Algorithm Efficiency.
 Raster Data Structures.
 
 Lab 7
@@ -52,7 +52,7 @@ On university computers, work inside the folder:
     You must be authorized (logged in) on [elearning.gtu.ge](https://elearning.gtu.ge) to download the data.
 
 === "Step I: Folder Setup"
-* We are using a **DEM&TIN [task](https://ezdanapak.github.io/GTU-GIS/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
+* We are using a **DEM&TIN [task](https://gtu.qgis.ge/ICS_GIS/Lab/DEM_TIN/)** as part of this exercise.
 * Rename main folder from DEM_TIN to Terrain_analysis. Example "Giorgi_Kapanadze_Group_4_work_6_terrain_analysis" <br>
 * Add inside project additional necessary folders:
   - Inside Raster folder add subfolder Terrain

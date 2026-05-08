@@ -1,10 +1,7 @@
----
+﻿---
 site_name: GTU GIS
 theme:
   name: material
-  palette:
-    primary: deep purple
-    scheme: purple
   features:
     - navigation.footer
     - navigation.instant
@@ -21,26 +18,23 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-
-    logo: ./assets/images/logo.png
-    favicon: assets/favicon.ico
-
-    palette:
-      # Dark Mode
-      - scheme: slate
-        toggle:
-          icon: material/weather-sunny
-          name: Light mode
-        primary: green
-        accent: orange
-  
-      # Light Mode
-      - scheme: default
-        toggle:
-          icon: material/weather-night
-          name: Dark mode
-        primary: green
-        accent: deep orange
+  logo: ./assets/images/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: green
+      accent: orange
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: green
+      accent: deep orange
 
   icon:
     admonition:
@@ -62,7 +56,7 @@ theme:
 repo_name: GTU GIS
 repo_url: https://github.com/ezdanapak/GTU-GIS
 
-copyright: Copyright &copy; 2025 Giorgi Kapanadze
+copyright: Copyright &copy; 2026 Giorgi Kapanadze
 
 markdown_extensions:
   
@@ -79,8 +73,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.highlight
   - pymdownx.tabbed:
       alternate_style: true 
   - admonition
@@ -157,9 +149,6 @@ nav:
         - პრეზენტაციები: './GISC_SD/Presentations.md'
         - საავტორო უფლებები: './GISC_SD/Copyright_Disclaimer.md'
         - გამოცდა: './GISC_SD/Exam.md'
-        - Info: './GISC_SD/Info.md'
-        - test: './GISC_SD/test.md'
-        
       - პროგრამული უზრუნველყოფა:
             - QGIS: './GISC_SD/Software/QGIS.md'
             - Google Earth: './GISC_SD/Software/GoogleEarth.md'
@@ -214,7 +203,6 @@ nav:
         - GeoJSON: './GIS_SKA/Theory/Geojson_formats.md'
         - WEB Services: './GIS_SKA/Theory/WEB_Services.md'
         - Win ENV: './GIS_SKA/Theory/Win_ENV.md'
-        - SQL: './GIS_SKA/Theory/Win_ENV.md'
         - რუკის კომპოზიცია: './GIS_SKA/Theory/Map_composition_theory.md'
         - გეომონაცემთა ბაზები:
           - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'

@@ -70,7 +70,7 @@
 ---
 
 > **შენიშვნა:**  
-> დეტალური კურსის ინფორმაციისთვის იხილეთ [კურსების კატალოგი](#) ან ეწვიეთ კონკრეტული ფაკულტეტების გვერდებს.
+> დეტალური კურსის ინფორმაციისთვის ეწვიეთ კონკრეტული ფაკულტეტების გვერდებს.
 
 <br> 
 
@@ -144,6 +144,6 @@ You can use the app on both Android and iOS:
 ---
 
 > **Note:**  
-> For detailed course information, check the [Course Catalogue](#) or visit the individual faculty pages.
+> For detailed course information, visit the individual faculty pages.
 
 

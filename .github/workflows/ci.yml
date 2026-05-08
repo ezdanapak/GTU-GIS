@@ -1,8 +1,7 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
-      - master 
       - main
 permissions:
   contents: write
@@ -11,20 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: mkdir -p .cache
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - id: cache-date
+        run: echo "week=$(date --utc '+%V')" >> $GITHUB_OUTPUT
       - uses: actions/cache@v4
         with:
           path: .cache
-          key: mkdocs-material-${{ env.cache_id }}
+          key: zensical-${{ steps.cache-date.outputs.week }}
           restore-keys: |
-            mkdocs-material-
+            zensical-
       - run: pip install zensical
-      - run: zensical gh-deploy --force
+      - run: zensical build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site

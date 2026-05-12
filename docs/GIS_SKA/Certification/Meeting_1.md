@@ -4,7 +4,7 @@
 
 ## 📹 ვიდეო ჩანაწერი
 
-[▶️ ვიდეოს ნახვა YouTube-ზე](https://youtu.be/n6BTRHwxdVI?list=PLbXTWpffGagSwO4nDYQHGT0YYUyhosx_T){ .md-button .md-button--primary }
+[▶️ ვიდეოს ნახვა YouTube-ზ](https://www.youtube.com/){ .md-button .md-button--primary }[ე](https://youtu.be/n6BTRHwxdVI?list=PLbXTWpffGagSwO4nDYQHGT0YYUyhosx_T)
 
 | | |
 |---|---|

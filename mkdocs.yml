@@ -162,6 +162,9 @@ nav:
 #GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
 
   - 'GIS - SKA': 
+      - მზადება სერტიფიცირებისთვის:
+        - შეხვედრა 1: './GIS_SKA/Certification/Meeting_1.md'
+        - სერტიფიცირება: './GIS_SKA/Certification.md'
       - 'შესახებ':
         - ლექტორი: './GIS_SKA/Instructor.md'
         - სილაბუსი: './GIS_SKA/Syllabus.md'

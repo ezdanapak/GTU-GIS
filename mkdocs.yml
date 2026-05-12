@@ -19,21 +19,21 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   logo: ./assets/images/logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/favicon.png
   palette:
     # Dark Mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Light mode
-      primary: green
+      primary: custom
       accent: orange
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Dark mode
-      primary: green
+      primary: custom
       accent: deep orange
 
   icon:
@@ -243,6 +243,9 @@ use_directory_urls: true
 
 
 
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search

@@ -164,6 +164,11 @@ nav:
   - 'GIS - SKA': 
       - მზადება სერტიფიცირებისთვის:
         - შეხვედრა 1: './GIS_SKA/Certification/Meeting_1.md'
+        - შეხვედრა 2: './GIS_SKA/Certification/Meeting_2.md'
+        - შეხვედრა 3: './GIS_SKA/Certification/Meeting_3.md'
+        - შეხვედრა 4: './GIS_SKA/Certification/Meeting_4.md'
+        - შეხვედრა 5: './GIS_SKA/Certification/Meeting_5.md'
+        - შეხვედრა 6: './GIS_SKA/Certification/Meeting_6.md'
         - სერტიფიცირება: './GIS_SKA/Certification/Certification.md'
       - 'შესახებ':
         - ლექტორი: './GIS_SKA/Instructor.md'

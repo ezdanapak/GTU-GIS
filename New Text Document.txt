@@ -113,6 +113,9 @@ mkdocs -h - Print help message and exit.
 pip freeze > requirements.txt
 pip install -r requirements.txt
 
+
+Linux
+
 sudo dnf5 install gcc gcc-c++ make python3-devel
 
 g++ --version
@@ -122,3 +125,10 @@ sudo dnf install python3-devel
 pip install --upgrade pip setuptools wheel
 
 
+
+git add . && git commit -m "Initial commit" && git push origin main
+
+Run
+
+  git config --global user.email "kapan.gio777@gmail.com"
+  git config --global user.name "Giorgi Kapanadze"

@@ -27,14 +27,14 @@ theme:
         icon: material/weather-sunny
         name: Light mode
       primary: custom
-      accent: orange
+      accent: custom
     # Light Mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Dark mode
       primary: custom
-      accent: deep orange
+      accent: custom
 
   icon:
     admonition:

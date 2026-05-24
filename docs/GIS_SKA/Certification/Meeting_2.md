@@ -1,4 +1,104 @@
-# შეხვედრა 2
+# შეხვედრა 2 — სივრცული მონაცემების ვიზუალიზაცია (Visualizing Spatial Data)
+
+---
+
+## 📹 ვიდეო ჩანაწერი
+
+▶️ 2. Visualizing Spatial [Dat](https://www.youtube.com/)[a](https://youtu.be/3pACHcXs2Mw) <br>
+
+
+| | |
+|---|---|
+| **ჩაწერის თარიღი** | 24.05.2026 |
+| **კურსი** | Introduction to QGIS — Spatial Thoughts (Ujaval Gandhi) |
+| **გამოყენებული სისტემა** | Linux Fedora KDE · QGIS Desktop on qgis-box · Podman Container |
+| **შინაარსი** | 99% პრაქტიკული სამუშაო |
+
+!!! info "ვიდეოს გამოყენების შეახებ"
+    © ვიდეოს ჩაწერის ნებართვა მიღებულია აუდიტორიაშივე, ჩანაწერის გაკეთებამდე.
+    ვიდეო განკუთვნილია ამ კურსის სტუდენტებისთვის სასწავლო მიზნებისთვის.
+
+---
+
+## 🎯 შეხვედრის მიზანი
+
+ეს შეხვედრა არის **Spatial Thoughts-ის "Introduction to QGIS" კურსის** მეორე ეტაპი.
+
+მიზანი: მომავალში სტუდენტმა შეძლოს ამ კურსის დამოუკიდებლად გავლა და **ოფიციალური QGIS სერტიფიკატის** მოპოვება.
+
+🔗 [კურსის ოფიციალური გვერდი](https://courses.spatialthoughts.com/introduction-to-qgis.html)  
+🏅 [სერტიფიკაციის შესახებ → იხ. ჩვენი გვერდი](./Certification.md)
+
+---
+
+## 📚 შეხვედრაზე გავლილი — Module 2: Visualizing Spatial Data
+
+### სავარჯიშო 2.1 — Table Joins
+
+**Case study:** მოსახლეობის მონაცემების შეერთება ქვეყნების გეომეტრიასთან
+
+**ისწავლი:**
+
+- **Table Join** — ატრიბუტული ცხრილის შეერთება ვექტორულ ფენასთან
+- CSV ფაილის ფენად დამატება `Data Source Manager`-ით
+- `Layer Properties` → `Joins` — ველების შეერთება საერთო გასაღებით (key field)
+- Join-ის შემდეგ ახალი ველების შემოწმება `Attribute Table`-ში
+
+!!! tip "Table Join-ის პრინციპი"
+    Join მუშაობს როგორც SQL-ის `JOIN` — ორ ცხრილს აერთებს **საერთო ველის** მიხედვით.
+    მაგ.: ქვეყნის კოდი (`ISO`) ვექტორულ ფენაში = ქვეყნის კოდი CSV-ში.
+
+---
+
+### სავარჯიშო 2.2 — Creating Choropleth Maps (კარტოგრამა)
+
+**Case study:** მოსახლეობის სიმჭიდროვის Choropleth რუკა
+
+**ისწავლი:**
+
+- **Graduated** renderer — ნორმალიზებული მონაცემების ვიზუალიზაცია
+- Color Ramp-ის შერჩევა (sequential vs diverging)
+- კლასებად დაყოფის მეთოდები:
+    - **Equal Count (Quantile)** — თანაბარი რაოდენობა კლასში
+    - **Equal Interval** — თანაბარი დიაპაზონი
+    - **Natural Breaks (Jenks)** — ბუნებრივი გახლეჩვა
+- **Query Builder** — ფენის ფილტრაცია SQL გამოხატულებით
+
+```
+Layer Properties → Symbology
+    ↓
+Graduated → Column: (joined field)
+    ↓
+Color Ramp → კლასების რაოდენობა
+    ↓
+Classify → OK
+```
+
+!!! note "ნორმალიზაცია"
+    Choropleth რუკაში ყოველთვის გამოიყენება **ნორმალიზებული** მონაცემი (%, სიმჭიდროვე, per capita),
+    არა აბსოლუტური მნიშვნელობა — წინააღმდეგ შემთხვევაში დიდი ფართობის ქვეყნები ყოველთვის "გაიმარჯვებენ".
+
+---
+
+## 📝 შენიშვნები შეხვედრიდან
+
+!!! warning "Challenge დავალებები — გამოტოვებულია"
+    თითოეული სავარჯიშოს ბოლოს კურსში არის **Challenge** ნაწილი.
+    ამ შეხვედრაზე ეს ნაწილები **გამოტოვებულია** — მომავალ ეტაპზე განახლდება.
+
+    💡 **სახლში გასაკეთებელი:** სცადე Challenge-ები დამოუკიდებლად!
+    კურსის ოფიციალური გვერდი განმარტებებს შეიცავს.
+
+---
+
+## 🔗 გამოყენებული თეორიული რესურსები
+
+| რესურსი | ბმული |
+|--------|-------|
+| 📘 QGIS Docs — Graduated Renderer | [docs.qgis.org — Graduated Renderer](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/vector_properties.html#graduated-renderer) |
+| 📘 GTU — შეხვედრა 2 | [gtu.qgis.ge/GIS_SKA/Certification/Meeting_2/](https://gtu.qgis.ge/GIS_SKA/Certification/Meeting_2/) |
+| 📘 QGIS Docs — Query Builder | [docs.qgis.org — Query Builder](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/vector_properties.html#query-builder) |
+| 🎓 Spatial Thoughts კურსი | [courses.spatialthoughts.com/introduction-to-qgis.html](https://courses.spatialthoughts.com/introduction-to-qgis.html) |
 
 ---
 

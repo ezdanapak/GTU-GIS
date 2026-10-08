@@ -15,3 +15,57 @@
 :root {
   --md-typeset-a-color: #7650ff;
 }
+
+/* ---- Typography: comfortable reading for Georgian text ---- */
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.75;
+}
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ---- Header & tabs ---- */
+.md-header { box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08); }
+.md-tabs__link { opacity: 0.85; font-weight: 500; }
+.md-tabs__link--active,
+.md-tabs__link:hover { opacity: 1; }
+
+/* ---- Content ---- */
+.md-typeset img,
+.md-typeset video { max-width: 100%; height: auto; border-radius: 6px; }
+.md-typeset table:not([class]) { font-size: 0.78rem; border-radius: 6px; }
+.md-typeset .admonition,
+.md-typeset details { border-radius: 6px; }
+
+/* Wide tables and code scroll instead of breaking the page on phones */
+.md-typeset__scrollwrap { margin: 1em 0; }
+.md-typeset pre > code { font-size: 0.78em; }
+
+/* ---- Mobile ---- */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset { font-size: 0.85rem; }
+  .md-typeset h1 { font-size: 1.5rem; }
+  .md-content__inner { margin-left: 0.8rem; margin-right: 0.8rem; }
+  .md-typeset table:not([class]) { display: block; overflow-x: auto; }
+}
+
+/* ---- Accessibility ---- */
+:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ---- Print: lectures and labs are often printed ---- */
+@media print {
+  .md-header, .md-tabs, .md-sidebar, .md-footer, .md-top { display: none !important; }
+  .md-content__inner { margin: 0; }
+  .md-typeset { font-size: 11pt; }
+}

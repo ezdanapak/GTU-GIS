@@ -1,8 +1,8 @@
 ---
-site_name: GTU GIS
 theme:
   name: material
   language: ka
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -23,7 +23,7 @@ theme:
     - content.code.annotate
     - content.tooltips
   font:
-    text: Merriweather Sans
+    text: Noto Sans Georgian
     code: Red Hat Mono
   palette:
     # Dark Mode
@@ -61,11 +61,20 @@ theme:
 
 # Repository
 site_url: https://gtu.qgis.ge
+site_name: GTU GIS
+site_description: "საქართველოს ტექნიკური უნივერსიტეტის GIS კურსების მასალები: ლექციები, ლაბორატორიული სამუშაოები, QGIS, ArcGIS, Google Earth."
+site_author: Giorgi Kapanadze
 repo_name: GTU GIS
 repo_url: https://github.com/ezdanapak/GTU-GIS
 edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2026 Giorgi Kapanadze
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ezdanapak/GTU-GIS
+      name: GitHub
 
 markdown_extensions:
   

@@ -4,6 +4,9 @@ theme:
   name: material
   language: ka
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
@@ -11,6 +14,7 @@ theme:
     - navigation.path
     - navigation.indexes
     - navigation.top
+    - toc.follow
     - search.highlight
     - search.share
     - search.suggest
@@ -92,161 +96,131 @@ markdown_extensions:
 nav:
   - მთავარი: index.md
 
-# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
-# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
-# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
-# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
-# ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS - ICS - GIS
-  - 'ICS - GIS':
-    - 'About':
-      - Instructor: './ICS_GIS/Instructor.md'
-      - Syllabus: './ICS_GIS/Syllabus.md'
-      - Schedule: './ICS_GIS/Schedule.md'
-      - Textbooks: './ICS_GIS/Textbooks.md'
-      - Videos: './ICS_GIS/Videos.md'
-      - Acknowledgments: './ICS_GIS/Acknowledgments.md'
-      - Info: './ICS_GIS/Info.md'
-      - Another staff: './ICS_GIS/Another_staff.md'
-      - Presentations: './ICS_GIS/Presentations.md'
-      - Copyright: './ICS_GIS/Copyright_Disclaimer.md'
-      - Exam: './ICS_GIS/Exam.md'
-      
-
+  - ICS - GIS:
+    - About:
+      - Instructor: ICS_GIS/Instructor.md
+      - Syllabus: ICS_GIS/Syllabus.md
+      - Schedule: ICS_GIS/Schedule.md
+      - Textbooks: ICS_GIS/Textbooks.md
+      - Videos: ICS_GIS/Videos.md
+      - Acknowledgments: ICS_GIS/Acknowledgments.md
+      - Info: ICS_GIS/Info.md
+      - Another staff: ICS_GIS/Another_staff.md
+      - Presentations: ICS_GIS/Presentations.md
+      - Copyright: ICS_GIS/Copyright_Disclaimer.md
+      - Exam: ICS_GIS/Exam.md
     - Software Tools:
-      - ArcGIS: './ICS_GIS/Software/ArcGIS.md'
-      - Google Earth: './ICS_GIS/Software/GoogleEarth.md'
+      - ArcGIS: ICS_GIS/Software/ArcGIS.md
+      - Google Earth: ICS_GIS/Software/GoogleEarth.md
     - Theory:
-      - Topic 1: './ICS_GIS/Theory/Topic_1.md'
-      - Topic 2: './ICS_GIS/Theory/Topic_2.md'
-      - Map composition: './ICS_GIS/Theory/Map_composition.md'
-      - Geodatabase: './ICS_GIS/Theory/Geodatabase.md'
-      - Raster data: './ICS_GIS/Theory/Raster.md'
-      - Datum: './ICS_GIS/Theory/Datum.md'
-
-      - Georeferencing: './ICS_GIS/Theory/Georeferencing.md'
+      - Topic 1: ICS_GIS/Theory/Topic_1.md
+      - Topic 2: ICS_GIS/Theory/Topic_2.md
+      - Map composition: ICS_GIS/Theory/Map_composition.md
+      - Geodatabase: ICS_GIS/Theory/Geodatabase.md
+      - Raster data: ICS_GIS/Theory/Raster.md
+      - Datum: ICS_GIS/Theory/Datum.md
+      - Georeferencing: ICS_GIS/Theory/Georeferencing.md
     - Labs:
-      - Digitization: './ICS_GIS/Lab/Digitization.md'
-      - GPS: './ICS_GIS/Lab/GPS.md'
-      - Topology: './ICS_GIS/Lab/Topology.md'
-      - DEM & TIN: './ICS_GIS/Lab/DEM_TIN.md'
-      - Geodatabase: './ICS_GIS/Lab/Geodatabase.md'
-      - Lab 6: './ICS_GIS/Lab/Lab_6.md'
-      - Terrain analysis: './ICS_GIS/Lab/Terrain_analysis.md'
-      - Georeference : './ICS_GIS/Lab/Georeference.md'
-      - Lab 9: './ICS_GIS/Lab/Lab_9.md'
-      - Hydrological analysis: './ICS_GIS/Lab/Hydrological_analysis.md'
-      - Lab 11: './ICS_GIS/Lab/Lab_11.md'
-      - Lab 12: './ICS_GIS/Lab/Lab_12.md'
-      - Lab 13: './ICS_GIS/Lab/Lab_13.md'
-      - Lab 14: './ICS_GIS/Lab/Lab_14.md'
-      - Lab 15: './ICS_GIS/Lab/Lab_15.md'
-  
-  - 'GISC-SD': 
-      - 'About':
-        - ლექტორი: './GISC_SD/Instructor.md'
-        - სილაბუსი: './GISC_SD/Syllabus.md'
-        - განრიგი: './GISC_SD/Schedule.md'
-        - რესურსები: './GISC_SD/Textbooks.md'
-        - ვიდეოები: './GISC_SD/Videos.md'
-        - მადლობის გაცხადება: './GISC_SD/Acknowledgments.md'
-        - ინფორმაცია: './GISC_SD/Info.md'
-        - სხვა მასალა: './GISC_SD/Another_staff.md'
-        - პრეზენტაციები: './GISC_SD/Presentations.md'
-        - საავტორო უფლებები: './GISC_SD/Copyright_Disclaimer.md'
-        - გამოცდა: './GISC_SD/Exam.md'
-      - პროგრამული უზრუნველყოფა:
-            - QGIS: './GISC_SD/Software/QGIS.md'
-            - Google Earth: './GISC_SD/Software/GoogleEarth.md'
+      - Digitization: ICS_GIS/Lab/Digitization.md
+      - GPS: ICS_GIS/Lab/GPS.md
+      - Topology: ICS_GIS/Lab/Topology.md
+      - DEM & TIN: ICS_GIS/Lab/DEM_TIN.md
+      - Geodatabase: ICS_GIS/Lab/Geodatabase.md
+      - Lab 6: ICS_GIS/Lab/Lab_6.md
+      - Terrain analysis: ICS_GIS/Lab/Terrain_analysis.md
+      - Georeference: ICS_GIS/Lab/Georeference.md
+      - Lab 9: ICS_GIS/Lab/Lab_9.md
+      - Hydrological analysis: ICS_GIS/Lab/Hydrological_analysis.md
+      - Lab 11: ICS_GIS/Lab/Lab_11.md
+      - Lab 12: ICS_GIS/Lab/Lab_12.md
+      - Lab 13: ICS_GIS/Lab/Lab_13.md
+      - Lab 14: ICS_GIS/Lab/Lab_14.md
+      - Lab 15: ICS_GIS/Lab/Lab_15.md
 
-#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
-#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
-#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
-#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
-#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
-#GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA - GIS SKA -
+  - GISC - SD:
+    - შესახებ:
+      - ლექტორი: GISC_SD/Instructor.md
+      - სილაბუსი: GISC_SD/Syllabus.md
+      - განრიგი: GISC_SD/Schedule.md
+      - რესურსები: GISC_SD/Textbooks.md
+      - ვიდეოები: GISC_SD/Videos.md
+      - მადლობის გაცხადება: GISC_SD/Acknowledgments.md
+      - ინფორმაცია: GISC_SD/Info.md
+      - სხვა მასალა: GISC_SD/Another_staff.md
+      - პრეზენტაციები: GISC_SD/Presentations.md
+      - საავტორო უფლებები: GISC_SD/Copyright_Disclaimer.md
+      - გამოცდა: GISC_SD/Exam.md
+    - პროგრამული უზრუნველყოფა:
+      - QGIS: GISC_SD/Software/QGIS.md
+      - Google Earth: GISC_SD/Software/GoogleEarth.md
 
-  - 'GIS - SKA': 
-      - მზადება სერტიფიცირებისთვის:
-        - შეხვედრა 1: './GIS_SKA/Certification/Meeting_1.md'
-        - შეხვედრა 2: './GIS_SKA/Certification/Meeting_2.md'
-        - შეხვედრა 3: './GIS_SKA/Certification/Meeting_3.md'
-        - შეხვედრა 4: './GIS_SKA/Certification/Meeting_4.md'
-        - შეხვედრა 5: './GIS_SKA/Certification/Meeting_5.md'
-        - შეხვედრა 6: './GIS_SKA/Certification/Meeting_6.md'
-        - სერტიფიცირება: './GIS_SKA/Certification/Certification.md'
-      - 'შესახებ':
-        - ლექტორი: './GIS_SKA/Instructor.md'
-        - სილაბუსი: './GIS_SKA/Syllabus.md'
-        - განრიგი: './GIS_SKA/Schedule.md'
-        - რესურსები: './GIS_SKA/Textbooks.md'
-        - ვიდეოები: './GIS_SKA/Videos.md'
-        - მადლობის გაცხადება: './GIS_SKA/Acknowledgments.md'
-        - ინფორმაცია: './GIS_SKA/Info.md'
-        - სხვა მასალა: './GIS_SKA/Another_staff.md'
-        - პრეზენტაციები: './GIS_SKA/Presentations.md'
-        - საავტორო უფლებები: './GIS_SKA/Copyright_Disclaimer.md'
-        - გამოცდა: './GIS_SKA/Exam.md'
-        - ქვიზი: './GIS_SKA/Quiz.md'
-        - დახმარება: './GIS_SKA/Help.md'
-
-      
-      - პროგრამული უზრუნველყოფა:
-        - QGIS: './GIS_SKA/Software/QGIS.md'
-        - Google Earth: './GIS_SKA/Software/GoogleEarth.md'
-        - Geoserver: './GIS_SKA/Software/Geoserver.md'
-      
-      - თეორია:
-        - კომპიუტერის მონაცემები: './GIS_SKA/Theory/Computer_Requirements.md'
-        - გეოიდი & ელიფსოიდი : './GIS_SKA/Theory/Theory.md'
-        - GPS: './GIS_SKA/Theory/GPS_SJ.md'
-        - გეორეფერენცირება : './GIS_SKA/Theory/Georeferencing.md'
-        - ვექტორული შრის შენახვა : './GIS_SKA/Theory/Save_vector_layer.md'
-        - დიგიტალიზაცია : './GIS_SKA/Lab/Digitization.md'
-        - პროექტის ფაილი : './GIS_SKA/Theory/Project_file.md'
-        - შეიპ-ფაილი: './GIS_SKA/Theory/Shapefile.md'
-        - ბილიკები: './GIS_SKA/Theory/Path.md'
-        - დროებითი შრე: './GIS_SKA/Theory/Scratch_layer.md'
-        - სტილები: './GIS_SKA/Theory/QML_SLD.md'
-        - CAD: './GIS_SKA/Theory/CAD.md'
-        - რასტრები: './GIS_SKA/Theory/Raster.md'
-        - რელიეფი: './GIS_SKA/Theory/Terrain.md'
-        - XML: './GIS_SKA/Theory/XML.md'
-        - GeoNetwork: './GIS_SKA/Theory/GeoNetwork.md'
-        - GeoNode: './GIS_SKA/Theory/GeoNode.md'
-        - GeoJSON: './GIS_SKA/Theory/Geojson_formats.md'
-        - WEB Services: './GIS_SKA/Theory/WEB_Services.md'
-        - Win ENV: './GIS_SKA/Theory/Win_ENV.md'
-        - რუკის კომპოზიცია: './GIS_SKA/Theory/Map_composition_theory.md'
-        - გეომონაცემთა ბაზები:
-          - Apache parquet: './GIS_SKA/Theory/Geodatabase/Apache_parquet.md'
-          - Geodatabase: './GIS_SKA/Theory/Geodatabase.md'
-          - GeodatabaseVS: './GIS_SKA/Theory/Geodatabase/GeodatabaseVS.md'
-
-      - Google:
-        - ადგილის სიმაღლე: './GIS_SKA/Theory/Google/Placemark_altitudes.md'
-        - გუგლის ფორმატები : './GIS_SKA/Theory/Google/Google_formats.md'
-
-
-      - დავალებები:
-        - გეორეფერენცირება : './GIS_SKA/Lab/Georeference.md'
-        - დიგიტალიზაცია: './GIS_SKA/Lab/Digitization.md'
-        - გლობალური პოზიციონირება: './GIS_SKA/Lab/GPS.md'
-        - გეომონაცემთა ბაზები: './GIS_SKA/Lab/Geodatabase.md'
-        - დიგიტალიზაცია 1: './GIS_SKA/Lab/Digitization1.md'
-        - მონიშვნები : './GIS_SKA/Lab/Selection.md'
-        - OGC WEB: './GIS_SKA/Lab/OGC_WEB.md'
-        - WEB GIS: './GIS_SKA/Lab/WEB_GIS.md'
-        - ტოპოლოგია: './GIS_SKA/Lab/Topology.md'
-        - რელიეფის ანალიზი: './GIS_SKA/Lab/Terrain_analysis.md'
-        - რუკის კომპოზიცია: './GIS_SKA/Lab/Map_composition.md'
-
-
-  
-
-
-
-
-
+  - GIS - SKA:
+    - მზადება სერტიფიცირებისთვის:
+      - შეხვედრა 1: GIS_SKA/Certification/Meeting_1.md
+      - შეხვედრა 2: GIS_SKA/Certification/Meeting_2.md
+      - შეხვედრა 3: GIS_SKA/Certification/Meeting_3.md
+      - შეხვედრა 4: GIS_SKA/Certification/Meeting_4.md
+      - შეხვედრა 5: GIS_SKA/Certification/Meeting_5.md
+      - შეხვედრა 6: GIS_SKA/Certification/Meeting_6.md
+      - სერტიფიცირება: GIS_SKA/Certification/Certification.md
+    - შესახებ:
+      - ლექტორი: GIS_SKA/Instructor.md
+      - სილაბუსი: GIS_SKA/Syllabus.md
+      - განრიგი: GIS_SKA/Schedule.md
+      - რესურსები: GIS_SKA/Textbooks.md
+      - ვიდეოები: GIS_SKA/Videos.md
+      - მადლობის გაცხადება: GIS_SKA/Acknowledgments.md
+      - ინფორმაცია: GIS_SKA/Info.md
+      - სხვა მასალა: GIS_SKA/Another_staff.md
+      - პრეზენტაციები: GIS_SKA/Presentations.md
+      - საავტორო უფლებები: GIS_SKA/Copyright_Disclaimer.md
+      - გამოცდა: GIS_SKA/Exam.md
+      - ქვიზი: GIS_SKA/Quiz.md
+      - დახმარება: GIS_SKA/Help.md
+    - პროგრამული უზრუნველყოფა:
+      - QGIS: GIS_SKA/Software/QGIS.md
+      - Google Earth: GIS_SKA/Software/GoogleEarth.md
+      - Geoserver: GIS_SKA/Software/Geoserver.md
+    - თეორია:
+      - კომპიუტერის მონაცემები: GIS_SKA/Theory/Computer_Requirements.md
+      - გეოიდი & ელიფსოიდი: GIS_SKA/Theory/Theory.md
+      - GPS: GIS_SKA/Theory/GPS_SJ.md
+      - გეორეფერენცირება: GIS_SKA/Theory/Georeferencing.md
+      - ვექტორული შრის შენახვა: GIS_SKA/Theory/Save_vector_layer.md
+      - პროექტის ფაილი: GIS_SKA/Theory/Project_file.md
+      - შეიპ-ფაილი: GIS_SKA/Theory/Shapefile.md
+      - ბილიკები: GIS_SKA/Theory/Path.md
+      - დროებითი შრე: GIS_SKA/Theory/Scratch_layer.md
+      - სტილები: GIS_SKA/Theory/QML_SLD.md
+      - CAD: GIS_SKA/Theory/CAD.md
+      - რასტრები: GIS_SKA/Theory/Raster.md
+      - რელიეფი: GIS_SKA/Theory/Terrain.md
+      - XML: GIS_SKA/Theory/XML.md
+      - GeoNetwork: GIS_SKA/Theory/GeoNetwork.md
+      - GeoNode: GIS_SKA/Theory/GeoNode.md
+      - GeoJSON: GIS_SKA/Theory/Geojson_formats.md
+      - WEB Services: GIS_SKA/Theory/WEB_Services.md
+      - Win ENV: GIS_SKA/Theory/Win_ENV.md
+      - რუკის კომპოზიცია: GIS_SKA/Theory/Map_composition_theory.md
+      - გეომონაცემთა ბაზები:
+        - Apache parquet: GIS_SKA/Theory/Geodatabase/Apache_parquet.md
+        - Geodatabase: GIS_SKA/Theory/Geodatabase.md
+        - GeodatabaseVS: GIS_SKA/Theory/Geodatabase/GeodatabaseVS.md
+    - Google:
+      - ადგილის სიმაღლე: GIS_SKA/Theory/Google/Placemark_altitudes.md
+      - გუგლის ფორმატები: GIS_SKA/Theory/Google/Google_formats.md
+    - დავალებები:
+      - გეორეფერენცირება: GIS_SKA/Lab/Georeference.md
+      - დიგიტალიზაცია: GIS_SKA/Lab/Digitization.md
+      - გლობალური პოზიციონირება: GIS_SKA/Lab/GPS.md
+      - გეომონაცემთა ბაზები: GIS_SKA/Lab/Geodatabase.md
+      - დიგიტალიზაცია 1: GIS_SKA/Lab/Digitization1.md
+      - მონიშვნები: GIS_SKA/Lab/Selection.md
+      - OGC WEB: GIS_SKA/Lab/OGC_WEB.md
+      - WEB GIS: GIS_SKA/Lab/WEB_GIS.md
+      - ტოპოლოგია: GIS_SKA/Lab/Topology.md
+      - რელიეფის ანალიზი: GIS_SKA/Lab/Terrain_analysis.md
+      - რუკის კომპოზიცია: GIS_SKA/Lab/Map_composition.md
 
 use_directory_urls: true
 

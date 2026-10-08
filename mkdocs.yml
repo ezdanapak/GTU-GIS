@@ -2,6 +2,7 @@
 site_name: GTU GIS
 theme:
   name: material
+  language: ka
   features:
     - navigation.footer
     - navigation.instant
@@ -12,14 +13,14 @@ theme:
     - navigation.top
     - search.highlight
     - search.share
+    - search.suggest
+    - content.action.edit
     - content.code.copy
     - content.code.annotate
     - content.tooltips
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  logo: ./assets/images/logo.png
-  favicon: assets/favicon.png
   palette:
     # Dark Mode
     - scheme: slate
@@ -37,6 +38,8 @@ theme:
       accent: custom
 
   icon:
+    logo: material/earth
+    repo: fontawesome/brands/github
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -56,6 +59,7 @@ theme:
 site_url: https://gtu.qgis.ge
 repo_name: GTU GIS
 repo_url: https://github.com/ezdanapak/GTU-GIS
+edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2026 Giorgi Kapanadze
 
@@ -253,5 +257,7 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - search
+  - search:
+      lang:
+        - en
  # - glightbox

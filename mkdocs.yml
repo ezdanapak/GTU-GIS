@@ -239,6 +239,9 @@ use_directory_urls: true
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - js/service-worker-register.js
+
 plugins:
   - search:
       lang:

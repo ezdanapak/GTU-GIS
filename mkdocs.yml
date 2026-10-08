@@ -260,4 +260,7 @@ plugins:
   - search:
       lang:
         - en
+      # lunr trimmer strips non-Latin (Georgian) letters; stemmer is English-only
+      pipeline:
+        - stopWordFilter
  # - glightbox

@@ -32,4 +32,4 @@ Android აპლიკაცია საიტის WebView-ია. ის �
 
 ## ცვლილებები და კონტაქტი
 
-პოლიტიკის განახლებისას ამ გვერდზე თარიღი შეიცვლება. კითხვებისთვის გახსენი issue რეპოზიტორიაში: [github.com/ezdanapak/GTU-GIS](https://github.com/ezdanapak/GTU-GIS/issues).
+პოლიტიკის განახლებისას ამ გვერდზე თარიღი შეიცვლება. კითხვებისთვის მოგვწერეთ: [giorgi.kapanadze@gtu.ge](mailto:giorgi.kapanadze@gtu.ge).

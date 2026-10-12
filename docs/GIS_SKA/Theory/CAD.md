@@ -19,7 +19,7 @@
 
 ## 🔹 DXF/DWG ფაილები GIS-ში
 
-GIS სისტემებში (მაგ. QGIS, ArcGIS) ხშირად საჭიროა **CAD ფაილების იმპორტი**, განსაკუთრებით მაშინ, როცა უნდა გავაერთიანოთ გეოდეზიური ნახაზები სხვა სივრცით მონაცემებთან.
+GIS სისტემებში (მაგ. QGIS, ArcGIS Pro) ხშირად საჭიროა **CAD ფაილების იმპორტი**, განსაკუთრებით მაშინ, როცა უნდა გავაერთიანოთ გეოდეზიური ნახაზები სხვა სივრცით მონაცემებთან.
 
 ### 🔸 DWG/DXF იმპორტი QGIS-ში
 
@@ -32,9 +32,9 @@ GIS სისტემებში (მაგ. QGIS, ArcGIS) ხშირად 
   2. აირჩიე DXF ფაილი
   3. გამოჩნდება რამდენიმე ფენა: `entities`, `points`, `lines`, `polygons`, `annotations`.
 
-### 🔸 ArcGIS-ში
+### 🔸 ArcGIS Pro-ში
 
-ArcGIS საშუალებას იძლევა CAD ფაილები იმპორტირდეს პირდაპირ, თუ ისინი **სწორად არის გეორეფერენცირებული**.
+ArcGIS Pro საშუალებას იძლევა CAD ფაილები იმპორტირდეს პირდაპირ, თუ ისინი **სწორად არის გეორეფერენცირებული**.
 
 - CAD ფაილი ავტომატურად იხსნება CAD Dataset-ის სახით.
 - შესაძლებელია მისი კონვერტაცია Feature Class-ში.
@@ -60,7 +60,7 @@ CAD ფაილი არ შეიცავს ყოველთვის გ
 |------------------|------------------------------------------|
 | `ogr2ogr`         | კონვერტაცია DXF → Shapefile ან GeoJSON   |
 | QGIS Processing  | DXF layers → Shapefile                   |
-| ArcGIS Toolboxes | CAD to GDB/Feature Class                 |
+| ArcGIS Pro Toolboxes | CAD to GDB/Feature Class                 |
 
 ## 🔹 კარგი პრაქტიკა
 
@@ -73,4 +73,4 @@ CAD ფაილი არ შეიცავს ყოველთვის გ
 - [QGIS Documentation on CAD support](https://docs.qgis.org/)
 - [AutoDesk DXF Format Specification](https://www.autodesk.com)
 - [GDAL OGR CAD Driver](https://gdal.org/drivers/vector/dxf.html)
-- [ArcGIS CAD Integration Guide](https://pro.arcgis.com/)
+- [ArcGIS Pro CAD Integration Guide](https://pro.arcgis.com/)

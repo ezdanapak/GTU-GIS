@@ -40,7 +40,7 @@
 
 KML მხარდაჭერილია მრავალი პლატფორმის მიერ:
    - Google Earth <br>
-   - ArcGIS / QGIS <br>
+   - ArcGIS Pro / QGIS <br>
    - NASA World Wind <br>
    - CesiumJS და სხვა ვებ აპლიკაციები <br>
 

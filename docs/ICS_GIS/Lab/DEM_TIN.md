@@ -1,4 +1,4 @@
-﻿Overview of ArcGIS. Spatial Analyst extension of ArcGIS. Displaying DEM & TIN. Data
+﻿Overview of ArcGIS Pro. Spatial Analyst extension of ArcGIS Pro. Displaying DEM & TIN. Data
 Conversion (Vector to Raster) 
 
 ---
@@ -12,7 +12,7 @@ On university computers, work inside the folder:
 
 📦 **Required Software**
 
-* ArcGIS – Required ✅  
+* ArcGIS Pro – Required ✅  
 * Google Earth – Optional (depending on the task) ✅  
 
 ---

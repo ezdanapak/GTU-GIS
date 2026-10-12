@@ -17,7 +17,7 @@ On university computers, work inside the folder:
 
 📦 **Required Software**
 
-* ArcGIS – Required ✅  
+* ArcGIS Pro – Required ✅  
 * Google Earth – Optional (depending on the task) ✅  
 
 ---
@@ -86,7 +86,7 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 ---
 
 === "Step III: Final Checks & Submission"
-* After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS and import firstly any Basemap.. 🌍
+* After georeferencing, verify the map location using any available method. You can use Google Earth or ArcGIS Pro and import firstly any Basemap.. 🌍
 * Ensure that the map correctly aligns with the target area. 🗺
 * Compress (zip) your folder (named after your first and last name). 💾
 * Use formats like `.rar` or `.zip`.

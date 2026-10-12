@@ -66,7 +66,7 @@ Remote sensing [indices](https://www.researchgate.net/publication/336975237/figu
 ## 🛠️ პროგრამული უზრუნველყოფა Raster-თან სამუშაოდ
 
 - **QGIS** – ღია კოდის GIS პროგრამა (Georeferencer, Raster Calculator)
-- **ArcGIS** – პროფესიონალური პლატფორმა ფართო ფუნქციონალით
+- **ArcGIS Pro** – პროფესიონალური პლატფორმა ფართო ფუნქციონალით
 - **GDAL** – ბიბლიოთეკა Raster და Vector მონაცემებისთვის
 
 ---

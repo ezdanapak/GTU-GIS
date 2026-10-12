@@ -69,9 +69,25 @@ repo_name: GTU GIS
 repo_url: https://github.com/ezdanapak/GTU-GIS
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2026 Giorgi Kapanadze
+copyright: Copyright &copy; 2026 Giorgi Kapanadze · <a href="https://gtu.qgis.ge/privacy/">კონფიდენციალურობა</a>
 
 extra:
+  analytics:
+    provider: google
+    property: G-ZZE3N7KJYL
+  consent:
+    title: Cookies
+    description: >-
+      ვიყენებთ cookie-ებს ანონიმური სტატისტიკისთვის (Google Analytics), რომ გავიგოთ,
+      რომელი მასალებია სასარგებლო. დეტალები იხილე
+      <a href="https://gtu.qgis.ge/privacy/">კონფიდენციალურობის პოლიტიკაში</a>.
+      თანხმობის გარეშე ანალიტიკა არ ირთვება.
+    cookies:
+      analytics: Google Analytics
+    actions:
+      - accept
+      - reject
+      - manage
   social:
     - icon: fontawesome/solid/chalkboard-user
       link: https://leqtori.gtu.ge/2026__2027/I/B/info

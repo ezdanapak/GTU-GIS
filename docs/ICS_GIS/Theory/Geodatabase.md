@@ -1,4 +1,4 @@
-🗃️ Geospatial Databases & Data Management in ArcGIS
+🗃️ Geospatial Databases & Data Management in ArcGIS Pro
 
 1. Geospatial Databases
 Overview of geospatial database formats:

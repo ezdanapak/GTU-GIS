@@ -11,7 +11,7 @@ On university computers, work inside the folder:
 
 📦 **Required Software**
 
-* ArcGIS – Required ✅  
+* ArcGIS Pro – Required ✅  
 * Google Earth – Optional (depending on the task) ✅  
 
 ---

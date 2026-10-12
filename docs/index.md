@@ -15,7 +15,8 @@
 ჩვენი სტუდენტები სარგებლობენ უახლესი GIS ტექნოლოგიებით, მათ შორის: <br>  
 - **QGIS** <br>  
 - **Google Earth PRO** <br>  
-- **ArcGIS** <br>  
+- **GeoLibre** ([geolibre.app](https://geolibre.app/)) <br>  
+- **ArcGIS Pro** <br>  
 - **გეოსივრცული მონაცემების ვიზუალიზაციის ხელსაწყოები** <br>  
 
 ---
@@ -90,7 +91,8 @@ We offer GIS courses across several faculties, including: <Br>
 Our students are equipped with the latest tools in GIS technology, including: <Br>
 - **QGIS** <Br>
 - **Google Earth PRO** <Br>
-- **ArcGIS** <Br>
+- **GeoLibre** ([geolibre.app](https://geolibre.app/)) <Br>
+- **ArcGIS Pro** <Br>
 - **Geospatial Data Visualization Tools** <Br>
 
 ---

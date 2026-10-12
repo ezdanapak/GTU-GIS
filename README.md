@@ -7,15 +7,15 @@ Welcome to the official website for the **Georgian Technical University (GTU) GI
 ### 🌍 **GIS Courses in Various Faculties**
 We offer GIS courses across several faculties, including:
 - **Faculty of Informatics and Control Systems**
-- **Faculty of Architecture**
-- **Faculty of Engineering**
-- **Faculty of Geography**
+- **GIS SKA** – GIS teaching for students (Georgian Cartographers Association)
+- **GISC SD** – GIS teaching at the Geo-Information Systems Center, under the Faculty of Mining Geology and Sustainable Mountain Development
 
 ### 🎓 **GIS Software and Tools**
 Our students are equipped with the latest tools in GIS technology, including: <Br>
 - **QGIS** <Br>
 - **Google Earth PRO** <Br>
-- **ArcGIS** <Br>
+- **GeoLibre** ([geolibre.app](https://geolibre.app/)) <Br>
+- **ArcGIS Pro** <Br>
 - **Geospatial Data Visualization Tools** <Br>
 
 ---

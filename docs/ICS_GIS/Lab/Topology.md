@@ -1,6 +1,6 @@
 ﻿# Vector data editing. Topological Storage of Vector Data. Topology. The Example of DIME. 
 
-## An overview of topology in ArcGIS
+## An overview of topology in ArcGIS Pro
 
 If you have features that are coincident and share the same location of coordinates, boundaries, or nodes, chances are that geodatabase topology can help you better manage your geographic data. 
 Check [link](https://desktop.arcgis.com/en/arcmap/latest/manage-data/topologies/an-overview-of-topology-in-arcgis.htm) <br>
@@ -18,7 +18,7 @@ On university computers, work inside the folder:
 
 📦 **Required Software**
 
-* ArcGIS – Required ✅  
+* ArcGIS Pro – Required ✅  
 * Google Earth – Optional (depending on the task) ✅  
 
 ---

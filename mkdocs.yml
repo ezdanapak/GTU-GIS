@@ -63,7 +63,7 @@ theme:
 # Repository
 site_url: https://gtu.qgis.ge
 site_name: GTU GIS
-site_description: "საქართველოს ტექნიკური უნივერსიტეტის GIS კურსების მასალები: ლექციები, ლაბორატორიული სამუშაოები, QGIS, ArcGIS, Google Earth."
+site_description: "საქართველოს ტექნიკური უნივერსიტეტის GIS კურსების მასალები: ლექციები, ლაბორატორიული სამუშაოები, QGIS, ArcGIS Pro, Google Earth, GeoLibre."
 site_author: Giorgi Kapanadze
 repo_name: GTU GIS
 repo_url: https://github.com/ezdanapak/GTU-GIS
@@ -171,7 +171,7 @@ nav:
       - Copyright: ICS_GIS/Copyright_Disclaimer.md
       - Exam: ICS_GIS/Exam.md
     - Software Tools:
-      - ArcGIS: ICS_GIS/Software/ArcGIS.md
+      - ArcGIS Pro: ICS_GIS/Software/ArcGIS.md
       - Google Earth: ICS_GIS/Software/GoogleEarth.md
     - Theory:
       - Topic 1: ICS_GIS/Theory/Topic_1.md

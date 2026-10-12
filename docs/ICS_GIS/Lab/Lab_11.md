@@ -87,6 +87,7 @@ On university computers, work inside the folder:
         - *Select from current selection*: the **reselect** variant
         - *Switch selection* and **Clear** (the **unselect** variant)
     * **Save the query** with the **Save** button of the expression builder, and bring it back later with **Load**. Keep the files in the `Queries` folder.
+    * 30 ready-to-use expression examples are in the [SQL Expression Examples](#sql-expression-examples) section below.
     * Sort the attribute table (right-click a field header → **Sort Ascending / Descending**) and use **Show selected records** to see only the selected rows.
     * To keep only some features visible on the map, use a **Definition Query**: layer **Properties → Definition Query**. This filters the layer itself and is not a selection.
 
@@ -117,6 +118,83 @@ On university computers, work inside the folder:
       `FirstName_LastName_GroupNumber_Assignment_Number`
 
     * Send it to: giorgi.kapanadze@gtu.ge
+
+---
+
+## SQL Expression Examples
+
+Use these in **Select By Attributes** (and in a **Definition Query**). The field names (`AREA`, `LAND_USE`, `NAME`, `OWNER`, `PARCEL_ID`, `FLOORS`, `PRICE`, `REG_DATE`) are **placeholders**: choose the real fields of your layer from the field list and click **Verify** before you apply. Text values go in single quotes, numbers without quotes. The examples are for a file geodatabase.
+
+### Comparison operators
+
+| # | Goal | Expression |
+|---|---|---|
+| 1 | Area equals 500 | `AREA = 500` |
+| 2 | Area greater than 1000 | `AREA > 1000` |
+| 3 | Area at least 500 | `AREA >= 500` |
+| 4 | Area smaller than 200 | `AREA < 200` |
+| 5 | Area at most 200 | `AREA <= 200` |
+| 6 | Everything except forest | `LAND_USE <> 'forest'` |
+
+### Text: equality and LIKE patterns
+
+| # | Goal | Expression |
+|---|---|---|
+| 7 | Exact text match | `LAND_USE = 'residential'` |
+| 8 | Name starts with "Chi" | `NAME LIKE 'Chi%'` |
+| 9 | Name ends with "ura" | `NAME LIKE '%ura'` |
+| 10 | Name contains "mine" | `NAME LIKE '%mine%'` |
+| 11 | One unknown character (_) | `NAME LIKE 'C_iatura'` |
+| 12 | Case-insensitive match | `UPPER(NAME) = 'CHIATURA'` |
+| 13 | Contains "school", any case | `LOWER(NAME) LIKE '%school%'` |
+| 14 | Name longer than 10 characters | `CHAR_LENGTH(NAME) > 10` |
+| 15 | First two characters of the ID are "37" | `SUBSTRING(PARCEL_ID FROM 1 FOR 2) = '37'` |
+
+### Lists and ranges
+
+| # | Goal | Expression |
+|---|---|---|
+| 16 | One of several values | `LAND_USE IN ('residential', 'commercial')` |
+| 17 | None of several values | `LAND_USE NOT IN ('forest', 'water')` |
+| 18 | Inside a range (both ends included) | `AREA BETWEEN 300 AND 800` |
+| 19 | Outside a range | `AREA NOT BETWEEN 300 AND 800` |
+
+### Empty values
+
+| # | Goal | Expression |
+|---|---|---|
+| 20 | Owner is not filled in | `OWNER IS NULL` |
+| 21 | Owner is filled in | `OWNER IS NOT NULL` |
+
+### Logical operators (AND, OR, NOT)
+
+| # | Goal | Expression |
+|---|---|---|
+| 22 | Both conditions are true | `AREA > 500 AND LAND_USE = 'residential'` |
+| 23 | At least one is true | `LAND_USE = 'forest' OR LAND_USE = 'water'` |
+| 24 | Negation | `NOT LAND_USE = 'forest'` |
+| 25 | Brackets set the order | `(AREA > 1000 OR FLOORS >= 5) AND OWNER IS NOT NULL` |
+| 26 | Several conditions together | `AREA > 500 AND AREA < 1000 AND LAND_USE IN ('residential', 'commercial') AND OWNER IS NOT NULL` |
+
+### Calculations and dates
+
+| # | Goal | Expression |
+|---|---|---|
+| 27 | Arithmetic between fields | `PRICE / AREA > 100` |
+| 28 | Arithmetic with a number | `FLOORS * 3 > 12` |
+| 29 | Registered after a date | `REG_DATE >= date '2024-01-01'` |
+| 30 | Registered in one year | `EXTRACT(YEAR FROM REG_DATE) = 2023` |
+
+### Data source differences
+
+| | File geodatabase (.gdb) | Shapefile (.shp) | Personal geodatabase (.mdb) |
+|---|---|---|---|
+| Text wildcards | `%` and `_` | `%` and `_` | `*` and `?` |
+| Date value | `date '2024-01-01'` | `date '2024-01-01'` | `#2024-01-01#` |
+| Field names | up to 64 characters | up to 10 characters | up to 64 characters |
+| SQL support | most functions | limited subset | limited subset |
+
+Pick fields from the list instead of typing them: the expression builder adds the right delimiters for the data source. Not every function from the examples works in every format; if **Verify** reports an error, simplify the expression.
 
 ---
 

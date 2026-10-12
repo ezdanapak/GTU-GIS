@@ -139,6 +139,14 @@
   
   
   <meta name="theme-color" content="#7650ff">
+  <script>
+    /* Android app (WebView with the GTUGISApp user-agent suffix): tag analytics hits */
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    if (/GTUGISApp/.test(navigator.userAgent)) {
+      gtag('set', 'user_properties', {client: 'android_app'});
+    }
+  </script>
   <link rel="manifest" href="../../../manifest.webmanifest">
   <link rel="apple-touch-icon" href="../../../assets/apple-touch-icon.png">
   <meta property="og:type" content="website">

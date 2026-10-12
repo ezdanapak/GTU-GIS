@@ -2239,10 +2239,10 @@
   
 
 
-<h1 id="apache-parquet">📦 Apache Parquet – კოლონური მონაცემთა ფორმატი</h1>
+<h1 id="apache-parquet">📦 Apache Parquet – კოლონური მონაცემთა ფორმატი<a class="headerlink" href="#apache-parquet" title="Permanent link">&para;</a></h1>
 <p><strong>Apache Parquet</strong> არის ღია, კოლონური (სვეტური) მონაცემთა ფორმატი, რომელიც ოპტიმიზირებულია დიდმასშტაბიანი ანალიტიკური მონაცემების ეფექტურად შესანახად და გადასაცემად.</p>
 <hr />
-<h2 id="parquet">🔍 რატომ Parquet?</h2>
+<h2 id="parquet">🔍 რატომ Parquet?<a class="headerlink" href="#parquet" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>კოლონური შენახვა</strong> – მონაცემები ინახება სვეტების მიხედვით და არა მწკრივებად, რაც აჩქარებს ანალიტიკურ შეკითხვებს.</li>
 <li><strong>მაღალი კომპრესია</strong> – მონაცემები უკეთესად იკუმშება, რადგან ერთ სვეტში ერთი და იგივე ტიპის მონაცემებია.</li>
@@ -2250,7 +2250,7 @@
 <li><strong>შეესაბამება Hadoop-ის ეკოსისტემას</strong> – თავსებადია Hive, Impala, Drill, Spark და სხვებთან.</li>
 </ul>
 <hr />
-<h2 id="_1">🧱 სტრუქტურა</h2>
+<h2 id="_1">🧱 სტრუქტურა<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>Parquet ფაილი შედგება:</p>
 <ul>
 <li><strong>Row Group-ებისგან</strong> – მონაცემთა ნაწყვეტები, რომლებიც შეიცავენ რიგებს.</li>
@@ -2258,7 +2258,7 @@
 <li><strong>Page-ებისგან</strong> – Column Chunk დაყოფილია გვერდებად. თითო გვერდი შეიცავს მონაცემებს ან მეტამონაცემებს.</li>
 </ul>
 <hr />
-<h2 id="_2">📈 უპირატესობები</h2>
+<h2 id="_2">📈 უპირატესობები<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2286,7 +2286,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="python-">🧪 როგორ გამოვიყენოთ Python-ში?</h2>
+<h2 id="python-">🧪 როგორ გამოვიყენოთ Python-ში?<a class="headerlink" href="#python-" title="Permanent link">&para;</a></h2>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># CSV-დან Parquet ფორმატში გარდაქმნა</span>
@@ -2300,7 +2300,7 @@
 <p>💡 შენიშვნა: საჭიროა <code>pyarrow</code> ან <code>fastparquet</code> ბიბლიოთეკა.</p>
 </blockquote>
 <hr />
-<h2 id="parquet-vs-csv">🆚 Parquet vs CSV</h2>
+<h2 id="parquet-vs-csv">🆚 Parquet vs CSV<a class="headerlink" href="#parquet-vs-csv" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2333,7 +2333,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_3">🌐 გამოყენების სფეროები</h2>
+<h2 id="_3">🌐 გამოყენების სფეროები<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li>მონაცემთა ანალიტიკა და BI</li>
 <li>მონაცემთა შენახვა დიდ მოცულობაზე (Data Lake)</li>
@@ -2341,13 +2341,13 @@
 <li>Machine Learning მონაცემების წინასწარი დამუშავება</li>
 </ul>
 <hr />
-<h2 id="_4">📚 რესურსები</h2>
+<h2 id="_4">📚 რესურსები<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://parquet.apache.org/">Apache Parquet ოფიციალური ვებგვერდი</a></li>
 <li><a href="https://arrow.apache.org/docs/python/parquet.html">Parquet და PyArrow დოკუმენტაცია</a></li>
 </ul>
 <hr />
-<h2 id="_5">✅ შეჯამება</h2>
+<h2 id="_5">✅ შეჯამება<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <p>Apache Parquet წარმოადგენს თანამედროვე, ეფექტურ და სწრაფ ფაილის ფორმატს დიდი მოცულობის მონაცემთა ანალიზისთვის. ის განსაკუთრებით გამოსადეგია მაშინ, როცა საჭიროა მხოლოდ გარკვეული სვეტების წაკითხვა ან მონაცემების კომპაქტური შენახვა.</p>
 <hr />
 
@@ -2502,6 +2502,8 @@
       <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../../js/print-button.js"></script>
       
     
   </body>

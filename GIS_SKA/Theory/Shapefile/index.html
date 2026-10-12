@@ -2105,22 +2105,22 @@
   
 
 
-<h1 id="shapefile-gis">🗺️ Shapefile – ერთ-ერთი ყველაზე გავრცელებული GIS ფორმატი</h1>
+<h1 id="shapefile-gis">🗺️ Shapefile – ერთ-ერთი ყველაზე გავრცელებული GIS ფორმატი<a class="headerlink" href="#shapefile-gis" title="Permanent link">&para;</a></h1>
 <p><strong>Shapefile</strong> (ფორმატი .shp) არის ერთ-ერთი ყველაზე გავრცელებული და ისტორიულად მნიშვნელოვანი ვექტორული მონაცემების ფორმატი, რომელსაც იყენებენ გეოგრაფიული მონაცემების შენახვისა და გაზიარებისთვის. იგი შედგება რამდენიმე ერთმანეთთან დაკავშირებული ფაილისგან, რომლებიც ერთად ქმნიან სრულ გეომონაცემთა ფენას.</p>
 <p>📎 ოფიციალური აღწერა: <a href="https://en.wikipedia.org/wiki/Shapefile">Shapefile – Wikipedia</a></p>
 <hr />
-<h2 id="shapefile-">📐 გეომეტრიის ტიპები shapefile-ში</h2>
+<h2 id="shapefile-">📐 გეომეტრიის ტიპები shapefile-ში<a class="headerlink" href="#shapefile-" title="Permanent link">&para;</a></h2>
 <p>Shapefile ფენას შეიძლება ჰქონდეს მხოლოდ <strong>ერთი ტიპის გეომეტრია</strong>:<br />
 - 📍 <strong>წერტილოვანი</strong> (<em>Point</em>)<br />
 - ➖ <strong>ხაზოვანი</strong> (<em>Line</em>)<br />
 - 🔷 <strong>პოლიგონური</strong> (<em>Polygon</em>)</p>
 <p>💡 თითო shapefile მხოლოდ ერთ გეომეტრიის ტიპს შეიცავს — მაგალითად, ერთი ფაილი წერტილებისთვის, მეორე – პოლიგონებისთვის.</p>
 <hr />
-<h2 id="_1">🔤 კოდირება და პროექცია</h2>
+<h2 id="_1">🔤 კოდირება და პროექცია<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>📌 <strong>მნიშვნელოვანია:</strong> შეარჩიოთ შესაბამისი <strong>ტექსტური კოდირება</strong> (მაგ., UTF-8, CP1251) და სწორი <strong>საბაზისო კოორდინატური სისტემა (CRS)</strong>.<br />
 📍 მაგალითად, საქართველოში ხშირია <code>EPSG:32638</code> (UTM ზონა 38N, WGS 84).</p>
 <hr />
-<h2 id="shapefile-_1">📂 Shapefile-ის სტრუქტურა</h2>
+<h2 id="shapefile-_1">📂 Shapefile-ის სტრუქტურა<a class="headerlink" href="#shapefile-_1" title="Permanent link">&para;</a></h2>
 <p>Shapefile ტექნიკურად შედგება <strong>მინიმუმ 3 ძირითადი ფაილისგან</strong>:</p>
 <table>
 <thead>
@@ -2146,19 +2146,19 @@
 </table>
 <p>📎 დამატებითი ფაილები: <code>.prj</code> (პროექცია), <code>.cpg</code> (კოდირება), <code>.qml</code> (QGIS სტილი) და სხვ.</p>
 <hr />
-<h2 id="_2">❗ რას ნიშნავს თუ რომელიმე კომპონენტი დაკარგულია?</h2>
+<h2 id="_2">❗ რას ნიშნავს თუ რომელიმე კომპონენტი დაკარგულია?<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>➡️ თუ <code>.shx</code> ან <code>.dbf</code> ფაილი წაშლილია:
 - ფენა QGIS-ში <strong>ვერ ჩაიტვირთება სწორად</strong>.
 - შესაძლოა გამოჩნდეს მხოლოდ გეომეტრია ან მხოლოდ ატრიბუტები, მაგრამ არა ერთად.</p>
 <p>📌 ყოველთვის შეინახეთ shapefile-ის ყველა კომპონენტი <strong>ერთ საქაღალდეში</strong>.</p>
 <hr />
-<h2 id="_3">🌐 პროექციის მინიჭება და შეცვლა</h2>
+<h2 id="_3">🌐 პროექციის მინიჭება და შეცვლა<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li>📥 <strong>მინიჭება:</strong> თუ ფაილს არ აქვს <code>.prj</code>, გამოიყენეთ “Assign Projection” ფუნქცია.</li>
 <li>🔄 <strong>შეცვლა:</strong> გამოიყენეთ “Reproject Layer” QGIS-ში ან “Save As…” სხვა CRS-ში.</li>
 </ul>
 <hr />
-<h2 id="vs">🗃️ აბსოლუტური vs ფარდობითი ბილიკები</h2>
+<h2 id="vs">🗃️ აბსოლუტური vs ფარდობითი ბილიკები<a class="headerlink" href="#vs" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2179,7 +2179,7 @@
 </table>
 <p>✅ რეკომენდებულია <strong>ფარდობითი ბილიკების გამოყენება</strong>, განსაკუთრებით <strong>გაზიარებადი პროექტებისთვის</strong>.</p>
 <hr />
-<h2 id="_4">📌 დასასრული</h2>
+<h2 id="_4">📌 დასასრული<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>Shapefile კვლავ რჩება სტანდარტულ ვექტორულ ფორმატად მრავალ GIS სისტემაში. მისი სწორი გამოყენება და სტრუქტურის ცოდნა არის აუცილებელი ნაბიჯი როგორც დამწყები, ისე პროფესიონალი რუკათმშენებლებისთვის.</p>
 <hr />
 
@@ -2334,6 +2334,8 @@
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../js/print-button.js"></script>
       
     
   </body>

@@ -2097,20 +2097,20 @@
 
 <!-- https://cloud.mail.ru/public/js3t/PQ6wiuvrC -->
 
-<h1 id="qgis-">🗺️ ტოპოგრაფიული რუკის გეორეფერენცირება QGIS-ში</h1>
+<h1 id="qgis-">🗺️ ტოპოგრაფიული რუკის გეორეფერენცირება QGIS-ში<a class="headerlink" href="#qgis-" title="Permanent link">&para;</a></h1>
 <p>ტოპოგრაფიული რუკის გეორეფერენცირება გულისხმობს მის განლაგებას გეოგრაფიულ კოორდინატებზე, რათა მისი გადაფარვა და ანალიზი შესაძლებელი გახდეს თანამედროვე რუკებთან ან გეოგრაფიულ საინფორმაციო სისტემებთან (GIS). ეს პროცესი მოიცავს რეალური კოორდინატების მინიჭებას რუკის კონკრეტულ წერტილებზე.</p>
 <hr />
-<h2 id="_1">📌 მოსამზადებელი ეტაპი</h2>
-<h3 id="1">1. ტოპოგრაფიული რუკის მოპოვება</h3>
+<h2 id="_1">📌 მოსამზადებელი ეტაპი<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="1">1. ტოპოგრაფიული რუკის მოპოვება<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
 <p>მოიძიე დასკანირებული ან ციფრული ფორმატის ტოპოგრაფიული რუკა (JPEG, TIFF ან PNG).</p>
-<h3 id="2">2. საჭირო პროგრამები და მონაცემები</h3>
+<h3 id="2">2. საჭირო პროგრამები და მონაცემები<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
 <ul>
 <li>QGIS პროგრამა (ვერსია 3.x ან უახლესი)</li>
 <li>დასკანირებული ტოპოგრაფიული რუკა (რასტრული სურათი)</li>
 <li>ცნობადი კოორდინატების მქონე ობიექტები ან გრატიკულა</li>
 </ul>
 <hr />
-<h2 id="-">🛠️ ნაბიჯ-ნაბიჯ ინსტრუქცია</h2>
+<h2 id="-">🛠️ ნაბიჯ-ნაბიჯ ინსტრუქცია<a class="headerlink" href="#-" title="Permanent link">&para;</a></h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">ნაბიჯი I: რუკის ჩატვირთვა QGIS-ში</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block"></div>
@@ -2189,13 +2189,13 @@
 <li>დარწმუნდი რომ შენახულ ფაილს მიეთითება სწორი CRS (მაგ. EPSG:32638)</li>
 </ul>
 <hr />
-<h2 id="_2">✅ სიზუსტის გადამოწმება</h2>
+<h2 id="_2">✅ სიზუსტის გადამოწმება<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
 <li>შეადარე სხვა სივრცულ მონაცემებთან (მაგ. შენობები, გზები).</li>
 <li>საჭიროების შემთხვევაში დაარედაქტირე ან დაამატე ახალი GCP-ები და ხელახლა გადაამრაზე რუკა.</li>
 </ul>
 <hr />
-<h2 id="_3">💡 დამატებითი რჩევები</h2>
+<h2 id="_3">💡 დამატებითი რჩევები<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li>გამოიყენე რაც შეიძლება მეტი GCP უკეთესი შედეგისთვის.</li>
 <li>აირჩიე მარტივად ამოსაცნობი ობიექტები — გზაჯვარედინები, მდინარეების შესართავები, მწვერვალები.</li>
@@ -2203,10 +2203,10 @@
 </ul>
 <hr />
 <p>🗂️ შედეგად მიიღება გეორეფერენცირებული GeoTIFF ან განახლებული რასტრ ფაილი, რომელიც მზად არის ანალიზისა და რუკებზე გამოსატანად QGIS-ში.</p>
-<h1 id="_4">📍 გეორეფერენცირების ტრანსფორმაციების ტიპები</h1>
+<h1 id="_4">📍 გეორეფერენცირების ტრანსფორმაციების ტიპები<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h1>
 <p>გეორეფერენცირებისას გამოიყენება სხვადასხვა ტრანსფორმაციის ტიპი, რომლებიც განსხვავდება სირთულით, საჭირო კონტროლური წერტილებით (GCP) და გამოყენების სფეროთი. ქვემოთ მოცემულია ძირითადი ტრანსფორმაციების მიმოხილვა, მათი დადებითი და უარყოფითი მხარეებით.</p>
 <hr />
-<h2 id="linear-affine">🔹 Linear (Affine) ტრანსფორმაცია</h2>
+<h2 id="linear-affine">🔹 Linear (Affine) ტრანსფორმაცია<a class="headerlink" href="#linear-affine" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>აღწერა</strong>: გამოიყენება რუკის წრფივი გარდაქმნისთვის — გადაადგილება, ბრუნვა, მასშტაბირება და შერევა.</li>
 <li><strong>მინიმუმ საჭირო წერტილები (GCP)</strong>: 3</li>
@@ -2219,7 +2219,7 @@
 <li>არაზუსტი შედეგები რთულად დეფორმირებულ რუკებზე.</li>
 </ul>
 <hr />
-<h2 id="second-order-polynomial">🔸 Second Order Polynomial ტრანსფორმაცია</h2>
+<h2 id="second-order-polynomial">🔸 Second Order Polynomial ტრანსფორმაცია<a class="headerlink" href="#second-order-polynomial" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>აღწერა</strong>: გამოიყენებს კვადრატულ ტერმინებს რუკის არალინეური დეფორმაციის მოდელირებისთვის.</li>
 <li><strong>მინიმუმ საჭირო წერტილები (GCP)</strong>: 6</li>
@@ -2232,7 +2232,7 @@
 <li>ზოგჯერ ჭარბი ტრანსფორმაცია აზიანებს გეომეტრიას.</li>
 </ul>
 <hr />
-<h2 id="third-order-polynomial">🔹 Third Order Polynomial ტრანსფორმაცია</h2>
+<h2 id="third-order-polynomial">🔹 Third Order Polynomial ტრანსფორმაცია<a class="headerlink" href="#third-order-polynomial" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>აღწერა</strong>: კუბური ტერმინების ჩართვით ახერხებს რთული დეფორმაციების გამოსწორებას.</li>
 <li><strong>მინიმუმ საჭირო წერტილები (GCP)</strong>: 10</li>
@@ -2245,7 +2245,7 @@
 <li>რთულია კონტროლი, ზედმეტი დეფორმაციის რისკი.</li>
 </ul>
 <hr />
-<h2 id="spline-thin-plate-spline">🔸 Spline (Thin Plate Spline) ტრანსფორმაცია</h2>
+<h2 id="spline-thin-plate-spline">🔸 Spline (Thin Plate Spline) ტრანსფორმაცია<a class="headerlink" href="#spline-thin-plate-spline" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>აღწერა</strong>: არასახაზო ინტერპოლაციური მეთოდი, რომელიც მაქსიმალურად უახლოვდება კონტროლურ წერტილებს.</li>
 <li><strong>მინიმუმ საჭირო წერტილები (GCP)</strong>: 10+ (რეკომენდირებულია)</li>
@@ -2258,7 +2258,7 @@
 <li>რთულია შედეგის წინასწარ განსაზღვრა.</li>
 </ul>
 <hr />
-<h2 id="projective-perspective">🔹 Projective (Perspective) ტრანსფორმაცია</h2>
+<h2 id="projective-perspective">🔹 Projective (Perspective) ტრანსფორმაცია<a class="headerlink" href="#projective-perspective" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>აღწერა</strong>: გამოიყენება პერსპექტიული დეფორმაციის გასასწორებლად, მაგ. ობლიკურად გადაღებული ფოტოებისთვის.</li>
 <li><strong>მინიმუმ საჭირო წერტილები (GCP)</strong>: 4</li>
@@ -2270,7 +2270,7 @@
 <li>არ არის უნივერსალური გადაწყვეტა.</li>
 </ul>
 <hr />
-<h2 id="_5">🔚 დასკვნა</h2>
+<h2 id="_5">🔚 დასკვნა<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2467,6 +2467,8 @@
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../js/print-button.js"></script>
       
     
   </body>

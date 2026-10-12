@@ -2105,11 +2105,11 @@
   
 
 
-<h1 id="qgis-vs">QGIS: აბსოლუტური vs ფარდობითი ბილიკები</h1>
+<h1 id="qgis-vs">QGIS: აბსოლუტური vs ფარდობითი ბილიკები<a class="headerlink" href="#qgis-vs" title="Permanent link">&para;</a></h1>
 <p>QGIS-ში მუშაობისას ფაილების ბილიკის ტიპის სწორად განსაზღვრა მნიშვნელოვანია პროექტის პორტაბელურობისა და სხვა მოწყობილობებზე სწორად გახსნისთვის.</p>
 <p>QGIS ოფიციალური <a href="https://docs.qgis.org/3.40/en/docs/user_manual/introduction/project_files.html#handling-broken-file-paths">დოკუმენტაცია:</a></p>
 <hr />
-<h2 id="_1">🧾 ტერმინები და აღწერა</h2>
+<h2 id="_1">🧾 ტერმინები და აღწერა<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2129,7 +2129,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_2">📁 პროექტის სტრუქტურის მაგალითი</h2>
+<h2 id="_2">📁 პროექტის სტრუქტურის მაგალითი<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>QGIS პროექტი მოთავსებულია ერთ საერთო საქაღალდეში მონაცემებთან ერთად:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Chiatura_project/             ← პროექტის ძირითადი საქაღალდე
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── project.qgz              ← QGIS პროექტის ფაილი
@@ -2139,7 +2139,7 @@
 </span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│   └── rivers.shp           ← შრე: მდინარეები
 </span></code></pre></div>
 <hr />
-<h2 id="relative-paths">📌 ფარდობითი ბილიკები (Relative Paths)</h2>
+<h2 id="relative-paths">📌 ფარდობითი ბილიკები (Relative Paths)<a class="headerlink" href="#relative-paths" title="Permanent link">&para;</a></h2>
 <p>QGIS-ში project.qgz ფაილთან მიმართებით ფაილის ბილიკები იქნება:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>./data/roads.shp
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>./data/buildings.shp
@@ -2147,7 +2147,7 @@
 </span></code></pre></div>
 <p>✅ <strong>რეკომენდებულია</strong>, როცა პროექტი ინახება ერთ ფოლდერში და იგეგმება მისი გადატანა ან გაზიარება.</p>
 <hr />
-<h2 id="absolute-paths">📌 აბსოლუტური ბილიკები (Absolute Paths)</h2>
+<h2 id="absolute-paths">📌 აბსოლუტური ბილიკები (Absolute Paths)<a class="headerlink" href="#absolute-paths" title="Permanent link">&para;</a></h2>
 <p>ფაილის სრული მისამართი კომპიუტერზე:</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>C:/Users/ezdanapak/Documents/Chiatura_project/data/roads.shp
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>C:/Users/ezdanapak/Documents/Chiatura_project/data/buildings.shp
@@ -2155,7 +2155,7 @@
 </span></code></pre></div>
 <p>⚠️ <strong>არ არის პორტაბელური</strong>. იმუშავებს მხოლოდ იმავე მოწყობილობაზე, იგივე ბილიკის სტრუქტურით.</p>
 <hr />
-<h2 id="qgis-">⚙️ როგორ შევცვალოთ ბილიკების ტიპი QGIS-ში?</h2>
+<h2 id="qgis-">⚙️ როგორ შევცვალოთ ბილიკების ტიპი QGIS-ში?<a class="headerlink" href="#qgis-" title="Permanent link">&para;</a></h2>
 <ol>
 <li>გახსენით QGIS პროექტი.</li>
 <li>გადადით მენიუში: <code>Project</code> → <code>Properties</code> → <code>General</code></li>
@@ -2165,7 +2165,7 @@
 <li><code>Absolute</code> – აბსოლუტური ბილიკებისთვის</li>
 </ol>
 <hr />
-<h2 id="_3">✅ რეკომენდებული პრაქტიკა</h2>
+<h2 id="_3">✅ რეკომენდებული პრაქტიკა<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li>შეინახე QGIS პროექტი და ყველა მონაცემი ერთ საერთო საქაღალდეში.</li>
 <li>გამოიყენე <strong>ფარდობითი ბილიკები</strong>, თუ:</li>
@@ -2174,7 +2174,7 @@
 <li>იყენებ Git-ს ან ZIP არქივს.</li>
 </ul>
 <hr />
-<h2 id="_4">📝 შეჯამება</h2>
+<h2 id="_4">📝 შეჯამება<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2360,6 +2360,8 @@
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../js/print-button.js"></script>
       
     
   </body>

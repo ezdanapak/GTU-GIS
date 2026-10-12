@@ -2127,8 +2127,8 @@
   
 
 
-<h1 id="ram-qgis-">📘 რა არის RAM და QGIS-ის დროებითი შრე</h1>
-<h2 id="ram">💡 რა არის RAM?</h2>
+<h1 id="ram-qgis-">📘 რა არის RAM და QGIS-ის დროებითი შრე<a class="headerlink" href="#ram-qgis-" title="Permanent link">&para;</a></h1>
+<h2 id="ram">💡 რა არის RAM?<a class="headerlink" href="#ram" title="Permanent link">&para;</a></h2>
 <p><strong>RAM (Random Access Memory)</strong> არის კომპიუტერის მოკლევადიანი მეხსიერება.<br />
 ის დროებით ინახავს იმ პროგრამებისა და ფაილების მონაცემებს, რომლებიც ამჟამად მუშაობს.</p>
 <ul>
@@ -2140,14 +2140,14 @@
 <p>📌 <strong>მაგალითი</strong>: როცა QGIS-ში ქმნი ახალ პროექტს და მასში ატვირთავ რუკას, რუკა დროებით ინახება RAM-ში, სანამ შენ არ შეინახავ ფაილს დისკზე.</p>
 </blockquote>
 <hr />
-<h2 id="ram-qgis-_1">📍 რატომ არის RAM მნიშვნელოვანი QGIS-ისთვის?</h2>
+<h2 id="ram-qgis-_1">📍 რატომ არის RAM მნიშვნელოვანი QGIS-ისთვის?<a class="headerlink" href="#ram-qgis-_1" title="Permanent link">&para;</a></h2>
 <ul>
 <li>QGIS მუშაობს სივრცულ მონაცემებთან, რომლებიც შესაძლოა საკმაოდ დიდი იყოს.</li>
 <li>ხანდახან საჭიროა <strong>დროებითი ფენა</strong>, რომელიც არ ინახება შენს კომპიუტერში, არამედ მხოლოდ RAM-ში.</li>
 <li>ასეთი ფენა არის <strong>Temporary Scratch Layer</strong>.</li>
 </ul>
 <hr />
-<h2 id="temporary-scratch-layer-qgis-">🧪 Temporary Scratch Layer QGIS-ში</h2>
+<h2 id="temporary-scratch-layer-qgis-">🧪 Temporary Scratch Layer QGIS-ში<a class="headerlink" href="#temporary-scratch-layer-qgis-" title="Permanent link">&para;</a></h2>
 <p><strong>Temporary Scratch Layer</strong> არის დროებითი ფენა, რომელიც:
 - ინახება მხოლოდ კომპიუტერის RAM-ში
 - ქრება როცა პროექტს დახურავ (თუ არ შეინახე)
@@ -2156,20 +2156,20 @@
 <p>🧠 <strong>ანალოგია</strong>: Temporary Layer არის როგორც ჩანაწერი ფურცელზე, რომელიც წაიშლება როცა ოთახს დატოვებ — თუ არ გადაიტანე მუდმივ რვეულში.</p>
 </blockquote>
 <hr />
-<h2 id="scratch-layer">✅ როდის უნდა გამოვიყენოთ Scratch Layer?</h2>
+<h2 id="scratch-layer">✅ როდის უნდა გამოვიყენოთ Scratch Layer?<a class="headerlink" href="#scratch-layer" title="Permanent link">&para;</a></h2>
 <ul>
 <li>როცა გინდა სწრაფად დახატო ახალი ობიექტი (მაგ. წერტილი ან პოლიგონი) გამოსაცდელად</li>
 <li>როცა მონაცემები გჭირდება მხოლოდ ამ სესიის განმავლობაში</li>
 <li>როცა აკეთებ spatial analysis-ს და შედეგი დროებითია</li>
 </ul>
 <hr />
-<h2 id="_1">❗ გახსოვდეს:</h2>
+<h2 id="_1">❗ გახსოვდეს:<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Temporary Layer <strong>არ ინახება ავტომატურად</strong> – შენ თვითონ უნდა შეინახო (Export → Save Features As…) თუ გინდა რომ ფაილად დარჩეს.</li>
 <li>თუ დახურავ QGIS-ს – ფენა <strong>წაიშლება</strong>.</li>
 </ul>
 <hr />
-<h2 id="ram-scratch-layer-">🔁 RAM და Scratch Layer-ის კავშირი</h2>
+<h2 id="ram-scratch-layer-">🔁 RAM და Scratch Layer-ის კავშირი<a class="headerlink" href="#ram-scratch-layer-" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2189,13 +2189,13 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_2">📷 ვიზუალური მაგალითი:</h2>
+<h2 id="_2">📷 ვიზუალური მაგალითი:<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>graph LR
 A[QGIS პროგრამა] --&gt; B[Temporary Layer]
 B --&gt; C((RAM))
 C --&gt;|დროებითი შენახვა| D[შედეგები და ვიზუალიზაცია]</code></pre>
 <hr />
-<h2 id="_3">📎 დამატებითი რესურსები:</h2>
+<h2 id="_3">📎 დამატებითი რესურსები:<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.geeksforgeeks.org/computer-science-fundamentals/random-access-memory-ram/">GeeksForGeeks: What is RAM?</a></li>
 <li><a href="https://docs.qgis.org/3.40/en/docs/user_manual/managing_data_source/create_layers.html#creating-a-new-temporary-scratch-layer">QGIS Documentation: Temporary Layers</a></li>
@@ -2352,6 +2352,8 @@ C --&gt;|დროებითი შენახვა| D[შედეგებ
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../js/print-button.js"></script>
       
     
   </body>

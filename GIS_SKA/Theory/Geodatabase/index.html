@@ -2373,11 +2373,11 @@
   
 
 
-<h1 id="qgis">🗃️ გეოგრაფიული მონაცემთა ბაზები და მონაცემების მართვა (QGIS)</h1>
+<h1 id="qgis">🗃️ გეოგრაფიული მონაცემთა ბაზები და მონაცემების მართვა (QGIS)<a class="headerlink" href="#qgis" title="Permanent link">&para;</a></h1>
 <hr />
-<h2 id="1-geospatial-databases">1. 📦 გეოგრაფიული მონაცემთა ბაზები (Geospatial Databases)</h2>
+<h2 id="1-geospatial-databases">1. 📦 გეოგრაფიული მონაცემთა ბაზები (Geospatial Databases)<a class="headerlink" href="#1-geospatial-databases" title="Permanent link">&para;</a></h2>
 <p><strong>გეოგრაფიული მონაცემთა ბაზა</strong> წარმოადგენს გეომეტრიული ობიექტების (წერტილი, ხაზი, პოლიგონი) და მათთან დაკავშირებული ატრიბუტული მონაცემების შენახვისა და მართვის სისტემას.</p>
-<h3 id="_1">📁 გავრცელებული ფორმატები:</h3>
+<h3 id="_1">📁 გავრცელებული ფორმატები:<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>GeoPackage (.gpkg)</strong> – თანამედროვე და მოქნილი, QGIS-ის ძირითადი ფორმატი. ინახავს ერთ ფაილში რამდენიმე ფენას (vector, raster), სტილებს და ტაბულარულ მონაცემებს.</li>
 <li><strong>File Geodatabase (.gdb)</strong> – ESRI-ს საკუთრება, ArcGIS-ის ძირითადი მონაცემთა ბაზა.</li>
@@ -2388,7 +2388,7 @@
 </ul>
 <p>🔎 იხილე დამატებით: <a href="https://proceedings.esri.com/library/userconf/proc17/tech-workshops/tw_2585-349.pdf">ESRI Technical Paper – Data Management</a></p>
 <hr />
-<h2 id="_2">📌 მონაცემების წყაროები და კორექტირება</h2>
+<h2 id="_2">📌 მონაცემების წყაროები და კორექტირება<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>🧭 <strong>პირველწყაროები</strong> GIS მონაცემებისთვის შეიძლება იყოს:
 - დისტანციური ზონდირების მონაცემები (მაგ. სატელიტები, დრონები)
 - ფიზიკური სარეგისტრაციო ჩანაწერები (საჯარო რეესტრი)
@@ -2399,40 +2399,40 @@
 - CRS-ის ან პროექციის დადგენა/შეცვლა
 - დამაკავშირებელი ელემენტების <code>Join</code> და <code>Relate</code> ფუნქციები</p>
 <hr />
-<h2 id="2">2. 🧰 მონაცემების მართვა</h2>
-<h3 id="qgis-">🎛️ QGIS-ში:</h3>
+<h2 id="2">2. 🧰 მონაცემების მართვა<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="qgis-">🎛️ QGIS-ში:<a class="headerlink" href="#qgis-" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Data Source Manager</strong>–ის მეშვეობით შეგიძლიათ დაამატოთ მონაცემები სხვადასხვა წყაროდან: .shp, .gpkg, PostGIS, WFS/WMS.</li>
 <li><strong>Processing Toolbox</strong>–ით შეგიძლიათ მოახდინოთ მონაცემების იმპორტი, ექსპორტი, გაწმენდა, ფილტრაცია.</li>
 </ul>
-<h3 id="_3">📐 გეომეტრიის შექმნა:</h3>
+<h3 id="_3">📐 გეომეტრიის შექმნა:<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <ul>
 <li>🟢 წერტილოვანი: სკოლები, სახლები, გაჩერებები</li>
 <li>🔵 ხაზოვანი: გზები, მდინარეები, რკინიგზა</li>
 <li>🟣 პოლიგონური: ტყეები, ნაკვეთები, სტადიონები</li>
 </ul>
-<h3 id="_4">🧹 მონაცემების ოპტიმიზაცია:</h3>
+<h3 id="_4">🧹 მონაცემების ოპტიმიზაცია:<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Delete Layer/Table</strong></li>
 <li><strong>Vacuum / Compact Database (SpatiaLite/SQLite)</strong></li>
 <li><strong>Repair Layer Paths</strong> – მონაცემების წყაროს დაკარგვის შემთხვევაში (<code>Layer is broken</code> პრობლემა)</li>
 </ul>
 <hr />
-<h2 id="3">3. 📊 ატრიბუტული ცხრილები</h2>
+<h2 id="3">3. 📊 ატრიბუტული ცხრილები<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
 <ul>
 <li>ყოველი ვექტორული ფენა შეიცავს შესაბამის <strong>ატრიბუტულ ცხრილს</strong>.</li>
 <li>შეგიძლიათ დაამატოთ, შეცვალოთ ან გაანგარიშოთ სვეტების მნიშვნელობები (Field Calculator-ის მეშვეობით).</li>
 <li>სვეტების ტიპები: ტექსტური, რიცხვითი, თარიღი, ბულეანური.</li>
 </ul>
 <hr />
-<h2 id="4-objectid-feature-id">4. 🆔 OBJECTID / Feature ID</h2>
+<h2 id="4-objectid-feature-id">4. 🆔 OBJECTID / Feature ID<a class="headerlink" href="#4-objectid-feature-id" title="Permanent link">&para;</a></h2>
 <ul>
 <li>QGIS-ში ის ცნობილია როგორც <strong>FID</strong> (Feature ID), ხოლო ArcGIS-ში – <strong>OBJECTID</strong>.</li>
 <li>ავტომატურად გენერირდება და უნიკალურია თითოეული ობიექტისთვის.</li>
 <li>განსხვავდება Shapefile-ის ID-ებისგან, რომლებიც უბრალოდ რიგითი ნომრებია.</li>
 </ul>
 <hr />
-<h2 id="5">5. 🔣 ველებთან მუშაობა და სიმბოლოების მინიჭება</h2>
+<h2 id="5">5. 🔣 ველებთან მუშაობა და სიმბოლოების მინიჭება<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
 <ul>
 <li>დაამატე ახალი სვეტები (Fields): ტექსტური, მთელრიცხვოვანი, ათწილადი.</li>
 <li>გამოიყენე მოკლე სვეტის სახელები (განსაკუთრებით Shapefile-თან მუშაობისას – მაქსიმუმ 10 სიმბოლო).</li>
@@ -2443,7 +2443,7 @@
 - ატრიბუტული ცხრილი ვერ ასახავს შინაარსობრივ ჯგუფს.</p>
 <p>📍 გამოსავალი: <code>Layer Properties &gt; Symbology</code> – დაამატე ან წაშალე საჭირო კატეგორიები.</p>
 <hr />
-<h2 id="6">6. 🎨 ფენების სტილების შენახვა და დატვირთვა</h2>
+<h2 id="6">6. 🎨 ფენების სტილების შენახვა და დატვირთვა<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
 <ul>
 <li>QGIS-ში ფენის სტილის შენახვა: <code>.qml</code> (QGIS Layer Style) ან <code>.sld</code> (OGC Standard).</li>
 <li>სტილები შეგიძლია გამოიყენო:</li>
@@ -2451,7 +2451,7 @@
 <li>სხვა პროექტებში ან თანამშრომლებთან გაზიარებისთვის</li>
 </ul>
 <hr />
-<h2 id="7">7. 📏 გეომეტრიის თვისებების დამატება</h2>
+<h2 id="7">7. 📏 გეომეტრიის თვისებების დამატება<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
 <p><strong>გეომეტრიული მახასიათებლების დამატება ატრიბუტულ ცხრილში</strong>:
 - X და Y კოორდინატები (Decimal Degrees)
 - სიგრძე (Length)
@@ -2463,7 +2463,7 @@
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>x($geometry), y($geometry) -- კოორდინატები
 </span></code></pre></div></p>
 <hr />
-<h2 id="8-qgis-">8. 🎁 რუკების პაკეტირება და გაზიარება QGIS-ში:</h2>
+<h2 id="8-qgis-">8. 🎁 რუკების პაკეტირება და გაზიარება QGIS-ში:<a class="headerlink" href="#8-qgis-" title="Permanent link">&para;</a></h2>
 <p>გამოიყენე Project &gt; Save to GeoPackage – პროექტის ყველა ფენა ერთ ფაილში</p>
 <p>Export &gt; Save As Image/PDF – რუკის გამოსახულება</p>
 <p>QGIS Project Package (.qgz) – მთელი პროექტის ფაილი სტილით და მონაცემებით</p>
@@ -2623,6 +2623,8 @@ QGIS და ArcGIS ორივე გთავაზობენ მრავ�
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../js/print-button.js"></script>
       
     
   </body>

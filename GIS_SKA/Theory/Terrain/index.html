@@ -2305,8 +2305,8 @@
   
 
 
-<h1 id="qgis-">🌍 რელიეფური მონაცემები და QGIS-ში მათი დამუშავება</h1>
-<h2 id="_1">🔍 რელიეფური მონაცემების არსი</h2>
+<h1 id="qgis-">🌍 რელიეფური მონაცემები და QGIS-ში მათი დამუშავება<a class="headerlink" href="#qgis-" title="Permanent link">&para;</a></h1>
+<h2 id="_1">🔍 რელიეფური მონაცემების არსი<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>რელიეფი წარმოადგენს დედამიწის ზედაპირის სიმაღლეების, დაქანებებისა და ფორმების ერთობლიობას. მისი ანალიზი აუცილებელია:</p>
 <ul>
 <li>გეომორფოლოგიური კვლევებისთვის  </li>
@@ -2315,51 +2315,51 @@
 <li>ლანდშაფტური მოდელირებისა და ვიზუალიზაციისთვის  </li>
 </ul>
 <hr />
-<h2 id="_2">🛰️ რელიეფური მონაცემების ძირითადი წყაროები</h2>
-<h3 id="1-srtm-shuttle-radar-topography-mission">1. <strong>SRTM (Shuttle Radar Topography Mission)</strong></h3>
+<h2 id="_2">🛰️ რელიეფური მონაცემების ძირითადი წყაროები<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="1-srtm-shuttle-radar-topography-mission">1. <strong>SRTM (Shuttle Radar Topography Mission)</strong><a class="headerlink" href="#1-srtm-shuttle-radar-topography-mission" title="Permanent link">&para;</a></h3>
 <ul>
 <li>გაფართოება: <code>.tif</code> (GeoTIFF)</li>
 <li>გლობალური დაფარვა: 30მ და 90მ რეზოლუციით</li>
 <li>წყარო: https://earthexplorer.usgs.gov/</li>
 </ul>
-<h3 id="2-aster-gdem">2. <strong>ASTER GDEM</strong></h3>
+<h3 id="2-aster-gdem">2. <strong>ASTER GDEM</strong><a class="headerlink" href="#2-aster-gdem" title="Permanent link">&para;</a></h3>
 <ul>
 <li>გაფართოება: <code>.tif</code></li>
 <li>გლობალური დაფარვა ~30მ რეზოლუციით</li>
 <li>წყარო: https://asterweb.jpl.nasa.gov/gdem.asp</li>
 </ul>
-<h3 id="3-copernicus-dem">3. <strong>Copernicus DEM</strong></h3>
+<h3 id="3-copernicus-dem">3. <strong>Copernicus DEM</strong><a class="headerlink" href="#3-copernicus-dem" title="Permanent link">&para;</a></h3>
 <ul>
 <li>გაფართოება: <code>.tif</code></li>
 <li>მაღალი სიზუსტის რელიეფი (30მ და 10მ)</li>
 <li>წყარო: https://dataspace.copernicus.eu/</li>
 </ul>
-<h3 id="4-alos-palsar">4. <strong>ALOS PALSAR</strong></h3>
+<h3 id="4-alos-palsar">4. <strong>ALOS PALSAR</strong><a class="headerlink" href="#4-alos-palsar" title="Permanent link">&para;</a></h3>
 <ul>
 <li>გაფართოება: <code>.tif</code></li>
 <li>დეტალური რელიეფური მონაცემები (12.5მ)</li>
 <li>წყარო: https://asf.alaska.edu/</li>
 </ul>
-<h3 id="5-geoportalge-napr">5. <strong>GeoPortal.ge (NAPR)</strong></h3>
+<h3 id="5-geoportalge-napr">5. <strong>GeoPortal.ge (NAPR)</strong><a class="headerlink" href="#5-geoportalge-napr" title="Permanent link">&para;</a></h3>
 <ul>
 <li>საქართველოს ეროვნული მონაცემები</li>
 <li>წყარო: https://www.geoportal.ge/</li>
 </ul>
 <hr />
-<h2 id="qgis-_1">💻 QGIS-ში რელიეფური მონაცემების დამუშავება</h2>
-<h3 id="_3">📥 მონაცემების ჩატვირთვა</h3>
+<h2 id="qgis-_1">💻 QGIS-ში რელიეფური მონაცემების დამუშავება<a class="headerlink" href="#qgis-_1" title="Permanent link">&para;</a></h2>
+<h3 id="_3">📥 მონაცემების ჩატვირთვა<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <ol>
 <li>გახსენით QGIS  </li>
 <li>Layer &gt; Add Layer &gt; Add Raster Layer  </li>
 <li>აირჩიეთ თქვენი <code>.tif</code> ფორმატის რელიეფური ფაილი  </li>
 </ol>
-<h3 id="_4">🗺️ ფერადი რელიეფის ვიზუალიზაცია</h3>
+<h3 id="_4">🗺️ ფერადი რელიეფის ვიზუალიზაცია<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Layer Styling Panel &gt; Render type: Singleband pseudocolor  </li>
 <li>აირჩიეთ Color ramp (მაგ: <code>terrain</code>, <code>viridis</code>)  </li>
 <li>გაააქტიურეთ კლასი (<code>Mode</code>: Equal interval, Quantile და სხვ.)</li>
 </ul>
-<h3 id="slope-aspect-hillshade">📈 დახრის (Slope), ექსპოზიციის (Aspect) და ჩრდილების (Hillshade) გენერირება</h3>
+<h3 id="slope-aspect-hillshade">📈 დახრის (Slope), ექსპოზიციის (Aspect) და ჩრდილების (Hillshade) გენერირება<a class="headerlink" href="#slope-aspect-hillshade" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Processing Toolbox &gt; Raster Terrain Analysis  </li>
 <li>გამოყენება:</li>
@@ -2367,7 +2367,7 @@
 <li><strong>Aspect</strong> – ჰორიზონტის მხარე   </li>
 <li><strong>Hillshade</strong> – სინათლის იმიტაცია რელიეფზე  </li>
 </ol>
-<h3 id="contours">🌀 იზოხაზების (Contours) გენერირება</h3>
+<h3 id="contours">🌀 იზოხაზების (Contours) გენერირება<a class="headerlink" href="#contours" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Processing Toolbox &gt; Contour  </li>
 <li>აირჩიეთ DEM  </li>
@@ -2375,7 +2375,7 @@
 <li>Interval: 10 მ</li>
 <li>Attribute name: ELEV  </li>
 </ol>
-<h3 id="reclassification">🧮 რეკლასიფიკაცია (Reclassification)</h3>
+<h3 id="reclassification">🧮 რეკლასიფიკაცია (Reclassification)<a class="headerlink" href="#reclassification" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Processing Toolbox &gt; <code>Reclassify by table</code>  </li>
 <li>გამოიყენეთ კლასი სიმაღლის დიაპაზონებით  </li>
@@ -2383,13 +2383,13 @@
 <li>200–600 = ბორცვები  </li>
 <li>600+ = მთები  </li>
 </ol>
-<h3 id="tin-3d">🌐 TIN და 3D ვიზუალიზაცია</h3>
+<h3 id="tin-3d">🌐 TIN და 3D ვიზუალიზაცია<a class="headerlink" href="#tin-3d" title="Permanent link">&para;</a></h3>
 <ul>
 <li>გამოიყენეთ <code>TIN interpolation</code> და <code>3D Map View</code>  </li>
 <li>მასშტაბური რელიეფის წარმოდგენა მოცულობითი ფორმით  </li>
 </ul>
 <hr />
-<h2 id="_5">📚 დამატებითი რესურსები</h2>
+<h2 id="_5">📚 დამატებითი რესურსები<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://docs.qgis.org/latest/en/docs/user_manual/processing_algs/qgis/rasteranalysis.html">QGIS Terrain Analysis Documentation</a></li>
 <li><a href="https://www2.jpl.nasa.gov/srtm/">NASA SRTM Overview</a></li>
@@ -2548,6 +2548,8 @@
       <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../js/print-button.js"></script>
       
     
   </body>

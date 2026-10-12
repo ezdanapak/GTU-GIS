@@ -1519,9 +1519,9 @@
   
 
 
-<h1 id="placemark-altitude-settings">Placemark-ის სიმაღლის პარამეტრები (Altitude Settings)</h1>
+<h1 id="placemark-altitude-settings">Placemark-ის სიმაღლის პარამეტრები (Altitude Settings)<a class="headerlink" href="#placemark-altitude-settings" title="Permanent link">&para;</a></h1>
 <p><strong>Placemark-ის სიმაღლის პარამეტრები განსაზღვრავს, თუ რომელი რეფერენცული დონიდან ითვლება სიმაღლე 3D რუკაზე (მაგ. Google Earth-ში).</strong></p>
-<h2 id="placemark-">Placemark-ის სიმაღლის პარამეტრები დიაგრამით</h2>
+<h2 id="placemark-">Placemark-ის სიმაღლის პარამეტრები დიაგრამით<a class="headerlink" href="#placemark-" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>
 graph LR
     Placemark["📍 Placemark-ის სიმაღლის პარამეტრები"] --&gt; ClampedGround["🟫 Clamped to ground&lt;br&gt;📌 მიწის ზედაპირზე &lt;br&gt; ⛔ სიმაღლე მიუწვდომელია"]
@@ -1530,35 +1530,35 @@ graph LR
     Placemark --&gt; RelativeSeaFloor["📐 Relative to sea floor&lt;br&gt;📏 ითვლის ზღვის ფსკერიდან&lt;br&gt;✅ სიმაღლე შეყვანადია"]
     Placemark --&gt; Absolute["📏 Absolute&lt;br&gt;🌍 ზღვის დონიდან&lt;br&gt;✅ სიმაღლე შეყვანადია"]</code></pre>
 <hr />
-<h2 id="1-clamped-to-ground">1. <code>Clamped to ground</code> — მიწაზე მიკრული</h2>
+<h2 id="1-clamped-to-ground">1. <code>Clamped to ground</code> — მიწაზე მიკრული<a class="headerlink" href="#1-clamped-to-ground" title="Permanent link">&para;</a></h2>
 <ul>
 <li>📌 <strong>აღწერა:</strong> წერტილი პირდაპირ მიეკრობა მიწის ზედაპირს (გეოიდს).</li>
 <li>⛔ სიმაღლის (Altitude) ხელით შეყვანა <strong>შეუძლებელია</strong>.</li>
 <li>🧭 <strong>მაგალითი:</strong> მონიშნე ხე ბორცვზე — ის გამოჩნდება მიწაზე, ბორცვის ზემოთ.</li>
 </ul>
 <hr />
-<h2 id="2-clamped-to-sea-floor">2. <code>Clamped to sea floor</code> — ზღვის ფსკერზე მიკრული</h2>
+<h2 id="2-clamped-to-sea-floor">2. <code>Clamped to sea floor</code> — ზღვის ფსკერზე მიკრული<a class="headerlink" href="#2-clamped-to-sea-floor" title="Permanent link">&para;</a></h2>
 <ul>
 <li>📌 <strong>აღწერა:</strong> წერტილი განთავსდება ზღვის ფსკერზე, არა წყლის ზედაპირზე.</li>
 <li>⛔ სიმაღლის შეყვანა <strong>შეუძლებელია</strong>.</li>
 <li>🧭 <strong>მაგალითი:</strong> თუ გსურს წყალქვეშა გემის ჩაძირვის ადგილი აჩვენო, ის გამოჩნდება ფსკერზე.</li>
 </ul>
 <hr />
-<h2 id="3-relative-to-ground">3. <code>Relative to ground</code> — მიწის ზედაპირიდან მიმართებით</h2>
+<h2 id="3-relative-to-ground">3. <code>Relative to ground</code> — მიწის ზედაპირიდან მიმართებით<a class="headerlink" href="#3-relative-to-ground" title="Permanent link">&para;</a></h2>
 <ul>
 <li>📌 <strong>აღწერა:</strong> სიმაღლე ითვლება მიწის ზედაპირიდან.</li>
 <li>✅ შეგიძლია მიუთითო კონკრეტული მეტრი/ფუტი.</li>
 <li>🧭 <strong>მაგალითი:</strong> "100 მ" ნიშნავს, რომ წერტილი ზედაპირიდან 100 მეტრზე გამოჩნდება — მაგალითად, დრონი ან კოშკი.</li>
 </ul>
 <hr />
-<h2 id="4-relative-to-sea-floor">4. <code>Relative to sea floor</code> — ზღვის ფსკერიდან მიმართებით</h2>
+<h2 id="4-relative-to-sea-floor">4. <code>Relative to sea floor</code> — ზღვის ფსკერიდან მიმართებით<a class="headerlink" href="#4-relative-to-sea-floor" title="Permanent link">&para;</a></h2>
 <ul>
 <li>📌 <strong>აღწერა:</strong> სიმაღლე ითვლება ზღვის ფსკერიდან.</li>
 <li>✅ შეგიძლია მიუთითო, რამდენი მეტრით არის ფსკერიდან მაღლა.</li>
 <li>🧭 <strong>მაგალითი:</strong> წყალქვეშა რობოტი 20 მეტრის სიმაღლეზე ფსკერიდან.</li>
 </ul>
 <hr />
-<h2 id="5-absolute">5. <code>Absolute</code> — აბსოლუტური (ზღვის დონიდან)</h2>
+<h2 id="5-absolute">5. <code>Absolute</code> — აბსოლუტური (ზღვის დონიდან)<a class="headerlink" href="#5-absolute" title="Permanent link">&para;</a></h2>
 <ul>
 <li>📌 <strong>აღწერა:</strong> სიმაღლე განისაზღვრება ზღვის დონიდან (Mean Sea Level - MSL).</li>
 <li>✅ მეტრის მნიშვნელობა არის აბსოლუტური სიმაღლე, როგორც რუკის გლობალურ მოდელზე.</li>
@@ -1719,6 +1719,8 @@ Google Earth-ში ეს პარამეტრები განსაკ�
       <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../../js/print-button.js"></script>
       
     
   </body>

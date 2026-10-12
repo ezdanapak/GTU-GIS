@@ -2195,11 +2195,11 @@
   
 
 
-<h1 id="gis-">📊 ლოკალური მონაცემთა ბაზების შედარება GIS-ში (ღია-კოდის გადმოსახედიდან)</h1>
+<h1 id="gis-">📊 ლოკალური მონაცემთა ბაზების შედარება GIS-ში (ღია-კოდის გადმოსახედიდან)<a class="headerlink" href="#gis-" title="Permanent link">&para;</a></h1>
 <p>ვხედავთ ოთხ ძირითად ფორმატს: <strong>FileGDB (.gdb), GeoPackage (.gpkg), SQLite (.sqlite/.db), MDB (.mdb)</strong><br />
 ქვემოთ მოცემულია მათი <strong>მსგავსება, განსხვავება და გამოყენების რეკომენდაციები</strong>.</p>
 <hr />
-<h2 id="_1">🔹 მოკლე აღწერა</h2>
+<h2 id="_1">🔹 მოკლე აღწერა<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>FileGDB (.gdb)</strong> — ESRI-ის საკუთრების ფორმატი; მოწინავე გეობიჰევიორებით (ტოპოლოგია, დომენები, სუბტიპები, ქსელები).  </li>
 <li><strong>GeoPackage (.gpkg)</strong> — OGC-ის ღია სტანდარტი; ერთ-ფაილიანი SQLite კონტეინერი ვექტორი+რასტერი+ტაილების მხარდაჭერით.  </li>
@@ -2207,7 +2207,7 @@
 <li><strong>MDB (.mdb)</strong> — ძველი Microsoft Access ფაილები („Personal Geodatabase“); მოძველებული და შეზღუდული.</li>
 </ul>
 <hr />
-<h2 id="_2">📋 შედარების ცხრილი</h2>
+<h2 id="_2">📋 შედარების ცხრილი<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2271,7 +2271,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_3">✅ როდის რომელია სასურველი?</h2>
+<h2 id="_3">✅ როდის რომელია სასურველი?<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>GeoPackage (.gpkg)</strong> → საუკეთესო <strong>ღია სტანდარტი</strong>, გაცვლისა და ოფლაინ პაკეტებისთვის. QGIS/GeoServer/PostGIS სრულად უჭერს მხარს.  </li>
 <li><strong>FileGDB (.gdb)</strong> → საჭიროა თუ ESRI გარემოში მუშაობ და გჭირდება:  დომენები, ქვეტიპები, ტოპოლოგია, ქსელები.  </li>
@@ -2279,7 +2279,7 @@
 <li><strong>MDB (.mdb)</strong> → მხოლოდ ძველი ფაილების წასაკითხად/მიგრაციისთვის. ახალ პროექტებში <strong>არ გამოიყენო</strong>.  </li>
 </ul>
 <hr />
-<h2 id="_4">🔄 პრაქტიკული სცენარები</h2>
+<h2 id="_4">🔄 პრაქტიკული სცენარები<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>მობილური/ოფლაინ მუშაობა</strong> → 📦 <strong>GeoPackage</strong> (ერთი ფაილი, ვექტორი+ტაილები).  </li>
 <li><strong>გაცვლა QGIS ↔ ArcGIS Pro შორის</strong> → 📦 <strong>GeoPackage</strong> (უმტკივნეულო).  </li>
@@ -2289,7 +2289,7 @@
 <li><strong>მრავალმომხმარებლიანი სამუშაო, ვერსიონირება, დიდი გუნდები</strong> → 🚀 სერვერული გადაწყვეტა (<strong>PostgreSQL/PostGIS</strong>).</li>
 </ul>
 <hr />
-<h2 id="_5">🌳 გადაწყვეტილების ხე</h2>
+<h2 id="_5">🌳 გადაწყვეტილების ხე<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <ul>
 <li>გინდა <strong>გახსნილი, სტანდარტული ფორმატი</strong>? → <strong>GeoPackage</strong>  </li>
 <li>გჭირდება <strong>ESRI სპეციალური შესაძლებლობები</strong>? → <strong>FileGDB</strong>  </li>
@@ -2297,7 +2297,7 @@
 <li>გაქვს <strong>ძველი MDB ფაილი</strong>? → წაიკითხე და გადააკონვერტირე <strong>GPKG/SQLite</strong>-ში  </li>
 </ul>
 <hr />
-<h2 id="_6">⚙️ პრაქტიკული რჩევები</h2>
+<h2 id="_6">⚙️ პრაქტიკული რჩევები<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>GeoPackage/SQLite</strong> → შექმენი <strong>Spatial Index</strong> სიჩქარისთვის.  </li>
 <li>გამოიყენე <code>VACUUM</code>/<code>PRAGMA optimize</code> დიდი ფაილების ოპტიმიზაციისთვის.  </li>
@@ -2457,6 +2457,8 @@
       <script src="../../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../../../js/service-worker-register.js"></script>
+      
+        <script src="../../../../js/print-button.js"></script>
       
     
   </body>

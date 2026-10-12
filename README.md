@@ -1,3 +1,5 @@
+🇬🇧 English | [🇬🇪 ქართული](README.ka.md)
+
 # Welcome to the **GTU GIS Material website**
 
 Welcome to the official website for the **Georgian Technical University (GTU) GIS** courses. Here, you’ll find everything you need to know about Geographic Information Systems (GIS) education across various faculties.

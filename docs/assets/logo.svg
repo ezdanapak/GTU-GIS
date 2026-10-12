@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d6bff"/>
+      <stop offset="1" stop-color="#4a2bc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- globe -->
+  <g fill="none" stroke="#ffffff" stroke-width="30" stroke-linecap="round">
+    <circle cx="512" cy="512" r="290"/>
+    <ellipse cx="512" cy="512" rx="130" ry="290"/>
+    <path d="M222 512H802"/>
+    <path d="M262 372H762M262 652H762" stroke-width="22" opacity="0.8"/>
+  </g>
+  <!-- location pin -->
+  <g transform="translate(512 330)">
+    <path d="M0 -170 C-96 -170 -160 -100 -160 -20 C-160 80 -40 170 0 250 C40 170 160 80 160 -20 C160 -100 96 -170 0 -170 Z" fill="#ffb347" stroke="#4a2bc4" stroke-width="26" stroke-linejoin="round"/>
+    <circle cx="0" cy="-20" r="62" fill="#4a2bc4"/>
+  </g>
+</svg>

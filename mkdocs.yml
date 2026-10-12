@@ -2,6 +2,7 @@
 theme:
   name: material
   language: ka
+  favicon: assets/favicon.png
   custom_dir: overrides
   features:
     - navigation.tabs

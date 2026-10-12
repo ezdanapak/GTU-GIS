@@ -66,13 +66,13 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> F{Style};
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+Connect ArcGIS Pro to this main folder (Catalog pane → right-click **Folders** → **Add Folder Connection**).
 
 ---
 
 === "Step II: Adding the Database"
 
-* Open "Digitalization_project.mxd" project from folder and save copy of it "Geodatabase_project". Also save another mxd file for old versions "Geodatabase_project10.0v".
+* Open the "Digitalization_project" ArcGIS Pro project (.aprx) from the folder and save a copy of it as "Geodatabase_project" (Project tab → Save Project As).
 
 * Create a new File Geodatabase (.gdb extension) in the designated folder, also Style folder.
 

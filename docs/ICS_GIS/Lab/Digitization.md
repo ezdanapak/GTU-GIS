@@ -1,4 +1,4 @@
-# Introducing GIS lab. ArcCatalog and ArcMap
+# Introducing GIS lab. ArcGIS Pro: Catalog and Map
 
 ---
 ## Assignment Instructions
@@ -63,7 +63,7 @@ graph LR
   A[FirstName_LastName_GroupNumber_Assignment_Number] --> D{shp};
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+Connect ArcGIS Pro to this main folder (Catalog pane → right-click **Folders** → **Add Folder Connection**).
 
 ---
 
@@ -104,7 +104,7 @@ However, representing a forest in blue or a river in green would be considered s
 
 * Structuring layers within the project.
 
-* Properly saving the project file. Name it "Digitalization_project". Save another mxd file for old versions "Digitalization_project10.0v".
+* Properly saving the ArcGIS Pro project (.aprx). Name it "Digitalization_project".
 
 
 === "Step III: Final Checks & Submission"

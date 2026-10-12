@@ -93,7 +93,7 @@ graph LR
 * Define topology rules and save them in a predefined folder. <br>
 * Validate topology, add in project. <br>
 * Correct errors and make exceptions as needed. <br>
-* Properly saving the project file. Name it "Topology_project". Save another mxd file for old versions "Topology_project10.0v".
+* Properly saving the ArcGIS Pro project (.aprx). Name it "Topology_project".
 
 
 === "Step III: Final Checks & Submission"

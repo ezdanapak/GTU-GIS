@@ -72,7 +72,7 @@ graph LR
   I -->|For slope, Aspect, Hillshade| K[Terrain];
 
 ```
-Connect ArcGIS (from ArcCatalog) to this main folder.
+Connect ArcGIS Pro to this main folder (Catalog pane → right-click **Folders** → **Add Folder Connection**).
 
 ---
 
@@ -88,7 +88,7 @@ azimuth angle of the light source 200 & Altitude angle of the light source above
 
 * Store the DEM raster data in a geodatabase by importing it from the workspace. <br>
 * Change the data source from .tif to geodatabase grid format.  --- List the data sources. <br>
-* Properly saving the project file of ArcMap. Name it "Terrain_analysis". Save another mxd file for old versions "Terrain_analysis_10.0v". <br>
+* Properly saving the ArcGIS Pro project (.aprx). Name it "Terrain_analysis". <br>
 
 ---
 

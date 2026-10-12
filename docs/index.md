@@ -63,10 +63,12 @@
 
 ## 📱 მობილური აპლიკაციები
 
-აპლიკაცია ხელმისაწვდომია როგორც Android-ის, ასევე iOS-ისთვის:
+GTU GIS-ის ახალი Flutter აპლიკაცია:
 
-- [ჩამოტვირთვა Android-ზე](https://median.co/share/neydmb#androidphone)  
-- [აგება iOS-ზე (ინსტრუქცია)](https://median.co/share/neydmb#iphone)
+- [ჩამოტვირთვა Android-ზე (APK, უახლესი რელიზი)](https://github.com/ezdanapak/GTU-GIS/releases/latest)  
+  ინსტალაციისას საჭიროა „უცნობი წყაროებიდან დაყენების“ დაშვება.
+- [აგება iOS-ზე (ინსტრუქცია)](https://github.com/ezdanapak/GTU-GIS/tree/main/app#readme)
+- [ყველა ვერსია](https://github.com/ezdanapak/GTU-GIS/releases)
 
 ---
 
@@ -138,10 +140,12 @@ Stay connected and explore the world of GIS at **GTU**!
 
 ## 📱 Mobile Apps
 
-You can use the app on both Android and iOS:
+The new GTU GIS Flutter app:
 
-- [Download for Android](https://median.co/share/neydmb#androidphone)
-- [Build for iOS (instructions)](https://median.co/share/neydmb#iphone)
+- [Download for Android (APK, latest release)](https://github.com/ezdanapak/GTU-GIS/releases/latest)  
+  You need to allow installation from unknown sources.
+- [Build for iOS (instructions)](https://github.com/ezdanapak/GTU-GIS/tree/main/app#readme)
+- [All versions](https://github.com/ezdanapak/GTU-GIS/releases)
 
 ---
 

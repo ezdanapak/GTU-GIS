@@ -56,17 +56,16 @@
 
 - **ელფოსტა**: [giorgi.kapanadze@gtu.ge](mailto:giorgi.kapanadze@gtu.ge)  
 - **ტელეფონი**: +995 579320618  
-- **Github**: [repo](https://gtu.qgis.ge/)  
+- **Github**: [repo](https://github.com/ezdanapak/GTU-GIS)  
 დარჩით კავშირზე და შეისწავლეთ GIS-ის სამყარო **GTU**-ში!
 
 ---
 
 ## 📱 მობილური აპლიკაციები
 
-აპლიკაცია ხელმისაწვდომია როგორც Android-ის, ასევე iOS-ისთვის:
-
-- [ჩამოტვირთვა Android-ზე](https://median.co/share/neydmb#androidphone)  
-- [აგება iOS-ზე (ინსტრუქცია)](https://median.co/share/neydmb#iphone)
+- **Android:** [ჩამოტვირთე APK უახლესი ვერსიით](https://github.com/ezdanapak/GTU-GIS/releases/latest) (GitHub Releases). ინსტალაციისას ტელეფონმა შეიძლება მოითხოვოს უცნობი წყაროდან ინსტალაციის ნებართვა.
+- **iOS:** ცალკე აპლიკაცია ჯერ არ არის. გახსენი საიტი Safari-ში და აირჩიე **გაზიარება → საწყის ეკრანზე დამატება**; საიტი აპლიკაციასავით გაიხსნება.
+- **ნებისმიერ მოწყობილობაზე:** საიტი დაყენებადია (PWA). Chrome-ში ან Edge-ში მისამართის ზოლში აირჩიე **Install**.
 
 ---
 
@@ -131,17 +130,16 @@ For more information about our GIS programs, courses, or student activities, fee
 
 - **Email**: [giorgi.kapanadze@gtu.ge](mailto:giorgi.kapanadze@gtu.ge)
 - **Phone**: +995 579320618
-- **Github**: [repo](https://gtu.qgis.ge/)
+- **Github**: [repo](https://github.com/ezdanapak/GTU-GIS)
 Stay connected and explore the world of GIS at **GTU**!
 
 ---
 
 ## 📱 Mobile Apps
 
-You can use the app on both Android and iOS:
-
-- [Download for Android](https://median.co/share/neydmb#androidphone)
-- [Build for iOS (instructions)](https://median.co/share/neydmb#iphone)
+- **Android:** [download the latest APK](https://github.com/ezdanapak/GTU-GIS/releases/latest) (GitHub Releases). Your phone may ask to allow installing from an unknown source.
+- **iOS:** there is no separate app yet. Open the site in Safari and choose **Share → Add to Home Screen**; it opens like an app.
+- **Any device:** the site is installable (PWA). In Chrome or Edge choose **Install** in the address bar.
 
 ---
 

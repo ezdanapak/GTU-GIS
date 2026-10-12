@@ -1,13 +1,13 @@
 Georeferencing a topographic map is the process of aligning it with geographical coordinates so that it can be overlaid on modern maps or geographic information systems (GIS). It involves assigning real-world coordinates to points on the map so that the map can be accurately used in spatial analysis.
 
-Here is a step-by-step guide on how you can perform a practical task of georeferencing a topographic map, typically using GIS software like ArcGIS:
+Here is a step-by-step guide on how you can perform a practical task of georeferencing a topographic map, typically using GIS software like ArcGIS Pro:
 
 Steps to Georeference a Topographic Map
 1. Obtain the Topographic Map
 You need to have a scanned image or digital copy of the topographic map (typically in formats like JPEG, TIFF, or PNG).
 
 2. Requirements
-ArcGIS Desktop (ArcMap)
+ArcGIS Pro
 
 Scanned topographic map (Raster Image)
 
@@ -17,26 +17,26 @@ Reference coordinate information (Coordinates, Control Points, or Graticule)
 Open your GIS software and load the topographic map into your workspace:
 
 
-In ArcGIS, you can add the map to the "ArcMap" window.
+In ArcGIS Pro, add the raster to the map (Map tab → Add Data).
 
-Enable the Georeferencing Toolbar
+Open the Georeference tab
 
-Customize → Toolbars → Georeferencing
-In the Georeferencing toolbar:
+Select the raster layer in the Contents pane, then Imagery tab → Georeference.
+On the Georeference tab:
 
-Layer: Select your raster image
+Make sure your raster layer is the selected layer
 
 
 
 4. Define the Coordinate System
 Before starting the georeferencing process, make sure to define the coordinate system for the map. For most topographic maps, this will be in UTM (Universal Transverse Mercator) or geographic coordinates (latitude/longitude).
 
-In ArcGIS, ensure that the map document is set to the appropriate coordinate system.
+In ArcGIS Pro, ensure that the map is set to the appropriate coordinate system (Map Properties → Coordinate Systems).
 
 5. Select Ground Control Points (GCPs)
 Ground Control Points are real-world locations with known coordinates that you can identify on both the topographic map and a reference map (such as Google Maps, OpenStreetMap, or other accurate georeferenced maps).
 
-Georeferencing Toolbar → Add Control Points
+Georeference tab → Add Control Points
 Click Point on Raster → Click Corresponding Point on Reference Layer
 
 For example, if there is a known mountain peak or a building with known GPS coordinates, that would be a GCP.
@@ -48,7 +48,7 @@ Use at least 4 well-distributed GCPs.
 
 
 
-In ArcGIS, click on the "Add Control Points" tool and do the same for the reference map.
+In ArcGIS Pro, click on the "Add Control Points" tool and do the same for the reference map.
 
 7. Select the Transformation Method
 After marking enough control points (usually 3-4 points for an accurate transformation), choose the transformation method. Common methods include:
@@ -67,10 +67,10 @@ Method	When to Use
 2nd or 3rd Order Polynomial	For complex distortions
 Spline	For rubber sheeting
 View Residual Error
-Check the RMS (Root Mean Square) Error in the Link Table.
+Check the RMS (Root Mean Square) Error in the Control Points Table.
 
 
-Georeferencing Toolbar → View Link Table
+Georeference tab → Control Points Table
 Try to keep RMS Error as low as possible.
 
 
@@ -80,9 +80,11 @@ Once the control points are in place, select the transformation method and apply
 9. Export the Georeferenced Map
 After georeferencing, export the map as a georeferenced image file (TIFF, for example) that contains spatial data. The image will now have geographic coordinates attached to it.
 
-Georeferencing Toolbar → Rectify (creates new raster)
+Georeference tab → Save As New (creates a new georeferenced raster)
 or
-Georeferencing Toolbar → Update Georeferencing (saves transformation parameters)
+Georeference tab → Save (saves the transformation parameters to the current raster)
+
+*Written for ArcGIS Pro; menu names may differ slightly between versions.*
 
 10. Verify the Accuracy
 To ensure that the georeferencing is accurate, you can compare the newly georeferenced map with other spatial data or by checking the locations of other known points. If needed, adjust the control points and reapply the georeferencing until the error is minimized.

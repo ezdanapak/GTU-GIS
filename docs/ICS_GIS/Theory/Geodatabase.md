@@ -25,7 +25,7 @@ https://proceedings.esri.com/library/userconf/proc17/tech-workshops/tw_2585-349.
 * Compact Geodatabase
 * Compress Geodatabase
 * Importing layers from within the project or external sources
-* Using the Package Layers tool from the ArcToolbox
+* Using the Package Layer geoprocessing tool
 
 * Fixing missing sources via Repair Data Source
 

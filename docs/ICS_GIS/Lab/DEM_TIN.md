@@ -70,7 +70,7 @@ graph LR
   I --> J{DEM};
 
 ```
-Connect ArcGIS (from ArcCatalog) to this main folder.
+Connect ArcGIS Pro to this main folder (Catalog pane → right-click **Folders** → **Add Folder Connection**).
 
 ---
 
@@ -87,9 +87,8 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
   - Save created isolines labels in Style folder.
 
 ---
-* Import and visualize the 3D DEM in ArcScene.
-* Properly saving the project file of ArcMap. Name it "DEM_TIN". Save another mxd file for old versions "DEM_TIN_10.0v".
-* Properly saving the project file of ArcScene. Name it "DEM_TIN". Save another sxd file for old versions "DEM_TIN_10.0v".
+* Import and visualize the 3D DEM in a Local Scene (Insert tab → New Map → New Local Scene).
+* Properly saving the ArcGIS Pro project (.aprx). Name it "DEM_TIN".
 
 ---
 

@@ -16,7 +16,7 @@ Interactive selection(Use with attributes or location select )
 
 Select Features(GUI white arrow Toolbar with different types )
 
-ArcToolbox (Tools additional elements)> SelectLayerByAttribute > SelectLayerByLocation
+Geoprocessing pane (Analysis tab → Tools)> Select Layer By Attribute > Select Layer By Location
 
 Use data > Chiatura_Selection.gdb.rar
 
@@ -62,11 +62,11 @@ Purpose: Use the selection arrow tool in the toolbar for various selection types
 How to:
 Select specific features interactively using the white arrow on the toolbar.
 This tool provides different selection options based on geometry and attributes.
-ArcToolbox:
+Geoprocessing pane:
 
 Purpose: Use additional tools for feature selection.
 How to:
-In ArcToolbox, go to SelectLayerByAttribute or SelectLayerByLocation.
+In the Geoprocessing pane (Analysis tab → Tools), search for Select Layer By Attribute or Select Layer By Location.
 Use these tools for more advanced, scripted selections based on attributes or location.
 Data Use:
 

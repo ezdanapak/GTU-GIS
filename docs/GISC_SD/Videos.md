@@ -22,4 +22,4 @@ Hydrological analysis - [practical tas](https://www.youtube.com/)[k](https://you
 ---
 
 If you need help with software installation please use [YouTub](https://www.youtube.com/)[e](https://youtu.be/LWLwPNImHMY) 
-or official website for [guideline](https://desktop.arcgis.com/en/arcmap/latest/get-started/installation-guide/installation-overview.htm) <br>
+or official website for [guideline](https://pro.arcgis.com/en/pro-app/latest/get-started/install-and-sign-in-to-arcgis-pro.htm) <br>

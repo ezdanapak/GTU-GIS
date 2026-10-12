@@ -71,7 +71,7 @@ graph LR
   F --> J[GeoTaggedphoto];
 ```
 
-Connect ArcGIS (from ArcCatalog) to this main folder.
+Connect ArcGIS Pro to this main folder (Catalog pane → right-click **Folders** → **Add Folder Connection**).
 
 ---
 
@@ -80,9 +80,9 @@ Connect ArcGIS (from ArcCatalog) to this main folder.
 * Import GPS coordinates as a shapefile. <br>
 * Import geotagged photos as a shapefile. <br>
 * Create hyperlinks on the photos layer and display photos as pop-ups. <br>
-* Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br>
-* Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br>
-* Save project file named as "GPS_photo_coordinates". Save another mxd file for old versions "GPS_photo_coordinates10.0v".
+* Delete unnecessary fields from the layers, either using the attribute table or a geoprocessing tool. <br>
+* Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using geoprocessing tools or manual methods. <br>
+* Save the ArcGIS Pro project (.aprx) named as "GPS_photo_coordinates".
 * You can Geotag photos manualy on the web [site](https://tool.geoimgr.com/)
 
 

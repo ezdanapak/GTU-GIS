@@ -64,8 +64,29 @@
 }
 
 /* ---- Print: lectures and labs are often printed ---- */
+.print-page-btn {
+  float: right;
+  cursor: pointer;
+  margin: 0.1rem 0 0.4rem 0.6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  transition: background-color 0.15s;
+}
+.print-page-btn:hover { background: var(--md-default-fg-color--lightest); }
+
 @media print {
-  .md-header, .md-tabs, .md-sidebar, .md-footer, .md-top { display: none !important; }
-  .md-content__inner { margin: 0; }
+  .md-header, .md-tabs, .md-sidebar, .md-footer, .md-top,
+  .md-search, .md-content__button, .print-page-btn { display: none !important; }
+  .md-main__inner, .md-content, .md-grid { margin: 0 !important; max-width: none !important; }
+  .md-content__inner { margin: 0; padding: 0 !important; }
   .md-typeset { font-size: 11pt; }
+  details > * { display: block !important; }
+  a[href] { color: inherit !important; text-decoration: none !important; }
+  pre, blockquote, .admonition, details, table, img { break-inside: avoid; }
 }

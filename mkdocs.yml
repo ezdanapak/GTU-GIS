@@ -72,9 +72,21 @@ copyright: Copyright &copy; 2026 Giorgi Kapanadze
 
 extra:
   social:
+    - icon: fontawesome/solid/globe
+      link: https://qgis.ge/
+      name: QGIS.ge — ვებსაიტი
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/GISGEORGIA
+      name: GIS GEORGIA — Facebook
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@GISGEORGIA
+      name: GIS GEORGIA — YouTube
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gisgeorgia/
+      name: GIS GEORGIA — LinkedIn
     - icon: fontawesome/brands/github
       link: https://github.com/ezdanapak/GTU-GIS
-      name: GitHub
+      name: GitHub — GTU GIS
 
 markdown_extensions:
   

@@ -1780,7 +1780,7 @@ Archive names, folder and file names, and table column names.</p>
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; E{shp};
   A[FirstName_LastName_GroupNumber_Assignment_Number] --&gt; F{Raster};
   F --&gt; J[GeoTaggedphoto];</code></pre>
-<p>Connect ArcGIS (from ArcCatalog) to this main folder.</p>
+<p>Connect ArcGIS Pro to this main folder (Catalog pane → right-click <strong>Folders</strong> → <strong>Add Folder Connection</strong>).</p>
 <hr />
 <div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Step II: Doing imports</label></div>
 <div class="tabbed-content">
@@ -1791,9 +1791,9 @@ Archive names, folder and file names, and table column names.</p>
 <li>Import GPS coordinates as a shapefile. <br></li>
 <li>Import geotagged photos as a shapefile. <br></li>
 <li>Create hyperlinks on the photos layer and display photos as pop-ups. <br></li>
-<li>Delete unnecessary fields from the layers, either using the attribute table or ArcToolbox. <br></li>
-<li>Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using ArcToolbox or manual methods. <br></li>
-<li>Save project file named as "GPS_photo_coordinates". Save another mxd file for old versions "GPS_photo_coordinates10.0v".</li>
+<li>Delete unnecessary fields from the layers, either using the attribute table or a geoprocessing tool. <br></li>
+<li>Convert the photos layer from the ellipsoid to the UTM zone and calculate XY coordinates in the layer table using geoprocessing tools or manual methods. <br></li>
+<li>Save the ArcGIS Pro project (.aprx) named as "GPS_photo_coordinates".</li>
 <li>You can Geotag photos manualy on the web <a href="https://tool.geoimgr.com/">site</a></li>
 </ul>
 <hr />

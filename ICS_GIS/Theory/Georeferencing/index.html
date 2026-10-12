@@ -1390,13 +1390,13 @@
   <h1>Georeferencing</h1>
 
 <p>Georeferencing a topographic map is the process of aligning it with geographical coordinates so that it can be overlaid on modern maps or geographic information systems (GIS). It involves assigning real-world coordinates to points on the map so that the map can be accurately used in spatial analysis.</p>
-<p>Here is a step-by-step guide on how you can perform a practical task of georeferencing a topographic map, typically using GIS software like ArcGIS:</p>
+<p>Here is a step-by-step guide on how you can perform a practical task of georeferencing a topographic map, typically using GIS software like ArcGIS Pro:</p>
 <p>Steps to Georeference a Topographic Map
 1. Obtain the Topographic Map
 You need to have a scanned image or digital copy of the topographic map (typically in formats like JPEG, TIFF, or PNG).</p>
 <ol>
 <li>Requirements
-ArcGIS Desktop (ArcMap)</li>
+ArcGIS Pro</li>
 </ol>
 <p>Scanned topographic map (Raster Image)</p>
 <p>Reference coordinate information (Coordinates, Control Points, or Graticule)</p>
@@ -1404,21 +1404,21 @@ ArcGIS Desktop (ArcMap)</li>
 <li>Import the Topographic Map
 Open your GIS software and load the topographic map into your workspace:</li>
 </ol>
-<p>In ArcGIS, you can add the map to the "ArcMap" window.</p>
-<p>Enable the Georeferencing Toolbar</p>
-<p>Customize → Toolbars → Georeferencing
-In the Georeferencing toolbar:</p>
-<p>Layer: Select your raster image</p>
+<p>In ArcGIS Pro, add the raster to the map (Map tab → Add Data).</p>
+<p>Open the Georeference tab</p>
+<p>Select the raster layer in the Contents pane, then Imagery tab → Georeference.
+On the Georeference tab:</p>
+<p>Make sure your raster layer is the selected layer</p>
 <ol>
 <li>Define the Coordinate System
 Before starting the georeferencing process, make sure to define the coordinate system for the map. For most topographic maps, this will be in UTM (Universal Transverse Mercator) or geographic coordinates (latitude/longitude).</li>
 </ol>
-<p>In ArcGIS, ensure that the map document is set to the appropriate coordinate system.</p>
+<p>In ArcGIS Pro, ensure that the map is set to the appropriate coordinate system (Map Properties → Coordinate Systems).</p>
 <ol>
 <li>Select Ground Control Points (GCPs)
 Ground Control Points are real-world locations with known coordinates that you can identify on both the topographic map and a reference map (such as Google Maps, OpenStreetMap, or other accurate georeferenced maps).</li>
 </ol>
-<p>Georeferencing Toolbar → Add Control Points
+<p>Georeference tab → Add Control Points
 Click Point on Raster → Click Corresponding Point on Reference Layer</p>
 <p>For example, if there is a known mountain peak or a building with known GPS coordinates, that would be a GCP.</p>
 <ol>
@@ -1426,7 +1426,7 @@ Click Point on Raster → Click Corresponding Point on Reference Layer</p>
 Using the GIS software, mark the same locations on both the topographic map and the reference map.</li>
 </ol>
 <p>Use at least 4 well-distributed GCPs.</p>
-<p>In ArcGIS, click on the "Add Control Points" tool and do the same for the reference map.</p>
+<p>In ArcGIS Pro, click on the "Add Control Points" tool and do the same for the reference map.</p>
 <ol>
 <li>Select the Transformation Method
 After marking enough control points (usually 3-4 points for an accurate transformation), choose the transformation method. Common methods include:</li>
@@ -1441,8 +1441,8 @@ Use appropriate transformation methods:</p>
 2nd or 3rd Order Polynomial For complex distortions
 Spline  For rubber sheeting
 View Residual Error
-Check the RMS (Root Mean Square) Error in the Link Table.</p>
-<p>Georeferencing Toolbar → View Link Table
+Check the RMS (Root Mean Square) Error in the Control Points Table.</p>
+<p>Georeference tab → Control Points Table
 Try to keep RMS Error as low as possible.</p>
 <ol>
 <li>
@@ -1454,9 +1454,10 @@ Once the control points are in place, select the transformation method and apply
 After georeferencing, export the map as a georeferenced image file (TIFF, for example) that contains spatial data. The image will now have geographic coordinates attached to it.</p>
 </li>
 </ol>
-<p>Georeferencing Toolbar → Rectify (creates new raster)
+<p>Georeference tab → Save As New (creates a new georeferenced raster)
 or
-Georeferencing Toolbar → Update Georeferencing (saves transformation parameters)</p>
+Georeference tab → Save (saves the transformation parameters to the current raster)</p>
+<p><em>Written for ArcGIS Pro; menu names may differ slightly between versions.</em></p>
 <ol>
 <li>Verify the Accuracy
 To ensure that the georeferencing is accurate, you can compare the newly georeferenced map with other spatial data or by checking the locations of other known points. If needed, adjust the control points and reapply the georeferencing until the error is minimized.</li>

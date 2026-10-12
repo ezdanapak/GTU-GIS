@@ -34,8 +34,16 @@ class _WebShellState extends State<WebShell> {
             if (error.isForMainFrame ?? true) setState(() => _failed = true);
           },
         ),
-      )
-      ..loadRequest(Uri.parse(siteUrl));
+      );
+    _start();
+  }
+
+  /// Marks the app in the user agent so the site's analytics can tell the app
+  /// apart from a regular browser, then loads the site.
+  Future<void> _start() async {
+    final ua = await _controller.getUserAgent();
+    if (ua != null) await _controller.setUserAgent('$ua GTUGISApp');
+    await _controller.loadRequest(Uri.parse(siteUrl));
   }
 
   /// Site pages stay in the app; external links open in the system browser.
@@ -44,7 +52,8 @@ class _WebShellState extends State<WebShell> {
   ) async {
     final uri = Uri.tryParse(request.url);
     if (uri == null) return NavigationDecision.prevent;
-    final inApp = uri.scheme == 'about' ||
+    final inApp =
+        uri.scheme == 'about' ||
         uri.scheme == 'data' ||
         (uri.scheme == 'https' &&
             (uri.host == _siteHost || uri.host.endsWith('.$_siteHost')));
